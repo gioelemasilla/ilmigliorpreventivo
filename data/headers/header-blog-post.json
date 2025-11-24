@@ -1,0 +1,162 @@
+{
+  "title": "Header Blog Post",
+  "slug": "header-blog-post",
+  "content": "<a href=\"http://localhost/test-import/\">\n\t\t\t\t\t<img src=\"https://ot-sandbox.s3.amazonaws.com/images/logo.png\" alt=\"Test Import Demo\">\n\t\t\t\t\t\t\t\t\t</a>\t\t\t        \n\t    \t<nav id=\"site-navigation\">\t\t\t\n\t\t\t\t<ul id=\"primary-menu\"><li id=\"menu-item-14429\"><a href=\"#\">Demos</a></li>\n<li id=\"menu-item-14430\"><a href=\"#\">Pages</a>\n<ul>\n\t<li id=\"menu-item-14508\"><a href=\"http://localhost/test-import/our-services/\">Services</a>\n\t<ul>\n\t\t<li id=\"menu-item-14510\"><a href=\"http://localhost/test-import/our-services/\">Services I</a></li>\n\t\t<li id=\"menu-item-14511\"><a href=\"http://localhost/test-import/our-services-2/\">Services II</a></li>\n\t</ul>\n</li>\n\t<li id=\"menu-item-14512\"><a href=\"http://localhost/test-import/about/\">About</a>\n\t<ul>\n\t\t<li id=\"menu-item-14513\"><a href=\"http://localhost/test-import/about/\">About I</a></li>\n\t\t<li id=\"menu-item-14514\"><a href=\"http://localhost/test-import/about-2/\">About II</a></li>\n\t</ul>\n</li>\n\t<li id=\"menu-item-14507\"><a href=\"http://localhost/test-import/contact-1/\">Contact</a>\n\t<ul>\n\t\t<li id=\"menu-item-14506\"><a href=\"http://localhost/test-import/contact-1/\">Contact I</a></li>\n\t\t<li id=\"menu-item-14505\"><a href=\"http://localhost/test-import/contact-2/\">Contact II</a></li>\n\t\t<li id=\"menu-item-14504\"><a href=\"http://localhost/test-import/contact-3/\">Contact III</a></li>\n\t</ul>\n</li>\n\t<li id=\"menu-item-14431\"><a href=\"#\">Career</a>\n\t<ul>\n\t\t<li id=\"menu-item-14515\"><a href=\"http://localhost/test-import/job-list-i/\">Job List I</a></li>\n\t\t<li id=\"menu-item-14516\"><a href=\"http://localhost/test-import/job-listing-ii/\">Job List II</a></li>\n\t\t<li id=\"menu-item-14533\"><a href=\"http://localhost/test-import/career-single/\">Job Description</a></li>\n\t</ul>\n</li>\n\t<li id=\"menu-item-14434\"><a href=\"#\">Utility</a>\n\t<ul>\n\t\t<li id=\"menu-item-14435\"><a href=\"https://demo.oceanthemes.site/sandbox/404\">404 Not Found</a></li>\n\t\t<li id=\"menu-item-14509\"><a href=\"http://localhost/test-import/sign-in/\">Sign In I</a></li>\n\t\t<li id=\"menu-item-14522\"><a href=\"http://localhost/test-import/sign-in-2/\">Sign In II</a></li>\n\t\t<li id=\"menu-item-14523\"><a href=\"http://localhost/test-import/sign-up/\">Sign Up I</a></li>\n\t\t<li id=\"menu-item-14521\"><a href=\"http://localhost/test-import/sign-up-2/\">Sign Up II</a></li>\n\t\t<li id=\"menu-item-14532\"><a href=\"http://localhost/test-import/terms-and-conditions/\">Terms</a></li>\n\t</ul>\n</li>\n\t<li id=\"menu-item-14525\"><a href=\"http://localhost/test-import/pricing-table/\">Pricing</a></li>\n\t<li id=\"menu-item-14534\"><a href=\"http://localhost/test-import/one-page/\">One Page</a></li>\n</ul>\n</li>\n<li id=\"menu-item-14433\"><a href=\"#\">Projects</a>\n<ul>\n\t<li id=\"menu-item-14520\"><a href=\"http://localhost/test-import/projects-1/\">Projects I</a></li>\n\t<li id=\"menu-item-14524\"><a href=\"http://localhost/test-import/projects-2/\">Projects II</a></li>\n\t<li id=\"menu-item-14527\"><a href=\"http://localhost/test-import/projects-3/\">Projects III</a></li>\n\t<li id=\"menu-item-14526\"><a href=\"http://localhost/test-import/projects-4/\">Projects IV</a></li>\n\t<li id=\"menu-item-14436\"><a href=\"#\">Single Projects</a>\n\t<ul>\n\t\t<li id=\"menu-item-14528\"><a href=\"http://localhost/test-import/portfolio/cras-fermentum-sem/\">Single Project I</a></li>\n\t\t<li id=\"menu-item-14529\"><a href=\"http://localhost/test-import/portfolio/mollis-ipsum-mattis/\">Single Project II</a></li>\n\t\t<li id=\"menu-item-14530\"><a href=\"http://localhost/test-import/portfolio/ipsum-ultricies-cursus/\">Single Project III</a></li>\n\t\t<li id=\"menu-item-14531\"><a href=\"http://localhost/test-import/portfolio/inceptos-euismod-egestas/\">Single Project IV</a></li>\n\t</ul>\n</li>\n</ul>\n</li>\n<li id=\"menu-item-14444\"><a href=\"#\">Blog</a>\n<ul>\n\t<li id=\"menu-item-14539\"><a href=\"http://localhost/test-import/blog-without-sidebar/\">Blog without Sidebar</a></li>\n\t<li id=\"menu-item-14535\"><a href=\"http://localhost/test-import/blog-with-sidebar/\">Blog with Sidebar</a></li>\n\t<li id=\"menu-item-14538\"><a href=\"http://localhost/test-import/blog-with-left-sidebar/\">Blog with Left Sidebar</a></li>\n\t<li id=\"menu-item-14537\"><a href=\"http://localhost/test-import/amet-dolor-bibendum-parturient-cursus/\">Blog Posts</a></li>\n</ul>\n</li>\n</ul>\t\t\t</nav>\n\t\t\t<a href=\"#\">\n\t\t\t\tContact\t\t\t\t\t\t\t</a>",
+  "excerpt": "",
+  "status": "publish",
+  "date": "2022-08-05 10:18:53",
+  "metadata": {
+    "_wp_page_template": "elementor_canvas",
+    "_elementor_edit_mode": "builder",
+    "_elementor_template_type": "wp-post",
+    "_elementor_version": "3.7.8",
+    "_elementor_data": "[{\"id\":\"8b209e2\",\"elType\":\"section\",\"settings\":{\"gap\":\"extended\",\"content_position\":\"middle\",\"structure\":\"30\",\"background_background\":\"classic\",\"sticky_class\":\"is-fixed\",\"sticky_background\":\"#FFFFFF\"},\"elements\":[{\"id\":\"a7d6367\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":19},\"elements\":[{\"id\":\"72f89cb\",\"elType\":\"widget\",\"settings\":{\"logo_image\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/logo.png\",\"id\":1392,\"alt\":\"\",\"source\":\"library\"},\"slogo_image\":{\"url\":\"\",\"id\":\"\",\"alt\":\"\",\"source\":\"library\"}},\"elements\":[],\"widgetType\":\"ilogo\"}],\"isInner\":false},{\"id\":\"e23ec66\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":59.664},\"elements\":[{\"id\":\"cfca8cb\",\"elType\":\"widget\",\"settings\":{\"nav_menu\":\"main-menu\",\"align\":\"center\",\"is_line\":\"\",\"menu_typography_font_family\":\"THICCCBOI\",\"menu_typography_font_size\":{\"unit\":\"px\",\"size\":17,\"sizes\":[]},\"smenu_typography_font_family\":\"THICCCBOI\",\"smenu_typography_font_size\":{\"unit\":\"px\",\"size\":16,\"sizes\":[]},\"smenu_typography_font_weight\":\"700\",\"text_sccolor\":\"#343F52\",\"text_hover_sccolor\":\"#3F78E0\",\"menu_padding\":{\"unit\":\"px\",\"top\":\"26\",\"right\":\"0\",\"bottom\":\"26\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"imenu\"}],\"isInner\":false},{\"id\":\"dd1d53e\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":21,\"align\":\"flex-end\",\"_ot_content_align\":\"horizontal\"},\"elements\":[{\"id\":\"a65dad6\",\"elType\":\"widget\",\"settings\":{\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"16\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"_element_width\":\"auto\",\"border_input_color\":\"#302222\",\"icon_hcolor\":\"#3F78E0\",\"icon_scolor\":\"#54A8C7\",\"sicon_color\":\"#343F52\"},\"elements\":[],\"widgetType\":\"isearch\"},{\"id\":\"16f8961\",\"elType\":\"widget\",\"settings\":{\"text\":\"Contact\",\"btn_padding\":{\"unit\":\"px\",\"top\":\"8\",\"right\":\"20\",\"bottom\":\"8\",\"left\":\"20\",\"isLinked\":false},\"_element_width\":\"auto\"},\"elements\":[],\"widgetType\":\"ot-btn\"}],\"isInner\":false}],\"isInner\":false}]",
+    "_wxr_import_user_slug": "admin"
+  },
+  "categories": [],
+  "elementorData": [
+    {
+      "id": "8b209e2",
+      "elType": "section",
+      "settings": {
+        "gap": "extended",
+        "content_position": "middle",
+        "structure": "30",
+        "background_background": "classic",
+        "sticky_class": "is-fixed",
+        "sticky_background": "#FFFFFF"
+      },
+      "elements": [
+        {
+          "id": "a7d6367",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": 19
+          },
+          "elements": [
+            {
+              "id": "72f89cb",
+              "elType": "widget",
+              "settings": {
+                "logo_image": {
+                  "url": "https://ot-sandbox.s3.amazonaws.com/images/logo.png",
+                  "id": 1392,
+                  "alt": "",
+                  "source": "library"
+                },
+                "slogo_image": {
+                  "url": "",
+                  "id": "",
+                  "alt": "",
+                  "source": "library"
+                }
+              },
+              "elements": [],
+              "widgetType": "ilogo"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "e23ec66",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": 59.664
+          },
+          "elements": [
+            {
+              "id": "cfca8cb",
+              "elType": "widget",
+              "settings": {
+                "nav_menu": "main-menu",
+                "align": "center",
+                "is_line": "",
+                "menu_typography_font_family": "THICCCBOI",
+                "menu_typography_font_size": {
+                  "unit": "px",
+                  "size": 17,
+                  "sizes": []
+                },
+                "smenu_typography_font_family": "THICCCBOI",
+                "smenu_typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "smenu_typography_font_weight": "700",
+                "text_sccolor": "#343F52",
+                "text_hover_sccolor": "#3F78E0",
+                "menu_padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "0",
+                  "bottom": "26",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "imenu"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "dd1d53e",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": 21,
+            "align": "flex-end",
+            "_ot_content_align": "horizontal"
+          },
+          "elements": [
+            {
+              "id": "a65dad6",
+              "elType": "widget",
+              "settings": {
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "_element_width": "auto",
+                "border_input_color": "#302222",
+                "icon_hcolor": "#3F78E0",
+                "icon_scolor": "#54A8C7",
+                "sicon_color": "#343F52"
+              },
+              "elements": [],
+              "widgetType": "isearch"
+            },
+            {
+              "id": "16f8961",
+              "elType": "widget",
+              "settings": {
+                "text": "Contact",
+                "btn_padding": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "20",
+                  "bottom": "8",
+                  "left": "20",
+                  "isLinked": false
+                },
+                "_element_width": "auto"
+              },
+              "elements": [],
+              "widgetType": "ot-btn"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

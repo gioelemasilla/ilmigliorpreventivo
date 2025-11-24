@@ -1,65 +1,255 @@
-import Image from "next/image";
+import Link from 'next/link';
+import { OrganizationSchema, LocalBusinessSchema, WebSiteSchema, BreadcrumbSchema } from '@/components/StructuredData';
+import { HiLightningBolt, HiSun, HiTrendingUp, HiDocumentText, HiWifi, HiClipboardList } from 'react-icons/hi';
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <>
+      {/* Structured Data for SEO */}
+      <OrganizationSchema />
+      <LocalBusinessSchema />
+      <WebSiteSchema />
+      <BreadcrumbSchema items={[
+        { name: 'Home', url: 'https://www.ilmigliorpreventivo.it' }
+      ]} />
+
+      <main className="min-h-screen">
+      {/* Hero Section */}
+      <section className="relative py-12 sm:py-16 md:py-24 lg:py-32 overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <img
+            src="/images/hero/hero home.webp"
+            alt=""
+            className="w-full h-full object-cover"
+          />
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+        {/* Gradient Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-50/90 via-orange-50/70 to-blue-50/80"></div>
+        {/* Vignette Effect */}
+        <div className="absolute inset-0 bg-gradient-radial from-transparent via-transparent to-[#1C244B]/10"></div>
+
+        <div className="container mx-auto px-4 sm:px-6 relative z-10">
+          <div className="max-w-4xl mx-auto text-center">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-[#1C244B] mb-4 sm:mb-6 leading-tight drop-shadow-sm">
+              Un solo sito,<br />
+              tutte le soluzioni!
+            </h1>
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-[#324A6D] mb-6 sm:mb-8 drop-shadow-sm px-2">
+              Ti aiutiamo a scegliere l'opzione più vantaggiosa confrontando le migliori aziende del settore.{' '}
+              <strong>Facile</strong>, <strong>veloce</strong>, <strong>trasparente</strong>.
+            </p>
+            <Link
+              href="/servizi"
+              className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-[#FAB758] text-white font-bold rounded-lg hover:bg-[#e5a647] hover:shadow-lg hover:scale-105 transition-all duration-300 text-base sm:text-lg"
+            >
+              Esplora le soluzioni <span className="text-lg sm:text-xl">→</span>
+            </Link>
+          </div>
         </div>
-      </main>
-    </div>
+      </section>
+
+      {/* DI COSA CI OCCUPIAMO */}
+      <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-white">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-10 sm:mb-12 md:mb-16">
+              <div className="inline-block px-3 sm:px-4 py-1.5 sm:py-2 bg-[#FAB758]/10 rounded-full mb-3 sm:mb-4">
+                <span className="text-xs sm:text-sm font-semibold text-[#FAB758] uppercase tracking-wide">DI COSA CI OCCUPIAMO?</span>
+              </div>
+              <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1C244B] leading-tight px-4">
+                Più che un preventivo: un percorso semplice e trasparente
+              </h3>
+            </div>
+
+            {/* Process Steps */}
+            <div className="relative">
+              {/* Connection Line - Hidden on mobile, visible on desktop */}
+              <div className="hidden lg:block absolute top-8 left-0 right-0 h-0.5 bg-gradient-to-r from-[#FAB758]/20 via-[#FAB758]/40 to-[#FAB758]/20" style={{marginLeft: '10%', marginRight: '10%'}}></div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-6 lg:gap-6">
+                {/* Step 1 */}
+                <div className="text-center group">
+                  <div className="relative">
+                    <div className="w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-[#FAB758] to-[#e5a647] rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6 text-white text-xl sm:text-2xl font-bold shadow-lg group-hover:scale-110 group-hover:shadow-xl transition-all duration-300 relative z-10">
+                      1
+                    </div>
+                  </div>
+                  <h4 className="text-lg sm:text-xl font-bold text-[#1C244B] mb-2 sm:mb-3">
+                    Analisi delle esigenze
+                  </h4>
+                  <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
+                    Capire i tuoi bisogni è il primo passo per offrirti la soluzione giusta.
+                  </p>
+                </div>
+
+                {/* Step 2 */}
+                <div className="text-center group">
+                  <div className="relative">
+                    <div className="w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-[#FAB758] to-[#e5a647] rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6 text-white text-xl sm:text-2xl font-bold shadow-lg group-hover:scale-110 group-hover:shadow-xl transition-all duration-300 relative z-10">
+                      2
+                    </div>
+                  </div>
+                  <h4 className="text-lg sm:text-xl font-bold text-[#1C244B] mb-2 sm:mb-3">
+                    Confronto delle offerte
+                  </h4>
+                  <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
+                    Mettiamo fianco a fianco le migliori aziende e opzioni disponibili.
+                  </p>
+                </div>
+
+                {/* Step 3 */}
+                <div className="text-center group">
+                  <div className="relative">
+                    <div className="w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-[#FAB758] to-[#e5a647] rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6 text-white text-xl sm:text-2xl font-bold shadow-lg group-hover:scale-110 group-hover:shadow-xl transition-all duration-300 relative z-10">
+                      3
+                    </div>
+                  </div>
+                  <h4 className="text-lg sm:text-xl font-bold text-[#1C244B] mb-2 sm:mb-3">
+                    Scelta consapevole
+                  </h4>
+                  <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
+                    Ti rendiamo chiari vantaggi e differenze, così decidi senza dubbi.
+                  </p>
+                </div>
+
+                {/* Step 4 */}
+                <div className="text-center group">
+                  <div className="relative">
+                    <div className="w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-[#FAB758] to-[#e5a647] rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6 text-white text-xl sm:text-2xl font-bold shadow-lg group-hover:scale-110 group-hover:shadow-xl transition-all duration-300 relative z-10">
+                      4
+                    </div>
+                  </div>
+                  <h4 className="text-lg sm:text-xl font-bold text-[#1C244B] mb-2 sm:mb-3">
+                    Supporto continuo
+                  </h4>
+                  <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
+                    Restiamo al tuo fianco anche dopo l'attivazione del servizio scelto.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* I NOSTRI SERVIZI */}
+      <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-gray-50">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-10 sm:mb-12 md:mb-16">
+              <div className="inline-block px-3 sm:px-4 py-1.5 sm:py-2 bg-[#FAB758]/10 rounded-full mb-3 sm:mb-4">
+                <span className="text-xs sm:text-sm font-semibold text-[#FAB758] uppercase tracking-wide">I NOSTRI SERVIZI</span>
+              </div>
+              <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1C244B] mb-3 sm:mb-4 leading-tight px-4">
+                Un ventaglio di servizi, un unico partner affidabile
+              </h3>
+              <p className="text-sm sm:text-base md:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
+                Dall'efficienza energetica alle utenze quotidiane: ti accompagniamo nella transizione verso soluzioni più sostenibili e vantaggiose.
+              </p>
+            </div>
+
+            {/* Services Grid */}
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4 md:gap-6">
+              <Link href="/pratiche-gse" className="group text-center p-4 sm:p-5 md:p-6 bg-white rounded-xl hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-gray-100">
+                <HiClipboardList className="text-3xl sm:text-4xl mb-2 sm:mb-3 group-hover:scale-110 transition-transform duration-300 text-[#FAB758] mx-auto" />
+                <h4 className="font-bold text-[#1C244B] group-hover:text-[#FAB758] transition-colors text-xs sm:text-sm leading-tight">
+                  Pratiche GSE
+                </h4>
+              </Link>
+              <Link href="/pratiche-enea" className="group text-center p-4 sm:p-5 md:p-6 bg-white rounded-xl hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-gray-100">
+                <HiDocumentText className="text-3xl sm:text-4xl mb-2 sm:mb-3 group-hover:scale-110 transition-transform duration-300 text-[#FAB758] mx-auto" />
+                <h4 className="font-bold text-[#1C244B] group-hover:text-[#FAB758] transition-colors text-xs sm:text-sm leading-tight">
+                  Pratiche ENEA
+                </h4>
+              </Link>
+              <Link href="/luce-gas" className="group text-center p-4 sm:p-5 md:p-6 bg-white rounded-xl hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-gray-100">
+                <HiLightningBolt className="text-3xl sm:text-4xl mb-2 sm:mb-3 group-hover:scale-110 transition-transform duration-300 text-[#FAB758] mx-auto" />
+                <h4 className="font-bold text-[#1C244B] group-hover:text-[#FAB758] transition-colors text-xs sm:text-sm leading-tight">
+                  Luce & Gas
+                </h4>
+              </Link>
+              <Link href="/fibra-telefonia" className="group text-center p-4 sm:p-5 md:p-6 bg-white rounded-xl hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-gray-100">
+                <HiWifi className="text-3xl sm:text-4xl mb-2 sm:mb-3 group-hover:scale-110 transition-transform duration-300 text-[#FAB758] mx-auto" />
+                <h4 className="font-bold text-[#1C244B] group-hover:text-[#FAB758] transition-colors text-xs sm:text-sm leading-tight">
+                  Telefonia & Fibra
+                </h4>
+              </Link>
+              <Link href="/fotovoltaico" className="group text-center p-4 sm:p-5 md:p-6 bg-white rounded-xl hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-gray-100">
+                <HiSun className="text-3xl sm:text-4xl mb-2 sm:mb-3 group-hover:scale-110 transition-transform duration-300 text-[#FAB758] mx-auto" />
+                <h4 className="font-bold text-[#1C244B] group-hover:text-[#FAB758] transition-colors text-xs sm:text-sm leading-tight">
+                  Impianto fotovoltaico
+                </h4>
+              </Link>
+              <Link href="/marketing-aziendale" className="group text-center p-4 sm:p-5 md:p-6 bg-white rounded-xl hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-gray-100">
+                <HiTrendingUp className="text-3xl sm:text-4xl mb-2 sm:mb-3 group-hover:scale-110 transition-transform duration-300 text-[#FAB758] mx-auto" />
+                <h4 className="font-bold text-[#1C244B] group-hover:text-[#FAB758] transition-colors text-xs sm:text-sm leading-tight">
+                  Marketing Aziendale
+                </h4>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* PERCHE' SCEGLIERCI */}
+      <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-white relative overflow-hidden">
+        {/* Background Pattern */}
+        <div className="absolute inset-0 opacity-[0.02]" style={{backgroundImage: 'radial-gradient(circle, #FAB758 1px, transparent 1px)', backgroundSize: '32px 32px'}}></div>
+
+        <div className="container mx-auto px-4 sm:px-6 relative z-10">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-10 sm:mb-12 md:mb-16">
+              <div className="inline-block px-3 sm:px-4 py-1.5 sm:py-2 bg-[#FAB758]/10 rounded-full mb-3 sm:mb-4">
+                <span className="text-xs sm:text-sm font-semibold text-[#FAB758] uppercase tracking-wide">PERCHE' SCEGLIERCI?</span>
+              </div>
+              <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1C244B] mb-4 sm:mb-6 leading-tight px-4">
+                Non solo numeri: la differenza è il nostro team
+              </h3>
+              <p className="text-sm sm:text-base md:text-lg text-gray-600 max-w-3xl mx-auto mb-6 sm:mb-8 md:mb-10 leading-relaxed px-4">
+                Più di un semplice comparatore. Non ci limitiamo a metterti davanti ad un elenco di numeri e tariffe, lasciandoti solo nella decisione. Noi crediamo che la differenza la facciano le persone: ti ascoltiamo davvero, analizziamo insieme le tue necessità e ti accompagniamo in ogni fase, dal confronto iniziale fino al supporto dopo la scelta, per garantirti sempre la soluzione più adatta.
+              </p>
+              <Link
+                href="/contact-1"
+                className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-[#FAB758] text-white font-bold rounded-lg hover:bg-[#e5a647] hover:shadow-lg hover:scale-105 transition-all duration-300 text-base sm:text-lg mb-10 sm:mb-12 md:mb-16"
+              >
+                Parla con un esperto <span className="text-lg sm:text-xl">→</span>
+              </Link>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
+              <div className="text-center p-6 sm:p-7 md:p-8 bg-gray-50 rounded-2xl hover:shadow-lg transition-all duration-300 group">
+                <div className="text-4xl sm:text-5xl font-bold bg-gradient-to-br from-[#FAB758] to-[#e5a647] bg-clip-text text-transparent mb-4 sm:mb-6 group-hover:scale-110 transition-transform duration-300">01</div>
+                <h4 className="text-lg sm:text-xl font-bold text-[#1C244B] mb-2 sm:mb-4">
+                  Esperienza reale
+                </h4>
+                <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
+                  Un team con anni di competenza nel settore, pronto a consigliarti in modo imparziale.
+                </p>
+              </div>
+              <div className="text-center p-6 sm:p-7 md:p-8 bg-gray-50 rounded-2xl hover:shadow-lg transition-all duration-300 group">
+                <div className="text-4xl sm:text-5xl font-bold bg-gradient-to-br from-[#FAB758] to-[#e5a647] bg-clip-text text-transparent mb-4 sm:mb-6 group-hover:scale-110 transition-transform duration-300">02</div>
+                <h4 className="text-lg sm:text-xl font-bold text-[#1C244B] mb-2 sm:mb-4">
+                  Tempo risparmiato
+                </h4>
+                <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
+                  Evita stress e lunghe attese: in pochi minuti hai tutto sotto controllo.
+                </p>
+              </div>
+              <div className="text-center p-6 sm:p-7 md:p-8 bg-gray-50 rounded-2xl hover:shadow-lg transition-all duration-300 group">
+                <div className="text-4xl sm:text-5xl font-bold bg-gradient-to-br from-[#FAB758] to-[#e5a647] bg-clip-text text-transparent mb-4 sm:mb-6 group-hover:scale-110 transition-transform duration-300">03</div>
+                <h4 className="text-lg sm:text-xl font-bold text-[#1C244B] mb-2 sm:mb-4">
+                  Massima sicurezza
+                </h4>
+                <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
+                  Scegliamo con cura i nostri partner, la tua sicurezza e la tua fiducia vengono prima di tutto.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    </>
   );
 }

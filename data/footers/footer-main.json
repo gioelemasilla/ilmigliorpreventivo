@@ -1,0 +1,489 @@
+{
+  "title": "Footer Main",
+  "slug": "footer-main",
+  "content": "<a href=\"https://www.ilmigliorpreventivo.it/\">\n\t\t\t\t\t<img src=\"https://www.ilmigliorpreventivo.it/wp-content/uploads/2022/07/logo-bianco.png\" alt=\"www.ilmigliorpreventivo.it\">\n\t\t\t\t\t\t\t\t\t</a>\t\t\t        \n\t\t<p>© 2025 Ilmigliorpreverntivo.<br />All rights reserved.</p>\t\t\t\t\t\n\t\t\t\t\t<a href=\"#\" target=\"_blank\">\n\t\t\t\t\t\tUil-twitter\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t<a href=\"#\" target=\"_blank\">\n\t\t\t\t\t\tUil-facebook-f\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t<a href=\"#\" target=\"_blank\">\n\t\t\t\t\t\tUil-dribbble\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t<a href=\"#\" target=\"_blank\">\n\t\t\t\t\t\tUil-instagram\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t<a href=\"#\" target=\"_blank\">\n\t\t\t\t\t\tUil-youtube\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t<h4>Get in Touch\n</h4>\t\tMoonshine St. 14/05 Light City, London, United Kingdom\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"mailto:info@email.com\">\n\t\t\t\t\t\t\t\t\t\t\tinfo@email.com\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"tel:00%20(123)%20456%2078%2090\">\n\t\t\t\t\t\t\t\t\t\t\t00 (123) 456 78 90\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t<h4>Learn More\n</h4>\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">\n\t\t\t\t\t\t\t\t\t\t\tAbout Us\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">\n\t\t\t\t\t\t\t\t\t\t\tOur Story\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">\n\t\t\t\t\t\t\t\t\t\t\tProjects\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">\n\t\t\t\t\t\t\t\t\t\t\tTerms of Use\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">\n\t\t\t\t\t\t\t\t\t\t\tPrivacy Policy\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t<h4>La nostra newsletter\n</h4>\t\t<p>Rimani sempre aggiornato su sconti ed offerte.</p>[mc4wp_form id=\"14408\"]",
+  "excerpt": "",
+  "status": "publish",
+  "date": "2022-07-27 07:23:59",
+  "metadata": {
+    "_wp_page_template": "elementor_canvas",
+    "_elementor_edit_mode": "builder",
+    "_elementor_template_type": "wp-post",
+    "_elementor_version": "3.32.3",
+    "_elementor_data": "[{\"id\":\"8260aa2\",\"elType\":\"section\",\"settings\":{\"gap\":\"extended\",\"structure\":\"40\",\"padding\":{\"unit\":\"px\",\"top\":\"100\",\"right\":\"0\",\"bottom\":\"100\",\"left\":\"0\",\"isLinked\":false},\"background_background\":\"classic\",\"background_color\":\"#21262C\"},\"elements\":[{\"id\":\"770b4b7\",\"elType\":\"column\",\"settings\":{\"_column_size\":25,\"_inline_size\":null,\"_inline_size_tablet\":33.333329999999997,\"_inline_size_mobile_extra\":100,\"margin_mobile_extra\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"30\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"80937ad\",\"elType\":\"widget\",\"settings\":{\"logo_image\":{\"url\":\"https:\\/\\/www.ilmigliorpreventivo.it\\/wp-content\\/uploads\\/2022\\/07\\/logo-bianco.png\",\"id\":15536,\"alt\":\"\",\"source\":\"library\",\"size\":\"\"},\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"20\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"ilogo\"},{\"id\":\"df76ce6\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>\\u00a9 2025 Ilmigliorpreverntivo.<br class=\\\"d-none d-lg-block\\\" \\/>All rights reserved.<\\/p>\",\"text_color\":\"#CACACA\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"25\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"06a07e4\",\"elType\":\"widget\",\"settings\":{\"social_icon_list\":[{\"social_icon\":{\"value\":\" uil-twitter\",\"library\":\"ot_cife-unicons\"},\"_id\":\"c6de70a\",\"link\":{\"url\":\"#\",\"is_external\":\"true\",\"nofollow\":\"\",\"custom_attributes\":\"\"}},{\"social_icon\":{\"value\":\" uil-facebook-f\",\"library\":\"ot_cife-unicons\"},\"link\":{\"url\":\"#\",\"is_external\":\"true\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"_id\":\"2dd82b8\"},{\"social_icon\":{\"value\":\" uil-dribbble\",\"library\":\"ot_cife-unicons\"},\"link\":{\"url\":\"#\",\"is_external\":\"true\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"_id\":\"4e5a316\"},{\"social_icon\":{\"value\":\" uil-instagram\",\"library\":\"ot_cife-unicons\"},\"link\":{\"url\":\"#\",\"is_external\":\"true\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"_id\":\"3600089\"},{\"social_icon\":{\"value\":\" uil-youtube\",\"library\":\"ot_cife-unicons\"},\"link\":{\"url\":\"#\",\"is_external\":\"true\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"_id\":\"b767997\"}],\"shape\":\"circle\",\"align\":\"\",\"icon_color\":\"custom\",\"icon_primary_color\":\"#FFFFFF00\",\"icon_secondary_color\":\"#FFFFFF\",\"icon_size\":{\"unit\":\"px\",\"size\":20,\"sizes\":[]},\"icon_padding\":{\"unit\":\"em\",\"size\":0,\"sizes\":[]},\"icon_spacing\":{\"unit\":\"px\",\"size\":12,\"sizes\":[]},\"hover_animation\":\"float\"},\"elements\":[],\"widgetType\":\"social-icons\"}],\"isInner\":false},{\"id\":\"6b8fb53\",\"elType\":\"column\",\"settings\":{\"_column_size\":25,\"_inline_size\":null,\"_inline_size_tablet\":33.333300000000001,\"_inline_size_mobile_extra\":100,\"margin_mobile_extra\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"30\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"1fe2fa5\",\"elType\":\"widget\",\"settings\":{\"title\":\"Get in Touch\\n\",\"header_size\":\"h4\",\"title_color\":\"#FFFFFF\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"17\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"08f3695\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<div class=\\\"pe-xl-15\\\">Moonshine St. 14\\/05 Light City, London, United Kingdom<\\/div>\",\"text_color\":\"#CACACA\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"20\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"105c639\",\"elType\":\"widget\",\"settings\":{\"icon_list\":[{\"text\":\"info@email.com\",\"selected_icon\":{\"value\":\"\",\"library\":\"\"},\"_id\":\"2a32ca7\",\"link\":{\"url\":\"mailto:info@email.com\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"}},{\"_id\":\"5e62fe6\",\"text\":\"00 (123) 456 78 90\",\"selected_icon\":{\"value\":\"\",\"library\":\"\"},\"link\":{\"url\":\"tel:00 (123) 456 78 90\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"}}],\"text_color\":\"#CACACA\",\"text_color_hover\":\"#3F78E0\",\"link_click\":\"inline\"},\"elements\":[],\"widgetType\":\"icon-list\"}],\"isInner\":false},{\"id\":\"4132d2b\",\"elType\":\"column\",\"settings\":{\"_column_size\":25,\"_inline_size\":null,\"_inline_size_tablet\":33.333300000000001,\"_inline_size_mobile_extra\":100},\"elements\":[{\"id\":\"c85fbf9\",\"elType\":\"widget\",\"settings\":{\"title\":\"Learn More\\n\\n\",\"header_size\":\"h4\",\"title_color\":\"#FFFFFF\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"17\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"54a24e6\",\"elType\":\"widget\",\"settings\":{\"icon_list\":[{\"text\":\"About Us\",\"selected_icon\":{\"value\":\"\",\"library\":\"\"},\"_id\":\"2a32ca7\",\"link\":{\"url\":\"#\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"}},{\"text\":\"Our Story\",\"selected_icon\":{\"value\":\"\",\"library\":\"\"},\"link\":{\"url\":\"#\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"_id\":\"82f9853\"},{\"text\":\"Projects\",\"selected_icon\":{\"value\":\"\",\"library\":\"\"},\"link\":{\"url\":\"#\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"_id\":\"3bfa0c9\"},{\"text\":\"Terms of Use\",\"selected_icon\":{\"value\":\"\",\"library\":\"\"},\"link\":{\"url\":\"#\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"_id\":\"22171ba\"},{\"text\":\"Privacy Policy\",\"selected_icon\":{\"value\":\"\",\"library\":\"\"},\"link\":{\"url\":\"#\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"_id\":\"a92c1a2\"}],\"space_between\":{\"unit\":\"px\",\"size\":7,\"sizes\":[]},\"text_color\":\"#CACACA\",\"text_color_hover\":\"#3F78E0\",\"icon_typography_font_family\":\"Manrope\",\"icon_typography_font_weight\":\"500\",\"link_click\":\"inline\"},\"elements\":[],\"widgetType\":\"icon-list\"}],\"isInner\":false},{\"id\":\"5cf316e\",\"elType\":\"column\",\"settings\":{\"_column_size\":25,\"_inline_size\":null,\"_inline_size_tablet\":100,\"margin_tablet\":{\"unit\":\"px\",\"top\":\"30\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"_inline_size_mobile_extra\":100},\"elements\":[{\"id\":\"d4db1fb\",\"elType\":\"widget\",\"settings\":{\"title\":\"La nostra newsletter\\n\",\"header_size\":\"h4\",\"title_color\":\"#FFFFFF\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"17\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"b6b8e95\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Rimani sempre aggiornato su sconti ed offerte.<\\/p>\",\"text_color\":\"#CACACA\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"25\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"f211005\",\"elType\":\"widget\",\"settings\":{\"shortcode\":\"[mc4wp_form id=\\\"14408\\\"]\",\"_css_classes\":\"dark-fields \"},\"elements\":[],\"widgetType\":\"shortcode\"}],\"isInner\":false}],\"isInner\":false}]",
+    "_wxr_import_user_slug": "admin",
+    "_elementor_pro_version": "3.32.1",
+    "_elementor_controls_usage": "a:8:{s:5:\"ilogo\";a:3:{s:5:\"count\";i:1;s:15:\"control_percent\";i:1;s:8:\"controls\";a:2:{s:7:\"content\";a:1:{s:15:\"content_section\";a:1:{s:10:\"logo_image\";i:1;}}s:8:\"advanced\";a:1:{s:14:\"_section_style\";a:1:{s:7:\"_margin\";i:1;}}}}s:11:\"text-editor\";a:3:{s:5:\"count\";i:3;s:15:\"control_percent\";i:1;s:8:\"controls\";a:3:{s:7:\"content\";a:1:{s:14:\"section_editor\";a:1:{s:6:\"editor\";i:3;}}s:5:\"style\";a:1:{s:13:\"section_style\";a:1:{s:10:\"text_color\";i:3;}}s:8:\"advanced\";a:1:{s:14:\"_section_style\";a:1:{s:7:\"_margin\";i:3;}}}}s:12:\"social-icons\";a:3:{s:5:\"count\";i:1;s:15:\"control_percent\";i:3;s:8:\"controls\";a:2:{s:7:\"content\";a:1:{s:19:\"section_social_icon\";a:3:{s:16:\"social_icon_list\";i:1;s:5:\"shape\";i:1;s:5:\"align\";i:1;}}s:5:\"style\";a:2:{s:20:\"section_social_style\";a:6:{s:10:\"icon_color\";i:1;s:18:\"icon_primary_color\";i:1;s:20:\"icon_secondary_color\";i:1;s:9:\"icon_size\";i:1;s:12:\"icon_padding\";i:1;s:12:\"icon_spacing\";i:1;}s:20:\"section_social_hover\";a:1:{s:15:\"hover_animation\";i:1;}}}}s:6:\"column\";a:3:{s:5:\"count\";i:4;s:15:\"control_percent\";i:0;s:8:\"controls\";a:1:{s:6:\"layout\";a:1:{s:6:\"layout\";a:1:{s:12:\"_inline_size\";i:4;}}}}s:7:\"heading\";a:3:{s:5:\"count\";i:3;s:15:\"control_percent\";i:1;s:8:\"controls\";a:3:{s:7:\"content\";a:1:{s:13:\"section_title\";a:2:{s:5:\"title\";i:3;s:11:\"header_size\";i:3;}}s:5:\"style\";a:1:{s:19:\"section_title_style\";a:1:{s:11:\"title_color\";i:3;}}s:8:\"advanced\";a:1:{s:14:\"_section_style\";a:1:{s:7:\"_margin\";i:3;}}}}s:9:\"icon-list\";a:3:{s:5:\"count\";i:2;s:15:\"control_percent\";i:2;s:8:\"controls\";a:2:{s:7:\"content\";a:1:{s:12:\"section_icon\";a:2:{s:9:\"icon_list\";i:2;s:10:\"link_click\";i:2;}}s:5:\"style\";a:2:{s:18:\"section_text_style\";a:4:{s:10:\"text_color\";i:2;s:16:\"text_color_hover\";i:2;s:27:\"icon_typography_font_family\";i:1;s:27:\"icon_typography_font_weight\";i:1;}s:17:\"section_icon_list\";a:1:{s:13:\"space_between\";i:1;}}}}s:9:\"shortcode\";a:3:{s:5:\"count\";i:1;s:15:\"control_percent\";i:1;s:8:\"controls\";a:2:{s:7:\"content\";a:1:{s:17:\"section_shortcode\";a:1:{s:9:\"shortcode\";i:1;}}s:8:\"advanced\";a:1:{s:14:\"_section_style\";a:1:{s:12:\"_css_classes\";i:1;}}}}s:7:\"section\";a:3:{s:5:\"count\";i:1;s:15:\"control_percent\";i:1;s:8:\"controls\";a:3:{s:6:\"layout\";a:2:{s:14:\"section_layout\";a:1:{s:3:\"gap\";i:1;}s:17:\"section_structure\";a:1:{s:9:\"structure\";i:1;}}s:8:\"advanced\";a:1:{s:16:\"section_advanced\";a:1:{s:7:\"padding\";i:1;}}s:5:\"style\";a:1:{s:18:\"section_background\";a:2:{s:21:\"background_background\";i:1;s:16:\"background_color\";i:1;}}}}}"
+  },
+  "categories": [],
+  "elementorData": [
+    {
+      "id": "8260aa2",
+      "elType": "section",
+      "settings": {
+        "gap": "extended",
+        "structure": "40",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "0",
+          "bottom": "100",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#21262C"
+      },
+      "elements": [
+        {
+          "id": "770b4b7",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": null,
+            "_inline_size_tablet": 33.33333,
+            "_inline_size_mobile_extra": 100,
+            "margin_mobile_extra": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "30",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "80937ad",
+              "elType": "widget",
+              "settings": {
+                "logo_image": {
+                  "url": "https://www.ilmigliorpreventivo.it/wp-content/uploads/2022/07/logo-bianco.png",
+                  "id": 15536,
+                  "alt": "",
+                  "source": "library",
+                  "size": ""
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "ilogo"
+            },
+            {
+              "id": "df76ce6",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>© 2025 Ilmigliorpreverntivo.<br class=\"d-none d-lg-block\" />All rights reserved.</p>",
+                "text_color": "#CACACA",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "25",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "06a07e4",
+              "elType": "widget",
+              "settings": {
+                "social_icon_list": [
+                  {
+                    "social_icon": {
+                      "value": " uil-twitter",
+                      "library": "ot_cife-unicons"
+                    },
+                    "_id": "c6de70a",
+                    "link": {
+                      "url": "#",
+                      "is_external": "true",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
+                  },
+                  {
+                    "social_icon": {
+                      "value": " uil-facebook-f",
+                      "library": "ot_cife-unicons"
+                    },
+                    "link": {
+                      "url": "#",
+                      "is_external": "true",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "_id": "2dd82b8"
+                  },
+                  {
+                    "social_icon": {
+                      "value": " uil-dribbble",
+                      "library": "ot_cife-unicons"
+                    },
+                    "link": {
+                      "url": "#",
+                      "is_external": "true",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "_id": "4e5a316"
+                  },
+                  {
+                    "social_icon": {
+                      "value": " uil-instagram",
+                      "library": "ot_cife-unicons"
+                    },
+                    "link": {
+                      "url": "#",
+                      "is_external": "true",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "_id": "3600089"
+                  },
+                  {
+                    "social_icon": {
+                      "value": " uil-youtube",
+                      "library": "ot_cife-unicons"
+                    },
+                    "link": {
+                      "url": "#",
+                      "is_external": "true",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "_id": "b767997"
+                  }
+                ],
+                "shape": "circle",
+                "align": "",
+                "icon_color": "custom",
+                "icon_primary_color": "#FFFFFF00",
+                "icon_secondary_color": "#FFFFFF",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 20,
+                  "sizes": []
+                },
+                "icon_padding": {
+                  "unit": "em",
+                  "size": 0,
+                  "sizes": []
+                },
+                "icon_spacing": {
+                  "unit": "px",
+                  "size": 12,
+                  "sizes": []
+                },
+                "hover_animation": "float"
+              },
+              "elements": [],
+              "widgetType": "social-icons"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "6b8fb53",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": null,
+            "_inline_size_tablet": 33.3333,
+            "_inline_size_mobile_extra": 100,
+            "margin_mobile_extra": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "30",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "1fe2fa5",
+              "elType": "widget",
+              "settings": {
+                "title": "Get in Touch\n",
+                "header_size": "h4",
+                "title_color": "#FFFFFF",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "17",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "08f3695",
+              "elType": "widget",
+              "settings": {
+                "editor": "<div class=\"pe-xl-15\">Moonshine St. 14/05 Light City, London, United Kingdom</div>",
+                "text_color": "#CACACA",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "105c639",
+              "elType": "widget",
+              "settings": {
+                "icon_list": [
+                  {
+                    "text": "info@email.com",
+                    "selected_icon": {
+                      "value": "",
+                      "library": ""
+                    },
+                    "_id": "2a32ca7",
+                    "link": {
+                      "url": "mailto:info@email.com",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
+                  },
+                  {
+                    "_id": "5e62fe6",
+                    "text": "00 (123) 456 78 90",
+                    "selected_icon": {
+                      "value": "",
+                      "library": ""
+                    },
+                    "link": {
+                      "url": "tel:00 (123) 456 78 90",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
+                  }
+                ],
+                "text_color": "#CACACA",
+                "text_color_hover": "#3F78E0",
+                "link_click": "inline"
+              },
+              "elements": [],
+              "widgetType": "icon-list"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "4132d2b",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": null,
+            "_inline_size_tablet": 33.3333,
+            "_inline_size_mobile_extra": 100
+          },
+          "elements": [
+            {
+              "id": "c85fbf9",
+              "elType": "widget",
+              "settings": {
+                "title": "Learn More\n\n",
+                "header_size": "h4",
+                "title_color": "#FFFFFF",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "17",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "54a24e6",
+              "elType": "widget",
+              "settings": {
+                "icon_list": [
+                  {
+                    "text": "About Us",
+                    "selected_icon": {
+                      "value": "",
+                      "library": ""
+                    },
+                    "_id": "2a32ca7",
+                    "link": {
+                      "url": "#",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
+                  },
+                  {
+                    "text": "Our Story",
+                    "selected_icon": {
+                      "value": "",
+                      "library": ""
+                    },
+                    "link": {
+                      "url": "#",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "_id": "82f9853"
+                  },
+                  {
+                    "text": "Projects",
+                    "selected_icon": {
+                      "value": "",
+                      "library": ""
+                    },
+                    "link": {
+                      "url": "#",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "_id": "3bfa0c9"
+                  },
+                  {
+                    "text": "Terms of Use",
+                    "selected_icon": {
+                      "value": "",
+                      "library": ""
+                    },
+                    "link": {
+                      "url": "#",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "_id": "22171ba"
+                  },
+                  {
+                    "text": "Privacy Policy",
+                    "selected_icon": {
+                      "value": "",
+                      "library": ""
+                    },
+                    "link": {
+                      "url": "#",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "_id": "a92c1a2"
+                  }
+                ],
+                "space_between": {
+                  "unit": "px",
+                  "size": 7,
+                  "sizes": []
+                },
+                "text_color": "#CACACA",
+                "text_color_hover": "#3F78E0",
+                "icon_typography_font_family": "Manrope",
+                "icon_typography_font_weight": "500",
+                "link_click": "inline"
+              },
+              "elements": [],
+              "widgetType": "icon-list"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "5cf316e",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": null,
+            "_inline_size_tablet": 100,
+            "margin_tablet": {
+              "unit": "px",
+              "top": "30",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "_inline_size_mobile_extra": 100
+          },
+          "elements": [
+            {
+              "id": "d4db1fb",
+              "elType": "widget",
+              "settings": {
+                "title": "La nostra newsletter\n",
+                "header_size": "h4",
+                "title_color": "#FFFFFF",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "17",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "b6b8e95",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Rimani sempre aggiornato su sconti ed offerte.</p>",
+                "text_color": "#CACACA",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "25",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "f211005",
+              "elType": "widget",
+              "settings": {
+                "shortcode": "[mc4wp_form id=\"14408\"]",
+                "_css_classes": "dark-fields "
+              },
+              "elements": [],
+              "widgetType": "shortcode"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

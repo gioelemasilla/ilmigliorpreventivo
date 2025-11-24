@@ -1,0 +1,14 @@
+/* WordPress & Elementor Styles */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Import from live site */
+@import url('https://www.ilmigliorpreventivo.it/wp-content/themes/sandbox/css/font-icon.css');
+@import url('https://www.ilmigliorpreventivo.it/wp-content/themes/sandbox/css/font-text.css');
+@import url('https://www.ilmigliorpreventivo.it/wp-content/themes/sandbox/css/bootstrap.css');
+@import url('https://www.ilmigliorpreventivo.it/wp-content/themes/sandbox/css/plugin-addon.css');
+@import url('https://www.ilmigliorpreventivo.it/wp-content/themes/sandbox-child/style.css');
+@import url('https://www.ilmigliorpreventivo.it/wp-content/plugins/elementor/assets/css/frontend.min.css');
+@import url('https://www.ilmigliorpreventivo.it/wp-content/plugins/ot_cife/assets/css/unicons.css');

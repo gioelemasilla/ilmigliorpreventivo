@@ -1,0 +1,160 @@
+{
+  "title": "Header Home 1",
+  "slug": "header-home-1",
+  "content": "<a href=\"https://www.ilmigliorpreventivo.it/\">\n\t\t\t\t\t<img src=\"https://www.ilmigliorpreventivo.it/wp-content/uploads/2022/07/New-Project-1.png\" alt=\"www.ilmigliorpreventivo.it\">\n\t\t\t\t\t\t\t\t\t</a>\t\t\t        \n\t    \t<nav id=\"site-navigation\">\t\t\t\n\t\t\t\t<ul id=\"primary-menu\"><li><a href=\"https://www.ilmigliorpreventivo.it/\">Home</a></li>\n<li><a href=\"https://www.ilmigliorpreventivo.it/our-services/\">Servizi</a></li>\n<li><a href=\"https://www.ilmigliorpreventivo.it/about/\">Chi Siamo</a></li>\n<li><a href=\"https://www.ilmigliorpreventivo.it/blog-with-sidebar/\">Blog</a></li>\n<li><a href=\"https://www.ilmigliorpreventivo.it/contact-1/\">Contatti</a></li>\n</ul>\t\t\t</nav>",
+  "excerpt": "",
+  "status": "publish",
+  "date": "2022-07-15 04:05:47",
+  "metadata": {
+    "_wp_page_template": "default",
+    "_elementor_edit_mode": "builder",
+    "_elementor_template_type": "wp-post",
+    "_elementor_version": "3.32.3",
+    "_elementor_data": "[{\"id\":\"462cef5\",\"elType\":\"section\",\"settings\":{\"gap\":\"extended\",\"content_position\":\"middle\",\"structure\":\"30\",\"sticky_class\":\"is-fixed\",\"sticky_background\":\"#FFFFFF\",\"sticky_shadow_box_shadow_type\":\"yes\",\"sticky_shadow_box_shadow\":{\"horizontal\":0,\"vertical\":0,\"blur\":25,\"spread\":0,\"color\":\"rgba(30, 34.00000000000001, 40, 0.06)\"},\"margin\":{\"unit\":\"px\",\"top\":\"\",\"right\":0,\"bottom\":\"\",\"left\":0,\"isLinked\":true},\"background_background\":\"classic\",\"background_color\":\"#FFF8EF\"},\"elements\":[{\"id\":\"1c3f9c2\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":19},\"elements\":[{\"id\":\"7fcb344\",\"elType\":\"widget\",\"settings\":{\"logo_image\":{\"url\":\"https:\\/\\/www.ilmigliorpreventivo.it\\/wp-content\\/uploads\\/2022\\/07\\/New-Project-1.png\",\"id\":15419,\"alt\":\"\",\"source\":\"library\",\"size\":\"\"},\"logo_width\":{\"unit\":\"px\",\"size\":500,\"sizes\":[]}},\"elements\":[],\"widgetType\":\"ilogo\"}],\"isInner\":false},{\"id\":\"eaab7d1\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":59.664000000000001},\"elements\":[{\"id\":\"89f6563\",\"elType\":\"widget\",\"settings\":{\"nav_menu\":\"main-menu\",\"align\":\"center\",\"is_line\":\"\",\"sticky_class\":\"is_arrow\",\"menu_typography_typography\":\"custom\",\"menu_typography_font_family\":\"THICCCBOI\",\"menu_typography_font_size\":{\"unit\":\"px\",\"size\":17,\"sizes\":[]},\"menu_typography_font_weight\":\"700\",\"text_hover_color\":\"#FAB758\",\"arrow_color\":\"#FAB758\",\"text_s_hover_color\":\"#FAB758\",\"smenu_typography_typography\":\"custom\",\"smenu_typography_font_family\":\"THICCCBOI\",\"smenu_typography_font_size\":{\"unit\":\"px\",\"size\":16,\"sizes\":[]},\"menu_typography_word_spacing\":{\"unit\":\"px\",\"size\":0,\"sizes\":[]},\"smenu_typography_word_spacing\":{\"unit\":\"px\",\"size\":0,\"sizes\":[]}},\"elements\":[],\"widgetType\":\"imenu\"}],\"isInner\":false},{\"id\":\"02f6c8c\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":21,\"align\":\"flex-end\",\"_ot_content_align\":\"horizontal\"},\"elements\":[{\"id\":\"5adca53\",\"elType\":\"widget\",\"settings\":{\"_element_width\":\"auto\",\"icon_hcolor\":\"#FAB758\"},\"elements\":[],\"widgetType\":\"isidepanel\"}],\"isInner\":false}],\"isInner\":false}]",
+    "_wp_old_slug": "header-2",
+    "_wp_old_date": "2022-07-20",
+    "_wxr_import_user_slug": "admin",
+    "_elementor_pro_version": "3.32.1",
+    "_elementor_controls_usage": "a:5:{s:5:\"ilogo\";a:3:{s:5:\"count\";i:1;s:15:\"control_percent\";i:1;s:8:\"controls\";a:1:{s:7:\"content\";a:1:{s:15:\"content_section\";a:2:{s:10:\"logo_image\";i:1;s:10:\"logo_width\";i:1;}}}}s:6:\"column\";a:3:{s:5:\"count\";i:3;s:15:\"control_percent\";i:1;s:8:\"controls\";a:1:{s:6:\"layout\";a:1:{s:6:\"layout\";a:2:{s:12:\"_inline_size\";i:3;s:5:\"align\";i:1;}}}}s:5:\"imenu\";a:3:{s:5:\"count\";i:1;s:15:\"control_percent\";i:4;s:8:\"controls\";a:2:{s:7:\"content\";a:1:{s:15:\"content_section\";a:1:{s:5:\"align\";i:1;}}s:5:\"style\";a:2:{s:18:\"style_menu_section\";a:7:{s:26:\"menu_typography_typography\";i:1;s:27:\"menu_typography_font_family\";i:1;s:25:\"menu_typography_font_size\";i:1;s:27:\"menu_typography_font_weight\";i:1;s:16:\"text_hover_color\";i:1;s:11:\"arrow_color\";i:1;s:28:\"menu_typography_word_spacing\";i:1;}s:19:\"style_smenu_section\";a:5:{s:18:\"text_s_hover_color\";i:1;s:27:\"smenu_typography_typography\";i:1;s:28:\"smenu_typography_font_family\";i:1;s:26:\"smenu_typography_font_size\";i:1;s:29:\"smenu_typography_word_spacing\";i:1;}}}}s:10:\"isidepanel\";a:3:{s:5:\"count\";i:1;s:15:\"control_percent\";i:1;s:8:\"controls\";a:2:{s:8:\"advanced\";a:1:{s:14:\"_section_style\";a:1:{s:14:\"_element_width\";i:1;}}s:5:\"style\";a:1:{s:18:\"style_icon_section\";a:1:{s:11:\"icon_hcolor\";i:1;}}}}s:7:\"section\";a:3:{s:5:\"count\";i:1;s:15:\"control_percent\";i:3;s:8:\"controls\";a:3:{s:6:\"layout\";a:3:{s:14:\"section_layout\";a:2:{s:3:\"gap\";i:1;s:16:\"content_position\";i:1;}s:17:\"section_structure\";a:1:{s:9:\"structure\";i:1;}s:20:\"section_custom_class\";a:4:{s:12:\"sticky_class\";i:1;s:17:\"sticky_background\";i:1;s:29:\"sticky_shadow_box_shadow_type\";i:1;s:24:\"sticky_shadow_box_shadow\";i:1;}}s:8:\"advanced\";a:1:{s:16:\"section_advanced\";a:1:{s:6:\"margin\";i:1;}}s:5:\"style\";a:1:{s:18:\"section_background\";a:2:{s:21:\"background_background\";i:1;s:16:\"background_color\";i:1;}}}}}"
+  },
+  "categories": [],
+  "elementorData": [
+    {
+      "id": "462cef5",
+      "elType": "section",
+      "settings": {
+        "gap": "extended",
+        "content_position": "middle",
+        "structure": "30",
+        "sticky_class": "is-fixed",
+        "sticky_background": "#FFFFFF",
+        "sticky_shadow_box_shadow_type": "yes",
+        "sticky_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 0,
+          "blur": 25,
+          "spread": 0,
+          "color": "rgba(30, 34.00000000000001, 40, 0.06)"
+        },
+        "margin": {
+          "unit": "px",
+          "top": "",
+          "right": 0,
+          "bottom": "",
+          "left": 0,
+          "isLinked": true
+        },
+        "background_background": "classic",
+        "background_color": "#FFF8EF"
+      },
+      "elements": [
+        {
+          "id": "1c3f9c2",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": 19
+          },
+          "elements": [
+            {
+              "id": "7fcb344",
+              "elType": "widget",
+              "settings": {
+                "logo_image": {
+                  "url": "https://www.ilmigliorpreventivo.it/wp-content/uploads/2022/07/New-Project-1.png",
+                  "id": 15419,
+                  "alt": "",
+                  "source": "library",
+                  "size": ""
+                },
+                "logo_width": {
+                  "unit": "px",
+                  "size": 500,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "ilogo"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "eaab7d1",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": 59.664
+          },
+          "elements": [
+            {
+              "id": "89f6563",
+              "elType": "widget",
+              "settings": {
+                "nav_menu": "main-menu",
+                "align": "center",
+                "is_line": "",
+                "sticky_class": "is_arrow",
+                "menu_typography_typography": "custom",
+                "menu_typography_font_family": "THICCCBOI",
+                "menu_typography_font_size": {
+                  "unit": "px",
+                  "size": 17,
+                  "sizes": []
+                },
+                "menu_typography_font_weight": "700",
+                "text_hover_color": "#FAB758",
+                "arrow_color": "#FAB758",
+                "text_s_hover_color": "#FAB758",
+                "smenu_typography_typography": "custom",
+                "smenu_typography_font_family": "THICCCBOI",
+                "smenu_typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "menu_typography_word_spacing": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                },
+                "smenu_typography_word_spacing": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "imenu"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "02f6c8c",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": 21,
+            "align": "flex-end",
+            "_ot_content_align": "horizontal"
+          },
+          "elements": [
+            {
+              "id": "5adca53",
+              "elType": "widget",
+              "settings": {
+                "_element_width": "auto",
+                "icon_hcolor": "#FAB758"
+              },
+              "elements": [],
+              "widgetType": "isidepanel"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

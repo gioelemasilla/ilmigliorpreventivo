@@ -1,0 +1,275 @@
+{
+  "title": "Contact 1",
+  "slug": "contact-1",
+  "content": "<h2>Siamo qui per te </h2>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img width=\"989\" height=\"1024\" src=\"https://www.ilmigliorpreventivo.it/wp-content/uploads/2025/11/undraw_online-survey_xq2g-989x1024.png\" alt=\"\" srcset=\"https://www.ilmigliorpreventivo.it/wp-content/uploads/2025/11/undraw_online-survey_xq2g-989x1024.png 989w, https://www.ilmigliorpreventivo.it/wp-content/uploads/2025/11/undraw_online-survey_xq2g-290x300.png 290w, https://www.ilmigliorpreventivo.it/wp-content/uploads/2025/11/undraw_online-survey_xq2g-768x795.png 768w, https://www.ilmigliorpreventivo.it/wp-content/uploads/2025/11/undraw_online-survey_xq2g.png 1481w\" sizes=\"(max-width: 989px) 100vw, 989px\" />\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<h2>Lasciaci il tuo contatto</h2>\t\t<p dir=\"auto\">Contattaci tramite il nostro form: ti risponderemo al più presto.</p>[contact-form-7 id=\"32c0d56\" title=\"Contact Form 1\"]",
+  "excerpt": "",
+  "status": "publish",
+  "date": "2022-09-05 08:12:36",
+  "metadata": {
+    "page_layout": "full-content",
+    "select_header": 3767,
+    "is_trans": "default",
+    "select_header_mobile": 1772,
+    "_elementor_edit_mode": "builder",
+    "_elementor_template_type": "wp-page",
+    "_elementor_version": "3.32.3",
+    "_wp_page_template": "default",
+    "_elementor_data": "[{\"id\":\"6939de6\",\"elType\":\"section\",\"settings\":{\"gap\":\"extended\",\"background_background\":\"classic\",\"background_image\":{\"url\":\"https:\\/\\/www.ilmigliorpreventivo.it\\/wp-content\\/uploads\\/2025\\/11\\/New-Project-9.webp\",\"id\":15836,\"alt\":\"\",\"source\":\"library\",\"size\":\"\"},\"background_position\":\"center center\",\"background_attachment\":\"fixed\",\"background_repeat\":\"no-repeat\",\"background_size\":\"cover\",\"background_overlay_background\":\"classic\",\"background_overlay_color\":\"#1E222866\",\"background_overlay_opacity\":{\"unit\":\"px\",\"size\":1,\"sizes\":[]},\"shape_divider_bottom\":\"tilt\",\"shape_divider_bottom_color\":\"#FFFFFF\",\"shape_divider_bottom_height\":{\"unit\":\"px\",\"size\":85,\"sizes\":[]},\"shape_divider_bottom_flip\":\"yes\",\"padding\":{\"unit\":\"px\",\"top\":\"180\",\"right\":\"0\",\"bottom\":\"275\",\"left\":\"0\",\"isLinked\":false},\"content_width\":{\"unit\":\"px\",\"size\":500,\"sizes\":[]},\"background_color\":\"#111010\"},\"elements\":[{\"id\":\"65102dc\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null},\"elements\":[{\"id\":\"bf5fe28\",\"elType\":\"widget\",\"settings\":{\"title\":\"Siamo qui per te \",\"align\":\"center\",\"title_color\":\"#FFFFFF\",\"typography_typography\":\"custom\",\"typography_font_family\":\"Manrope\",\"typography_font_size\":{\"unit\":\"px\",\"size\":65,\"sizes\":[]},\"typography_font_weight\":\"700\",\"typography_line_height\":{\"unit\":\"px\",\"size\":57,\"sizes\":[]},\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"15\",\"left\":\"0\",\"isLinked\":false},\"typography_font_size_mobile_extra\":{\"unit\":\"px\",\"size\":38,\"sizes\":[]},\"_element_width\":\"initial\",\"_element_custom_width\":{\"unit\":\"%\",\"size\":116.596},\"_flex_size\":\"none\"},\"elements\":[],\"widgetType\":\"heading\"}],\"isInner\":false}],\"isInner\":false},{\"id\":\"80b2b85\",\"elType\":\"section\",\"settings\":{\"gap\":\"extended\",\"structure\":\"20\",\"padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"60\",\"left\":\"0\",\"isLinked\":false},\"content_width\":{\"unit\":\"px\",\"size\":1600,\"sizes\":[]}},\"elements\":[{\"id\":\"7291f8b\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":null},\"elements\":[{\"id\":\"7cbf291\",\"elType\":\"widget\",\"settings\":{\"image\":{\"url\":\"https:\\/\\/www.ilmigliorpreventivo.it\\/wp-content\\/uploads\\/2025\\/11\\/undraw_online-survey_xq2g.png\",\"id\":15841},\"_element_width\":\"initial\",\"_element_custom_width\":{\"unit\":\"%\",\"size\":101.11},\"_flex_size\":\"none\"},\"elements\":[],\"widgetType\":\"image\"}],\"isInner\":false},{\"id\":\"4b1b79c\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":null,\"_inline_size_tablet\":100},\"elements\":[{\"id\":\"af8206e\",\"elType\":\"widget\",\"settings\":{\"title\":\"Lasciaci il tuo contatto\",\"align\":\"center\",\"typography_typography\":\"custom\",\"typography_font_family\":\"Manrope\",\"typography_font_size\":{\"unit\":\"px\",\"size\":36,\"sizes\":[]},\"typography_font_weight\":\"700\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"15\",\"left\":\"0\",\"isLinked\":false},\"typography_font_size_mobile_extra\":{\"unit\":\"px\",\"size\":32,\"sizes\":[]}},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"47c6438\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p dir=\\\"auto\\\">Contattaci tramite il nostro form: ti risponderemo al pi\\u00f9 presto.<\\/p>\",\"align\":\"center\",\"typography_typography\":\"custom\",\"typography_font_family\":\"Manrope\",\"typography_font_size\":{\"unit\":\"px\",\"size\":18,\"sizes\":[]},\"typography_font_weight\":\"500\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"50\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"981f534\",\"elType\":\"widget\",\"settings\":{\"shortcode\":\"[contact-form-7 id=\\\"32c0d56\\\" title=\\\"Contact Form 1\\\"]\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"50\",\"isLinked\":false},\"_element_width\":\"initial\",\"_element_custom_width\":{\"unit\":\"%\",\"size\":90},\"_flex_size\":\"none\"},\"elements\":[],\"widgetType\":\"shortcode\"}],\"isInner\":false}],\"isInner\":false}]",
+    "_wxr_import_user_slug": "admin",
+    "_elementor_pro_version": "3.32.1",
+    "_elementor_controls_usage": "a:6:{s:7:\"heading\";a:3:{s:5:\"count\";i:2;s:15:\"control_percent\";i:2;s:8:\"controls\";a:3:{s:7:\"content\";a:1:{s:13:\"section_title\";a:1:{s:5:\"title\";i:2;}}s:5:\"style\";a:1:{s:19:\"section_title_style\";a:7:{s:5:\"align\";i:2;s:11:\"title_color\";i:1;s:21:\"typography_typography\";i:2;s:22:\"typography_font_family\";i:2;s:20:\"typography_font_size\";i:2;s:22:\"typography_font_weight\";i:2;s:22:\"typography_line_height\";i:1;}}s:8:\"advanced\";a:1:{s:14:\"_section_style\";a:4:{s:7:\"_margin\";i:2;s:14:\"_element_width\";i:1;s:21:\"_element_custom_width\";i:1;s:10:\"_flex_size\";i:1;}}}}s:6:\"column\";a:3:{s:5:\"count\";i:3;s:15:\"control_percent\";i:0;s:8:\"controls\";a:1:{s:6:\"layout\";a:1:{s:6:\"layout\";a:1:{s:12:\"_inline_size\";i:3;}}}}s:7:\"section\";a:3:{s:5:\"count\";i:2;s:15:\"control_percent\";i:1;s:8:\"controls\";a:3:{s:6:\"layout\";a:2:{s:14:\"section_layout\";a:2:{s:3:\"gap\";i:2;s:13:\"content_width\";i:2;}s:17:\"section_structure\";a:1:{s:9:\"structure\";i:1;}}s:5:\"style\";a:3:{s:18:\"section_background\";a:7:{s:21:\"background_background\";i:1;s:16:\"background_image\";i:1;s:19:\"background_position\";i:1;s:21:\"background_attachment\";i:1;s:17:\"background_repeat\";i:1;s:15:\"background_size\";i:1;s:16:\"background_color\";i:1;}s:26:\"section_background_overlay\";a:3:{s:29:\"background_overlay_background\";i:1;s:24:\"background_overlay_color\";i:1;s:26:\"background_overlay_opacity\";i:1;}s:21:\"section_shape_divider\";a:4:{s:20:\"shape_divider_bottom\";i:1;s:26:\"shape_divider_bottom_color\";i:1;s:27:\"shape_divider_bottom_height\";i:1;s:25:\"shape_divider_bottom_flip\";i:1;}}s:8:\"advanced\";a:1:{s:16:\"section_advanced\";a:1:{s:7:\"padding\";i:2;}}}}s:5:\"image\";a:3:{s:5:\"count\";i:1;s:15:\"control_percent\";i:1;s:8:\"controls\";a:2:{s:7:\"content\";a:1:{s:13:\"section_image\";a:1:{s:5:\"image\";i:1;}}s:8:\"advanced\";a:1:{s:14:\"_section_style\";a:3:{s:14:\"_element_width\";i:1;s:21:\"_element_custom_width\";i:1;s:10:\"_flex_size\";i:1;}}}}s:11:\"text-editor\";a:3:{s:5:\"count\";i:1;s:15:\"control_percent\";i:2;s:8:\"controls\";a:3:{s:7:\"content\";a:1:{s:14:\"section_editor\";a:1:{s:6:\"editor\";i:1;}}s:5:\"style\";a:1:{s:13:\"section_style\";a:5:{s:5:\"align\";i:1;s:21:\"typography_typography\";i:1;s:22:\"typography_font_family\";i:1;s:20:\"typography_font_size\";i:1;s:22:\"typography_font_weight\";i:1;}}s:8:\"advanced\";a:1:{s:14:\"_section_style\";a:1:{s:7:\"_margin\";i:1;}}}}s:9:\"shortcode\";a:3:{s:5:\"count\";i:1;s:15:\"control_percent\";i:2;s:8:\"controls\";a:2:{s:7:\"content\";a:1:{s:17:\"section_shortcode\";a:1:{s:9:\"shortcode\";i:1;}}s:8:\"advanced\";a:1:{s:14:\"_section_style\";a:4:{s:7:\"_margin\";i:1;s:14:\"_element_width\";i:1;s:21:\"_element_custom_width\";i:1;s:10:\"_flex_size\";i:1;}}}}}"
+  },
+  "categories": [],
+  "elementorData": [
+    {
+      "id": "6939de6",
+      "elType": "section",
+      "settings": {
+        "gap": "extended",
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://www.ilmigliorpreventivo.it/wp-content/uploads/2025/11/New-Project-9.webp",
+          "id": 15836,
+          "alt": "",
+          "source": "library",
+          "size": ""
+        },
+        "background_position": "center center",
+        "background_attachment": "fixed",
+        "background_repeat": "no-repeat",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "#1E222866",
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 1,
+          "sizes": []
+        },
+        "shape_divider_bottom": "tilt",
+        "shape_divider_bottom_color": "#FFFFFF",
+        "shape_divider_bottom_height": {
+          "unit": "px",
+          "size": 85,
+          "sizes": []
+        },
+        "shape_divider_bottom_flip": "yes",
+        "padding": {
+          "unit": "px",
+          "top": "180",
+          "right": "0",
+          "bottom": "275",
+          "left": "0",
+          "isLinked": false
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 500,
+          "sizes": []
+        },
+        "background_color": "#111010"
+      },
+      "elements": [
+        {
+          "id": "65102dc",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "bf5fe28",
+              "elType": "widget",
+              "settings": {
+                "title": "Siamo qui per te ",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Manrope",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 65,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "px",
+                  "size": 57,
+                  "sizes": []
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "15",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "typography_font_size_mobile_extra": {
+                  "unit": "px",
+                  "size": 38,
+                  "sizes": []
+                },
+                "_element_width": "initial",
+                "_element_custom_width": {
+                  "unit": "%",
+                  "size": 116.596
+                },
+                "_flex_size": "none"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "80b2b85",
+      "elType": "section",
+      "settings": {
+        "gap": "extended",
+        "structure": "20",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "60",
+          "left": "0",
+          "isLinked": false
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 1600,
+          "sizes": []
+        }
+      },
+      "elements": [
+        {
+          "id": "7291f8b",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "7cbf291",
+              "elType": "widget",
+              "settings": {
+                "image": {
+                  "url": "https://www.ilmigliorpreventivo.it/wp-content/uploads/2025/11/undraw_online-survey_xq2g.png",
+                  "id": 15841
+                },
+                "_element_width": "initial",
+                "_element_custom_width": {
+                  "unit": "%",
+                  "size": 101.11
+                },
+                "_flex_size": "none"
+              },
+              "elements": [],
+              "widgetType": "image"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "4b1b79c",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": null,
+            "_inline_size_tablet": 100
+          },
+          "elements": [
+            {
+              "id": "af8206e",
+              "elType": "widget",
+              "settings": {
+                "title": "Lasciaci il tuo contatto",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Manrope",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "15",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "typography_font_size_mobile_extra": {
+                  "unit": "px",
+                  "size": 32,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "47c6438",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p dir=\"auto\">Contattaci tramite il nostro form: ti risponderemo al più presto.</p>",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Manrope",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_font_weight": "500",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "50",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "981f534",
+              "elType": "widget",
+              "settings": {
+                "shortcode": "[contact-form-7 id=\"32c0d56\" title=\"Contact Form 1\"]",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "50",
+                  "isLinked": false
+                },
+                "_element_width": "initial",
+                "_element_custom_width": {
+                  "unit": "%",
+                  "size": 90
+                },
+                "_flex_size": "none"
+              },
+              "elements": [],
+              "widgetType": "shortcode"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

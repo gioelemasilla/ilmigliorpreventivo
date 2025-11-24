@@ -1,0 +1,398 @@
+{
+  "totalPages": 35,
+  "totalPosts": 5,
+  "totalPortfolio": 39,
+  "totalHeaders": 12,
+  "totalFooters": 4,
+  "totalMedia": 0,
+  "pages": [
+    {
+      "title": "Business News",
+      "slug": "business-news"
+    },
+    {
+      "title": "Home principale",
+      "slug": "home-1"
+    },
+    {
+      "title": "Our Services",
+      "slug": "our-services"
+    },
+    {
+      "title": "Projects 1",
+      "slug": "projects-1"
+    },
+    {
+      "title": "Contact 1",
+      "slug": "contact-1"
+    },
+    {
+      "title": "Contact 2",
+      "slug": "contact-2"
+    },
+    {
+      "title": "Contact 3",
+      "slug": "contact-3"
+    },
+    {
+      "title": "Our Services 2",
+      "slug": "our-services-2"
+    },
+    {
+      "title": "Projects 2",
+      "slug": "projects-2"
+    },
+    {
+      "title": "Sign In",
+      "slug": "sign-in"
+    },
+    {
+      "title": "Sign Up",
+      "slug": "sign-up"
+    },
+    {
+      "title": "Sign In 2",
+      "slug": "sign-in-2"
+    },
+    {
+      "title": "Sign Up 2",
+      "slug": "sign-up-2"
+    },
+    {
+      "title": "Projects 3",
+      "slug": "projects-3"
+    },
+    {
+      "title": "Projects 4",
+      "slug": "projects-4"
+    },
+    {
+      "title": "Pricing Table",
+      "slug": "pricing-table"
+    },
+    {
+      "title": "About 2",
+      "slug": "about-2"
+    },
+    {
+      "title": "Terms and Conditions",
+      "slug": "terms-and-conditions"
+    },
+    {
+      "title": "Career List I",
+      "slug": "job-list-i"
+    },
+    {
+      "title": "Career List II",
+      "slug": "job-listing-ii"
+    },
+    {
+      "title": "One Page",
+      "slug": "one-page"
+    },
+    {
+      "title": "Career Single",
+      "slug": "career-single"
+    },
+    {
+      "title": "Blog without Sidebar",
+      "slug": "blog-without-sidebar"
+    },
+    {
+      "title": "Blog with Sidebar",
+      "slug": "blog-with-sidebar"
+    },
+    {
+      "title": "Blog with Left Sidebar",
+      "slug": "blog-with-left-sidebar"
+    },
+    {
+      "title": "Home 12",
+      "slug": "home-12"
+    },
+    {
+      "title": "Pagina di esempio",
+      "slug": "pagina-di-esempio"
+    },
+    {
+      "title": "Luce &amp; Gas",
+      "slug": "luce-gas"
+    },
+    {
+      "title": "Fibra &amp; Telefonia",
+      "slug": "fibra-telefonia"
+    },
+    {
+      "title": "Pratiche GSE",
+      "slug": "pratiche-gse"
+    },
+    {
+      "title": "Marketing Aziendale",
+      "slug": "marketing-aziendale"
+    },
+    {
+      "title": "Fotovoltaico",
+      "slug": "fotovoltaico"
+    },
+    {
+      "title": "Pratiche ENEA",
+      "slug": "pratiche-enea"
+    },
+    {
+      "title": "Comunità Energetiche",
+      "slug": "comunita-energetiche"
+    },
+    {
+      "title": "Servizi Condominiali",
+      "slug": "servizi-condominiali"
+    }
+  ],
+  "posts": [
+    {
+      "title": "Ciao mondo!",
+      "slug": "ciao-mondo"
+    },
+    {
+      "title": "Consecte Bibendu Sollicitu Vulputate",
+      "slug": "consectetur-bibendum-sollicitudin-vulputate"
+    },
+    {
+      "title": "Fringilla Ligula Pharetra Amet Fusce",
+      "slug": "fringilla-ligula-pharetra-amet-fusce"
+    },
+    {
+      "title": "Amet Dolor Bibendum Parturient Cursus",
+      "slug": "amet-dolor-bibendum-parturient-cursus"
+    },
+    {
+      "title": "Ligula tristique quis risus porta",
+      "slug": "ligula-tristique-quis-risus-porta"
+    }
+  ],
+  "portfolio": [
+    {
+      "title": "Ridiculus Elit",
+      "slug": "ridiculus-elit"
+    },
+    {
+      "title": "Magna Tristique Inceptos",
+      "slug": "magna-tristique-inceptos"
+    },
+    {
+      "title": "Vulputate Sollicitudin",
+      "slug": "vulputate-sollicitudin"
+    },
+    {
+      "title": "Porta Ornare Cras",
+      "slug": "porta-ornare-cras"
+    },
+    {
+      "title": "Ipsum Mollis Vulputate",
+      "slug": "ipsum-mollis-vulputate"
+    },
+    {
+      "title": "Inceptos Euismod Egestas",
+      "slug": "inceptos-euismod-egestas"
+    },
+    {
+      "title": "Sollicitudin Ornare Porta",
+      "slug": "sollicitudin-ornare-porta"
+    },
+    {
+      "title": "Ipsum Ultricies Cursus",
+      "slug": "ipsum-ultricies-cursus"
+    },
+    {
+      "title": "Mollis Ipsum Mattis",
+      "slug": "mollis-ipsum-mattis"
+    },
+    {
+      "title": "Cras Fermentum Sem",
+      "slug": "cras-fermentum-sem"
+    },
+    {
+      "title": "Morbi leo risus porta eget",
+      "slug": "morbi-leo-risus-porta-eget"
+    },
+    {
+      "title": "Ultricies fusce porta elit",
+      "slug": "ultricies-fusce-porta-elit"
+    },
+    {
+      "title": "Nullam id dolor elit id nibh",
+      "slug": "nullam-id-dolor-elit-id-nibh"
+    },
+    {
+      "title": "Ligula tristique quis risus",
+      "slug": "ligula-tristique-quis-risus"
+    },
+    {
+      "title": "Porta Ornare Crass",
+      "slug": "porta-ornare-crass"
+    },
+    {
+      "title": "Ipsum Mollis Vulputates",
+      "slug": "ipsum-mollis-vulputates"
+    },
+    {
+      "title": "Inceptos Euismod Egestass",
+      "slug": "inceptos-euismod-egestass"
+    },
+    {
+      "title": "Ipsum Ultricies Cursuss",
+      "slug": "ipsum-ultricies-cursuss"
+    },
+    {
+      "title": "Mollis Ipsum Mattiss",
+      "slug": "mollis-ipsum-mattiss"
+    },
+    {
+      "title": "Cras Fermentum Sems",
+      "slug": "cras-fermentum-sems"
+    },
+    {
+      "title": "Fringilla Quam Vulputate",
+      "slug": "fringilla-quam-vulputate"
+    },
+    {
+      "title": "Cursus Sollicitudin Adipiscing",
+      "slug": "cursus-sollicitudin-adipiscing"
+    },
+    {
+      "title": "Ridiculus Sem Parturient",
+      "slug": "ridiculus-sem-parturient"
+    },
+    {
+      "title": "Tortor Tellus Cursus",
+      "slug": "tortor-tellus-cursus"
+    },
+    {
+      "title": "Venenatis Euismod Vehicula",
+      "slug": "venenatis-euismod-vehicula"
+    },
+    {
+      "title": "Cras Fermentum Semme",
+      "slug": "cras-fermentum-semme"
+    },
+    {
+      "title": "Ultricies Aenean",
+      "slug": "ultricies-aenean"
+    },
+    {
+      "title": "Pellentesque Commodo",
+      "slug": "pellentesque-commodo"
+    },
+    {
+      "title": "Ultricies Aenean",
+      "slug": "ultricies-aenean-2"
+    },
+    {
+      "title": "Consectetur Malesuada",
+      "slug": "consectetur-malesuada"
+    },
+    {
+      "title": "Cursus Fusce",
+      "slug": "cursus-fusce"
+    },
+    {
+      "title": "Tristique Venenatis",
+      "slug": "tristique-venenatis"
+    },
+    {
+      "title": "Sollicitudin Pharetra",
+      "slug": "sollicitudin-pharetra"
+    },
+    {
+      "title": "Ridiculus Tristique",
+      "slug": "ridiculus-tristique"
+    },
+    {
+      "title": "Euismod Risus",
+      "slug": "euismod-risus"
+    },
+    {
+      "title": "Nullam Mollis",
+      "slug": "nullam-mollis"
+    },
+    {
+      "title": "Ornare Ipsum",
+      "slug": "ornare-ipsum"
+    },
+    {
+      "title": "Ridiculus Parturient",
+      "slug": "ridiculus-parturient"
+    },
+    {
+      "title": "Fringilla Nullam",
+      "slug": "fringilla-nullam"
+    }
+  ],
+  "headers": [
+    {
+      "title": "Mobile Main",
+      "slug": "header-mobile"
+    },
+    {
+      "title": "Header Home 1",
+      "slug": "header-home-1"
+    },
+    {
+      "title": "Side Panel",
+      "slug": "side-panel-1"
+    },
+    {
+      "title": "Header Main",
+      "slug": "header-main"
+    },
+    {
+      "title": "Header Blog Post",
+      "slug": "header-blog-post"
+    },
+    {
+      "title": "Mobile Blog Post",
+      "slug": "mobile-blog-post"
+    },
+    {
+      "title": "Mobile Light Text",
+      "slug": "mobile-light"
+    },
+    {
+      "title": "Mobile Dark Text",
+      "slug": "mobile-dark"
+    },
+    {
+      "title": "Header Main Light Text",
+      "slug": "header-main-light-text"
+    },
+    {
+      "title": "Header Onepage",
+      "slug": "onepage"
+    },
+    {
+      "title": "Mobile Onepage",
+      "slug": "onepage-mobile"
+    },
+    {
+      "title": "Header Home 12",
+      "slug": "header-home-12"
+    }
+  ],
+  "footers": [
+    {
+      "title": "Footer Main",
+      "slug": "footer-main"
+    },
+    {
+      "title": "Footer Home 1",
+      "slug": "footer-home-1"
+    },
+    {
+      "title": "Footer Shape Main",
+      "slug": "footer-shape-main"
+    },
+    {
+      "title": "Footer Home 12",
+      "slug": "footer-home-12"
+    }
+  ]
+}

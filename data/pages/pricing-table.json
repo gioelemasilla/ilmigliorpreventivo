@@ -1,0 +1,1436 @@
+{
+  "title": "Pricing Table",
+  "slug": "pricing-table",
+  "content": "<style>/*! elementor - v3.7.8 - 02-10-2022 */\n.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2>Our Pricing\n</h2>\t\t\n\t\tWe offer great prices, premium products and quality service for your business.\t\t\n\t\t\t<p>Monthly</p>\n\t\t\t<p>Yearly</p>\n\t\t\t\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 412.9\"><path d=\"M453.8 238.1l-9.6 76.3H67.8l-9.6-76.3z\"></path><circle cx=\"178.1\" cy=\"149.9\" r=\"35.1\"></circle><circle cx=\"333.9\" cy=\"149.9\" r=\"35.1\"></circle><path d=\"M498.6 136.5h-60.2c-7.4-.2-13.6 5.7-13.8 13.1-.2 7.4 5.7 13.6 13.1 13.8h11.8l-7.5 61.3H70.1l-7.5-61.3h68.9c7.4 25.7 34.3 40.6 60 33.1 16-4.6 28.5-17.1 33.1-33.1h62.6c7.4 25.7 34.3 40.6 60 33.2 25.7-7.4 40.6-34.3 33.2-60-4.9-17.1-18.9-30.1-36.3-33.9l-39-94.2c-2.8-6.9-10.7-10.1-17.6-7.3s-10.1 10.7-7.3 17.6l35.7 86.2c-14 5.5-24.6 17.2-28.8 31.6h-62.6c-4.2-14.4-14.8-26.1-28.8-31.7l35.7-86.2c2.8-6.9-.4-14.7-7.3-17.6s-14.7.4-17.6 7.3l-39.1 94.2c-17.4 3.8-31.3 16.9-36.2 33.9H13.4C6 136.7.1 142.9.3 150.3c.2 7.1 5.9 12.9 13.1 13.1h22.1l29.8 237.8c.9 6.7 6.6 11.8 13.3 11.8h354.8c6.8 0 12.5-5 13.3-11.8l29.8-237.8h22c7.4-.2 13.3-6.4 13.1-13.8-.2-7.2-5.9-12.9-13-13.1zm-165-8.2c.4 0 .9.1 1.3.1h.7c11.9.9 20.8 11.3 19.9 23.2-.9 11.9-11.3 20.8-23.2 19.9-11.9-.9-20.8-11.3-19.9-23.2.8-11.1 10-19.7 21.2-20zm-157.1.1h.7c.4 0 .9-.1 1.3-.1 11.9.2 21.4 10 21.3 22-.2 11.9-10 21.4-22 21.3-11.9-.2-21.4-10-21.3-22 .2-11.2 8.9-20.4 20-21.2zm-103 123.1h365.1l-6.3 49.5H79.7l-6.2-49.5zM90.4 386L83 327.9h345.9l-7.4 58.1H90.4z\"></path></svg>\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<h4>\n\t\t\t\t\t\tPremium Plan\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t&#36;\n\t\t\t\t\t\t\t9\n\t\t\t\t\t\t\t/mo\n\t\t\t\t\t\t\t&#36;\n\t\t\t\t\t\t\t99\n\t\t\t\t\t\t\t/y\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t5 Projects\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t100K API Access\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t200MB Storage\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\tWeekly Reports\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t7/24 Support\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t<a href=\"#\">Choose Plan</a>\t\t\t\t\n\t\t\t\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 479.8 512\"><path d=\"M308 512H61.9c-8 0-14.4-6.5-14.4-14.4V227.2c0-4.3 2-8.4 5.4-11.2l178-143.7c5.3-4.3 12.8-4.3 18.1 0L427 216c3.4 2.7 5.4 6.9 5.4 11.2v269.6c-.2 8-6.8 14.3-14.8 14-7.7-.2-13.8-6.4-14-14V234.1L239.9 102 76.3 234.1v249.1H308c8 .2 14.3 6.8 14 14.8-.2 7.6-6.3 13.8-14 14z\"></path><path d=\"M465.4 209.8c-3.3 0-6.4-1.1-9-3.2L239.9 32.9 23.5 206.7c-6.2 5-15.3 4-20.3-2.2s-4-15.3 2.2-20.3l225.5-181c5.3-4.2 12.8-4.2 18.1 0l225.5 181c6.2 5 7.2 14.1 2.2 20.3-2.8 3.3-6.9 5.3-11.3 5.3z\"></path><ellipse transform=\"rotate(-80.781 239.904 207.686)\" cx=\"239.9\" cy=\"207.7\" rx=\"42.9\" ry=\"43\"></ellipse><path d=\"M239.9 265.1c-31.7 0-57.4-25.7-57.4-57.4s25.7-57.4 57.4-57.4 57.4 25.7 57.4 57.4c-.1 31.7-25.7 57.3-57.4 57.4zm0-85.9c-15.8 0-28.5 12.8-28.5 28.5s12.8 28.5 28.5 28.5 28.5-12.8 28.5-28.5c0-15.8-12.8-28.5-28.5-28.5z\"></path><path d=\"M171.8 325.7h136.1v171.9H171.8z\"></path><path d=\"M308 512H171.8c-8 0-14.4-6.5-14.4-14.4V325.7c0-8 6.5-14.4 14.4-14.4H308c8 0 14.4 6.5 14.4 14.4v171.9c0 7.9-6.4 14.4-14.4 14.4zm-121.8-28.9h107.3v-143H186.2v143zm234.2-317.7c-7.9 0-14.4-6.5-14.4-14.4V73.3h-28.6c-8 0-14.4-6.5-14.4-14.4s6.5-14.4 14.4-14.4h43c8 0 14.4 6.5 14.4 14.4v92c0 8-6.4 14.4-14.4 14.5 0-.1 0 0 0 0z\"></path></svg>\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<h4>\n\t\t\t\t\t\tPremium Plan\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t&#36;\n\t\t\t\t\t\t\t19\n\t\t\t\t\t\t\t/mo\n\t\t\t\t\t\t\t&#36;\n\t\t\t\t\t\t\t199\n\t\t\t\t\t\t\t/y\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t5 Projects\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t100K API Access\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t200MB Storage\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\tWeekly Reports\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t7/24 Support\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t<a href=\"#\">Choose Plan</a>\t\t\t\t\n\t\t\t\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 409.6 380.8\"><path d=\"M299.9 104.7h-23.8V56.5c0-18.1-14.6-32.7-32.7-32.7h-77.2c-18 0-32.7 14.7-32.7 32.7v48.2h-23.8V56.5C109.8 25.3 135 0 166.2 0h77.2c31.2 0 56.4 25.3 56.5 56.5v48.2z\"></path><path d=\"M360.5 380.8H49.1c-27.1 0-49-22-49.1-49.1V119.1C0 92 22 70 49.1 70h311.5c27.1 0 49 22 49.1 49.1v212.7c-.1 27.1-22.1 49-49.2 49zM49.1 93.8c-14 0-25.3 11.3-25.3 25.3v212.7c0 14 11.3 25.3 25.3 25.3h311.5c14 0 25.3-11.3 25.3-25.3V119.1c0-14-11.3-25.3-25.3-25.3H49.1z\"></path><path d=\"M49.2 81.7c-18.4 0-33.3 14.8-33.3 33.2 0 2.7.3 5.3.9 7.9C35.4 197.9 103.6 254 184.2 254h41.2c80.6 0 148.8-56.1 167.3-131.2 4.3-17.8-6.6-35.8-24.5-40.2-2.6-.6-5.2-.9-7.9-.9H49.2z\"></path><path d=\"M225.4 265.9h-41.2c-41.5-.1-81.8-14.2-114.3-40C38 200.5 15.3 165.2 5.4 125.6-.5 101.4 14.3 77 38.6 71.1c3.5-.9 7.1-1.3 10.7-1.3h311.1c24.9 0 45.2 20.2 45.2 45.1 0 3.6-.4 7.2-1.3 10.7-9.9 39.6-32.6 74.8-64.5 100.2-32.6 25.9-72.9 40-114.4 40.1zM49.2 93.6c-6.6 0-12.9 3-16.9 8.2-4.1 5.1-5.5 11.8-3.9 18.2 17.6 71.8 81.9 122.3 155.8 122.2h41.2c73.9.1 138.3-50.4 155.8-122.2 1.6-6.3.1-13-3.9-18.1-4.1-5.2-10.3-8.3-16.9-8.2l-311.2-.1z\"></path><path d=\"M128.5 288.5h-13.8c-8.9 0-16.1-7.2-16.1-16.1v-48.3c0-8.9 7.2-16.1 16.1-16.1h13.8c8.9 0 16.1 7.2 16.1 16.1v48.3c0 8.9-7.2 16.1-16.1 16.1z\"></path><path d=\"M128.5 300.4h-13.8c-15.5 0-28-12.5-28-28v-48.3c0-15.5 12.5-28 28-28h13.8c15.5 0 28 12.5 28 28v48.3c0 15.5-12.5 28-28 28zm-13.8-80.5c-2.3 0-4.2 1.9-4.2 4.2v48.3c0 2.3 1.9 4.2 4.2 4.2h13.8c2.3 0 4.2-1.9 4.2-4.2v-48.3c0-2.3-1.9-4.2-4.2-4.2h-13.8z\"></path><path d=\"M294.9 288.5h-13.8c-8.9 0-16.1-7.2-16.1-16.1v-48.3c0-8.9 7.2-16.1 16.1-16.1h13.8c8.9 0 16.1 7.2 16.1 16.1v48.3c0 8.9-7.2 16.1-16.1 16.1z\"></path><path d=\"M294.9 300.4h-13.8c-15.5 0-28-12.5-28-28v-48.3c0-15.5 12.5-28 28-28h13.8c15.5 0 28 12.5 28 28v48.3c0 15.5-12.5 28-28 28zm-13.8-80.5c-2.3 0-4.2 1.9-4.2 4.2v48.3c0 2.3 1.9 4.2 4.2 4.2h13.8c2.3 0 4.2-1.9 4.2-4.2v-48.3c0-2.3-1.9-4.2-4.2-4.2h-13.8z\"></path></svg>\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<h4>\n\t\t\t\t\t\tCorporate Plan\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t&#36;\n\t\t\t\t\t\t\t49\n\t\t\t\t\t\t\t/mo\n\t\t\t\t\t\t\t&#36;\n\t\t\t\t\t\t\t499\n\t\t\t\t\t\t\t/y\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t5 Projects\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t100K API Access\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t200MB Storage\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\tWeekly Reports\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t7/24 Support\n\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t<a href=\"#\">Choose Plan</a>\t\t\t\t\n\t        \t<h4>24/7 Support</h4>\t\t\t\tNulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget. Fusce dapibus tellus.\t\t\t\t\t        \t\n\t        \t\t<a href=\"#\">Learn More</a>\n\t        \t<h4>Daily Updates</h4>\t\t\t\tMaecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet. Sed posuere consectetur.\t\t\t\t\t        \t\n\t        \t\t<a href=\"#\">Learn More</a>\n\t        \t<h4>Market Research</h4>\t\t\t\tCras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna scelerisque.\t\t\t\t\t        \t\n\t        \t\t<a href=\"#\">Learn More</a>\n\t\t\t<h2>Pricing FAQ</h2>\t\t\n\t\tIf you don't see an answer to your question, you can send us an email from our contact form.\t\t\n\t\t\t\t<h5 data-tab=\"1\" role=\"tab\" data-default=\"yes\" >\n\t\t\t\t\tCan I cancel my subscription? \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\tFusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.\n\t\t\t\t<h5 data-tab=\"2\" role=\"tab\" data-default=\"\" >\n\t\t\t\t\tWhich payment methods do you accept? \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\tFusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.\n\t\t\t\t<h5 data-tab=\"3\" role=\"tab\" data-default=\"\" >\n\t\t\t\t\tHow can I manage my Account? \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\tFusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.\n\t\t\t\t<h5 data-tab=\"4\" role=\"tab\" data-default=\"\" >\n\t\t\t\t\tIs my credit card information secure? \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\tFusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.\n\t\t\t\t<h5 data-tab=\"1\" role=\"tab\" data-default=\"yes\" >\n\t\t\t\t\tHow do I get my subscription receipt? \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\tFusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.\n\t\t\t\t<h5 data-tab=\"2\" role=\"tab\" data-default=\"\" >\n\t\t\t\t\tAre there any discounts for people in need? \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\tFusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.\n\t\t\t\t<h5 data-tab=\"3\" role=\"tab\" data-default=\"\" >\n\t\t\t\t\tDo you offer a free trial edit? \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\tFusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.\n\t\t\t\t<h5 data-tab=\"4\" role=\"tab\" data-default=\"\" >\n\t\t\t\t\tHow do I reset my Account password? \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\tFusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.\n\t\t\t<h2>Happy Customers</h2>\t\t\n\t\tCustomer satisfaction is our major goal. See what our customers are saying about us.\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<blockquote>\n\t\t\t\t\t\t\t\t<p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”</p>\n\t\t\t\t\t\t\t\t\t<img src=\"https://ot-sandbox.s3.amazonaws.com/images/t1.jpg\" alt=\"Coriss Ambady\">\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<h5>Coriss Ambady</h5>\n\t\t\t\t\t\t        \t\t<p>Financial Analyst</p>\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</blockquote>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<blockquote>\n\t\t\t\t\t\t\t\t<p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”</p>\n\t\t\t\t\t\t\t\t\t<img src=\"https://ot-sandbox.s3.amazonaws.com/images/t2.jpg\" alt=\"Cory Zamora\">\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<h5>Cory Zamora</h5>\n\t\t\t\t\t\t        \t\t<p>Marketing Specialist</p>\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</blockquote>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<blockquote>\n\t\t\t\t\t\t\t\t<p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”</p>\n\t\t\t\t\t\t\t\t\t<img src=\"https://ot-sandbox.s3.amazonaws.com/images/t3.jpg\" alt=\"Nikolas Brooten\">\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<h5>Nikolas Brooten</h5>\n\t\t\t\t\t\t        \t\t<p>Sales Specialist</p>\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</blockquote>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<blockquote>\n\t\t\t\t\t\t\t\t<p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”</p>\n\t\t\t\t\t\t\t\t\t<img src=\"https://ot-sandbox.s3.amazonaws.com/images/t4.jpg\" alt=\"Coriss Ambady\">\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<h5>Coriss Ambady</h5>\n\t\t\t\t\t\t        \t\t<p>Financial Analyst</p>\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</blockquote>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<blockquote>\n\t\t\t\t\t\t\t\t<p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”</p>\n\t\t\t\t\t\t\t\t\t<img src=\"https://ot-sandbox.s3.amazonaws.com/images/t5.jpg\" alt=\"Jackie Sanders\">\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<h5>Jackie Sanders</h5>\n\t\t\t\t\t\t        \t\t<p>Investment Planner</p>\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</blockquote>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<blockquote>\n\t\t\t\t\t\t\t\t<p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”</p>\n\t\t\t\t\t\t\t\t\t<img src=\"https://ot-sandbox.s3.amazonaws.com/images/te6.jpg\" alt=\"Laura Widerski\">\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<h5>Laura Widerski</h5>\n\t\t\t\t\t\t        \t\t<p>Sales Specialist</p>\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</blockquote>\n\t\t\t<h2>Join Our Community</h2>\t\t\n\t\tWe are trusted by over 5000+ clients. Join them by using our services and grow your business.\t\t\n\t\t\t<a href=\"#\">\n\t\t\t\tJoin Us\t\t\t\t\t\t\t</a>",
+  "excerpt": "",
+  "status": "publish",
+  "date": "2022-09-08 07:42:08",
+  "metadata": {
+    "page_layout": "full-content",
+    "is_trans": "default",
+    "_elementor_edit_mode": "builder",
+    "_elementor_template_type": "wp-page",
+    "_elementor_version": "3.7.8",
+    "_wp_page_template": "default",
+    "_elementor_data": "[{\"id\":\"ac7cc3e\",\"elType\":\"section\",\"settings\":{\"gap\":\"extended\",\"background_background\":\"classic\",\"background_image\":{\"url\":\"\",\"id\":\"\",\"alt\":\"\",\"source\":\"library\"},\"background_position\":\"center center\",\"background_attachment\":\"fixed\",\"background_repeat\":\"no-repeat\",\"background_size\":\"cover\",\"background_overlay_background\":\"classic\",\"background_overlay_opacity\":{\"unit\":\"px\",\"size\":1,\"sizes\":[]},\"shape_divider_bottom_color\":\"#FFFFFF\",\"shape_divider_bottom_height\":{\"unit\":\"px\",\"size\":85,\"sizes\":[]},\"shape_divider_bottom_flip\":\"yes\",\"padding\":{\"unit\":\"px\",\"top\":\"180\",\"right\":\"0\",\"bottom\":\"300\",\"left\":\"0\",\"isLinked\":false},\"background_color\":\"#F1F5FD\"},\"elements\":[{\"id\":\"bc00ac0\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null},\"elements\":[{\"id\":\"db0c759\",\"elType\":\"widget\",\"settings\":{\"title\":\"Our Pricing\\n\",\"align\":\"center\",\"title_color\":\"#343F52\",\"typography_typography\":\"custom\",\"typography_font_family\":\"Manrope\",\"typography_font_size\":{\"unit\":\"px\",\"size\":48,\"sizes\":[]},\"typography_font_weight\":\"700\",\"typography_line_height\":{\"unit\":\"px\",\"size\":57,\"sizes\":[]},\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"15\",\"left\":\"0\",\"isLinked\":false},\"typography_font_size_mobile_extra\":{\"unit\":\"px\",\"size\":38,\"sizes\":[]}},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"21070c2\",\"elType\":\"widget\",\"settings\":{\"editor\":\"We offer great prices, premium products and quality service for your business.\",\"align\":\"center\",\"typography_typography\":\"custom\",\"typography_font_family\":\"Manrope\",\"typography_font_size\":{\"unit\":\"px\",\"size\":18,\"sizes\":[]},\"typography_font_weight\":\"500\",\"_padding\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"35\",\"bottom\":\"0\",\"left\":\"35\",\"isLinked\":false},\"_padding_laptop\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"_padding_tablet_extra\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"25\",\"bottom\":\"0\",\"left\":\"25\",\"isLinked\":false},\"_padding_tablet\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"_padding_mobile_extra\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"_padding_mobile\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true}},\"elements\":[],\"widgetType\":\"text-editor\"}],\"isInner\":false}],\"isInner\":false},{\"id\":\"4127aad\",\"elType\":\"section\",\"settings\":{\"gap\":\"no\",\"margin\":{\"unit\":\"px\",\"top\":\"-250\",\"right\":0,\"bottom\":\"0\",\"left\":0,\"isLinked\":false},\"padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"100\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"a37eea6\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null},\"elements\":[{\"id\":\"57078b0\",\"elType\":\"widget\",\"settings\":{\"before_text\":\"Monthly\",\"after_text\":\"Yearly\",\"section_id\":\"service-pricing\",\"_offset_orientation_h\":\"end\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"25\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"ot-switchs\"},{\"id\":\"8a6c5e1\",\"elType\":\"widget\",\"settings\":{\"html\":\"<div class=\\\"rounded-circle bg-line red rellax w-18 h-18\\\" data-rellax-speed=\\\"1\\\"><\\/div>\",\"_position\":\"absolute\",\"_offset_x\":{\"unit\":\"px\",\"size\":-35,\"sizes\":[]},\"_offset_y\":{\"unit\":\"px\",\"size\":60,\"sizes\":[]},\"_z_index\":0,\"hide_mobile\":\"hidden-mobile\",\"_offset_orientation_v\":\"end\",\"_offset_y_end\":{\"unit\":\"px\",\"size\":0,\"sizes\":[]},\"_element_width\":\"auto\"},\"elements\":[],\"widgetType\":\"html\"},{\"id\":\"80b8193\",\"elType\":\"widget\",\"settings\":{\"html\":\"<div class=\\\"bg-dot primary rellax w-16 h-18\\\" data-rellax-speed=\\\"1\\\"><\\/div>\",\"_position\":\"absolute\",\"_offset_x\":{\"unit\":\"px\",\"size\":40,\"sizes\":[]},\"_offset_y\":{\"unit\":\"px\",\"size\":29,\"sizes\":[]},\"_z_index\":0,\"hide_mobile\":\"hidden-mobile\",\"_element_width\":\"auto\",\"_element_custom_width\":{\"unit\":\"px\",\"size\":120,\"sizes\":[]},\"_offset_orientation_h\":\"end\",\"_offset_x_end\":{\"unit\":\"px\",\"size\":-31,\"sizes\":[]}},\"elements\":[],\"widgetType\":\"html\"},{\"id\":\"6cccb8c\",\"elType\":\"section\",\"settings\":{\"content_position\":\"middle\",\"structure\":\"30\",\"_element_id\":\"service-pricing\"},\"elements\":[{\"id\":\"0d16c6e\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":null,\"_inline_size_tablet\":100,\"margin_tablet\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"30\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"a13dbf5\",\"elType\":\"widget\",\"settings\":{\"icon_font\":{\"value\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/shopping-basket.svg\",\"id\":3972},\"library\":\"svg\"},\"title\":\"Premium Plan\",\"price_period_1\":\"9\",\"period_1\":\"\\/mo\",\"price_period_2\":\"99\",\"period_2\":\"\\/y\",\"features_list\":[{\"item_features_text\":\"5 Projects\",\"_id\":\"387325c\"},{\"item_features_text\":\"100K API Access\",\"_id\":\"bc4cffe\"},{\"item_features_text\":\"200MB Storage\",\"_id\":\"f860ccf\"},{\"item_features_text\":\"Weekly Reports\",\"_id\":\"add61bd\",\"selected_item_icon\":{\"value\":\" uil-times\",\"library\":\"ot_cife-unicons\"},\"item_icon_color\":\"#E2626B\",\"item_icon_bgcolor\":\"#FAE3E4\"},{\"item_features_text\":\"7\\/24 Support\",\"selected_item_icon\":{\"value\":\" uil-times\",\"library\":\"ot_cife-unicons\"},\"item_icon_color\":\"#E2626B\",\"item_icon_bgcolor\":\"#FAE3E4\",\"_id\":\"6a32d67\"}],\"button_text\":\"Choose Plan\"},\"elements\":[],\"widgetType\":\"ot-pricing-table\"}],\"isInner\":true},{\"id\":\"4349dd2\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":null,\"_inline_size_tablet\":100,\"margin_tablet\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"30\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"e585e7a\",\"elType\":\"widget\",\"settings\":{\"icon_font\":{\"value\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/home.svg\",\"id\":3996},\"library\":\"svg\"},\"title\":\"Premium Plan\",\"price_period_1\":\"19\",\"period_1\":\"\\/mo\",\"price_period_2\":\"199\",\"period_2\":\"\\/y\",\"features_list\":[{\"item_features_text\":\"5 Projects\",\"_id\":\"387325c\"},{\"item_features_text\":\"100K API Access\",\"_id\":\"bc4cffe\"},{\"item_features_text\":\"200MB Storage\",\"_id\":\"f860ccf\"},{\"item_features_text\":\"Weekly Reports\",\"_id\":\"add61bd\"},{\"item_features_text\":\"7\\/24 Support\",\"selected_item_icon\":{\"value\":\" uil-times\",\"library\":\"ot_cife-unicons\"},\"item_icon_color\":\"#E2626B\",\"item_icon_bgcolor\":\"#FAE3E4\",\"_id\":\"6a32d67\"}],\"button_text\":\"Choose Plan\",\"box_padding\":{\"unit\":\"px\",\"top\":\"80\",\"right\":\"40\",\"bottom\":\"80\",\"left\":\"40\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"ot-pricing-table\"}],\"isInner\":true},{\"id\":\"b3feb9f\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":null,\"_inline_size_tablet\":100,\"margin_tablet\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"30\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"2d7b4bb\",\"elType\":\"widget\",\"settings\":{\"icon_font\":{\"value\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/briefcase-2.svg\",\"id\":4412},\"library\":\"svg\"},\"title\":\"Corporate Plan\",\"price_period_1\":\"49\",\"period_1\":\"\\/mo\",\"price_period_2\":\"499\",\"period_2\":\"\\/y\",\"features_list\":[{\"item_features_text\":\"5 Projects\",\"_id\":\"387325c\"},{\"item_features_text\":\"100K API Access\",\"_id\":\"bc4cffe\"},{\"item_features_text\":\"200MB Storage\",\"_id\":\"f860ccf\"},{\"item_features_text\":\"Weekly Reports\",\"_id\":\"add61bd\"},{\"item_features_text\":\"7\\/24 Support\",\"_id\":\"c4ea945\"}],\"button_text\":\"Choose Plan\",\"_padding\":{\"unit\":\"rem\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"_padding_laptop\":{\"unit\":\"rem\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"_padding_tablet_extra\":{\"unit\":\"rem\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"_padding_tablet\":{\"unit\":\"rem\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"_padding_mobile_extra\":{\"unit\":\"rem\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"_padding_mobile\":{\"unit\":\"rem\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true}},\"elements\":[],\"widgetType\":\"ot-pricing-table\"}],\"isInner\":true}],\"isInner\":true}],\"isInner\":false}],\"isInner\":false},{\"id\":\"fd04610\",\"elType\":\"section\",\"settings\":{\"structure\":\"30\",\"padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"180\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"6e7c7ab\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":null,\"_inline_size_tablet\":100,\"margin_tablet\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"30\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"39b36b9\",\"elType\":\"widget\",\"settings\":{\"icon_font\":{\"value\":\" uil-phone-volume\",\"library\":\"ot_cife-unicons\"},\"icon_view\":\"stacked\",\"title\":\"24\\/7 Support\",\"content\":\"Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget. Fusce dapibus tellus.\",\"btn_text\":\"Learn More\",\"position\":\"left\",\"icon_space\":{\"unit\":\"px\",\"size\":25,\"sizes\":[]},\"title_typography_line_height\":{\"unit\":\"em\",\"size\":\"\",\"sizes\":[]},\"link\":{\"url\":\"#\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"icon_size\":{\"unit\":\"px\",\"size\":20,\"sizes\":[]},\"icon_padding\":{\"unit\":\"px\",\"size\":12,\"sizes\":[]},\"icon_color\":\"#FFFFFF\",\"icon_bgcolor\":\"#3F78E0\"},\"elements\":[],\"widgetType\":\"ot-iconbox\"}],\"isInner\":false},{\"id\":\"3b7b063\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":null,\"_inline_size_tablet\":100,\"margin_tablet\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"30\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"f879e51\",\"elType\":\"widget\",\"settings\":{\"icon_font\":{\"value\":\" uil-laptop-cloud\",\"library\":\"ot_cife-unicons\"},\"icon_view\":\"stacked\",\"title\":\"Daily Updates\",\"content\":\"Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet. Sed posuere consectetur.\",\"btn_text\":\"Learn More\",\"position\":\"left\",\"icon_space\":{\"unit\":\"px\",\"size\":25,\"sizes\":[]},\"title_typography_line_height\":{\"unit\":\"em\",\"size\":\"\",\"sizes\":[]},\"link\":{\"url\":\"#\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"icon_size\":{\"unit\":\"px\",\"size\":20,\"sizes\":[]},\"icon_padding\":{\"unit\":\"px\",\"size\":12,\"sizes\":[]},\"icon_color\":\"#FFFFFF\",\"icon_bgcolor\":\"#3F78E0\"},\"elements\":[],\"widgetType\":\"ot-iconbox\"}],\"isInner\":false},{\"id\":\"2cd426b\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":null,\"_inline_size_tablet\":100},\"elements\":[{\"id\":\"1e49166\",\"elType\":\"widget\",\"settings\":{\"icon_font\":{\"value\":\" uil-chart-line\",\"library\":\"ot_cife-unicons\"},\"icon_view\":\"stacked\",\"title\":\"Market Research\",\"content\":\"Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna scelerisque.\",\"btn_text\":\"Learn More\",\"position\":\"left\",\"icon_space\":{\"unit\":\"px\",\"size\":25,\"sizes\":[]},\"title_typography_line_height\":{\"unit\":\"em\",\"size\":\"\",\"sizes\":[]},\"link\":{\"url\":\"#\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"icon_size\":{\"unit\":\"px\",\"size\":20,\"sizes\":[]},\"icon_padding\":{\"unit\":\"px\",\"size\":12,\"sizes\":[]},\"icon_color\":\"#FFFFFF\",\"icon_bgcolor\":\"#3F78E0\"},\"elements\":[],\"widgetType\":\"ot-iconbox\"}],\"isInner\":false}],\"isInner\":false},{\"id\":\"3b3b7fc\",\"elType\":\"section\",\"settings\":{\"gap\":\"no\",\"padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"160\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"d415f9c\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null},\"elements\":[{\"id\":\"db68963\",\"elType\":\"widget\",\"settings\":{\"title\":\"Pricing FAQ\",\"align\":\"center\",\"typography_typography\":\"custom\",\"typography_font_family\":\"Manrope\",\"typography_font_size\":{\"unit\":\"px\",\"size\":36,\"sizes\":[]},\"typography_font_weight\":\"700\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"15\",\"left\":\"0\",\"isLinked\":false},\"typography_font_size_mobile_extra\":{\"unit\":\"px\",\"size\":32,\"sizes\":[]},\"_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"15\",\"bottom\":\"0\",\"left\":\"15\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"e0fe061\",\"elType\":\"widget\",\"settings\":{\"editor\":\"If you don't see an answer to your question, you can send us an email from our contact form.\",\"align\":\"center\",\"typography_typography\":\"custom\",\"typography_font_family\":\"Manrope\",\"typography_font_size\":{\"unit\":\"px\",\"size\":18,\"sizes\":[]},\"typography_font_weight\":\"500\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"50\",\"left\":\"0\",\"isLinked\":false},\"_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"15\",\"bottom\":\"0\",\"left\":\"15\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"85c00d6\",\"elType\":\"section\",\"settings\":{\"structure\":\"20\"},\"elements\":[{\"id\":\"51c9167\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":null,\"_inline_size_tablet\":100},\"elements\":[{\"id\":\"45c738f\",\"elType\":\"widget\",\"settings\":{\"ot_accs\":[{\"acc_title\":\"Can I cancel my subscription?\",\"acc_content\":\"Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.\",\"_id\":\"ad1d7cb\"},{\"acc_title\":\"Which payment methods do you accept?\",\"acc_content\":\"Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.\",\"_id\":\"40ec4e9\"},{\"acc_title\":\"How can I manage my Account?\",\"acc_content\":\"Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.\",\"_id\":\"640116c\"},{\"acc_title\":\"Is my credit card information secure?\",\"acc_content\":\"Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.\",\"_id\":\"47749d4\"}]},\"elements\":[],\"widgetType\":\"ot-accordions\"}],\"isInner\":true},{\"id\":\"fc60b1f\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":null,\"_inline_size_tablet\":100},\"elements\":[{\"id\":\"3c8f991\",\"elType\":\"widget\",\"settings\":{\"ot_accs\":[{\"acc_title\":\"How do I get my subscription receipt?\",\"acc_content\":\"Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.\",\"_id\":\"ad1d7cb\"},{\"acc_title\":\"Are there any discounts for people in need?\",\"acc_content\":\"Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.\",\"_id\":\"40ec4e9\"},{\"acc_title\":\"Do you offer a free trial edit?\",\"acc_content\":\"Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.\",\"_id\":\"640116c\"},{\"acc_title\":\"How do I reset my Account password?\",\"acc_content\":\"Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.\",\"_id\":\"47749d4\"}]},\"elements\":[],\"widgetType\":\"ot-accordions\"}],\"isInner\":true}],\"isInner\":true}],\"isInner\":false}],\"isInner\":false},{\"id\":\"c9a6c09\",\"elType\":\"section\",\"settings\":{\"gap\":\"no\",\"padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"160\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"0785dce\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null},\"elements\":[{\"id\":\"c403261\",\"elType\":\"widget\",\"settings\":{\"title\":\"Happy Customers\",\"align\":\"center\",\"typography_typography\":\"custom\",\"typography_font_family\":\"Manrope\",\"typography_font_size\":{\"unit\":\"px\",\"size\":36,\"sizes\":[]},\"typography_font_weight\":\"700\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"15\",\"left\":\"0\",\"isLinked\":false},\"typography_font_size_mobile_extra\":{\"unit\":\"px\",\"size\":32,\"sizes\":[]},\"_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"15\",\"bottom\":\"0\",\"left\":\"15\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"cd02721\",\"elType\":\"widget\",\"settings\":{\"editor\":\"Customer satisfaction is our major goal. See what our customers are saying about us.\",\"align\":\"center\",\"typography_typography\":\"custom\",\"typography_font_family\":\"Manrope\",\"typography_font_size\":{\"unit\":\"px\",\"size\":18,\"sizes\":[]},\"typography_font_weight\":\"500\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"50\",\"left\":\"0\",\"isLinked\":false},\"_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"15\",\"bottom\":\"0\",\"left\":\"15\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"1bc736b\",\"elType\":\"section\",\"settings\":{\"gap\":\"no\"},\"elements\":[{\"id\":\"21556d5\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null},\"elements\":[{\"id\":\"8906b33\",\"elType\":\"widget\",\"settings\":{\"testi_slider\":[{\"tcontent\":\"\\u201cVivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.\\u201d\",\"tname\":\"Coriss Ambady\",\"tjob\":\"Financial Analyst\",\"_id\":\"2cd6c65\",\"timage\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/t1.jpg\",\"id\":5223,\"alt\":\"\",\"source\":\"library\"}},{\"tcontent\":\"\\u201cVivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.\\u201d\",\"tname\":\"Cory Zamora\",\"tjob\":\"Marketing Specialist\",\"timage\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/t2.jpg\",\"id\":5224,\"alt\":\"\",\"source\":\"library\"},\"_id\":\"71ae2d8\"},{\"tcontent\":\"\\u201cVivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.\\u201d\",\"tname\":\"Nikolas Brooten\",\"tjob\":\"Sales Specialist\",\"_id\":\"e6298f5\",\"timage\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/t3.jpg\",\"id\":5225,\"alt\":\"\",\"source\":\"library\"}},{\"tcontent\":\"\\u201cVivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.\\u201d\",\"tname\":\"Coriss Ambady\",\"tjob\":\"Financial Analyst\",\"timage\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/t4.jpg\",\"id\":5221,\"alt\":\"\",\"source\":\"library\"},\"_id\":\"8eae251\"},{\"tcontent\":\"\\u201cVivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.\\u201d\",\"tname\":\"Jackie Sanders\",\"tjob\":\"Investment Planner\",\"_id\":\"61ac886\",\"timage\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/t5.jpg\",\"id\":5222,\"alt\":\"\",\"source\":\"library\"}},{\"tcontent\":\"\\u201cVivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.\\u201d\",\"tname\":\"Laura Widerski\",\"tjob\":\"Sales Specialist\",\"timage\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/te6.jpg\",\"id\":4501,\"alt\":\"\",\"source\":\"library\"},\"_id\":\"3e17e43\"}],\"tshow\":\"3\",\"tshow_tablet\":\"2\",\"tshow_mobile_extra\":\"1\",\"loop\":\"\",\"navigation\":\"dots\",\"dots_align\":\"center\"},\"elements\":[],\"widgetType\":\"ot-testimonials-carousel\"},{\"id\":\"2e67202\",\"elType\":\"widget\",\"settings\":{\"html\":\"<div class=\\\"bg-dot primary rellax w-16 h-16\\\" data-rellax-speed=\\\"1\\\"><\\/div>\",\"_position\":\"absolute\",\"_offset_x\":{\"unit\":\"px\",\"size\":-33,\"sizes\":[]},\"_offset_y\":{\"unit\":\"px\",\"size\":-8,\"sizes\":[]},\"_z_index\":0,\"hide_mobile\":\"hidden-mobile\",\"_element_width\":\"auto\",\"_element_custom_width\":{\"unit\":\"px\",\"size\":120,\"sizes\":[]},\"_offset_x_end\":{\"unit\":\"px\",\"size\":-31,\"sizes\":[]}},\"elements\":[],\"widgetType\":\"html\"},{\"id\":\"bc38dd8\",\"elType\":\"widget\",\"settings\":{\"html\":\"<div class=\\\"rounded-circle bg-soft-yellow rellax w-16 h-16\\\" data-rellax-speed=\\\"1\\\"><\\/div>\",\"_position\":\"absolute\",\"_offset_x\":{\"unit\":\"px\",\"size\":-35,\"sizes\":[]},\"_offset_y\":{\"unit\":\"px\",\"size\":60,\"sizes\":[]},\"_z_index\":0,\"hide_mobile\":\"hidden-mobile\",\"_offset_orientation_v\":\"end\",\"_offset_y_end\":{\"unit\":\"px\",\"size\":0,\"sizes\":[]},\"_element_width\":\"auto\",\"_offset_orientation_h\":\"end\",\"_offset_x_end\":{\"unit\":\"px\",\"size\":-35,\"sizes\":[]}},\"elements\":[],\"widgetType\":\"html\"}],\"isInner\":true}],\"isInner\":true}],\"isInner\":false}],\"isInner\":false},{\"id\":\"060baf4\",\"elType\":\"section\",\"settings\":{\"gap\":\"extended\",\"structure\":\"30\",\"background_background\":\"classic\",\"background_image\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/map.png\",\"id\":2648,\"alt\":\"\",\"source\":\"library\"},\"background_position\":\"center center\",\"background_repeat\":\"no-repeat\",\"margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":0,\"bottom\":\"120\",\"left\":0,\"isLinked\":false},\"padding\":{\"unit\":\"px\",\"top\":\"120\",\"right\":\"0\",\"bottom\":\"160\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"6b795b1\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":16.514},\"elements\":[],\"isInner\":false},{\"id\":\"cbdc1f4\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":66.665,\"_inline_size_tablet\":100},\"elements\":[{\"id\":\"902de86\",\"elType\":\"widget\",\"settings\":{\"title\":\"Join Our Community\",\"align\":\"center\",\"typography_typography\":\"custom\",\"typography_font_family\":\"Manrope\",\"typography_font_size\":{\"unit\":\"px\",\"size\":36,\"sizes\":[]},\"typography_font_size_mobile\":{\"unit\":\"px\",\"size\":28,\"sizes\":[]},\"typography_font_weight\":\"700\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"15\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"63f4b50\",\"elType\":\"widget\",\"settings\":{\"editor\":\"We are trusted by over 5000+ clients. Join them by using our services and grow your business.\",\"align\":\"center\",\"typography_typography\":\"custom\",\"typography_font_family\":\"Manrope\",\"typography_font_size\":{\"unit\":\"px\",\"size\":18,\"sizes\":[]},\"typography_font_weight\":\"500\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"25\",\"left\":\"0\",\"isLinked\":false},\"_padding\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"20\",\"bottom\":\"0\",\"left\":\"20\",\"isLinked\":false},\"_padding_laptop\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"_padding_tablet_extra\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"_padding_tablet\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"_padding_mobile_extra\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"_padding_mobile\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true}},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"7487c64\",\"elType\":\"widget\",\"settings\":{\"text\":\"Join Us\",\"align\":\"center\"},\"elements\":[],\"widgetType\":\"ot-btn\"}],\"isInner\":false},{\"id\":\"503894f\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":16.485},\"elements\":[],\"isInner\":false}],\"isInner\":false}]",
+    "_wxr_import_user_slug": "admin"
+  },
+  "categories": [],
+  "elementorData": [
+    {
+      "id": "ac7cc3e",
+      "elType": "section",
+      "settings": {
+        "gap": "extended",
+        "background_background": "classic",
+        "background_image": {
+          "url": "",
+          "id": "",
+          "alt": "",
+          "source": "library"
+        },
+        "background_position": "center center",
+        "background_attachment": "fixed",
+        "background_repeat": "no-repeat",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 1,
+          "sizes": []
+        },
+        "shape_divider_bottom_color": "#FFFFFF",
+        "shape_divider_bottom_height": {
+          "unit": "px",
+          "size": 85,
+          "sizes": []
+        },
+        "shape_divider_bottom_flip": "yes",
+        "padding": {
+          "unit": "px",
+          "top": "180",
+          "right": "0",
+          "bottom": "300",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_color": "#F1F5FD"
+      },
+      "elements": [
+        {
+          "id": "bc00ac0",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "db0c759",
+              "elType": "widget",
+              "settings": {
+                "title": "Our Pricing\n",
+                "align": "center",
+                "title_color": "#343F52",
+                "typography_typography": "custom",
+                "typography_font_family": "Manrope",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "px",
+                  "size": 57,
+                  "sizes": []
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "15",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "typography_font_size_mobile_extra": {
+                  "unit": "px",
+                  "size": 38,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "21070c2",
+              "elType": "widget",
+              "settings": {
+                "editor": "We offer great prices, premium products and quality service for your business.",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Manrope",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_font_weight": "500",
+                "_padding": {
+                  "unit": "%",
+                  "top": "0",
+                  "right": "35",
+                  "bottom": "0",
+                  "left": "35",
+                  "isLinked": false
+                },
+                "_padding_laptop": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": true
+                },
+                "_padding_tablet_extra": {
+                  "unit": "%",
+                  "top": "0",
+                  "right": "25",
+                  "bottom": "0",
+                  "left": "25",
+                  "isLinked": false
+                },
+                "_padding_tablet": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": true
+                },
+                "_padding_mobile_extra": {
+                  "unit": "%",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "_padding_mobile": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "4127aad",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "margin": {
+          "unit": "px",
+          "top": "-250",
+          "right": 0,
+          "bottom": "0",
+          "left": 0,
+          "isLinked": false
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "100",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "a37eea6",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "57078b0",
+              "elType": "widget",
+              "settings": {
+                "before_text": "Monthly",
+                "after_text": "Yearly",
+                "section_id": "service-pricing",
+                "_offset_orientation_h": "end",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "25",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "ot-switchs"
+            },
+            {
+              "id": "8a6c5e1",
+              "elType": "widget",
+              "settings": {
+                "html": "<div class=\"rounded-circle bg-line red rellax w-18 h-18\" data-rellax-speed=\"1\"></div>",
+                "_position": "absolute",
+                "_offset_x": {
+                  "unit": "px",
+                  "size": -35,
+                  "sizes": []
+                },
+                "_offset_y": {
+                  "unit": "px",
+                  "size": 60,
+                  "sizes": []
+                },
+                "_z_index": 0,
+                "hide_mobile": "hidden-mobile",
+                "_offset_orientation_v": "end",
+                "_offset_y_end": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                },
+                "_element_width": "auto"
+              },
+              "elements": [],
+              "widgetType": "html"
+            },
+            {
+              "id": "80b8193",
+              "elType": "widget",
+              "settings": {
+                "html": "<div class=\"bg-dot primary rellax w-16 h-18\" data-rellax-speed=\"1\"></div>",
+                "_position": "absolute",
+                "_offset_x": {
+                  "unit": "px",
+                  "size": 40,
+                  "sizes": []
+                },
+                "_offset_y": {
+                  "unit": "px",
+                  "size": 29,
+                  "sizes": []
+                },
+                "_z_index": 0,
+                "hide_mobile": "hidden-mobile",
+                "_element_width": "auto",
+                "_element_custom_width": {
+                  "unit": "px",
+                  "size": 120,
+                  "sizes": []
+                },
+                "_offset_orientation_h": "end",
+                "_offset_x_end": {
+                  "unit": "px",
+                  "size": -31,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "html"
+            },
+            {
+              "id": "6cccb8c",
+              "elType": "section",
+              "settings": {
+                "content_position": "middle",
+                "structure": "30",
+                "_element_id": "service-pricing"
+              },
+              "elements": [
+                {
+                  "id": "0d16c6e",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": null,
+                    "_inline_size_tablet": 100,
+                    "margin_tablet": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "30",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "a13dbf5",
+                      "elType": "widget",
+                      "settings": {
+                        "icon_font": {
+                          "value": {
+                            "url": "https://ot-sandbox.s3.amazonaws.com/images/shopping-basket.svg",
+                            "id": 3972
+                          },
+                          "library": "svg"
+                        },
+                        "title": "Premium Plan",
+                        "price_period_1": "9",
+                        "period_1": "/mo",
+                        "price_period_2": "99",
+                        "period_2": "/y",
+                        "features_list": [
+                          {
+                            "item_features_text": "5 Projects",
+                            "_id": "387325c"
+                          },
+                          {
+                            "item_features_text": "100K API Access",
+                            "_id": "bc4cffe"
+                          },
+                          {
+                            "item_features_text": "200MB Storage",
+                            "_id": "f860ccf"
+                          },
+                          {
+                            "item_features_text": "Weekly Reports",
+                            "_id": "add61bd",
+                            "selected_item_icon": {
+                              "value": " uil-times",
+                              "library": "ot_cife-unicons"
+                            },
+                            "item_icon_color": "#E2626B",
+                            "item_icon_bgcolor": "#FAE3E4"
+                          },
+                          {
+                            "item_features_text": "7/24 Support",
+                            "selected_item_icon": {
+                              "value": " uil-times",
+                              "library": "ot_cife-unicons"
+                            },
+                            "item_icon_color": "#E2626B",
+                            "item_icon_bgcolor": "#FAE3E4",
+                            "_id": "6a32d67"
+                          }
+                        ],
+                        "button_text": "Choose Plan"
+                      },
+                      "elements": [],
+                      "widgetType": "ot-pricing-table"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "4349dd2",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": null,
+                    "_inline_size_tablet": 100,
+                    "margin_tablet": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "30",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "e585e7a",
+                      "elType": "widget",
+                      "settings": {
+                        "icon_font": {
+                          "value": {
+                            "url": "https://ot-sandbox.s3.amazonaws.com/images/home.svg",
+                            "id": 3996
+                          },
+                          "library": "svg"
+                        },
+                        "title": "Premium Plan",
+                        "price_period_1": "19",
+                        "period_1": "/mo",
+                        "price_period_2": "199",
+                        "period_2": "/y",
+                        "features_list": [
+                          {
+                            "item_features_text": "5 Projects",
+                            "_id": "387325c"
+                          },
+                          {
+                            "item_features_text": "100K API Access",
+                            "_id": "bc4cffe"
+                          },
+                          {
+                            "item_features_text": "200MB Storage",
+                            "_id": "f860ccf"
+                          },
+                          {
+                            "item_features_text": "Weekly Reports",
+                            "_id": "add61bd"
+                          },
+                          {
+                            "item_features_text": "7/24 Support",
+                            "selected_item_icon": {
+                              "value": " uil-times",
+                              "library": "ot_cife-unicons"
+                            },
+                            "item_icon_color": "#E2626B",
+                            "item_icon_bgcolor": "#FAE3E4",
+                            "_id": "6a32d67"
+                          }
+                        ],
+                        "button_text": "Choose Plan",
+                        "box_padding": {
+                          "unit": "px",
+                          "top": "80",
+                          "right": "40",
+                          "bottom": "80",
+                          "left": "40",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "ot-pricing-table"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "b3feb9f",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": null,
+                    "_inline_size_tablet": 100,
+                    "margin_tablet": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "30",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "2d7b4bb",
+                      "elType": "widget",
+                      "settings": {
+                        "icon_font": {
+                          "value": {
+                            "url": "https://ot-sandbox.s3.amazonaws.com/images/briefcase-2.svg",
+                            "id": 4412
+                          },
+                          "library": "svg"
+                        },
+                        "title": "Corporate Plan",
+                        "price_period_1": "49",
+                        "period_1": "/mo",
+                        "price_period_2": "499",
+                        "period_2": "/y",
+                        "features_list": [
+                          {
+                            "item_features_text": "5 Projects",
+                            "_id": "387325c"
+                          },
+                          {
+                            "item_features_text": "100K API Access",
+                            "_id": "bc4cffe"
+                          },
+                          {
+                            "item_features_text": "200MB Storage",
+                            "_id": "f860ccf"
+                          },
+                          {
+                            "item_features_text": "Weekly Reports",
+                            "_id": "add61bd"
+                          },
+                          {
+                            "item_features_text": "7/24 Support",
+                            "_id": "c4ea945"
+                          }
+                        ],
+                        "button_text": "Choose Plan",
+                        "_padding": {
+                          "unit": "rem",
+                          "top": "",
+                          "right": "",
+                          "bottom": "",
+                          "left": "",
+                          "isLinked": true
+                        },
+                        "_padding_laptop": {
+                          "unit": "rem",
+                          "top": "",
+                          "right": "",
+                          "bottom": "",
+                          "left": "",
+                          "isLinked": true
+                        },
+                        "_padding_tablet_extra": {
+                          "unit": "rem",
+                          "top": "",
+                          "right": "",
+                          "bottom": "",
+                          "left": "",
+                          "isLinked": true
+                        },
+                        "_padding_tablet": {
+                          "unit": "rem",
+                          "top": "",
+                          "right": "",
+                          "bottom": "",
+                          "left": "",
+                          "isLinked": true
+                        },
+                        "_padding_mobile_extra": {
+                          "unit": "rem",
+                          "top": "",
+                          "right": "",
+                          "bottom": "",
+                          "left": "",
+                          "isLinked": true
+                        },
+                        "_padding_mobile": {
+                          "unit": "rem",
+                          "top": "",
+                          "right": "",
+                          "bottom": "",
+                          "left": "",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "ot-pricing-table"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "fd04610",
+      "elType": "section",
+      "settings": {
+        "structure": "30",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "180",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "6e7c7ab",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null,
+            "_inline_size_tablet": 100,
+            "margin_tablet": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "30",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "39b36b9",
+              "elType": "widget",
+              "settings": {
+                "icon_font": {
+                  "value": " uil-phone-volume",
+                  "library": "ot_cife-unicons"
+                },
+                "icon_view": "stacked",
+                "title": "24/7 Support",
+                "content": "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget. Fusce dapibus tellus.",
+                "btn_text": "Learn More",
+                "position": "left",
+                "icon_space": {
+                  "unit": "px",
+                  "size": 25,
+                  "sizes": []
+                },
+                "title_typography_line_height": {
+                  "unit": "em",
+                  "size": "",
+                  "sizes": []
+                },
+                "link": {
+                  "url": "#",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "icon_size": {
+                  "unit": "px",
+                  "size": 20,
+                  "sizes": []
+                },
+                "icon_padding": {
+                  "unit": "px",
+                  "size": 12,
+                  "sizes": []
+                },
+                "icon_color": "#FFFFFF",
+                "icon_bgcolor": "#3F78E0"
+              },
+              "elements": [],
+              "widgetType": "ot-iconbox"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "3b7b063",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null,
+            "_inline_size_tablet": 100,
+            "margin_tablet": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "30",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "f879e51",
+              "elType": "widget",
+              "settings": {
+                "icon_font": {
+                  "value": " uil-laptop-cloud",
+                  "library": "ot_cife-unicons"
+                },
+                "icon_view": "stacked",
+                "title": "Daily Updates",
+                "content": "Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet. Sed posuere consectetur.",
+                "btn_text": "Learn More",
+                "position": "left",
+                "icon_space": {
+                  "unit": "px",
+                  "size": 25,
+                  "sizes": []
+                },
+                "title_typography_line_height": {
+                  "unit": "em",
+                  "size": "",
+                  "sizes": []
+                },
+                "link": {
+                  "url": "#",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "icon_size": {
+                  "unit": "px",
+                  "size": 20,
+                  "sizes": []
+                },
+                "icon_padding": {
+                  "unit": "px",
+                  "size": 12,
+                  "sizes": []
+                },
+                "icon_color": "#FFFFFF",
+                "icon_bgcolor": "#3F78E0"
+              },
+              "elements": [],
+              "widgetType": "ot-iconbox"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "2cd426b",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null,
+            "_inline_size_tablet": 100
+          },
+          "elements": [
+            {
+              "id": "1e49166",
+              "elType": "widget",
+              "settings": {
+                "icon_font": {
+                  "value": " uil-chart-line",
+                  "library": "ot_cife-unicons"
+                },
+                "icon_view": "stacked",
+                "title": "Market Research",
+                "content": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna scelerisque.",
+                "btn_text": "Learn More",
+                "position": "left",
+                "icon_space": {
+                  "unit": "px",
+                  "size": 25,
+                  "sizes": []
+                },
+                "title_typography_line_height": {
+                  "unit": "em",
+                  "size": "",
+                  "sizes": []
+                },
+                "link": {
+                  "url": "#",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "icon_size": {
+                  "unit": "px",
+                  "size": 20,
+                  "sizes": []
+                },
+                "icon_padding": {
+                  "unit": "px",
+                  "size": 12,
+                  "sizes": []
+                },
+                "icon_color": "#FFFFFF",
+                "icon_bgcolor": "#3F78E0"
+              },
+              "elements": [],
+              "widgetType": "ot-iconbox"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "3b3b7fc",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "160",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "d415f9c",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "db68963",
+              "elType": "widget",
+              "settings": {
+                "title": "Pricing FAQ",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Manrope",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "15",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "typography_font_size_mobile_extra": {
+                  "unit": "px",
+                  "size": 32,
+                  "sizes": []
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "15",
+                  "bottom": "0",
+                  "left": "15",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "e0fe061",
+              "elType": "widget",
+              "settings": {
+                "editor": "If you don't see an answer to your question, you can send us an email from our contact form.",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Manrope",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_font_weight": "500",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "50",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "15",
+                  "bottom": "0",
+                  "left": "15",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "85c00d6",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "51c9167",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "_inline_size_tablet": 100
+                  },
+                  "elements": [
+                    {
+                      "id": "45c738f",
+                      "elType": "widget",
+                      "settings": {
+                        "ot_accs": [
+                          {
+                            "acc_title": "Can I cancel my subscription?",
+                            "acc_content": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.",
+                            "_id": "ad1d7cb"
+                          },
+                          {
+                            "acc_title": "Which payment methods do you accept?",
+                            "acc_content": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.",
+                            "_id": "40ec4e9"
+                          },
+                          {
+                            "acc_title": "How can I manage my Account?",
+                            "acc_content": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.",
+                            "_id": "640116c"
+                          },
+                          {
+                            "acc_title": "Is my credit card information secure?",
+                            "acc_content": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.",
+                            "_id": "47749d4"
+                          }
+                        ]
+                      },
+                      "elements": [],
+                      "widgetType": "ot-accordions"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "fc60b1f",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "_inline_size_tablet": 100
+                  },
+                  "elements": [
+                    {
+                      "id": "3c8f991",
+                      "elType": "widget",
+                      "settings": {
+                        "ot_accs": [
+                          {
+                            "acc_title": "How do I get my subscription receipt?",
+                            "acc_content": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.",
+                            "_id": "ad1d7cb"
+                          },
+                          {
+                            "acc_title": "Are there any discounts for people in need?",
+                            "acc_content": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.",
+                            "_id": "40ec4e9"
+                          },
+                          {
+                            "acc_title": "Do you offer a free trial edit?",
+                            "acc_content": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.",
+                            "_id": "640116c"
+                          },
+                          {
+                            "acc_title": "How do I reset my Account password?",
+                            "acc_content": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.",
+                            "_id": "47749d4"
+                          }
+                        ]
+                      },
+                      "elements": [],
+                      "widgetType": "ot-accordions"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "c9a6c09",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "160",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "0785dce",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "c403261",
+              "elType": "widget",
+              "settings": {
+                "title": "Happy Customers",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Manrope",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "15",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "typography_font_size_mobile_extra": {
+                  "unit": "px",
+                  "size": 32,
+                  "sizes": []
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "15",
+                  "bottom": "0",
+                  "left": "15",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "cd02721",
+              "elType": "widget",
+              "settings": {
+                "editor": "Customer satisfaction is our major goal. See what our customers are saying about us.",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Manrope",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_font_weight": "500",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "50",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "15",
+                  "bottom": "0",
+                  "left": "15",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "1bc736b",
+              "elType": "section",
+              "settings": {
+                "gap": "no"
+              },
+              "elements": [
+                {
+                  "id": "21556d5",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "8906b33",
+                      "elType": "widget",
+                      "settings": {
+                        "testi_slider": [
+                          {
+                            "tcontent": "“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”",
+                            "tname": "Coriss Ambady",
+                            "tjob": "Financial Analyst",
+                            "_id": "2cd6c65",
+                            "timage": {
+                              "url": "https://ot-sandbox.s3.amazonaws.com/images/t1.jpg",
+                              "id": 5223,
+                              "alt": "",
+                              "source": "library"
+                            }
+                          },
+                          {
+                            "tcontent": "“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”",
+                            "tname": "Cory Zamora",
+                            "tjob": "Marketing Specialist",
+                            "timage": {
+                              "url": "https://ot-sandbox.s3.amazonaws.com/images/t2.jpg",
+                              "id": 5224,
+                              "alt": "",
+                              "source": "library"
+                            },
+                            "_id": "71ae2d8"
+                          },
+                          {
+                            "tcontent": "“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”",
+                            "tname": "Nikolas Brooten",
+                            "tjob": "Sales Specialist",
+                            "_id": "e6298f5",
+                            "timage": {
+                              "url": "https://ot-sandbox.s3.amazonaws.com/images/t3.jpg",
+                              "id": 5225,
+                              "alt": "",
+                              "source": "library"
+                            }
+                          },
+                          {
+                            "tcontent": "“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”",
+                            "tname": "Coriss Ambady",
+                            "tjob": "Financial Analyst",
+                            "timage": {
+                              "url": "https://ot-sandbox.s3.amazonaws.com/images/t4.jpg",
+                              "id": 5221,
+                              "alt": "",
+                              "source": "library"
+                            },
+                            "_id": "8eae251"
+                          },
+                          {
+                            "tcontent": "“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”",
+                            "tname": "Jackie Sanders",
+                            "tjob": "Investment Planner",
+                            "_id": "61ac886",
+                            "timage": {
+                              "url": "https://ot-sandbox.s3.amazonaws.com/images/t5.jpg",
+                              "id": 5222,
+                              "alt": "",
+                              "source": "library"
+                            }
+                          },
+                          {
+                            "tcontent": "“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”",
+                            "tname": "Laura Widerski",
+                            "tjob": "Sales Specialist",
+                            "timage": {
+                              "url": "https://ot-sandbox.s3.amazonaws.com/images/te6.jpg",
+                              "id": 4501,
+                              "alt": "",
+                              "source": "library"
+                            },
+                            "_id": "3e17e43"
+                          }
+                        ],
+                        "tshow": "3",
+                        "tshow_tablet": "2",
+                        "tshow_mobile_extra": "1",
+                        "loop": "",
+                        "navigation": "dots",
+                        "dots_align": "center"
+                      },
+                      "elements": [],
+                      "widgetType": "ot-testimonials-carousel"
+                    },
+                    {
+                      "id": "2e67202",
+                      "elType": "widget",
+                      "settings": {
+                        "html": "<div class=\"bg-dot primary rellax w-16 h-16\" data-rellax-speed=\"1\"></div>",
+                        "_position": "absolute",
+                        "_offset_x": {
+                          "unit": "px",
+                          "size": -33,
+                          "sizes": []
+                        },
+                        "_offset_y": {
+                          "unit": "px",
+                          "size": -8,
+                          "sizes": []
+                        },
+                        "_z_index": 0,
+                        "hide_mobile": "hidden-mobile",
+                        "_element_width": "auto",
+                        "_element_custom_width": {
+                          "unit": "px",
+                          "size": 120,
+                          "sizes": []
+                        },
+                        "_offset_x_end": {
+                          "unit": "px",
+                          "size": -31,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "html"
+                    },
+                    {
+                      "id": "bc38dd8",
+                      "elType": "widget",
+                      "settings": {
+                        "html": "<div class=\"rounded-circle bg-soft-yellow rellax w-16 h-16\" data-rellax-speed=\"1\"></div>",
+                        "_position": "absolute",
+                        "_offset_x": {
+                          "unit": "px",
+                          "size": -35,
+                          "sizes": []
+                        },
+                        "_offset_y": {
+                          "unit": "px",
+                          "size": 60,
+                          "sizes": []
+                        },
+                        "_z_index": 0,
+                        "hide_mobile": "hidden-mobile",
+                        "_offset_orientation_v": "end",
+                        "_offset_y_end": {
+                          "unit": "px",
+                          "size": 0,
+                          "sizes": []
+                        },
+                        "_element_width": "auto",
+                        "_offset_orientation_h": "end",
+                        "_offset_x_end": {
+                          "unit": "px",
+                          "size": -35,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "html"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "060baf4",
+      "elType": "section",
+      "settings": {
+        "gap": "extended",
+        "structure": "30",
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://ot-sandbox.s3.amazonaws.com/images/map.png",
+          "id": 2648,
+          "alt": "",
+          "source": "library"
+        },
+        "background_position": "center center",
+        "background_repeat": "no-repeat",
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": 0,
+          "bottom": "120",
+          "left": 0,
+          "isLinked": false
+        },
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "0",
+          "bottom": "160",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "6b795b1",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": 16.514
+          },
+          "elements": [],
+          "isInner": false
+        },
+        {
+          "id": "cbdc1f4",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": 66.665,
+            "_inline_size_tablet": 100
+          },
+          "elements": [
+            {
+              "id": "902de86",
+              "elType": "widget",
+              "settings": {
+                "title": "Join Our Community",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Manrope",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36,
+                  "sizes": []
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 28,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "15",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "63f4b50",
+              "elType": "widget",
+              "settings": {
+                "editor": "We are trusted by over 5000+ clients. Join them by using our services and grow your business.",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Manrope",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_font_weight": "500",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "25",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "_padding": {
+                  "unit": "%",
+                  "top": "0",
+                  "right": "20",
+                  "bottom": "0",
+                  "left": "20",
+                  "isLinked": false
+                },
+                "_padding_laptop": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": true
+                },
+                "_padding_tablet_extra": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": true
+                },
+                "_padding_tablet": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": true
+                },
+                "_padding_mobile_extra": {
+                  "unit": "%",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "_padding_mobile": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "7487c64",
+              "elType": "widget",
+              "settings": {
+                "text": "Join Us",
+                "align": "center"
+              },
+              "elements": [],
+              "widgetType": "ot-btn"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "503894f",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": 16.485
+          },
+          "elements": [],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

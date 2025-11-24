@@ -1,0 +1,325 @@
+{
+  "title": "Sign Up 2",
+  "slug": "sign-up-2",
+  "content": "<style>/*! elementor - v3.7.8 - 02-10-2022 */\n.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2>Sign Up</h2>\t\t\n\t\t\t<link rel=\"stylesheet\" href=\"http://localhost/test-import/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css\">\t\t<ul>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://demo.oceanthemes.site/sandbox/\">\n\t\t\t\t\t\t\t\t\t\t\tHome\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\tSign Up\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t</ul>\n\t\t\t<style>/*! elementor - v3.7.8 - 02-10-2022 */\n.elementor-column .elementor-spacer-inner{height:var(--spacer-size)}.e-container{--container-widget-width:100%}.e-container>.elementor-widget-spacer{width:var(--container-widget-width,var(--spacer-size));-ms-flex-item-align:stretch;align-self:stretch;-ms-flex-negative:0;flex-shrink:0}.e-container>.elementor-widget-spacer>.elementor-widget-container,.e-container>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer{height:100%}.e-container>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner{height:var(--container-widget-height,var(--spacer-size))}</style>\t\t\n\t        \t        <p>User is already logged in. <a href=http://localhost/test-import/wp-login.php?action=logout&amp;redirect_to=http%3A%2F%2Flocalhost%2Ftest-import&amp;_wpnonce=a455fde031>Log out?</a></p>",
+  "excerpt": "",
+  "status": "publish",
+  "date": "2022-09-07 08:11:35",
+  "metadata": {
+    "page_layout": "full-content",
+    "select_header": 3767,
+    "is_trans": "default",
+    "select_header_mobile": 1772,
+    "_elementor_edit_mode": "builder",
+    "_elementor_template_type": "wp-page",
+    "_elementor_version": "3.7.8",
+    "_wp_page_template": "default",
+    "_elementor_data": "[{\"id\":\"4ee88b4\",\"elType\":\"section\",\"settings\":{\"gap\":\"extended\",\"background_background\":\"classic\",\"background_image\":{\"url\":\"\",\"id\":\"\",\"alt\":\"\",\"source\":\"library\"},\"background_position\":\"center center\",\"background_attachment\":\"fixed\",\"background_repeat\":\"no-repeat\",\"background_size\":\"cover\",\"background_overlay_background\":\"classic\",\"background_overlay_opacity\":{\"unit\":\"px\",\"size\":1,\"sizes\":[]},\"shape_divider_bottom_color\":\"#FFFFFF\",\"shape_divider_bottom_height\":{\"unit\":\"px\",\"size\":85,\"sizes\":[]},\"shape_divider_bottom_flip\":\"yes\",\"padding\":{\"unit\":\"px\",\"top\":\"180\",\"right\":\"0\",\"bottom\":\"270\",\"left\":\"0\",\"isLinked\":false},\"background_color\":\"#262B32\"},\"elements\":[{\"id\":\"a4556e6\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null},\"elements\":[{\"id\":\"2568279\",\"elType\":\"widget\",\"settings\":{\"title\":\"Sign Up\",\"align\":\"center\",\"title_color\":\"#FFFFFF\",\"typography_typography\":\"custom\",\"typography_font_family\":\"Manrope\",\"typography_font_size\":{\"unit\":\"px\",\"size\":48,\"sizes\":[]},\"typography_font_weight\":\"700\",\"typography_line_height\":{\"unit\":\"px\",\"size\":57,\"sizes\":[]},\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"15\",\"left\":\"0\",\"isLinked\":false},\"typography_font_size_mobile_extra\":{\"unit\":\"px\",\"size\":38,\"sizes\":[]}},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"e0b986c\",\"elType\":\"widget\",\"settings\":{\"view\":\"inline\",\"icon_list\":[{\"text\":\"Home\",\"selected_icon\":{\"value\":\"\",\"library\":\"\"},\"_id\":\"d3c0e4f\",\"link\":{\"url\":\"https:\\/\\/demo.oceanthemes.site\\/sandbox\\/\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"}},{\"text\":\"Sign Up\",\"selected_icon\":{\"value\":\" uil-angle-right-b\",\"library\":\"ot_cife-unicons\"},\"_id\":\"645c4a3\"}],\"space_between\":{\"unit\":\"px\",\"size\":10,\"sizes\":[]},\"icon_align\":\"center\",\"icon_color\":\"#FFFFFF80\",\"text_color\":\"#FFFFFF\",\"text_indent\":{\"unit\":\"px\",\"size\":10,\"sizes\":[]},\"icon_typography_typography\":\"custom\",\"icon_typography_font_family\":\"Manrope\",\"icon_typography_font_weight\":\"500\"},\"elements\":[],\"widgetType\":\"icon-list\"}],\"isInner\":false}],\"isInner\":false},{\"id\":\"0a67eba\",\"elType\":\"section\",\"settings\":{\"structure\":\"30\",\"margin\":{\"unit\":\"px\",\"top\":\"-200\",\"right\":0,\"bottom\":\"0\",\"left\":0,\"isLinked\":false},\"padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"120\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"92bb852\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":5},\"elements\":[],\"isInner\":false},{\"id\":\"4b6de1a\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":89.332,\"_inline_size_tablet\":100},\"elements\":[{\"id\":\"4acf092\",\"elType\":\"section\",\"settings\":{\"gap\":\"no\",\"content_position\":\"middle\",\"overflow\":\"hidden\",\"structure\":\"20\",\"background_background\":\"classic\",\"background_color\":\"#FFFFFF\",\"border_radius\":{\"unit\":\"px\",\"top\":\"8\",\"right\":\"8\",\"bottom\":\"8\",\"left\":\"8\",\"isLinked\":true},\"css_classes\":\"card userform \"},\"elements\":[{\"id\":\"fbe3dbf\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":null,\"_inline_size_tablet\":100,\"background_background\":\"classic\",\"background_image\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/tm3.jpg\",\"id\":3797,\"alt\":\"\",\"source\":\"library\"},\"background_position\":\"center center\",\"background_repeat\":\"no-repeat\",\"background_size\":\"cover\",\"hide_mobile_extra\":\"hidden-mobile_extra\",\"hide_mobile\":\"hidden-mobile\"},\"elements\":[{\"id\":\"06a2dd6\",\"elType\":\"widget\",\"settings\":{\"space_tablet\":{\"unit\":\"px\",\"size\":500,\"sizes\":[]}},\"elements\":[],\"widgetType\":\"spacer\"}],\"isInner\":true},{\"id\":\"363b499\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":null,\"_inline_size_tablet\":100,\"padding\":{\"unit\":\"px\",\"top\":\"20\",\"right\":\"20\",\"bottom\":\"20\",\"left\":\"20\",\"isLinked\":true},\"padding_tablet_extra\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"bd192d1\",\"elType\":\"widget\",\"settings\":{\"user_form\":\"regis\",\"link_user\":{\"url\":\"https:\\/\\/demo.oceanthemes.site\\/sandbox\\/sign-in-2\\/\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"}},\"elements\":[],\"widgetType\":\"ot-userform\"}],\"isInner\":true}],\"isInner\":true}],\"isInner\":false},{\"id\":\"b0d2187\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":5},\"elements\":[],\"isInner\":false}],\"isInner\":false}]",
+    "_wxr_import_user_slug": "admin"
+  },
+  "categories": [],
+  "elementorData": [
+    {
+      "id": "4ee88b4",
+      "elType": "section",
+      "settings": {
+        "gap": "extended",
+        "background_background": "classic",
+        "background_image": {
+          "url": "",
+          "id": "",
+          "alt": "",
+          "source": "library"
+        },
+        "background_position": "center center",
+        "background_attachment": "fixed",
+        "background_repeat": "no-repeat",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 1,
+          "sizes": []
+        },
+        "shape_divider_bottom_color": "#FFFFFF",
+        "shape_divider_bottom_height": {
+          "unit": "px",
+          "size": 85,
+          "sizes": []
+        },
+        "shape_divider_bottom_flip": "yes",
+        "padding": {
+          "unit": "px",
+          "top": "180",
+          "right": "0",
+          "bottom": "270",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_color": "#262B32"
+      },
+      "elements": [
+        {
+          "id": "a4556e6",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "2568279",
+              "elType": "widget",
+              "settings": {
+                "title": "Sign Up",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Manrope",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "px",
+                  "size": 57,
+                  "sizes": []
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "15",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "typography_font_size_mobile_extra": {
+                  "unit": "px",
+                  "size": 38,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "e0b986c",
+              "elType": "widget",
+              "settings": {
+                "view": "inline",
+                "icon_list": [
+                  {
+                    "text": "Home",
+                    "selected_icon": {
+                      "value": "",
+                      "library": ""
+                    },
+                    "_id": "d3c0e4f",
+                    "link": {
+                      "url": "https://demo.oceanthemes.site/sandbox/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
+                  },
+                  {
+                    "text": "Sign Up",
+                    "selected_icon": {
+                      "value": " uil-angle-right-b",
+                      "library": "ot_cife-unicons"
+                    },
+                    "_id": "645c4a3"
+                  }
+                ],
+                "space_between": {
+                  "unit": "px",
+                  "size": 10,
+                  "sizes": []
+                },
+                "icon_align": "center",
+                "icon_color": "#FFFFFF80",
+                "text_color": "#FFFFFF",
+                "text_indent": {
+                  "unit": "px",
+                  "size": 10,
+                  "sizes": []
+                },
+                "icon_typography_typography": "custom",
+                "icon_typography_font_family": "Manrope",
+                "icon_typography_font_weight": "500"
+              },
+              "elements": [],
+              "widgetType": "icon-list"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "0a67eba",
+      "elType": "section",
+      "settings": {
+        "structure": "30",
+        "margin": {
+          "unit": "px",
+          "top": "-200",
+          "right": 0,
+          "bottom": "0",
+          "left": 0,
+          "isLinked": false
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "120",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "92bb852",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": 5
+          },
+          "elements": [],
+          "isInner": false
+        },
+        {
+          "id": "4b6de1a",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": 89.332,
+            "_inline_size_tablet": 100
+          },
+          "elements": [
+            {
+              "id": "4acf092",
+              "elType": "section",
+              "settings": {
+                "gap": "no",
+                "content_position": "middle",
+                "overflow": "hidden",
+                "structure": "20",
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "8",
+                  "bottom": "8",
+                  "left": "8",
+                  "isLinked": true
+                },
+                "css_classes": "card userform "
+              },
+              "elements": [
+                {
+                  "id": "fbe3dbf",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "_inline_size_tablet": 100,
+                    "background_background": "classic",
+                    "background_image": {
+                      "url": "https://ot-sandbox.s3.amazonaws.com/images/tm3.jpg",
+                      "id": 3797,
+                      "alt": "",
+                      "source": "library"
+                    },
+                    "background_position": "center center",
+                    "background_repeat": "no-repeat",
+                    "background_size": "cover",
+                    "hide_mobile_extra": "hidden-mobile_extra",
+                    "hide_mobile": "hidden-mobile"
+                  },
+                  "elements": [
+                    {
+                      "id": "06a2dd6",
+                      "elType": "widget",
+                      "settings": {
+                        "space_tablet": {
+                          "unit": "px",
+                          "size": 500,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "spacer"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "363b499",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "_inline_size_tablet": 100,
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": true
+                    },
+                    "padding_tablet_extra": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "bd192d1",
+                      "elType": "widget",
+                      "settings": {
+                        "user_form": "regis",
+                        "link_user": {
+                          "url": "https://demo.oceanthemes.site/sandbox/sign-in-2/",
+                          "is_external": "",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "ot-userform"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "b0d2187",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": 5
+          },
+          "elements": [],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

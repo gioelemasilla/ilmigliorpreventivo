@@ -1,0 +1,564 @@
+{
+  "title": "Ipsum Ultricies Cursus",
+  "slug": "ipsum-ultricies-cursus",
+  "content": "<a href=\"#\" rel=\"category\">Identity<br /></a>\t\t\n\t\t\t<style>/*! elementor - v3.7.8 - 02-10-2022 */\n.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h1>Commodo Dolor Bibendum Parturient Cursus Mollis</h1>\t\t\n\t\t<p>Integer posuere erat a ante venenatis dapibus posuere. Maecenas faucibus mollis interdum.</p>\t\t\n\t\t\t<style>\n    .elementor-page-4136 .elementor-top-section:not(.is-stuck) .the-logo img{\n        filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(13%) hue-rotate(197deg) brightness(103%) contrast(103%);\n    }\n    .elementor-page-4136 .elementor-top-section:not(.is-stuck) .main-navigation > ul > li > a,\n    .elementor-page-4136 .elementor-top-section:not(.is-stuck) .lang-header > .lang-item,\n    .elementor-page-4136 .elementor-top-section:not(.is-stuck) .lang-header .lang-toggle:after{\n        color: #fff;\n    }\n    .elementor-page-4136 .elementor-top-section:not(.is-stuck) .main-navigation > ul > li > a:hover{\n        color: rgba(255,255,255,0.7);\n    }\n    .elementor-page-4136 .elementor-top-section:not(.is-stuck) .main-navigation > ul > li.menu-item-has-children > a:after, .main-navigation > ul > li.dropdown > a:after{\n        color: currentColor;\n    }\n    .elementor-page-4136 .site-header .elementor-top-section:not(.is-stuck) .octf-btn{\n        color: #343f52;\n        background-color: #fff;\n    }\n</style>\t\t\n\t\t\t<h6>About the Project</h6>\t\t\n\t\t<p>Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis. Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum.</p><p>Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p><ul><li><h5>Date</h5><p>17 May 2018</p></li><li><h5>Client Name</h5><p>Cool House</p></li></ul>\t\t\n\t\t\t\t<figure><img src=\"https://ot-sandbox.s3.amazonaws.com/images/pp10.jpg\" alt=\"Image 1\"></figure><figure><img src=\"https://ot-sandbox.s3.amazonaws.com/images/pp11.jpg\" alt=\"Image 2\"></figure><figure><img src=\"https://ot-sandbox.s3.amazonaws.com/images/pp12.jpg\" alt=\"Image 3\"></figure><figure><img src=\"https://ot-sandbox.s3.amazonaws.com/images/pp13.jpg\" alt=\"Image 4\"></figure><figure><img src=\"https://ot-sandbox.s3.amazonaws.com/images/pp14.jpg\" alt=\"Image 5\"></figure><figure><img src=\"https://ot-sandbox.s3.amazonaws.com/images/pp15.jpg\" alt=\"Image 6\"></figure><figure><img src=\"https://ot-sandbox.s3.amazonaws.com/images/pp16.jpg\" alt=\"Image 7\"></figure>",
+  "excerpt": "",
+  "status": "publish",
+  "date": "2022-09-08 03:52:38",
+  "metadata": {
+    "_thumbnail_id": 3150,
+    "_wp_page_template": "default",
+    "_elementor_edit_mode": "builder",
+    "_elementor_template_type": "wp-post",
+    "_elementor_version": "3.7.8",
+    "pheader_is_trans": 1,
+    "_elementor_data": "[{\"id\":\"e421ad9\",\"elType\":\"section\",\"settings\":{\"padding\":{\"unit\":\"px\",\"top\":\"180\",\"right\":\"0\",\"bottom\":\"120\",\"left\":\"0\",\"isLinked\":false},\"padding_mobile_extra\":{\"unit\":\"px\",\"top\":\"140\",\"right\":\"0\",\"bottom\":\"70\",\"left\":\"0\",\"isLinked\":false},\"background_background\":\"classic\",\"background_image\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/bg6.jpg\",\"id\":4854,\"alt\":\"\",\"source\":\"library\"},\"background_position\":\"center center\",\"background_repeat\":\"no-repeat\",\"background_size\":\"cover\",\"background_overlay_background\":\"classic\",\"background_overlay_color\":\"#1E222880\",\"background_overlay_opacity\":{\"unit\":\"px\",\"size\":1,\"sizes\":[]},\"css_classes\":\"image-wrapper\"},\"elements\":[{\"id\":\"5d66aef\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null,\"margin\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"20.835\",\"bottom\":\"0\",\"left\":\"20.835\",\"isLinked\":false},\"margin_laptop\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"margin_tablet_extra\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"16.665\",\"bottom\":\"0\",\"left\":\"16.665\",\"isLinked\":false},\"margin_tablet\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"8.33\",\"bottom\":\"0\",\"left\":\"8.33\",\"isLinked\":false},\"margin_mobile_extra\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"margin_mobile\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"d74e38d\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<div class=\\\"post-header\\\"><div class=\\\"post-cates text-line text-white\\\"><a class=\\\"link-white\\\" href=\\\"#\\\" rel=\\\"category\\\">Identity<br \\/><\\/a><\\/div><\\/div>\",\"align\":\"center\"},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"672777d\",\"elType\":\"widget\",\"settings\":{\"title\":\"Commodo Dolor Bibendum Parturient Cursus Mollis\",\"header_size\":\"h1\",\"title_color\":\"#FFFFFF\",\"_css_classes\":\"display-1\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"15\",\"left\":\"0\",\"isLinked\":false},\"align\":\"center\"},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"dec6b0d\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Integer posuere erat a ante venenatis dapibus posuere. Maecenas faucibus mollis interdum.<\\/p>\",\"align\":\"center\",\"typography_typography\":\"custom\",\"typography_font_family\":\"Manrope\",\"typography_font_size\":{\"unit\":\"px\",\"size\":18,\"sizes\":[]},\"typography_font_weight\":\"500\",\"typography_line_height\":{\"unit\":\"em\",\"size\":1.65,\"sizes\":[]},\"typography_line_height_laptop\":{\"unit\":\"em\",\"size\":\"\",\"sizes\":[]},\"typography_line_height_tablet_extra\":{\"unit\":\"em\",\"size\":\"\",\"sizes\":[]},\"typography_line_height_mobile_extra\":{\"unit\":\"em\",\"size\":\"\",\"sizes\":[]},\"_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"160\",\"bottom\":\"0\",\"left\":\"160\",\"isLinked\":false},\"_padding_laptop\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"100\",\"bottom\":\"0\",\"left\":\"100\",\"isLinked\":false},\"_padding_tablet_extra\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"70\",\"bottom\":\"0\",\"left\":\"70\",\"isLinked\":false},\"_padding_mobile_extra\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"text_color\":\"#FFFFFF\"},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"45ef74c\",\"elType\":\"widget\",\"settings\":{\"html\":\"<style>\\n    .elementor-page-4136 .elementor-top-section:not(.is-stuck) .the-logo img{\\n        filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(13%) hue-rotate(197deg) brightness(103%) contrast(103%);\\n    }\\n    .elementor-page-4136 .elementor-top-section:not(.is-stuck) .main-navigation > ul > li > a,\\n    .elementor-page-4136 .elementor-top-section:not(.is-stuck) .lang-header > .lang-item,\\n    .elementor-page-4136 .elementor-top-section:not(.is-stuck) .lang-header .lang-toggle:after{\\n        color: #fff;\\n    }\\n    .elementor-page-4136 .elementor-top-section:not(.is-stuck) .main-navigation > ul > li > a:hover{\\n        color: rgba(255,255,255,0.7);\\n    }\\n    .elementor-page-4136 .elementor-top-section:not(.is-stuck) .main-navigation > ul > li.menu-item-has-children > a:after, .main-navigation > ul > li.dropdown > a:after{\\n        color: currentColor;\\n    }\\n    .elementor-page-4136 .site-header .elementor-top-section:not(.is-stuck) .octf-btn{\\n        color: #343f52;\\n        background-color: #fff;\\n    }\\n    \\n<\\/style>\",\"hide_desktop\":\"hidden-desktop\",\"hide_laptop\":\"hidden-laptop\",\"hide_tablet_extra\":\"hidden-tablet_extra\",\"hide_tablet\":\"hidden-tablet\",\"hide_mobile_extra\":\"hidden-mobile_extra\",\"hide_mobile\":\"hidden-mobile\"},\"elements\":[],\"widgetType\":\"html\"}],\"isInner\":false}],\"isInner\":false},{\"id\":\"7c4cc74\",\"elType\":\"section\",\"settings\":{\"gap\":\"no\",\"padding\":{\"unit\":\"px\",\"top\":\"120\",\"right\":\"0\",\"bottom\":\"100\",\"left\":\"0\",\"isLinked\":false},\"padding_mobile_extra\":{\"unit\":\"px\",\"top\":\"90\",\"right\":\"0\",\"bottom\":\"60\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"45e9edc\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null},\"elements\":[{\"id\":\"dba33bc\",\"elType\":\"section\",\"settings\":{\"structure\":\"20\",\"padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"110\",\"bottom\":\"0\",\"left\":\"110\",\"isLinked\":false},\"content_position\":\"middle\",\"margin_mobile_extra\":{\"unit\":\"px\",\"top\":\"\",\"right\":0,\"bottom\":\"\",\"left\":0,\"isLinked\":true},\"padding_laptop\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"95\",\"bottom\":\"0\",\"left\":\"95\",\"isLinked\":false},\"padding_tablet_extra\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"80\",\"bottom\":\"0\",\"left\":\"74\",\"isLinked\":false},\"padding_tablet\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"9ec2b20\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":75.1,\"_inline_size_mobile_extra\":100},\"elements\":[{\"id\":\"cdc64f1\",\"elType\":\"widget\",\"settings\":{\"title\":\"About the Project\",\"header_size\":\"h6\",\"title_color\":\"#343F52\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"20\",\"left\":\"0\",\"isLinked\":false},\"_css_classes\":\"display-6\"},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"71f1fa4\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis. Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum.<\\/p><p>Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.<\\/p>\",\"typography_font_family\":\"Manrope\",\"typography_font_weight\":\"500\"},\"elements\":[],\"widgetType\":\"text-editor\"}],\"isInner\":true},{\"id\":\"87bb4a7\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":24.9,\"margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"64.172\",\"isLinked\":false},\"_inline_size_mobile_extra\":100,\"margin_laptop\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"56.172\",\"isLinked\":false},\"margin_tablet_extra\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"32\",\"isLinked\":false},\"margin_mobile_extra\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"e540202\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<ul class=\\\"unstyle mb-0\\\"><li><h5 class=\\\"mb-1\\\">Date<\\/h5><p>17 May 2018<\\/p><\\/li><li><h5 class=\\\"mb-1\\\">Client Name<\\/h5><p>Cool House<\\/p><\\/li><\\/ul>\"},\"elements\":[],\"widgetType\":\"text-editor\"}],\"isInner\":true}],\"isInner\":true}],\"isInner\":false}],\"isInner\":false},{\"id\":\"0d05e76\",\"elType\":\"section\",\"settings\":{\"layout\":\"full_width\",\"gap\":\"no\",\"padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"30\",\"bottom\":\"180\",\"left\":\"30\",\"isLinked\":false},\"padding_mobile_extra\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"15\",\"bottom\":\"140\",\"left\":\"15\",\"isLinked\":false}},\"elements\":[{\"id\":\"46cb34a\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null},\"elements\":[{\"id\":\"ff6c359\",\"elType\":\"widget\",\"settings\":{\"images_slider\":[{\"title\":\"Image 1\",\"image_item\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/pp10.jpg\",\"id\":4878,\"alt\":\"\",\"source\":\"library\"},\"_id\":\"7be0a7b\"},{\"title\":\"Image 2\",\"image_item\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/pp11.jpg\",\"id\":4879,\"alt\":\"\",\"source\":\"library\"},\"_id\":\"2703954\"},{\"title\":\"Image 3\",\"image_item\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/pp12.jpg\",\"id\":4880,\"alt\":\"\",\"source\":\"library\"},\"_id\":\"787e664\"},{\"title\":\"Image 4\",\"image_item\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/pp13.jpg\",\"id\":4881,\"alt\":\"\",\"source\":\"library\"},\"_id\":\"26824e8\"},{\"title\":\"Image 5\",\"image_item\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/pp14.jpg\",\"id\":4882,\"alt\":\"\",\"source\":\"library\"},\"_id\":\"57340d7\"},{\"title\":\"Image 6\",\"image_item\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/pp15.jpg\",\"id\":4883,\"alt\":\"\",\"source\":\"library\"},\"_id\":\"a2d5f49\"},{\"title\":\"Image 7\",\"image_item\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/pp16.jpg\",\"id\":4884,\"alt\":\"\",\"source\":\"library\"},\"_id\":\"8e467e0\"}],\"tshow_laptop\":\"2\",\"tshow_mobile_extra\":\"1\",\"loop\":\"\",\"timeout\":{\"unit\":\"px\",\"size\":5000,\"sizes\":[]},\"navigation\":\"both\",\"dots_spacing\":{\"unit\":\"px\",\"size\":-58,\"sizes\":[]},\"dots_bgcolor\":\"#AAB0BC\",\"arrow_spacing\":{\"unit\":\"px\",\"size\":0,\"sizes\":[]},\"arrow_color\":\"#343F52\",\"arrow_bgcolor\":\"#FFFFFFB3\"},\"elements\":[],\"widgetType\":\"ot-images-slider\"}],\"isInner\":false}],\"isInner\":false}]",
+    "_wxr_import_user_slug": "admin"
+  },
+  "categories": [],
+  "elementorData": [
+    {
+      "id": "e421ad9",
+      "elType": "section",
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "180",
+          "right": "0",
+          "bottom": "120",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_mobile_extra": {
+          "unit": "px",
+          "top": "140",
+          "right": "0",
+          "bottom": "70",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://ot-sandbox.s3.amazonaws.com/images/bg6.jpg",
+          "id": 4854,
+          "alt": "",
+          "source": "library"
+        },
+        "background_position": "center center",
+        "background_repeat": "no-repeat",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "#1E222880",
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 1,
+          "sizes": []
+        },
+        "css_classes": "image-wrapper"
+      },
+      "elements": [
+        {
+          "id": "5d66aef",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "margin": {
+              "unit": "%",
+              "top": "0",
+              "right": "20.835",
+              "bottom": "0",
+              "left": "20.835",
+              "isLinked": false
+            },
+            "margin_laptop": {
+              "unit": "%",
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": "",
+              "isLinked": true
+            },
+            "margin_tablet_extra": {
+              "unit": "%",
+              "top": "0",
+              "right": "16.665",
+              "bottom": "0",
+              "left": "16.665",
+              "isLinked": false
+            },
+            "margin_tablet": {
+              "unit": "%",
+              "top": "0",
+              "right": "8.33",
+              "bottom": "0",
+              "left": "8.33",
+              "isLinked": false
+            },
+            "margin_mobile_extra": {
+              "unit": "%",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "margin_mobile": {
+              "unit": "%",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "d74e38d",
+              "elType": "widget",
+              "settings": {
+                "editor": "<div class=\"post-header\"><div class=\"post-cates text-line text-white\"><a class=\"link-white\" href=\"#\" rel=\"category\">Identity<br /></a></div></div>",
+                "align": "center"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "672777d",
+              "elType": "widget",
+              "settings": {
+                "title": "Commodo Dolor Bibendum Parturient Cursus Mollis",
+                "header_size": "h1",
+                "title_color": "#FFFFFF",
+                "_css_classes": "display-1",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "15",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "align": "center"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "dec6b0d",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Integer posuere erat a ante venenatis dapibus posuere. Maecenas faucibus mollis interdum.</p>",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Manrope",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_font_weight": "500",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.65,
+                  "sizes": []
+                },
+                "typography_line_height_laptop": {
+                  "unit": "em",
+                  "size": "",
+                  "sizes": []
+                },
+                "typography_line_height_tablet_extra": {
+                  "unit": "em",
+                  "size": "",
+                  "sizes": []
+                },
+                "typography_line_height_mobile_extra": {
+                  "unit": "em",
+                  "size": "",
+                  "sizes": []
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "160",
+                  "bottom": "0",
+                  "left": "160",
+                  "isLinked": false
+                },
+                "_padding_laptop": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "100",
+                  "bottom": "0",
+                  "left": "100",
+                  "isLinked": false
+                },
+                "_padding_tablet_extra": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "70",
+                  "bottom": "0",
+                  "left": "70",
+                  "isLinked": false
+                },
+                "_padding_mobile_extra": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "text_color": "#FFFFFF"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "45ef74c",
+              "elType": "widget",
+              "settings": {
+                "html": "<style>\n    .elementor-page-4136 .elementor-top-section:not(.is-stuck) .the-logo img{\n        filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(13%) hue-rotate(197deg) brightness(103%) contrast(103%);\n    }\n    .elementor-page-4136 .elementor-top-section:not(.is-stuck) .main-navigation > ul > li > a,\n    .elementor-page-4136 .elementor-top-section:not(.is-stuck) .lang-header > .lang-item,\n    .elementor-page-4136 .elementor-top-section:not(.is-stuck) .lang-header .lang-toggle:after{\n        color: #fff;\n    }\n    .elementor-page-4136 .elementor-top-section:not(.is-stuck) .main-navigation > ul > li > a:hover{\n        color: rgba(255,255,255,0.7);\n    }\n    .elementor-page-4136 .elementor-top-section:not(.is-stuck) .main-navigation > ul > li.menu-item-has-children > a:after, .main-navigation > ul > li.dropdown > a:after{\n        color: currentColor;\n    }\n    .elementor-page-4136 .site-header .elementor-top-section:not(.is-stuck) .octf-btn{\n        color: #343f52;\n        background-color: #fff;\n    }\n    \n</style>",
+                "hide_desktop": "hidden-desktop",
+                "hide_laptop": "hidden-laptop",
+                "hide_tablet_extra": "hidden-tablet_extra",
+                "hide_tablet": "hidden-tablet",
+                "hide_mobile_extra": "hidden-mobile_extra",
+                "hide_mobile": "hidden-mobile"
+              },
+              "elements": [],
+              "widgetType": "html"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "7c4cc74",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "0",
+          "bottom": "100",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_mobile_extra": {
+          "unit": "px",
+          "top": "90",
+          "right": "0",
+          "bottom": "60",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "45e9edc",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "dba33bc",
+              "elType": "section",
+              "settings": {
+                "structure": "20",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "110",
+                  "bottom": "0",
+                  "left": "110",
+                  "isLinked": false
+                },
+                "content_position": "middle",
+                "margin_mobile_extra": {
+                  "unit": "px",
+                  "top": "",
+                  "right": 0,
+                  "bottom": "",
+                  "left": 0,
+                  "isLinked": true
+                },
+                "padding_laptop": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "95",
+                  "bottom": "0",
+                  "left": "95",
+                  "isLinked": false
+                },
+                "padding_tablet_extra": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "80",
+                  "bottom": "0",
+                  "left": "74",
+                  "isLinked": false
+                },
+                "padding_tablet": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "9ec2b20",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": 75.1,
+                    "_inline_size_mobile_extra": 100
+                  },
+                  "elements": [
+                    {
+                      "id": "cdc64f1",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "About the Project",
+                        "header_size": "h6",
+                        "title_color": "#343F52",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "20",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "_css_classes": "display-6"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "71f1fa4",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis. Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum.</p><p>Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>",
+                        "typography_font_family": "Manrope",
+                        "typography_font_weight": "500"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "87bb4a7",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": 24.9,
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "64.172",
+                      "isLinked": false
+                    },
+                    "_inline_size_mobile_extra": 100,
+                    "margin_laptop": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "56.172",
+                      "isLinked": false
+                    },
+                    "margin_tablet_extra": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "32",
+                      "isLinked": false
+                    },
+                    "margin_mobile_extra": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "e540202",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<ul class=\"unstyle mb-0\"><li><h5 class=\"mb-1\">Date</h5><p>17 May 2018</p></li><li><h5 class=\"mb-1\">Client Name</h5><p>Cool House</p></li></ul>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "0d05e76",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "30",
+          "bottom": "180",
+          "left": "30",
+          "isLinked": false
+        },
+        "padding_mobile_extra": {
+          "unit": "px",
+          "top": "0",
+          "right": "15",
+          "bottom": "140",
+          "left": "15",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "46cb34a",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "ff6c359",
+              "elType": "widget",
+              "settings": {
+                "images_slider": [
+                  {
+                    "title": "Image 1",
+                    "image_item": {
+                      "url": "https://ot-sandbox.s3.amazonaws.com/images/pp10.jpg",
+                      "id": 4878,
+                      "alt": "",
+                      "source": "library"
+                    },
+                    "_id": "7be0a7b"
+                  },
+                  {
+                    "title": "Image 2",
+                    "image_item": {
+                      "url": "https://ot-sandbox.s3.amazonaws.com/images/pp11.jpg",
+                      "id": 4879,
+                      "alt": "",
+                      "source": "library"
+                    },
+                    "_id": "2703954"
+                  },
+                  {
+                    "title": "Image 3",
+                    "image_item": {
+                      "url": "https://ot-sandbox.s3.amazonaws.com/images/pp12.jpg",
+                      "id": 4880,
+                      "alt": "",
+                      "source": "library"
+                    },
+                    "_id": "787e664"
+                  },
+                  {
+                    "title": "Image 4",
+                    "image_item": {
+                      "url": "https://ot-sandbox.s3.amazonaws.com/images/pp13.jpg",
+                      "id": 4881,
+                      "alt": "",
+                      "source": "library"
+                    },
+                    "_id": "26824e8"
+                  },
+                  {
+                    "title": "Image 5",
+                    "image_item": {
+                      "url": "https://ot-sandbox.s3.amazonaws.com/images/pp14.jpg",
+                      "id": 4882,
+                      "alt": "",
+                      "source": "library"
+                    },
+                    "_id": "57340d7"
+                  },
+                  {
+                    "title": "Image 6",
+                    "image_item": {
+                      "url": "https://ot-sandbox.s3.amazonaws.com/images/pp15.jpg",
+                      "id": 4883,
+                      "alt": "",
+                      "source": "library"
+                    },
+                    "_id": "a2d5f49"
+                  },
+                  {
+                    "title": "Image 7",
+                    "image_item": {
+                      "url": "https://ot-sandbox.s3.amazonaws.com/images/pp16.jpg",
+                      "id": 4884,
+                      "alt": "",
+                      "source": "library"
+                    },
+                    "_id": "8e467e0"
+                  }
+                ],
+                "tshow_laptop": "2",
+                "tshow_mobile_extra": "1",
+                "loop": "",
+                "timeout": {
+                  "unit": "px",
+                  "size": 5000,
+                  "sizes": []
+                },
+                "navigation": "both",
+                "dots_spacing": {
+                  "unit": "px",
+                  "size": -58,
+                  "sizes": []
+                },
+                "dots_bgcolor": "#AAB0BC",
+                "arrow_spacing": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                },
+                "arrow_color": "#343F52",
+                "arrow_bgcolor": "#FFFFFFB3"
+              },
+              "elements": [],
+              "widgetType": "ot-images-slider"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

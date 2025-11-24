@@ -1,0 +1,294 @@
+{
+  "title": "Blog without Sidebar",
+  "slug": "blog-without-sidebar",
+  "content": "<style>/*! elementor - v3.7.4 - 31-08-2022 */<br />\n.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style>\n<h1>Business News</h1>\nWelcome to our journal. Here you can find the latest company news and business articles.\n\n<article id=\"post-1522\">\n            <a href=\"https://demo.oceanthemes.site/sandbox/amet-dolor-bibendum-parturient-cursus/\">\n<img width=\"960\" height=\"600\" src=\"https://ot-sandbox.s3.amazonaws.com/images/blog1.jpg\" alt=\"\" loading=\"lazy\" srcset=\"https://ot-sandbox.s3.amazonaws.com/images/blog1.jpg 960w, https://ot-sandbox.s3.amazonaws.com/images/blog1-300x188.jpg 300w, https://ot-sandbox.s3.amazonaws.com/images/blog1-768x480.jpg 768w\" sizes=\"(max-width: 960px) 100vw, 960px\">\n<h5>Read More</h5>\n</a><a href=\"https://demo.oceanthemes.site/sandbox/amet-dolor-bibendum-parturient-cursus/\">            </a>\n<ahref=\"https: demo.oceanthemes.site=\"\" sandbox=\"\" category=\"\" teamwork=\"\" \"=\"\" rel=\"category tag\">Teamwork</ahref=\"https:>\n<h2><a href=\"https://demo.oceanthemes.site/sandbox/amet-dolor-bibendum-parturient-cursus/\" rel=\"bookmark\">Amet Dolor Bibendum Parturient Cursus</a></h2>\n<!-- .entry-header -->\n\nDuis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. Cras mattis consectetur purus.\n\n<!-- .entry-content -->\n<ul class=\"post-meta dflex\">\n \t<li><a href=\"https://demo.oceanthemes.site/sandbox/amet-dolor-bibendum-parturient-cursus/\" rel=\"bookmark\"><time datetime=\"2022-08-17T07:10:48+00:00\">17 Aug  2022</time></a></li>\n \t<li><a href=\"https://demo.oceanthemes.site/sandbox/author/admin/\">Sandbox</a></li>\n \t<li>3 Comments</li>\n</ul>\n<!-- .entry-meta -->\n</article><!-- #post-1522 -->\n\n<article id=\"post-1515\">\n\t\t\t\t\t\t\t\t<img src=\"https://ot-sandbox.s3.amazonaws.com/images/blog2.jpg\" alt=\"\" width=\"960\" height=\"600\">\n<img src=\"https://ot-sandbox.s3.amazonaws.com/images/blog3.jpg\" alt=\"\" width=\"960\" height=\"600\">\n<ahref=\"https: demo.oceanthemes.site=\"\" sandbox=\"\" category=\"\" ideas=\"\" \"=\"\" rel=\"category tag\">Ideas\n<h2><a href=\"https://demo.oceanthemes.site/sandbox/fringilla-ligula-pharetra-amet-fusce/\" rel=\"bookmark\">Fringilla Ligula Pharetra Amet Fusce</a></h2>\n<!-- .entry-header -->\n\nDuis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. Cras mattis consectetur purus.\n\n<!-- .entry-content -->\n<ul class=\"post-meta dflex\">\n \t<li><a href=\"https://demo.oceanthemes.site/sandbox/fringilla-ligula-pharetra-amet-fusce/\" rel=\"bookmark\"><time datetime=\"2022-08-15T07:07:12+00:00\">15 Aug  2022</time></a></li>\n \t<li><a href=\"https://demo.oceanthemes.site/sandbox/author/admin/\">Sandbox</a></li>\n \t<li>0 Comments</li>\n</ul>\n<!-- .entry-meta -->\n</ahref=\"https:></article><!-- #post-1515 -->\n\n<article id=\"post-1503\">\n            \t<ahref=\"https: demo.oceanthemes.site=\"\" sandbox=\"\" category=\"\" workspace=\"\" \"=\"\" rel=\"category tag\">Workspace\n<h2><a href=\"https://demo.oceanthemes.site/sandbox/consectetur-bibendum-sollicitudin-vulputate/\" rel=\"bookmark\">Consectetur Bibendum Sollicitudin Vulputate</a></h2>\n<!-- .entry-header -->\n\nDuis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. Cras mattis consectetur purus.\n\n<!-- .entry-content -->\n<ul class=\"post-meta dflex\">\n \t<li><a href=\"https://demo.oceanthemes.site/sandbox/consectetur-bibendum-sollicitudin-vulputate/\" rel=\"bookmark\"><time datetime=\"2022-08-10T06:48:03+00:00\">10 Aug  2022</time></a></li>\n \t<li><a href=\"https://demo.oceanthemes.site/sandbox/author/admin/\">Sandbox</a></li>\n \t<li>4 Comments</li>\n</ul>\n<!-- .entry-meta -->\n</ahref=\"https:></article><!-- #post-1503 -->\n<ul>\n \t<li>1</li>\n \t<li><a href=\"https://demo.oceanthemes.site/sandbox/wp-admin/admin-ajax.php?paged=2\">2</a></li>\n \t<li><a href=\"https://demo.oceanthemes.site/sandbox/wp-admin/admin-ajax.php?paged=2\"></a></li>\n</ul>",
+  "excerpt": "",
+  "status": "publish",
+  "date": "2022-10-14 10:19:43",
+  "metadata": {
+    "page_layout": "full-content",
+    "is_trans": "default",
+    "_elementor_edit_mode": "builder",
+    "_elementor_template_type": "wp-page",
+    "_elementor_version": "3.7.4",
+    "_wp_page_template": "default",
+    "_elementor_data": "[{\"id\":\"54e267e\",\"elType\":\"section\",\"settings\":{\"background_background\":\"classic\",\"background_color\":\"#F1F5FD\",\"padding\":{\"unit\":\"px\",\"top\":\"185\",\"right\":\"0\",\"bottom\":\"200\",\"left\":\"0\",\"isLinked\":false},\"padding_tablet_extra\":{\"unit\":\"px\",\"top\":\"140\",\"right\":\"0\",\"bottom\":\"200\",\"left\":\"0\",\"isLinked\":false},\"padding_mobile\":{\"unit\":\"px\",\"top\":\"120\",\"right\":\"0\",\"bottom\":\"180\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"3cc2282\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null},\"elements\":[{\"id\":\"986bb63\",\"elType\":\"widget\",\"settings\":{\"title\":\"Business News\",\"header_size\":\"h1\",\"align\":\"center\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"15\",\"left\":\"0\",\"isLinked\":false},\"_css_classes\":\"display-1\"},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"285692d\",\"elType\":\"widget\",\"settings\":{\"editor\":\"Welcome to our journal. Here you can find the latest company news and business articles.\",\"align\":\"center\",\"typography_typography\":\"custom\",\"typography_font_size\":{\"unit\":\"px\",\"size\":18,\"sizes\":[]},\"typography_font_weight\":\"500\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"20\",\"left\":\"0\",\"isLinked\":false},\"_padding\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"30\",\"bottom\":\"0\",\"left\":\"30\",\"isLinked\":false},\"_padding_laptop\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"_padding_tablet_extra\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"20\",\"bottom\":\"0\",\"left\":\"20\",\"isLinked\":false},\"_padding_tablet\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"15\",\"bottom\":\"0\",\"left\":\"15\",\"isLinked\":false},\"_padding_mobile_extra\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"_padding_mobile\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true}},\"elements\":[],\"widgetType\":\"text-editor\"}],\"isInner\":false}],\"isInner\":false},{\"id\":\"0495191\",\"elType\":\"section\",\"settings\":{\"margin\":{\"unit\":\"px\",\"top\":\"-140\",\"right\":0,\"bottom\":\"0\",\"left\":0,\"isLinked\":false},\"padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"120\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"88e4d46\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null,\"margin\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"margin_laptop\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"margin_tablet_extra\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"margin_tablet\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"margin_mobile_extra\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"margin_mobile\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"padding\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"8.3333\",\"bottom\":\"0\",\"left\":\"8.3333\",\"isLinked\":false},\"padding_laptop\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"padding_tablet_extra\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"padding_tablet\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"15\",\"bottom\":\"0\",\"left\":\"15\",\"isLinked\":false}},\"elements\":[{\"id\":\"58aa6c7\",\"elType\":\"widget\",\"settings\":{\"post_cat\":[\"ideas\",\"museum\",\"teamwork\",\"vacation\",\"workspace\"],\"column\":\"pf_1_cols\",\"show_pagination\":\"yes\"},\"elements\":[],\"widgetType\":\"ot-post-grid\"}],\"isInner\":false}],\"isInner\":false}]",
+    "select_header": 1383,
+    "_wxr_import_user_slug": "admin"
+  },
+  "categories": [],
+  "elementorData": [
+    {
+      "id": "54e267e",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F1F5FD",
+        "padding": {
+          "unit": "px",
+          "top": "185",
+          "right": "0",
+          "bottom": "200",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_tablet_extra": {
+          "unit": "px",
+          "top": "140",
+          "right": "0",
+          "bottom": "200",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "120",
+          "right": "0",
+          "bottom": "180",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "3cc2282",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "986bb63",
+              "elType": "widget",
+              "settings": {
+                "title": "Business News",
+                "header_size": "h1",
+                "align": "center",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "15",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "_css_classes": "display-1"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "285692d",
+              "elType": "widget",
+              "settings": {
+                "editor": "Welcome to our journal. Here you can find the latest company news and business articles.",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_font_weight": "500",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "_padding": {
+                  "unit": "%",
+                  "top": "0",
+                  "right": "30",
+                  "bottom": "0",
+                  "left": "30",
+                  "isLinked": false
+                },
+                "_padding_laptop": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": true
+                },
+                "_padding_tablet_extra": {
+                  "unit": "%",
+                  "top": "0",
+                  "right": "20",
+                  "bottom": "0",
+                  "left": "20",
+                  "isLinked": false
+                },
+                "_padding_tablet": {
+                  "unit": "%",
+                  "top": "0",
+                  "right": "15",
+                  "bottom": "0",
+                  "left": "15",
+                  "isLinked": false
+                },
+                "_padding_mobile_extra": {
+                  "unit": "%",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "_padding_mobile": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "0495191",
+      "elType": "section",
+      "settings": {
+        "margin": {
+          "unit": "px",
+          "top": "-140",
+          "right": 0,
+          "bottom": "0",
+          "left": 0,
+          "isLinked": false
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "120",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "88e4d46",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "margin": {
+              "unit": "%",
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": "",
+              "isLinked": true
+            },
+            "margin_laptop": {
+              "unit": "%",
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": "",
+              "isLinked": true
+            },
+            "margin_tablet_extra": {
+              "unit": "%",
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": "",
+              "isLinked": true
+            },
+            "margin_tablet": {
+              "unit": "%",
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": "",
+              "isLinked": true
+            },
+            "margin_mobile_extra": {
+              "unit": "%",
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": "",
+              "isLinked": true
+            },
+            "margin_mobile": {
+              "unit": "%",
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": "",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "%",
+              "top": "0",
+              "right": "8.3333",
+              "bottom": "0",
+              "left": "8.3333",
+              "isLinked": false
+            },
+            "padding_laptop": {
+              "unit": "%",
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": "",
+              "isLinked": true
+            },
+            "padding_tablet_extra": {
+              "unit": "%",
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": "",
+              "isLinked": true
+            },
+            "padding_tablet": {
+              "unit": "px",
+              "top": "0",
+              "right": "15",
+              "bottom": "0",
+              "left": "15",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "58aa6c7",
+              "elType": "widget",
+              "settings": {
+                "post_cat": [
+                  "ideas",
+                  "museum",
+                  "teamwork",
+                  "vacation",
+                  "workspace"
+                ],
+                "column": "pf_1_cols",
+                "show_pagination": "yes"
+              },
+              "elements": [],
+              "widgetType": "ot-post-grid"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

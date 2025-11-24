@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Il Miglior Preventivo
 
-## Getting Started
+Sito web professionale per il confronto di preventivi su servizi energetici, telecomunicazioni e pratiche burocratiche.
 
-First, run the development server:
+## Caratteristiche
 
-```bash
+- **Next.js 16** con App Router e Static Site Generation (SSG)
+- **React 19** con TypeScript per type-safety completa
+- **Tailwind CSS 4** per uno styling moderno e responsive
+- **React Icons** per icone vettoriali scalabili
+- **SEO Ottimizzato** con Schema.org JSON-LD, sitemap dinamico e metadata completi
+- **Performance Eccellente** con 43 pagine generate staticamente
+- **PWA Ready** con manifest.json configurato
+- **Mobile First** con design completamente responsive
+
+## Servizi Offerti
+
+- Luce & Gas
+- Fibra & Telefonia
+- Fotovoltaico
+- Pratiche GSE
+- Pratiche ENEA
+- Comunità Energetiche
+- Servizi Condominiali
+- Marketing Aziendale
+
+## Tecnologie
+
+- **Framework**: Next.js 16.0.3 (Turbopack)
+- **UI Library**: React 19.2.0
+- **Styling**: Tailwind CSS 4
+- **Icons**: React Icons 5.5.0
+- **Language**: TypeScript 5
+- **Deploy**: Static Export (SSG)
+
+## Installazione
+
+1. Clona la repository:
+\`\`\`bash
+git clone https://github.com/[username]/ilmigliorpreventivo.git
+cd ilmigliorpreventivo
+\`\`\`
+
+2. Installa le dipendenze:
+\`\`\`bash
+npm install
+\`\`\`
+
+3. Avvia il server di sviluppo:
+\`\`\`bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Apri [http://localhost:3000](http://localhost:3000) nel browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Script Disponibili
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- \`npm run dev\` - Avvia il server di sviluppo con hot reload
+- \`npm run build\` - Crea la build di produzione ottimizzata
+- \`npm start\` - Avvia il server di produzione (dopo build)
+- \`npm run lint\` - Esegue il linting del codice
 
-## Learn More
+## Build e Deploy
 
-To learn more about Next.js, take a look at the following resources:
+### Build Locale
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+\`\`\`bash
+npm run build
+\`\`\`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Genera 43 pagine statiche nella cartella \`/out\` pronte per il deploy.
 
-## Deploy on Vercel
+### Deploy su Vercel (Raccomandato)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Push del codice su GitHub
+2. Importa il progetto su [Vercel](https://vercel.com)
+3. Deploy automatico con ogni push
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Deploy su Netlify
+
+1. Build command: \`npm run build\`
+2. Publish directory: \`out\`
+
+## SEO
+
+Il sito è ottimizzato al 90% per SEO con:
+
+- ✅ Schema.org structured data (7 tipi diversi)
+- ✅ Metadata completi per ogni pagina
+- ✅ Sitemap.xml con priorità dinamiche
+- ✅ robots.txt configurato
+- ✅ PWA manifest
+- ✅ Performance ottimizzate
+- ✅ Semantic HTML
+- ✅ Open Graph e Twitter Cards
+
+Vedi [SEO-CHECKLIST.md](./SEO-CHECKLIST.md) per i dettagli completi.
+
+## Performance
+
+- **Static Site Generation**: 43 pagine pre-renderizzate
+- **Code Splitting**: Bundle ottimizzati per route
+- **Compression**: Gzip abilitato
+- **Font Optimization**: Display swap per caricamento rapido
+
+## Licenza
+
+Tutti i diritti riservati - Il Miglior Preventivo
+
+---
+
+Sviluppato con Next.js 16 e Tailwind CSS 4

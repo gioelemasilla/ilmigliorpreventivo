@@ -1,0 +1,685 @@
+{
+  "title": "Contact 3",
+  "slug": "contact-3",
+  "content": "<style>/*! elementor - v3.7.8 - 02-10-2022 */\n.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2>Get in Touch\n</h2>\t\t\n\t\t<p>Have any questions? Reach out to us from our contact form and we will get back to you shortly.</p>\t\t\n\t\t\t<style>/*! elementor - v3.7.8 - 02-10-2022 */\n.elementor-column .elementor-spacer-inner{height:var(--spacer-size)}.e-container{--container-widget-width:100%}.e-container>.elementor-widget-spacer{width:var(--container-widget-width,var(--spacer-size));-ms-flex-item-align:stretch;align-self:stretch;-ms-flex-negative:0;flex-shrink:0}.e-container>.elementor-widget-spacer>.elementor-widget-container,.e-container>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer{height:100%}.e-container>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner{height:var(--container-widget-height,var(--spacer-size))}</style>\t\t\n\t\t\t<h2>Let’s Talk</h2>\t\t\n\t\t<p>Let's make something great together. We are trusted by over 5000+ clients. Join them by using our services and grow your business.</p><p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>\t\t\n\t\t\t<a href=\"#\">\n\t\t\t\tJoin Us\t\t\t\t\t\t\t</a>\n\t\t[contact-form-7 id=\"3148\" title=\"Contact Form 3\"]\t\t\n\t        \t<h4>Address</h4>\t\t\t\tMoonshine St. 14/05 Light City,\nLondon, United Kingdom\t\t\t\t\t\t\t\t\n\t        \t<h4>Phone</h4>\t\t\t\t00 (123) 456 78 90<br>\n00 (987) 654 32 10\t\t\t\t\t\t\t\t\n\t        \t<h4>E-mail</h4>\t\t\t\t<a href=\"#\">sandbox@email.com</a><br>\n<a href=\"#\">help@sandbox.com</a>\t\t\t\t\t\t\t\t\n\t\t\t<style>/*! elementor - v3.7.8 - 02-10-2022 */\n.elementor-widget-google_maps .elementor-widget-container{overflow:hidden}.elementor-widget-google_maps iframe{height:300px}</style>\t\t\n\t\t\t<iframe frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\"\n\t\t\t\t\tsrc=\"https://maps.google.com/maps?q=Cupertino%20California%20USA&#038;t=m&#038;z=12&#038;output=embed&#038;iwloc=near\"\n\t\t\t\t\ttitle=\"Cupertino California USA\"\n\t\t\t\t\taria-label=\"Cupertino California USA\"\n\t\t\t></iframe>",
+  "excerpt": "",
+  "status": "publish",
+  "date": "2022-09-06 07:18:34",
+  "metadata": {
+    "page_layout": "full-content",
+    "select_header": 3767,
+    "is_trans": "default",
+    "select_header_mobile": 1772,
+    "_elementor_edit_mode": "builder",
+    "_elementor_template_type": "wp-page",
+    "_elementor_version": "3.7.8",
+    "_wp_page_template": "default",
+    "_elementor_data": "[{\"id\":\"685000f\",\"elType\":\"section\",\"settings\":{\"background_background\":\"classic\",\"background_color\":\"#262B32\",\"padding\":{\"unit\":\"px\",\"top\":\"180\",\"right\":\"0\",\"bottom\":\"280\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"5950128\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null},\"elements\":[{\"id\":\"c0442b7\",\"elType\":\"widget\",\"settings\":{\"title\":\"Get in Touch\\n\",\"align\":\"center\",\"title_color\":\"#FFFFFF\",\"typography_typography\":\"custom\",\"typography_font_family\":\"Manrope\",\"typography_font_size\":{\"unit\":\"px\",\"size\":48,\"sizes\":[]},\"typography_font_weight\":\"700\",\"typography_line_height\":{\"unit\":\"px\",\"size\":57,\"sizes\":[]},\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"15\",\"left\":\"0\",\"isLinked\":false},\"typography_font_size_mobile_extra\":{\"unit\":\"px\",\"size\":38,\"sizes\":[]}},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"b3954a3\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Have any questions? Reach out to us from our contact form and we will get back to you shortly.<\\/p>\",\"align\":\"center\",\"text_color\":\"#FFFFFF\",\"typography_typography\":\"custom\",\"typography_font_family\":\"Manrope\",\"typography_font_size\":{\"unit\":\"px\",\"size\":18,\"sizes\":[]},\"typography_font_weight\":\"500\",\"_padding\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"30\",\"bottom\":\"0\",\"left\":\"30\",\"isLinked\":false},\"_padding_laptop\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"_padding_tablet_extra\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"22\",\"bottom\":\"0\",\"left\":\"22\",\"isLinked\":false},\"_padding_tablet\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"10\",\"bottom\":\"0\",\"left\":\"10\",\"isLinked\":false},\"_padding_mobile_extra\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"_padding_mobile\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true}},\"elements\":[],\"widgetType\":\"text-editor\"}],\"isInner\":false}],\"isInner\":false},{\"id\":\"d03a5f2\",\"elType\":\"section\",\"settings\":{\"background_background\":\"classic\",\"shape_divider_top_width\":{\"unit\":\"%\",\"size\":100,\"sizes\":[]},\"shape_divider_top_height\":{\"unit\":\"px\",\"size\":0,\"sizes\":[]}},\"elements\":[{\"id\":\"56dc15c\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null,\"_inline_size_tablet\":100},\"elements\":[{\"id\":\"7207508\",\"elType\":\"section\",\"settings\":{\"gap\":\"no\",\"content_position\":\"middle\",\"overflow\":\"hidden\",\"structure\":\"20\",\"border_radius\":{\"unit\":\"px\",\"top\":\"8\",\"right\":\"8\",\"bottom\":\"8\",\"left\":\"8\",\"isLinked\":true},\"box_shadow_box_shadow_type\":\"yes\",\"box_shadow_box_shadow\":{\"horizontal\":0,\"vertical\":0,\"blur\":24,\"spread\":0,\"color\":\"rgba(8.000000000000014, 60.000000000000114, 130, 0.06)\"},\"margin\":{\"unit\":\"px\",\"top\":\"-180\",\"right\":0,\"bottom\":\"0\",\"left\":0,\"isLinked\":false}},\"elements\":[{\"id\":\"73ccfca\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":null,\"_inline_size_tablet\":100,\"background_background\":\"classic\",\"background_image\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/contact3_img.jpg\",\"id\":2981,\"alt\":\"\",\"source\":\"library\"},\"background_position\":\"center center\",\"background_repeat\":\"no-repeat\",\"background_size\":\"cover\",\"hide_mobile_extra\":\"hidden-mobile_extra\",\"hide_mobile\":\"hidden-mobile\"},\"elements\":[{\"id\":\"0feb0c0\",\"elType\":\"widget\",\"settings\":{\"space\":{\"unit\":\"px\",\"size\":0,\"sizes\":[]},\"space_tablet\":{\"unit\":\"px\",\"size\":500,\"sizes\":[]}},\"elements\":[],\"widgetType\":\"spacer\"}],\"isInner\":true},{\"id\":\"a8d37fe\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":null,\"_inline_size_tablet\":100,\"background_background\":\"classic\",\"background_color\":\"#FFFFFF\",\"box_shadow_box_shadow\":{\"horizontal\":0,\"vertical\":0,\"blur\":24,\"spread\":0,\"color\":\"#083C82\"},\"padding\":{\"unit\":\"px\",\"top\":\"80\",\"right\":\"80\",\"bottom\":\"80\",\"left\":\"80\",\"isLinked\":true},\"padding_tablet_extra\":{\"unit\":\"px\",\"top\":\"60\",\"right\":\"60\",\"bottom\":\"60\",\"left\":\"60\",\"isLinked\":true},\"padding_mobile\":{\"unit\":\"px\",\"top\":\"40\",\"right\":\"40\",\"bottom\":\"40\",\"left\":\"40\",\"isLinked\":true}},\"elements\":[{\"id\":\"c14843f\",\"elType\":\"widget\",\"settings\":{\"title\":\"Let\\u2019s Talk\",\"typography_typography\":\"custom\",\"typography_font_family\":\"Manrope\",\"typography_font_size\":{\"unit\":\"px\",\"size\":36,\"sizes\":[]},\"typography_font_weight\":\"700\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"15\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"330804a\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Let's make something great together. We are trusted by over 5000+ clients. Join them by using our services and grow your business.<\\/p>\",\"typography_typography\":\"custom\",\"typography_font_family\":\"Manrope\",\"typography_font_size\":{\"unit\":\"px\",\"size\":21,\"sizes\":[]},\"typography_font_weight\":\"500\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"20\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"d23d099\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.<\\/p>\",\"typography_font_family\":\"Manrope\",\"typography_font_weight\":\"500\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"30\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"2c79a79\",\"elType\":\"widget\",\"settings\":{\"text\":\"Join Us\"},\"elements\":[],\"widgetType\":\"ot-btn\"}],\"isInner\":true}],\"isInner\":true}],\"isInner\":false}],\"isInner\":false},{\"id\":\"61512e4\",\"elType\":\"section\",\"settings\":{\"gap\":\"no\",\"structure\":\"30\",\"padding\":{\"unit\":\"px\",\"top\":\"120\",\"right\":\"0\",\"bottom\":\"120\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"7a37a6f\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":8,\"_inline_size_tablet\":100},\"elements\":[],\"isInner\":false},{\"id\":\"781b25f\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":83.664,\"_inline_size_tablet\":100},\"elements\":[{\"id\":\"a6d0052\",\"elType\":\"section\",\"settings\":{\"structure\":\"20\"},\"elements\":[{\"id\":\"4e2b805\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":66.6666,\"_inline_size_tablet\":100,\"margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"20\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"margin_tablet_extra\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"margin_tablet\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"40\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"fa2a20a\",\"elType\":\"widget\",\"settings\":{\"shortcode\":\"[contact-form-7 id=\\\"3148\\\" title=\\\"Contact Form 3\\\"]\"},\"elements\":[],\"widgetType\":\"shortcode\"}],\"isInner\":true},{\"id\":\"17eb728\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":33.24,\"_inline_size_tablet\":100,\"margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"20\",\"isLinked\":false},\"margin_tablet_extra\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"margin_tablet\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"7ced14f\",\"elType\":\"widget\",\"settings\":{\"icon_font\":{\"value\":\" uil-location-pin-alt\",\"library\":\"ot_cife-unicons\"},\"title\":\"Address\",\"content\":\"Moonshine St. 14\\/05 Light City,\\nLondon, United Kingdom\",\"btn_text\":\"Learn More\",\"position\":\"left\",\"icon_size\":{\"unit\":\"px\",\"size\":28,\"sizes\":[]},\"title_space_top\":{\"unit\":\"px\",\"size\":-3,\"sizes\":[]},\"title_space\":{\"unit\":\"px\",\"size\":5,\"sizes\":[]},\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"23\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"ot-iconbox\"},{\"id\":\"12825d7\",\"elType\":\"widget\",\"settings\":{\"icon_font\":{\"value\":\" uil-phone-volume\",\"library\":\"ot_cife-unicons\"},\"title\":\"Phone\",\"content\":\"00 (123) 456 78 90<br>\\n00 (987) 654 32 10\",\"btn_text\":\"Learn More\",\"position\":\"left\",\"icon_size\":{\"unit\":\"px\",\"size\":28,\"sizes\":[]},\"title_space_top\":{\"unit\":\"px\",\"size\":-3,\"sizes\":[]},\"title_space\":{\"unit\":\"px\",\"size\":5,\"sizes\":[]},\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"23\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"ot-iconbox\"},{\"id\":\"a7499e3\",\"elType\":\"widget\",\"settings\":{\"icon_font\":{\"value\":\" uil-envelope\",\"library\":\"ot_cife-unicons\"},\"title\":\"E-mail\",\"content\":\"<a href=\\\"#\\\" class=\\\"link-body\\\">sandbox@email.com<\\/a><br>\\n<a href=\\\"#\\\" class=\\\"link-body\\\">help@sandbox.com<\\/a>\",\"btn_text\":\"Learn More\",\"position\":\"left\",\"icon_size\":{\"unit\":\"px\",\"size\":28,\"sizes\":[]},\"title_space_top\":{\"unit\":\"px\",\"size\":-3,\"sizes\":[]},\"title_space\":{\"unit\":\"px\",\"size\":5,\"sizes\":[]}},\"elements\":[],\"widgetType\":\"ot-iconbox\"}],\"isInner\":true}],\"isInner\":true}],\"isInner\":false},{\"id\":\"3024c2d\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":8,\"_inline_size_tablet\":100},\"elements\":[],\"isInner\":false}],\"isInner\":false},{\"id\":\"518cff6\",\"elType\":\"section\",\"settings\":{\"layout\":\"full_width\",\"gap\":\"no\"},\"elements\":[{\"id\":\"6845034\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null},\"elements\":[{\"id\":\"4bd928f\",\"elType\":\"widget\",\"settings\":{\"address\":\"Cupertino California USA\",\"zoom\":{\"unit\":\"px\",\"size\":12,\"sizes\":[]},\"height\":{\"unit\":\"px\",\"size\":500,\"sizes\":[]}},\"elements\":[],\"widgetType\":\"google_maps\"}],\"isInner\":false}],\"isInner\":false}]",
+    "_wxr_import_user_slug": "admin"
+  },
+  "categories": [],
+  "elementorData": [
+    {
+      "id": "685000f",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#262B32",
+        "padding": {
+          "unit": "px",
+          "top": "180",
+          "right": "0",
+          "bottom": "280",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "5950128",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "c0442b7",
+              "elType": "widget",
+              "settings": {
+                "title": "Get in Touch\n",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Manrope",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "px",
+                  "size": 57,
+                  "sizes": []
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "15",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "typography_font_size_mobile_extra": {
+                  "unit": "px",
+                  "size": 38,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "b3954a3",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Have any questions? Reach out to us from our contact form and we will get back to you shortly.</p>",
+                "align": "center",
+                "text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Manrope",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_font_weight": "500",
+                "_padding": {
+                  "unit": "%",
+                  "top": "0",
+                  "right": "30",
+                  "bottom": "0",
+                  "left": "30",
+                  "isLinked": false
+                },
+                "_padding_laptop": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": true
+                },
+                "_padding_tablet_extra": {
+                  "unit": "%",
+                  "top": "0",
+                  "right": "22",
+                  "bottom": "0",
+                  "left": "22",
+                  "isLinked": false
+                },
+                "_padding_tablet": {
+                  "unit": "%",
+                  "top": "0",
+                  "right": "10",
+                  "bottom": "0",
+                  "left": "10",
+                  "isLinked": false
+                },
+                "_padding_mobile_extra": {
+                  "unit": "%",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "_padding_mobile": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "d03a5f2",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "shape_divider_top_width": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+        },
+        "shape_divider_top_height": {
+          "unit": "px",
+          "size": 0,
+          "sizes": []
+        }
+      },
+      "elements": [
+        {
+          "id": "56dc15c",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "_inline_size_tablet": 100
+          },
+          "elements": [
+            {
+              "id": "7207508",
+              "elType": "section",
+              "settings": {
+                "gap": "no",
+                "content_position": "middle",
+                "overflow": "hidden",
+                "structure": "20",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "8",
+                  "bottom": "8",
+                  "left": "8",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 0,
+                  "blur": 24,
+                  "spread": 0,
+                  "color": "rgba(8.000000000000014, 60.000000000000114, 130, 0.06)"
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "-180",
+                  "right": 0,
+                  "bottom": "0",
+                  "left": 0,
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "73ccfca",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "_inline_size_tablet": 100,
+                    "background_background": "classic",
+                    "background_image": {
+                      "url": "https://ot-sandbox.s3.amazonaws.com/images/contact3_img.jpg",
+                      "id": 2981,
+                      "alt": "",
+                      "source": "library"
+                    },
+                    "background_position": "center center",
+                    "background_repeat": "no-repeat",
+                    "background_size": "cover",
+                    "hide_mobile_extra": "hidden-mobile_extra",
+                    "hide_mobile": "hidden-mobile"
+                  },
+                  "elements": [
+                    {
+                      "id": "0feb0c0",
+                      "elType": "widget",
+                      "settings": {
+                        "space": {
+                          "unit": "px",
+                          "size": 0,
+                          "sizes": []
+                        },
+                        "space_tablet": {
+                          "unit": "px",
+                          "size": 500,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "spacer"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "a8d37fe",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "_inline_size_tablet": 100,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 0,
+                      "blur": 24,
+                      "spread": 0,
+                      "color": "#083C82"
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "80",
+                      "right": "80",
+                      "bottom": "80",
+                      "left": "80",
+                      "isLinked": true
+                    },
+                    "padding_tablet_extra": {
+                      "unit": "px",
+                      "top": "60",
+                      "right": "60",
+                      "bottom": "60",
+                      "left": "60",
+                      "isLinked": true
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "40",
+                      "right": "40",
+                      "bottom": "40",
+                      "left": "40",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "c14843f",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Let’s Talk",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Manrope",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 36,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "15",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "330804a",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Let's make something great together. We are trusted by over 5000+ clients. Join them by using our services and grow your business.</p>",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Manrope",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 21,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "500",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "20",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "d23d099",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>",
+                        "typography_font_family": "Manrope",
+                        "typography_font_weight": "500",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "30",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "2c79a79",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Join Us"
+                      },
+                      "elements": [],
+                      "widgetType": "ot-btn"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "61512e4",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "structure": "30",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "0",
+          "bottom": "120",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "7a37a6f",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": 8,
+            "_inline_size_tablet": 100
+          },
+          "elements": [],
+          "isInner": false
+        },
+        {
+          "id": "781b25f",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": 83.664,
+            "_inline_size_tablet": 100
+          },
+          "elements": [
+            {
+              "id": "a6d0052",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "4e2b805",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": 66.6666,
+                    "_inline_size_tablet": 100,
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "20",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_tablet_extra": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_tablet": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "40",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "fa2a20a",
+                      "elType": "widget",
+                      "settings": {
+                        "shortcode": "[contact-form-7 id=\"3148\" title=\"Contact Form 3\"]"
+                      },
+                      "elements": [],
+                      "widgetType": "shortcode"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "17eb728",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": 33.24,
+                    "_inline_size_tablet": 100,
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "20",
+                      "isLinked": false
+                    },
+                    "margin_tablet_extra": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin_tablet": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "7ced14f",
+                      "elType": "widget",
+                      "settings": {
+                        "icon_font": {
+                          "value": " uil-location-pin-alt",
+                          "library": "ot_cife-unicons"
+                        },
+                        "title": "Address",
+                        "content": "Moonshine St. 14/05 Light City,\nLondon, United Kingdom",
+                        "btn_text": "Learn More",
+                        "position": "left",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 28,
+                          "sizes": []
+                        },
+                        "title_space_top": {
+                          "unit": "px",
+                          "size": -3,
+                          "sizes": []
+                        },
+                        "title_space": {
+                          "unit": "px",
+                          "size": 5,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "23",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "ot-iconbox"
+                    },
+                    {
+                      "id": "12825d7",
+                      "elType": "widget",
+                      "settings": {
+                        "icon_font": {
+                          "value": " uil-phone-volume",
+                          "library": "ot_cife-unicons"
+                        },
+                        "title": "Phone",
+                        "content": "00 (123) 456 78 90<br>\n00 (987) 654 32 10",
+                        "btn_text": "Learn More",
+                        "position": "left",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 28,
+                          "sizes": []
+                        },
+                        "title_space_top": {
+                          "unit": "px",
+                          "size": -3,
+                          "sizes": []
+                        },
+                        "title_space": {
+                          "unit": "px",
+                          "size": 5,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "23",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "ot-iconbox"
+                    },
+                    {
+                      "id": "a7499e3",
+                      "elType": "widget",
+                      "settings": {
+                        "icon_font": {
+                          "value": " uil-envelope",
+                          "library": "ot_cife-unicons"
+                        },
+                        "title": "E-mail",
+                        "content": "<a href=\"#\" class=\"link-body\">sandbox@email.com</a><br>\n<a href=\"#\" class=\"link-body\">help@sandbox.com</a>",
+                        "btn_text": "Learn More",
+                        "position": "left",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 28,
+                          "sizes": []
+                        },
+                        "title_space_top": {
+                          "unit": "px",
+                          "size": -3,
+                          "sizes": []
+                        },
+                        "title_space": {
+                          "unit": "px",
+                          "size": 5,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "ot-iconbox"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "3024c2d",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": 8,
+            "_inline_size_tablet": 100
+          },
+          "elements": [],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "518cff6",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "6845034",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "4bd928f",
+              "elType": "widget",
+              "settings": {
+                "address": "Cupertino California USA",
+                "zoom": {
+                  "unit": "px",
+                  "size": 12,
+                  "sizes": []
+                },
+                "height": {
+                  "unit": "px",
+                  "size": 500,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "google_maps"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

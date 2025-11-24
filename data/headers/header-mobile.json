@@ -1,0 +1,242 @@
+{
+  "title": "Mobile Main",
+  "slug": "header-mobile",
+  "content": "<a href=\"https://demo.oceanthemes.site/sandbox/\">\n\t\t\t\t\t<img src=\"https://ot-sandbox.s3.amazonaws.com/images/logo-dark.png\" alt=\"Sandbox\">\n\t\t\t\t\t\t\t\t\t</a>\t\t\t        \n<a href=\"#\">En</a>\n<ul>\n  <li><a href=\"#\">En</a></li>\n  <li><a href=\"#\">De</a></li>\n  <li><a href=\"#\">Es</a></li>\n</ul>\n\t\t\t<a href=\"#\">\n\t\t\t\tContact\t\t\t\t\t\t\t</a>\n\t\t\t\t\t<button></button>\n\t\t\t\t\t\t\t<h3>Sandbox</h3>\t\t\t\t\t\t\t<a href=\"#\"></a>\n\t\t\t\t\t\t\t<ul id=\"menu-mobile-menu\"><li id=\"menu-item-7097\"><a href=\"https://demo.oceanthemes.site/sandbox/\">Home 1</a></li>\n<li id=\"menu-item-7101\"><a href=\"#\">Pages</a>\n<ul>\n\t<li id=\"menu-item-7102\"><a href=\"https://demo.oceanthemes.site/sandbox/our-services/\">Services</a>\n\t<ul>\n\t\t<li id=\"menu-item-7104\"><a href=\"https://demo.oceanthemes.site/sandbox/our-services/\">Services I</a></li>\n\t\t<li id=\"menu-item-7103\"><a href=\"https://demo.oceanthemes.site/sandbox/our-services-2/\">Services II</a></li>\n\t</ul>\n</li>\n\t<li id=\"menu-item-7098\"><a href=\"https://demo.oceanthemes.site/sandbox/about/\">About</a>\n\t<ul>\n\t\t<li id=\"menu-item-7100\"><a href=\"https://demo.oceanthemes.site/sandbox/about/\">About I</a></li>\n\t\t<li id=\"menu-item-7099\"><a href=\"https://demo.oceanthemes.site/sandbox/about-2/\">About II</a></li>\n\t</ul>\n</li>\n\t<li id=\"menu-item-7105\"><a href=\"https://demo.oceanthemes.site/sandbox/contact-1/\">Contact</a>\n\t<ul>\n\t\t<li id=\"menu-item-7111\"><a href=\"https://demo.oceanthemes.site/sandbox/contact-1/\">Contact I</a></li>\n\t\t<li id=\"menu-item-7106\"><a href=\"https://demo.oceanthemes.site/sandbox/contact-2/\">Contact II</a></li>\n\t\t<li id=\"menu-item-7107\"><a href=\"https://demo.oceanthemes.site/sandbox/contact-3/\">Contact III</a></li>\n\t</ul>\n</li>\n\t<li id=\"menu-item-7112\"><a href=\"https://demo.oceanthemes.site/sandbox/job-list-i/\">Career</a>\n\t<ul>\n\t\t<li id=\"menu-item-7115\"><a href=\"https://demo.oceanthemes.site/sandbox/job-list-i/\">Job Listing I</a></li>\n\t\t<li id=\"menu-item-7113\"><a href=\"https://demo.oceanthemes.site/sandbox/job-listing-ii/\">Job Listing II</a></li>\n\t\t<li id=\"menu-item-7114\"><a href=\"https://demo.oceanthemes.site/sandbox/career-single/\">Job Description</a></li>\n\t</ul>\n</li>\n\t<li id=\"menu-item-7119\"><a href=\"#\">Utility</a>\n\t<ul>\n\t\t<li id=\"menu-item-7125\"><a href=\"https://demo.oceanthemes.site/sandbox/40error\">404 Not Found</a></li>\n\t\t<li id=\"menu-item-7120\"><a href=\"https://demo.oceanthemes.site/sandbox/sign-in/\">Sign In I</a></li>\n\t\t<li id=\"menu-item-7121\"><a href=\"https://demo.oceanthemes.site/sandbox/sign-in-2/\">Sign In II</a></li>\n\t\t<li id=\"menu-item-7122\"><a href=\"https://demo.oceanthemes.site/sandbox/sign-up/\">Sign Up I</a></li>\n\t\t<li id=\"menu-item-7123\"><a href=\"https://demo.oceanthemes.site/sandbox/sign-up-2/\">Sign Up II</a></li>\n\t\t<li id=\"menu-item-7124\"><a href=\"https://demo.oceanthemes.site/sandbox/terms-and-conditions/\">Terms</a></li>\n\t</ul>\n</li>\n\t<li id=\"menu-item-7126\"><a href=\"https://demo.oceanthemes.site/sandbox/pricing-table/\">Pricing Table</a></li>\n\t<li id=\"menu-item-7127\"><a href=\"https://demo.oceanthemes.site/sandbox/home-24/\">One Page</a></li>\n</ul>\n</li>\n<li id=\"menu-item-7128\"><a href=\"https://demo.oceanthemes.site/sandbox/projects-1/\">Projects 1</a>\n<ul>\n\t<li id=\"menu-item-7132\"><a href=\"https://demo.oceanthemes.site/sandbox/projects-1/\">Projects I</a></li>\n\t<li id=\"menu-item-7129\"><a href=\"https://demo.oceanthemes.site/sandbox/projects-2/\">Projects II</a></li>\n\t<li id=\"menu-item-7130\"><a href=\"https://demo.oceanthemes.site/sandbox/projects-3/\">Projects III</a></li>\n\t<li id=\"menu-item-7131\"><a href=\"https://demo.oceanthemes.site/sandbox/projects-4/\">Projects IV</a></li>\n\t<li id=\"menu-item-7133\"><a href=\"https://demo.oceanthemes.site/sandbox/portfolio/cras-fermentum-sem/\">Single Project I</a></li>\n\t<li id=\"menu-item-7134\"><a href=\"https://demo.oceanthemes.site/sandbox/portfolio/mollis-ipsum-mattis/\">Single Project II</a></li>\n\t<li id=\"menu-item-7135\"><a href=\"https://demo.oceanthemes.site/sandbox/portfolio/ipsum-ultricies-cursus/\">Single Project III</a></li>\n\t<li id=\"menu-item-7136\"><a href=\"https://demo.oceanthemes.site/sandbox/portfolio/inceptos-euismod-egestas/\">Single Project IV</a></li>\n</ul>\n</li>\n<li id=\"menu-item-7138\"><a href=\"https://demo.oceanthemes.site/sandbox/business-news/\">Blog</a>\n<ul>\n\t<li id=\"menu-item-7139\"><a href=\"https://demo.oceanthemes.site/sandbox/business-news/\">Blog with Sidebar</a></li>\n\t<li id=\"menu-item-7140\"><a href=\"https://demo.oceanthemes.site/sandbox/amet-dolor-bibendum-parturient-cursus/\">Blog Post</a></li>\n</ul>\n</li>\n</ul>\t\t\t\t\t\t  \n\t\t\t\t\t\t\t\t<a href=\"mailto:info@email.com\">info@email.com</a><a href=\"tel:00 (123) 456 78 90\">00 (123) 456 78 90</a>\t\t\t                  \n\t\t\t                  <nav>\n\t\t\t                  \t<a href=\"#2\">\n\t\t\t                  \t\t</a>\n\t\t\t                  \t<a href=\"#\">\n\t\t\t                  \t\t</a>\n\t\t\t                  \t<a href=\"#\">\n\t\t\t                  \t\t</a>\n\t\t\t                  \t<a href=\"#\">\n\t\t\t                  \t\t</a>\n\t\t\t                  \t<a href=\"#\">\n\t\t\t                  \t\t</a>\n\t\t\t                  \t\t\t\t                  </nav>\n\t\t\t                  <!-- /.social -->",
+  "excerpt": "",
+  "status": "publish",
+  "date": "2022-07-10 02:40:51",
+  "metadata": {
+    "_wp_page_template": "elementor_canvas",
+    "_elementor_edit_mode": "builder",
+    "_elementor_template_type": "wp-post",
+    "_elementor_version": "3.7.4",
+    "_elementor_data": "[{\"id\":\"804eb2a\",\"elType\":\"section\",\"settings\":{\"content_position\":\"middle\",\"structure\":\"20\",\"padding\":{\"unit\":\"px\",\"top\":\"20\",\"right\":\"0\",\"bottom\":\"20\",\"left\":\"0\",\"isLinked\":false},\"sticky_class\":\"is-fixed\",\"sticky_background\":\"#FFFFFF\",\"gap\":\"extended\"},\"elements\":[{\"id\":\"45917d1\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":50,\"_inline_size_mobile\":50},\"elements\":[{\"id\":\"db99e07\",\"elType\":\"widget\",\"settings\":{\"logo_image\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/logo-dark.png\",\"id\":1393,\"alt\":\"\",\"source\":\"library\"}},\"elements\":[],\"widgetType\":\"ilogo\"}],\"isInner\":false},{\"id\":\"0734518\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":50,\"_inline_size_mobile\":50,\"align\":\"flex-end\"},\"elements\":[{\"id\":\"d8ad50e\",\"elType\":\"widget\",\"settings\":{\"html\":\"<div class=\\\"lang-header\\\">\\r\\n<a class=\\\"lang-item lang-toggle\\\" href=\\\"#\\\">En<\\/a>\\r\\n<ul class=\\\"lang-menu\\\">\\r\\n  <li><a class=\\\"lang-item\\\" href=\\\"#\\\">En<\\/a><\\/li>\\r\\n  <li><a class=\\\"lang-item\\\" href=\\\"#\\\">De<\\/a><\\/li>\\r\\n  <li><a class=\\\"lang-item\\\" href=\\\"#\\\">Es<\\/a><\\/li>\\r\\n<\\/ul>\\r\\n<\\/div>\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"10\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"_element_width\":\"auto\",\"_css_classes\":\"dark\"},\"elements\":[],\"widgetType\":\"html\"},{\"id\":\"9c44181\",\"elType\":\"widget\",\"settings\":{\"text\":\"Contact\",\"btn_padding\":{\"unit\":\"px\",\"top\":\"8\",\"right\":\"20\",\"bottom\":\"8\",\"left\":\"20\",\"isLinked\":false},\"_element_width\":\"auto\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"15\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"hide_mobile\":\"hidden-mobile\"},\"elements\":[],\"widgetType\":\"ot-btn\"},{\"id\":\"f44b5ce\",\"elType\":\"widget\",\"settings\":{\"nav_menu\":\"mobile-menu\",\"_element_width\":\"auto\",\"mmenu_typography_font_family\":\"Times New Roman\",\"logo_image\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/logo-light.png\",\"id\":201,\"alt\":\"\",\"source\":\"library\"},\"logo_text\":\"Sandbox\",\"pos_menu\":\"on-left\",\"_css_classes\":\"thicccboi\",\"icon_size\":{\"unit\":\"px\",\"size\":6,\"sizes\":[]},\"info_list\":[{\"text\":\"info@email.com\",\"_id\":\"a314786\",\"link\":{\"url\":\"mailto:info@email.com\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"}},{\"text\":\"00 (123) 456 78 90\",\"_id\":\"012ad84\",\"link\":{\"url\":\"tel:00 (123) 456 78 90\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"}}],\"social_list\":[{\"_id\":\"6b45258\",\"social_icon\":{\"value\":\" uil-twitter\",\"library\":\"ot_cife-unicons\"},\"social_link\":{\"url\":\"#2\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"}},{\"_id\":\"c10a676\",\"social_icon\":{\"value\":\" uil-facebook-f\",\"library\":\"ot_cife-unicons\"},\"social_link\":{\"url\":\"#\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"}},{\"social_icon\":{\"value\":\" uil-dribbble\",\"library\":\"ot_cife-unicons\"},\"social_link\":{\"url\":\"#\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"_id\":\"9dff6a6\"},{\"social_icon\":{\"value\":\" uil-instagram\",\"library\":\"ot_cife-unicons\"},\"social_link\":{\"url\":\"#\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"_id\":\"28e2219\"},{\"social_icon\":{\"value\":\" uil-youtube\",\"library\":\"ot_cife-unicons\"},\"social_link\":{\"url\":\"#\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"_id\":\"87d7973\"}]},\"elements\":[],\"widgetType\":\"imenu_mobile\"}],\"isInner\":false}],\"isInner\":false}]",
+    "_wp_old_slug": "mobile",
+    "_wp_old_date": "2022-07-20",
+    "_wxr_import_user_slug": "admin"
+  },
+  "categories": [],
+  "elementorData": [
+    {
+      "id": "804eb2a",
+      "elType": "section",
+      "settings": {
+        "content_position": "middle",
+        "structure": "20",
+        "padding": {
+          "unit": "px",
+          "top": "20",
+          "right": "0",
+          "bottom": "20",
+          "left": "0",
+          "isLinked": false
+        },
+        "sticky_class": "is-fixed",
+        "sticky_background": "#FFFFFF",
+        "gap": "extended"
+      },
+      "elements": [
+        {
+          "id": "45917d1",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": 50,
+            "_inline_size_mobile": 50
+          },
+          "elements": [
+            {
+              "id": "db99e07",
+              "elType": "widget",
+              "settings": {
+                "logo_image": {
+                  "url": "https://ot-sandbox.s3.amazonaws.com/images/logo-dark.png",
+                  "id": 1393,
+                  "alt": "",
+                  "source": "library"
+                }
+              },
+              "elements": [],
+              "widgetType": "ilogo"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "0734518",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": 50,
+            "_inline_size_mobile": 50,
+            "align": "flex-end"
+          },
+          "elements": [
+            {
+              "id": "d8ad50e",
+              "elType": "widget",
+              "settings": {
+                "html": "<div class=\"lang-header\">\r\n<a class=\"lang-item lang-toggle\" href=\"#\">En</a>\r\n<ul class=\"lang-menu\">\r\n  <li><a class=\"lang-item\" href=\"#\">En</a></li>\r\n  <li><a class=\"lang-item\" href=\"#\">De</a></li>\r\n  <li><a class=\"lang-item\" href=\"#\">Es</a></li>\r\n</ul>\r\n</div>",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "10",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "_element_width": "auto",
+                "_css_classes": "dark"
+              },
+              "elements": [],
+              "widgetType": "html"
+            },
+            {
+              "id": "9c44181",
+              "elType": "widget",
+              "settings": {
+                "text": "Contact",
+                "btn_padding": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "20",
+                  "bottom": "8",
+                  "left": "20",
+                  "isLinked": false
+                },
+                "_element_width": "auto",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "15",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "hide_mobile": "hidden-mobile"
+              },
+              "elements": [],
+              "widgetType": "ot-btn"
+            },
+            {
+              "id": "f44b5ce",
+              "elType": "widget",
+              "settings": {
+                "nav_menu": "mobile-menu",
+                "_element_width": "auto",
+                "mmenu_typography_font_family": "Times New Roman",
+                "logo_image": {
+                  "url": "https://ot-sandbox.s3.amazonaws.com/images/logo-light.png",
+                  "id": 201,
+                  "alt": "",
+                  "source": "library"
+                },
+                "logo_text": "Sandbox",
+                "pos_menu": "on-left",
+                "_css_classes": "thicccboi",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 6,
+                  "sizes": []
+                },
+                "info_list": [
+                  {
+                    "text": "info@email.com",
+                    "_id": "a314786",
+                    "link": {
+                      "url": "mailto:info@email.com",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
+                  },
+                  {
+                    "text": "00 (123) 456 78 90",
+                    "_id": "012ad84",
+                    "link": {
+                      "url": "tel:00 (123) 456 78 90",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
+                  }
+                ],
+                "social_list": [
+                  {
+                    "_id": "6b45258",
+                    "social_icon": {
+                      "value": " uil-twitter",
+                      "library": "ot_cife-unicons"
+                    },
+                    "social_link": {
+                      "url": "#2",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
+                  },
+                  {
+                    "_id": "c10a676",
+                    "social_icon": {
+                      "value": " uil-facebook-f",
+                      "library": "ot_cife-unicons"
+                    },
+                    "social_link": {
+                      "url": "#",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
+                  },
+                  {
+                    "social_icon": {
+                      "value": " uil-dribbble",
+                      "library": "ot_cife-unicons"
+                    },
+                    "social_link": {
+                      "url": "#",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "_id": "9dff6a6"
+                  },
+                  {
+                    "social_icon": {
+                      "value": " uil-instagram",
+                      "library": "ot_cife-unicons"
+                    },
+                    "social_link": {
+                      "url": "#",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "_id": "28e2219"
+                  },
+                  {
+                    "social_icon": {
+                      "value": " uil-youtube",
+                      "library": "ot_cife-unicons"
+                    },
+                    "social_link": {
+                      "url": "#",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "_id": "87d7973"
+                  }
+                ]
+              },
+              "elements": [],
+              "widgetType": "imenu_mobile"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

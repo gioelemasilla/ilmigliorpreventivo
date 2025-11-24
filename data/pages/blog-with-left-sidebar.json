@@ -1,0 +1,874 @@
+{
+  "title": "Blog with Left Sidebar",
+  "slug": "blog-with-left-sidebar",
+  "content": "<style>/*! elementor - v3.7.4 - 31-08-2022 */<br />\n.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style>\n<h1>Business News</h1>\nWelcome to our journal. Here you can find the latest company news and business articles.\n<h4>About Us</h4>\nFusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.\n\n<style>/*! elementor - v3.7.4 - 31-08-2022 */<br />\n.elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,.elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,.elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container{line-height:1;font-size:0}.elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid{display:inline-grid}.elementor-widget-social-icons .elementor-grid{grid-column-gap:var(--grid-column-gap,5px);grid-row-gap:var(--grid-row-gap,5px);grid-template-columns:var(--grid-template-columns);-webkit-box-pack:var(--justify-content,center);-ms-flex-pack:var(--justify-content,center);justify-content:var(--justify-content,center);justify-items:var(--justify-content,center)}.elementor-icon.elementor-social-icon{font-size:var(--icon-size,25px);line-height:var(--icon-size,25px);width:calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)));height:calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)))}.elementor-social-icon{--e-social-icon-icon-color:#fff;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;background-color:#818a91;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center;cursor:pointer}.elementor-social-icon i{color:var(--e-social-icon-icon-color)}.elementor-social-icon svg{fill:var(--e-social-icon-icon-color)}.elementor-social-icon:last-child{margin:0}.elementor-social-icon:hover{opacity:.9;color:#fff}.elementor-social-icon-android{background-color:#a4c639}.elementor-social-icon-apple{background-color:#999}.elementor-social-icon-behance{background-color:#1769ff}.elementor-social-icon-bitbucket{background-color:#205081}.elementor-social-icon-codepen{background-color:#000}.elementor-social-icon-delicious{background-color:#39f}.elementor-social-icon-deviantart{background-color:#05cc47}.elementor-social-icon-digg{background-color:#005be2}.elementor-social-icon-dribbble{background-color:#ea4c89}.elementor-social-icon-elementor{background-color:#d30c5c}.elementor-social-icon-envelope{background-color:#ea4335}.elementor-social-icon-facebook,.elementor-social-icon-facebook-f{background-color:#3b5998}.elementor-social-icon-flickr{background-color:#0063dc}.elementor-social-icon-foursquare{background-color:#2d5be3}.elementor-social-icon-free-code-camp,.elementor-social-icon-freecodecamp{background-color:#006400}.elementor-social-icon-github{background-color:#333}.elementor-social-icon-gitlab{background-color:#e24329}.elementor-social-icon-globe{background-color:#818a91}.elementor-social-icon-google-plus,.elementor-social-icon-google-plus-g{background-color:#dd4b39}.elementor-social-icon-houzz{background-color:#7ac142}.elementor-social-icon-instagram{background-color:#262626}.elementor-social-icon-jsfiddle{background-color:#487aa2}.elementor-social-icon-link{background-color:#818a91}.elementor-social-icon-linkedin,.elementor-social-icon-linkedin-in{background-color:#0077b5}.elementor-social-icon-medium{background-color:#00ab6b}.elementor-social-icon-meetup{background-color:#ec1c40}.elementor-social-icon-mixcloud{background-color:#273a4b}.elementor-social-icon-odnoklassniki{background-color:#f4731c}.elementor-social-icon-pinterest{background-color:#bd081c}.elementor-social-icon-product-hunt{background-color:#da552f}.elementor-social-icon-reddit{background-color:#ff4500}.elementor-social-icon-rss{background-color:#f26522}.elementor-social-icon-shopping-cart{background-color:#4caf50}.elementor-social-icon-skype{background-color:#00aff0}.elementor-social-icon-slideshare{background-color:#0077b5}.elementor-social-icon-snapchat{background-color:#fffc00}.elementor-social-icon-soundcloud{background-color:#f80}.elementor-social-icon-spotify{background-color:#2ebd59}.elementor-social-icon-stack-overflow{background-color:#fe7a15}.elementor-social-icon-steam{background-color:#00adee}.elementor-social-icon-stumbleupon{background-color:#eb4924}.elementor-social-icon-telegram{background-color:#2ca5e0}.elementor-social-icon-thumb-tack{background-color:#1aa1d8}.elementor-social-icon-tripadvisor{background-color:#589442}.elementor-social-icon-tumblr{background-color:#35465c}.elementor-social-icon-twitch{background-color:#6441a5}.elementor-social-icon-twitter{background-color:#1da1f2}.elementor-social-icon-viber{background-color:#665cac}.elementor-social-icon-vimeo{background-color:#1ab7ea}.elementor-social-icon-vk{background-color:#45668e}.elementor-social-icon-weibo{background-color:#dd2430}.elementor-social-icon-weixin{background-color:#31a918}.elementor-social-icon-whatsapp{background-color:#25d366}.elementor-social-icon-wordpress{background-color:#21759b}.elementor-social-icon-xing{background-color:#026466}.elementor-social-icon-yelp{background-color:#af0606}.elementor-social-icon-youtube{background-color:#cd201f}.elementor-social-icon-500px{background-color:#0099e5}.elementor-shape-rounded .elementor-icon.elementor-social-icon{border-radius:10%}.elementor-shape-circle .elementor-icon.elementor-social-icon{border-radius:50%}</style>\t\t\t\t\t<a href=\"#\" target=\"_blank\" rel=\"noopener\">\nUil-twitter\n</a>\n<a href=\"#\" target=\"_blank\" rel=\"noopener\">\nUil-facebook-f\n</a>\n<a href=\"#\" target=\"_blank\" rel=\"noopener\">\nUil-dribbble\n</a>\n<a href=\"#\" target=\"_blank\" rel=\"noopener\">\nUil-instagram\n</a>\n<a href=\"#\" target=\"_blank\" rel=\"noopener\">\nUil-youtube\n</a>\n<h4>Popular Posts</h4>\n<h4>Categories</h4>\n \t<link rel=\"stylesheet\" href=\"https://demo.oceanthemes.site/sandbox/wp-content/uploads/sites/8/elementor/css/custom-widget-icon-list.min.css?ver=1665572428\">\n<ul>\n \t<li>\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://demo.oceanthemes.site/sandbox/category/architecture/\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"Capa_1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 273.06 273.06\" style=\"enable-background:new 0 0 273.06 273.06;\" xml:space=\"preserve\"><g>\t<g>\t\t<circle cx=\"136.53\" cy=\"136.53\" r=\"136.53\"></circle>\t</g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\nArchitecture (9)\n</a></li>\n \t<li>\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://demo.oceanthemes.site/sandbox/category/ideas/\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"Capa_1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 273.06 273.06\" style=\"enable-background:new 0 0 273.06 273.06;\" xml:space=\"preserve\"><g>\t<g>\t\t<circle cx=\"136.53\" cy=\"136.53\" r=\"136.53\"></circle>\t</g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\nIdeas (11)\n</a></li>\n \t<li>\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://demo.oceanthemes.site/sandbox/category/places/\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"Capa_1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 273.06 273.06\" style=\"enable-background:new 0 0 273.06 273.06;\" xml:space=\"preserve\"><g>\t<g>\t\t<circle cx=\"136.53\" cy=\"136.53\" r=\"136.53\"></circle>\t</g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\nPlace (3)\n</a></li>\n \t<li>\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://demo.oceanthemes.site/sandbox/category/roadtrip/\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"Capa_1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 273.06 273.06\" style=\"enable-background:new 0 0 273.06 273.06;\" xml:space=\"preserve\"><g>\t<g>\t\t<circle cx=\"136.53\" cy=\"136.53\" r=\"136.53\"></circle>\t</g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\nRoadtrip (14)\n</a></li>\n \t<li>\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://demo.oceanthemes.site/sandbox/category/teamwork/\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"Capa_1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 273.06 273.06\" style=\"enable-background:new 0 0 273.06 273.06;\" xml:space=\"preserve\"><g>\t<g>\t\t<circle cx=\"136.53\" cy=\"136.53\" r=\"136.53\"></circle>\t</g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\nTeamwork (6)\n</a></li>\n \t<li>\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://demo.oceanthemes.site/sandbox/category/restaurants/\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"Capa_1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 273.06 273.06\" style=\"enable-background:new 0 0 273.06 273.06;\" xml:space=\"preserve\"><g>\t<g>\t\t<circle cx=\"136.53\" cy=\"136.53\" r=\"136.53\"></circle>\t</g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\nRestaurants (21)\n</a></li>\n</ul>\n<h4>Tags</h4>\n<h4>Archive</h4>\n<ul>\n \t<li>\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://demo.oceanthemes.site/sandbox/2022/08/\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"Capa_1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 273.06 273.06\" style=\"enable-background:new 0 0 273.06 273.06;\" xml:space=\"preserve\"><g>\t<g>\t\t<circle cx=\"136.53\" cy=\"136.53\" r=\"136.53\"></circle>\t</g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\nAugust 2022\n</a></li>\n \t<li>\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://demo.oceanthemes.site/sandbox/2021/05/\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"Capa_1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 273.06 273.06\" style=\"enable-background:new 0 0 273.06 273.06;\" xml:space=\"preserve\"><g>\t<g>\t\t<circle cx=\"136.53\" cy=\"136.53\" r=\"136.53\"></circle>\t</g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\nMay 2021\n</a></li>\n \t<li>\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://demo.oceanthemes.site/sandbox/2021/03/\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"Capa_1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 273.06 273.06\" style=\"enable-background:new 0 0 273.06 273.06;\" xml:space=\"preserve\"><g>\t<g>\t\t<circle cx=\"136.53\" cy=\"136.53\" r=\"136.53\"></circle>\t</g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\nMarch 2021\n</a></li>\n \t<li>\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://demo.oceanthemes.site/sandbox/2019/12/\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"Capa_1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 273.06 273.06\" style=\"enable-background:new 0 0 273.06 273.06;\" xml:space=\"preserve\"><g>\t<g>\t\t<circle cx=\"136.53\" cy=\"136.53\" r=\"136.53\"></circle>\t</g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\nDecember 2019\n</a></li>\n \t<li>\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://demo.oceanthemes.site/sandbox/2019/11/\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"Capa_1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 273.06 273.06\" style=\"enable-background:new 0 0 273.06 273.06;\" xml:space=\"preserve\"><g>\t<g>\t\t<circle cx=\"136.53\" cy=\"136.53\" r=\"136.53\"></circle>\t</g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\nNovember 2019\n</a></li>\n</ul>\n<article id=\"post-1522\">\n            <a href=\"https://demo.oceanthemes.site/sandbox/amet-dolor-bibendum-parturient-cursus/\">\n<img width=\"960\" height=\"600\" src=\"https://ot-sandbox.s3.amazonaws.com/images/blog1.jpg\" alt=\"\" loading=\"lazy\" srcset=\"https://ot-sandbox.s3.amazonaws.com/images/blog1.jpg 960w, https://ot-sandbox.s3.amazonaws.com/images/blog1-300x188.jpg 300w, https://ot-sandbox.s3.amazonaws.com/images/blog1-768x480.jpg 768w\" sizes=\"(max-width: 960px) 100vw, 960px\">\n<h5>Read More</h5>\n</a><a href=\"https://demo.oceanthemes.site/sandbox/amet-dolor-bibendum-parturient-cursus/\">            </a>\n<ahref=\"https: demo.oceanthemes.site=\"\" sandbox=\"\" category=\"\" teamwork=\"\" \"=\"\" rel=\"category tag\">Teamwork</ahref=\"https:>\n<h2><a href=\"https://demo.oceanthemes.site/sandbox/amet-dolor-bibendum-parturient-cursus/\" rel=\"bookmark\">Amet Dolor Bibendum Parturient Cursus</a></h2>\n<!-- .entry-header -->\n\nDuis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. Cras mattis consectetur purus.\n\n<!-- .entry-content -->\n<ul class=\"post-meta dflex\">\n \t<li><a href=\"https://demo.oceanthemes.site/sandbox/amet-dolor-bibendum-parturient-cursus/\" rel=\"bookmark\"><time datetime=\"2022-08-17T07:10:48+00:00\">17 Aug  2022</time></a></li>\n \t<li><a href=\"https://demo.oceanthemes.site/sandbox/author/admin/\">Sandbox</a></li>\n \t<li>3 Comments</li>\n</ul>\n<!-- .entry-meta -->\n</article><!-- #post-1522 -->\n\n<article id=\"post-1515\">\n\t\t\t\t\t\t\t\t<img src=\"https://ot-sandbox.s3.amazonaws.com/images/blog2.jpg\" alt=\"\" width=\"960\" height=\"600\">\n<img src=\"https://ot-sandbox.s3.amazonaws.com/images/blog3.jpg\" alt=\"\" width=\"960\" height=\"600\">\n<ahref=\"https: demo.oceanthemes.site=\"\" sandbox=\"\" category=\"\" ideas=\"\" \"=\"\" rel=\"category tag\">Ideas\n<h2><a href=\"https://demo.oceanthemes.site/sandbox/fringilla-ligula-pharetra-amet-fusce/\" rel=\"bookmark\">Fringilla Ligula Pharetra Amet Fusce</a></h2>\n<!-- .entry-header -->\n\nDuis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. Cras mattis consectetur purus.\n\n<!-- .entry-content -->\n<ul class=\"post-meta dflex\">\n \t<li><a href=\"https://demo.oceanthemes.site/sandbox/fringilla-ligula-pharetra-amet-fusce/\" rel=\"bookmark\"><time datetime=\"2022-08-15T07:07:12+00:00\">15 Aug  2022</time></a></li>\n \t<li><a href=\"https://demo.oceanthemes.site/sandbox/author/admin/\">Sandbox</a></li>\n \t<li>0 Comments</li>\n</ul>\n<!-- .entry-meta -->\n</ahref=\"https:></article><!-- #post-1515 -->\n\n<article id=\"post-1503\">\n            \t<ahref=\"https: demo.oceanthemes.site=\"\" sandbox=\"\" category=\"\" workspace=\"\" \"=\"\" rel=\"category tag\">Workspace\n<h2><a href=\"https://demo.oceanthemes.site/sandbox/consectetur-bibendum-sollicitudin-vulputate/\" rel=\"bookmark\">Consectetur Bibendum Sollicitudin Vulputate</a></h2>\n<!-- .entry-header -->\n\nDuis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. Cras mattis consectetur purus.\n\n<!-- .entry-content -->\n<ul class=\"post-meta dflex\">\n \t<li><a href=\"https://demo.oceanthemes.site/sandbox/consectetur-bibendum-sollicitudin-vulputate/\" rel=\"bookmark\"><time datetime=\"2022-08-10T06:48:03+00:00\">10 Aug  2022</time></a></li>\n \t<li><a href=\"https://demo.oceanthemes.site/sandbox/author/admin/\">Sandbox</a></li>\n \t<li>4 Comments</li>\n</ul>\n<!-- .entry-meta -->\n</ahref=\"https:></article><!-- #post-1503 -->\n<ul>\n \t<li>1</li>\n \t<li><a href=\"https://demo.oceanthemes.site/sandbox/wp-admin/admin-ajax.php?paged=2\">2</a></li>\n \t<li><a href=\"https://demo.oceanthemes.site/sandbox/wp-admin/admin-ajax.php?paged=2\"></a></li>\n</ul>",
+  "excerpt": "",
+  "status": "publish",
+  "date": "2022-10-17 06:45:08",
+  "metadata": {
+    "page_layout": "full-content",
+    "select_header": 1383,
+    "is_trans": "no",
+    "_elementor_edit_mode": "builder",
+    "_elementor_template_type": "wp-page",
+    "_elementor_version": "3.7.4",
+    "_wp_page_template": "default",
+    "_elementor_data": "[{\"id\":\"2ca1428\",\"elType\":\"section\",\"settings\":{\"layout\":\"full_width\",\"background_background\":\"classic\",\"padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"30\",\"bottom\":\"0\",\"left\":\"30\",\"isLinked\":false},\"padding_mobile_extra\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"b9f6a8a\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null,\"background_background\":\"classic\",\"background_color\":\"#F1F5FD\",\"border_radius\":{\"unit\":\"px\",\"top\":\"20\",\"right\":\"20\",\"bottom\":\"20\",\"left\":\"20\",\"isLinked\":true},\"padding\":{\"unit\":\"px\",\"top\":\"120\",\"right\":\"0\",\"bottom\":\"120\",\"left\":\"0\",\"isLinked\":false},\"border_radius_mobile_extra\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":true},\"padding_mobile_extra\":{\"unit\":\"px\",\"top\":\"70\",\"right\":\"0\",\"bottom\":\"70\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"10f82f0\",\"elType\":\"widget\",\"settings\":{\"title\":\"Business News\",\"header_size\":\"h1\",\"align\":\"center\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"15\",\"left\":\"0\",\"isLinked\":false},\"_css_classes\":\"display-1\"},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"40d225d\",\"elType\":\"widget\",\"settings\":{\"editor\":\"Welcome to our journal. Here you can find the latest company news and business articles.\",\"align\":\"center\",\"typography_typography\":\"custom\",\"typography_font_size\":{\"unit\":\"px\",\"size\":18,\"sizes\":[]},\"typography_font_weight\":\"500\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"20\",\"left\":\"0\",\"isLinked\":false},\"_padding\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"35\",\"bottom\":\"0\",\"left\":\"35\",\"isLinked\":false},\"_padding_laptop\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"_padding_tablet_extra\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"20\",\"bottom\":\"0\",\"left\":\"20\",\"isLinked\":false},\"_padding_tablet\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"15\",\"bottom\":\"0\",\"left\":\"15\",\"isLinked\":false},\"_padding_mobile_extra\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"_padding_mobile\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true}},\"elements\":[],\"widgetType\":\"text-editor\"}],\"isInner\":false}],\"isInner\":false},{\"id\":\"f91ee99\",\"elType\":\"section\",\"settings\":{\"structure\":\"20\",\"padding\":{\"unit\":\"px\",\"top\":\"120\",\"right\":\"0\",\"bottom\":\"120\",\"left\":\"0\",\"isLinked\":false},\"padding_mobile_extra\":{\"unit\":\"px\",\"top\":\"90\",\"right\":\"0\",\"bottom\":\"120\",\"left\":\"0\",\"isLinked\":false},\"reverse_order_tablet\":\"reverse-tablet\",\"reverse_order_mobile_extra\":\"reverse-mobile_extra\",\"reverse_order_mobile\":\"reverse-mobile\"},\"elements\":[{\"id\":\"58dc13d\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":33.332999999999998408384271897375583648681640625,\"padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"35\",\"bottom\":\"0\",\"left\":\"15\",\"isLinked\":false},\"_inline_size_tablet\":100,\"padding_tablet\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"15\",\"bottom\":\"0\",\"left\":\"15\",\"isLinked\":false}},\"elements\":[{\"id\":\"001f286\",\"elType\":\"widget\",\"settings\":{\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"40\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"wp-widget-search\"},{\"id\":\"55d2041\",\"elType\":\"widget\",\"settings\":{\"title\":\"About Us\",\"header_size\":\"h4\",\"typography_font_family\":\"Urbanist\",\"typography_font_size\":{\"unit\":\"px\",\"size\":20,\"sizes\":[]},\"typography_font_weight\":\"600\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"15\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"16ce3e8\",\"elType\":\"widget\",\"settings\":{\"editor\":\"Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.\",\"typography_font_family\":\"Urbanist\",\"typography_font_size\":{\"unit\":\"px\",\"size\":17,\"sizes\":[]},\"typography_font_weight\":\"500\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"25\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"308cf2e\",\"elType\":\"widget\",\"settings\":{\"social_icon_list\":[{\"social_icon\":{\"value\":\" uil-twitter\",\"library\":\"ot_cife-unicons\"},\"_id\":\"c6de70a\",\"link\":{\"url\":\"#\",\"is_external\":\"true\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"item_icon_color\":\"custom\",\"item_icon_secondary_color\":\"#5DAED5\"},{\"social_icon\":{\"value\":\" uil-facebook-f\",\"library\":\"ot_cife-unicons\"},\"link\":{\"url\":\"#\",\"is_external\":\"true\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"_id\":\"2dd82b8\",\"item_icon_color\":\"custom\",\"item_icon_secondary_color\":\"#4470CF\"},{\"social_icon\":{\"value\":\" uil-dribbble\",\"library\":\"ot_cife-unicons\"},\"link\":{\"url\":\"#\",\"is_external\":\"true\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"_id\":\"4e5a316\",\"item_icon_color\":\"custom\",\"item_icon_secondary_color\":\"#D07EAD\"},{\"social_icon\":{\"value\":\" uil-instagram\",\"library\":\"ot_cife-unicons\"},\"link\":{\"url\":\"#\",\"is_external\":\"true\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"_id\":\"3600089\",\"item_icon_color\":\"custom\",\"item_icon_secondary_color\":\"#D53581\"},{\"social_icon\":{\"value\":\" uil-youtube\",\"library\":\"ot_cife-unicons\"},\"link\":{\"url\":\"#\",\"is_external\":\"true\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"_id\":\"b767997\",\"item_icon_color\":\"custom\",\"item_icon_secondary_color\":\"#C8312B\"}],\"shape\":\"circle\",\"align\":\"\",\"icon_color\":\"custom\",\"icon_primary_color\":\"#FFFFFF00\",\"icon_size\":{\"unit\":\"px\",\"size\":20,\"sizes\":[]},\"icon_padding\":{\"unit\":\"em\",\"size\":0,\"sizes\":[]},\"icon_spacing\":{\"unit\":\"px\",\"size\":12,\"sizes\":[]},\"hover_animation\":\"float\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"45\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"social-icons\"},{\"id\":\"d9ac43f\",\"elType\":\"widget\",\"settings\":{\"title\":\"Popular Posts\",\"header_size\":\"h4\",\"typography_font_family\":\"Urbanist\",\"typography_font_size\":{\"unit\":\"px\",\"size\":20,\"sizes\":[]},\"typography_font_weight\":\"600\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"5\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"7685d73\",\"elType\":\"widget\",\"settings\":{\"wp\":{\"posts_per_page\":\"3\",\"count\":\"on\"},\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"40\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"wp-widget-recent_news\"},{\"id\":\"5bcba5e\",\"elType\":\"widget\",\"settings\":{\"title\":\"Categories\",\"header_size\":\"h4\",\"typography_font_family\":\"Urbanist\",\"typography_font_size\":{\"unit\":\"px\",\"size\":20,\"sizes\":[]},\"typography_font_weight\":\"600\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"15\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"b9657d2\",\"elType\":\"widget\",\"settings\":{\"icon_list\":[{\"text\":\"Architecture (9)\",\"selected_icon\":{\"value\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/record.svg\",\"id\":13067},\"library\":\"svg\"},\"_id\":\"e5e39cc\",\"link\":{\"url\":\"https:\\/\\/demo.oceanthemes.site\\/sandbox\\/category\\/architecture\\/\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"}},{\"text\":\"Ideas (11)\",\"selected_icon\":{\"value\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/record.svg\",\"id\":13067},\"library\":\"svg\"},\"link\":{\"url\":\"https:\\/\\/demo.oceanthemes.site\\/sandbox\\/category\\/ideas\\/\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"_id\":\"bd78f00\"},{\"text\":\"Place (3)\",\"selected_icon\":{\"value\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/record.svg\",\"id\":13067},\"library\":\"svg\"},\"link\":{\"url\":\"https:\\/\\/demo.oceanthemes.site\\/sandbox\\/category\\/places\\/\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"_id\":\"469c909\"},{\"text\":\"Roadtrip (14)\",\"selected_icon\":{\"value\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/record.svg\",\"id\":13067},\"library\":\"svg\"},\"link\":{\"url\":\"https:\\/\\/demo.oceanthemes.site\\/sandbox\\/category\\/roadtrip\\/\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"_id\":\"f52b694\"},{\"text\":\"Teamwork (6)\",\"selected_icon\":{\"value\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/record.svg\",\"id\":13067},\"library\":\"svg\"},\"link\":{\"url\":\"https:\\/\\/demo.oceanthemes.site\\/sandbox\\/category\\/teamwork\\/\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"_id\":\"981f116\"},{\"text\":\"Restaurants (21)\",\"selected_icon\":{\"value\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/record.svg\",\"id\":13067},\"library\":\"svg\"},\"link\":{\"url\":\"https:\\/\\/demo.oceanthemes.site\\/sandbox\\/category\\/restaurants\\/\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"_id\":\"50a39e7\"}],\"space_between\":{\"unit\":\"px\",\"size\":8,\"sizes\":[]},\"icon_color\":\"#3F78E0\",\"icon_size\":{\"unit\":\"px\",\"size\":5,\"sizes\":[]},\"text_color_hover\":\"#3F78E0\",\"text_indent\":{\"unit\":\"px\",\"size\":10,\"sizes\":[]},\"icon_typography_font_family\":\"Urbanist\",\"icon_typography_font_size\":{\"unit\":\"px\",\"size\":17,\"sizes\":[]},\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"40\",\"left\":\"0\",\"isLinked\":false},\"text_color\":\"#54595F\"},\"elements\":[],\"widgetType\":\"icon-list\"},{\"id\":\"080e57d\",\"elType\":\"widget\",\"settings\":{\"title\":\"Tags\",\"header_size\":\"h4\",\"typography_font_family\":\"Urbanist\",\"typography_font_size\":{\"unit\":\"px\",\"size\":20,\"sizes\":[]},\"typography_font_weight\":\"600\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"15\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"2da54d3\",\"elType\":\"widget\",\"settings\":{\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"40\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"wp-widget-tag_cloud\"},{\"id\":\"26446c0\",\"elType\":\"widget\",\"settings\":{\"title\":\"Archive\",\"header_size\":\"h4\",\"typography_font_family\":\"Urbanist\",\"typography_font_size\":{\"unit\":\"px\",\"size\":20,\"sizes\":[]},\"typography_font_weight\":\"600\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"15\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"e36a43d\",\"elType\":\"widget\",\"settings\":{\"icon_list\":[{\"text\":\"August 2022\",\"selected_icon\":{\"value\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/record.svg\",\"id\":13067},\"library\":\"svg\"},\"_id\":\"e5e39cc\",\"link\":{\"url\":\"https:\\/\\/demo.oceanthemes.site\\/sandbox\\/2022\\/08\\/\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"}},{\"text\":\"May 2021\",\"selected_icon\":{\"value\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/record.svg\",\"id\":13067},\"library\":\"svg\"},\"link\":{\"url\":\"https:\\/\\/demo.oceanthemes.site\\/sandbox\\/2021\\/05\\/\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"_id\":\"bd78f00\"},{\"text\":\"March 2021\",\"selected_icon\":{\"value\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/record.svg\",\"id\":13067},\"library\":\"svg\"},\"link\":{\"url\":\"https:\\/\\/demo.oceanthemes.site\\/sandbox\\/2021\\/03\\/\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"_id\":\"f52b694\"},{\"text\":\"December 2019\",\"selected_icon\":{\"value\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/record.svg\",\"id\":13067},\"library\":\"svg\"},\"link\":{\"url\":\"https:\\/\\/demo.oceanthemes.site\\/sandbox\\/2019\\/12\\/\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"_id\":\"981f116\"},{\"text\":\"November 2019\",\"selected_icon\":{\"value\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/record.svg\",\"id\":13067},\"library\":\"svg\"},\"link\":{\"url\":\"https:\\/\\/demo.oceanthemes.site\\/sandbox\\/2019\\/11\\/\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"_id\":\"50a39e7\"}],\"space_between\":{\"unit\":\"px\",\"size\":8,\"sizes\":[]},\"icon_color\":\"#3F78E0\",\"icon_size\":{\"unit\":\"px\",\"size\":5,\"sizes\":[]},\"text_color_hover\":\"#3F78E0\",\"text_indent\":{\"unit\":\"px\",\"size\":10,\"sizes\":[]},\"icon_typography_font_family\":\"Urbanist\",\"icon_typography_font_size\":{\"unit\":\"px\",\"size\":17,\"sizes\":[]},\"text_color\":\"#54595F\"},\"elements\":[],\"widgetType\":\"icon-list\"}],\"isInner\":false},{\"id\":\"dc2c6aa\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":66.6666599999999931469574221409857273101806640625,\"padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"15\",\"bottom\":\"0\",\"left\":\"35\",\"isLinked\":false},\"_inline_size_tablet\":100,\"margin_tablet\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"90\",\"left\":\"0\",\"isLinked\":false},\"padding_tablet\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"15\",\"bottom\":\"0\",\"left\":\"15\",\"isLinked\":false}},\"elements\":[{\"id\":\"6db92a9\",\"elType\":\"widget\",\"settings\":{\"post_cat\":[\"ideas\",\"museum\",\"teamwork\",\"vacation\",\"workspace\"],\"column\":\"pf_1_cols\",\"show_pagination\":\"yes\"},\"elements\":[],\"widgetType\":\"ot-post-grid\"}],\"isInner\":false}],\"isInner\":false}]",
+    "_wxr_import_user_slug": "admin"
+  },
+  "categories": [],
+  "elementorData": [
+    {
+      "id": "2ca1428",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "30",
+          "bottom": "0",
+          "left": "30",
+          "isLinked": false
+        },
+        "padding_mobile_extra": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "b9f6a8a",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "background_background": "classic",
+            "background_color": "#F1F5FD",
+            "border_radius": {
+              "unit": "px",
+              "top": "20",
+              "right": "20",
+              "bottom": "20",
+              "left": "20",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "120",
+              "right": "0",
+              "bottom": "120",
+              "left": "0",
+              "isLinked": false
+            },
+            "border_radius_mobile_extra": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile_extra": {
+              "unit": "px",
+              "top": "70",
+              "right": "0",
+              "bottom": "70",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "10f82f0",
+              "elType": "widget",
+              "settings": {
+                "title": "Business News",
+                "header_size": "h1",
+                "align": "center",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "15",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "_css_classes": "display-1"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "40d225d",
+              "elType": "widget",
+              "settings": {
+                "editor": "Welcome to our journal. Here you can find the latest company news and business articles.",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_font_weight": "500",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "_padding": {
+                  "unit": "%",
+                  "top": "0",
+                  "right": "35",
+                  "bottom": "0",
+                  "left": "35",
+                  "isLinked": false
+                },
+                "_padding_laptop": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": true
+                },
+                "_padding_tablet_extra": {
+                  "unit": "%",
+                  "top": "0",
+                  "right": "20",
+                  "bottom": "0",
+                  "left": "20",
+                  "isLinked": false
+                },
+                "_padding_tablet": {
+                  "unit": "%",
+                  "top": "0",
+                  "right": "15",
+                  "bottom": "0",
+                  "left": "15",
+                  "isLinked": false
+                },
+                "_padding_mobile_extra": {
+                  "unit": "%",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "_padding_mobile": {
+                  "unit": "%",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "f91ee99",
+      "elType": "section",
+      "settings": {
+        "structure": "20",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "0",
+          "bottom": "120",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_mobile_extra": {
+          "unit": "px",
+          "top": "90",
+          "right": "0",
+          "bottom": "120",
+          "left": "0",
+          "isLinked": false
+        },
+        "reverse_order_tablet": "reverse-tablet",
+        "reverse_order_mobile_extra": "reverse-mobile_extra",
+        "reverse_order_mobile": "reverse-mobile"
+      },
+      "elements": [
+        {
+          "id": "58dc13d",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": 33.333,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "35",
+              "bottom": "0",
+              "left": "15",
+              "isLinked": false
+            },
+            "_inline_size_tablet": 100,
+            "padding_tablet": {
+              "unit": "px",
+              "top": "0",
+              "right": "15",
+              "bottom": "0",
+              "left": "15",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "001f286",
+              "elType": "widget",
+              "settings": {
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "40",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "wp-widget-search"
+            },
+            {
+              "id": "55d2041",
+              "elType": "widget",
+              "settings": {
+                "title": "About Us",
+                "header_size": "h4",
+                "typography_font_family": "Urbanist",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "15",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "16ce3e8",
+              "elType": "widget",
+              "settings": {
+                "editor": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.",
+                "typography_font_family": "Urbanist",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17,
+                  "sizes": []
+                },
+                "typography_font_weight": "500",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "25",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "308cf2e",
+              "elType": "widget",
+              "settings": {
+                "social_icon_list": [
+                  {
+                    "social_icon": {
+                      "value": " uil-twitter",
+                      "library": "ot_cife-unicons"
+                    },
+                    "_id": "c6de70a",
+                    "link": {
+                      "url": "#",
+                      "is_external": "true",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "item_icon_color": "custom",
+                    "item_icon_secondary_color": "#5DAED5"
+                  },
+                  {
+                    "social_icon": {
+                      "value": " uil-facebook-f",
+                      "library": "ot_cife-unicons"
+                    },
+                    "link": {
+                      "url": "#",
+                      "is_external": "true",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "_id": "2dd82b8",
+                    "item_icon_color": "custom",
+                    "item_icon_secondary_color": "#4470CF"
+                  },
+                  {
+                    "social_icon": {
+                      "value": " uil-dribbble",
+                      "library": "ot_cife-unicons"
+                    },
+                    "link": {
+                      "url": "#",
+                      "is_external": "true",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "_id": "4e5a316",
+                    "item_icon_color": "custom",
+                    "item_icon_secondary_color": "#D07EAD"
+                  },
+                  {
+                    "social_icon": {
+                      "value": " uil-instagram",
+                      "library": "ot_cife-unicons"
+                    },
+                    "link": {
+                      "url": "#",
+                      "is_external": "true",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "_id": "3600089",
+                    "item_icon_color": "custom",
+                    "item_icon_secondary_color": "#D53581"
+                  },
+                  {
+                    "social_icon": {
+                      "value": " uil-youtube",
+                      "library": "ot_cife-unicons"
+                    },
+                    "link": {
+                      "url": "#",
+                      "is_external": "true",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "_id": "b767997",
+                    "item_icon_color": "custom",
+                    "item_icon_secondary_color": "#C8312B"
+                  }
+                ],
+                "shape": "circle",
+                "align": "",
+                "icon_color": "custom",
+                "icon_primary_color": "#FFFFFF00",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 20,
+                  "sizes": []
+                },
+                "icon_padding": {
+                  "unit": "em",
+                  "size": 0,
+                  "sizes": []
+                },
+                "icon_spacing": {
+                  "unit": "px",
+                  "size": 12,
+                  "sizes": []
+                },
+                "hover_animation": "float",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "45",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "social-icons"
+            },
+            {
+              "id": "d9ac43f",
+              "elType": "widget",
+              "settings": {
+                "title": "Popular Posts",
+                "header_size": "h4",
+                "typography_font_family": "Urbanist",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "5",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "7685d73",
+              "elType": "widget",
+              "settings": {
+                "wp": {
+                  "posts_per_page": "3",
+                  "count": "on"
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "40",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "wp-widget-recent_news"
+            },
+            {
+              "id": "5bcba5e",
+              "elType": "widget",
+              "settings": {
+                "title": "Categories",
+                "header_size": "h4",
+                "typography_font_family": "Urbanist",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "15",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "b9657d2",
+              "elType": "widget",
+              "settings": {
+                "icon_list": [
+                  {
+                    "text": "Architecture (9)",
+                    "selected_icon": {
+                      "value": {
+                        "url": "https://ot-sandbox.s3.amazonaws.com/images/record.svg",
+                        "id": 13067
+                      },
+                      "library": "svg"
+                    },
+                    "_id": "e5e39cc",
+                    "link": {
+                      "url": "https://demo.oceanthemes.site/sandbox/category/architecture/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
+                  },
+                  {
+                    "text": "Ideas (11)",
+                    "selected_icon": {
+                      "value": {
+                        "url": "https://ot-sandbox.s3.amazonaws.com/images/record.svg",
+                        "id": 13067
+                      },
+                      "library": "svg"
+                    },
+                    "link": {
+                      "url": "https://demo.oceanthemes.site/sandbox/category/ideas/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "_id": "bd78f00"
+                  },
+                  {
+                    "text": "Place (3)",
+                    "selected_icon": {
+                      "value": {
+                        "url": "https://ot-sandbox.s3.amazonaws.com/images/record.svg",
+                        "id": 13067
+                      },
+                      "library": "svg"
+                    },
+                    "link": {
+                      "url": "https://demo.oceanthemes.site/sandbox/category/places/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "_id": "469c909"
+                  },
+                  {
+                    "text": "Roadtrip (14)",
+                    "selected_icon": {
+                      "value": {
+                        "url": "https://ot-sandbox.s3.amazonaws.com/images/record.svg",
+                        "id": 13067
+                      },
+                      "library": "svg"
+                    },
+                    "link": {
+                      "url": "https://demo.oceanthemes.site/sandbox/category/roadtrip/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "_id": "f52b694"
+                  },
+                  {
+                    "text": "Teamwork (6)",
+                    "selected_icon": {
+                      "value": {
+                        "url": "https://ot-sandbox.s3.amazonaws.com/images/record.svg",
+                        "id": 13067
+                      },
+                      "library": "svg"
+                    },
+                    "link": {
+                      "url": "https://demo.oceanthemes.site/sandbox/category/teamwork/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "_id": "981f116"
+                  },
+                  {
+                    "text": "Restaurants (21)",
+                    "selected_icon": {
+                      "value": {
+                        "url": "https://ot-sandbox.s3.amazonaws.com/images/record.svg",
+                        "id": 13067
+                      },
+                      "library": "svg"
+                    },
+                    "link": {
+                      "url": "https://demo.oceanthemes.site/sandbox/category/restaurants/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "_id": "50a39e7"
+                  }
+                ],
+                "space_between": {
+                  "unit": "px",
+                  "size": 8,
+                  "sizes": []
+                },
+                "icon_color": "#3F78E0",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 5,
+                  "sizes": []
+                },
+                "text_color_hover": "#3F78E0",
+                "text_indent": {
+                  "unit": "px",
+                  "size": 10,
+                  "sizes": []
+                },
+                "icon_typography_font_family": "Urbanist",
+                "icon_typography_font_size": {
+                  "unit": "px",
+                  "size": 17,
+                  "sizes": []
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "40",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "text_color": "#54595F"
+              },
+              "elements": [],
+              "widgetType": "icon-list"
+            },
+            {
+              "id": "080e57d",
+              "elType": "widget",
+              "settings": {
+                "title": "Tags",
+                "header_size": "h4",
+                "typography_font_family": "Urbanist",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "15",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "2da54d3",
+              "elType": "widget",
+              "settings": {
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "40",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "wp-widget-tag_cloud"
+            },
+            {
+              "id": "26446c0",
+              "elType": "widget",
+              "settings": {
+                "title": "Archive",
+                "header_size": "h4",
+                "typography_font_family": "Urbanist",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "15",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "e36a43d",
+              "elType": "widget",
+              "settings": {
+                "icon_list": [
+                  {
+                    "text": "August 2022",
+                    "selected_icon": {
+                      "value": {
+                        "url": "https://ot-sandbox.s3.amazonaws.com/images/record.svg",
+                        "id": 13067
+                      },
+                      "library": "svg"
+                    },
+                    "_id": "e5e39cc",
+                    "link": {
+                      "url": "https://demo.oceanthemes.site/sandbox/2022/08/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
+                  },
+                  {
+                    "text": "May 2021",
+                    "selected_icon": {
+                      "value": {
+                        "url": "https://ot-sandbox.s3.amazonaws.com/images/record.svg",
+                        "id": 13067
+                      },
+                      "library": "svg"
+                    },
+                    "link": {
+                      "url": "https://demo.oceanthemes.site/sandbox/2021/05/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "_id": "bd78f00"
+                  },
+                  {
+                    "text": "March 2021",
+                    "selected_icon": {
+                      "value": {
+                        "url": "https://ot-sandbox.s3.amazonaws.com/images/record.svg",
+                        "id": 13067
+                      },
+                      "library": "svg"
+                    },
+                    "link": {
+                      "url": "https://demo.oceanthemes.site/sandbox/2021/03/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "_id": "f52b694"
+                  },
+                  {
+                    "text": "December 2019",
+                    "selected_icon": {
+                      "value": {
+                        "url": "https://ot-sandbox.s3.amazonaws.com/images/record.svg",
+                        "id": 13067
+                      },
+                      "library": "svg"
+                    },
+                    "link": {
+                      "url": "https://demo.oceanthemes.site/sandbox/2019/12/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "_id": "981f116"
+                  },
+                  {
+                    "text": "November 2019",
+                    "selected_icon": {
+                      "value": {
+                        "url": "https://ot-sandbox.s3.amazonaws.com/images/record.svg",
+                        "id": 13067
+                      },
+                      "library": "svg"
+                    },
+                    "link": {
+                      "url": "https://demo.oceanthemes.site/sandbox/2019/11/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "_id": "50a39e7"
+                  }
+                ],
+                "space_between": {
+                  "unit": "px",
+                  "size": 8,
+                  "sizes": []
+                },
+                "icon_color": "#3F78E0",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 5,
+                  "sizes": []
+                },
+                "text_color_hover": "#3F78E0",
+                "text_indent": {
+                  "unit": "px",
+                  "size": 10,
+                  "sizes": []
+                },
+                "icon_typography_font_family": "Urbanist",
+                "icon_typography_font_size": {
+                  "unit": "px",
+                  "size": 17,
+                  "sizes": []
+                },
+                "text_color": "#54595F"
+              },
+              "elements": [],
+              "widgetType": "icon-list"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "dc2c6aa",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": 66.66666,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "15",
+              "bottom": "0",
+              "left": "35",
+              "isLinked": false
+            },
+            "_inline_size_tablet": 100,
+            "margin_tablet": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "90",
+              "left": "0",
+              "isLinked": false
+            },
+            "padding_tablet": {
+              "unit": "px",
+              "top": "0",
+              "right": "15",
+              "bottom": "0",
+              "left": "15",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "6db92a9",
+              "elType": "widget",
+              "settings": {
+                "post_cat": [
+                  "ideas",
+                  "museum",
+                  "teamwork",
+                  "vacation",
+                  "workspace"
+                ],
+                "column": "pf_1_cols",
+                "show_pagination": "yes"
+              },
+              "elements": [],
+              "widgetType": "ot-post-grid"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

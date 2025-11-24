@@ -1,0 +1,145 @@
+{
+  "title": "Header Main",
+  "slug": "header-main",
+  "content": "<a href=\"https://www.ilmigliorpreventivo.it/\">\n\t\t\t\t\t<img src=\"https://www.ilmigliorpreventivo.it/wp-content/uploads/2022/07/New-Project-1.png\" alt=\"www.ilmigliorpreventivo.it\">\n\t\t\t\t\t\t\t\t\t</a>\t\t\t        \n\t    \t<nav id=\"site-navigation\">\t\t\t\n\t\t\t\t<ul id=\"primary-menu\"><li><a href=\"https://www.ilmigliorpreventivo.it/\">Home</a></li>\n<li><a href=\"https://www.ilmigliorpreventivo.it/our-services/\">Servizi</a></li>\n<li><a href=\"https://www.ilmigliorpreventivo.it/about/\">Chi Siamo</a></li>\n<li><a href=\"https://www.ilmigliorpreventivo.it/blog-with-sidebar/\">Blog</a></li>\n<li><a href=\"https://www.ilmigliorpreventivo.it/contact-1/\">Contatti</a></li>\n</ul>\t\t\t</nav>\n\t\t\t<a href=\"#\">\n\t\t\t\tScopri le agevolazioni\t\t\t\t\t\t\t</a>",
+  "excerpt": "",
+  "status": "publish",
+  "date": "2022-07-13 07:06:52",
+  "metadata": {
+    "_wp_page_template": "elementor_canvas",
+    "_elementor_edit_mode": "builder",
+    "_elementor_template_type": "wp-post",
+    "_elementor_version": "3.32.3",
+    "_elementor_data": "[{\"id\":\"fc5a0c2\",\"elType\":\"section\",\"settings\":{\"gap\":\"extended\",\"content_position\":\"middle\",\"structure\":\"30\",\"sticky_class\":\"is-fixed\",\"sticky_shadow_box_shadow\":{\"horizontal\":0,\"vertical\":0,\"blur\":25,\"spread\":0,\"color\":\"rgba(30, 34.00000000000001, 40, 0.06)\"},\"margin\":{\"unit\":\"px\",\"top\":\"\",\"right\":0,\"bottom\":\"\",\"left\":0,\"isLinked\":true},\"background_background\":\"classic\"},\"elements\":[{\"id\":\"b42a00f\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":18},\"elements\":[{\"id\":\"46e8921\",\"elType\":\"widget\",\"settings\":{\"logo_image\":{\"url\":\"https:\\/\\/www.ilmigliorpreventivo.it\\/wp-content\\/uploads\\/2022\\/07\\/New-Project-1.png\",\"id\":15419,\"alt\":\"\",\"source\":\"library\",\"size\":\"\"},\"logo_width\":{\"unit\":\"px\",\"size\":500,\"sizes\":[]}},\"elements\":[],\"widgetType\":\"ilogo\"}],\"isInner\":false},{\"id\":\"f491100\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":59.664000000000001},\"elements\":[{\"id\":\"9423fc4\",\"elType\":\"widget\",\"settings\":{\"nav_menu\":\"main-menu\",\"align\":\"center\",\"is_line\":\"\",\"sticky_class\":\"is_arrow\",\"text_s_hover_color\":\"#3F78E0\",\"menu_padding\":{\"unit\":\"px\",\"top\":\"26\",\"right\":\"0\",\"bottom\":\"26\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"imenu\"}],\"isInner\":false},{\"id\":\"5744f06\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":22,\"align\":\"flex-end\",\"_ot_content_align\":\"horizontal\"},\"elements\":[{\"id\":\"92a569c\",\"elType\":\"widget\",\"settings\":{\"text\":\"Scopri le agevolazioni\",\"btn_padding\":{\"unit\":\"px\",\"top\":\"8\",\"right\":\"20\",\"bottom\":\"8\",\"left\":\"20\",\"isLinked\":false},\"_element_width\":\"auto\"},\"elements\":[],\"widgetType\":\"ot-btn\"}],\"isInner\":false}],\"isInner\":false}]",
+    "_wp_old_date": "2022-07-27",
+    "_wxr_import_user_slug": "admin",
+    "_elementor_pro_version": "3.32.1",
+    "_elementor_controls_usage": "a:5:{s:5:\"ilogo\";a:3:{s:5:\"count\";i:1;s:15:\"control_percent\";i:1;s:8:\"controls\";a:1:{s:7:\"content\";a:1:{s:15:\"content_section\";a:2:{s:10:\"logo_image\";i:1;s:10:\"logo_width\";i:1;}}}}s:6:\"column\";a:3:{s:5:\"count\";i:3;s:15:\"control_percent\";i:1;s:8:\"controls\";a:1:{s:6:\"layout\";a:1:{s:6:\"layout\";a:2:{s:12:\"_inline_size\";i:3;s:5:\"align\";i:1;}}}}s:5:\"imenu\";a:3:{s:5:\"count\";i:1;s:15:\"control_percent\";i:1;s:8:\"controls\";a:2:{s:7:\"content\";a:1:{s:15:\"content_section\";a:1:{s:5:\"align\";i:1;}}s:5:\"style\";a:2:{s:19:\"style_smenu_section\";a:1:{s:18:\"text_s_hover_color\";i:1;}s:18:\"style_menu_section\";a:1:{s:12:\"menu_padding\";i:1;}}}}s:6:\"ot-btn\";a:3:{s:5:\"count\";i:1;s:15:\"control_percent\";i:1;s:8:\"controls\";a:3:{s:7:\"content\";a:1:{s:14:\"button_section\";a:1:{s:4:\"text\";i:1;}}s:5:\"style\";a:1:{s:13:\"style_section\";a:1:{s:11:\"btn_padding\";i:1;}}s:8:\"advanced\";a:1:{s:14:\"_section_style\";a:1:{s:14:\"_element_width\";i:1;}}}}s:7:\"section\";a:3:{s:5:\"count\";i:1;s:15:\"control_percent\";i:2;s:8:\"controls\";a:3:{s:6:\"layout\";a:3:{s:14:\"section_layout\";a:2:{s:3:\"gap\";i:1;s:16:\"content_position\";i:1;}s:17:\"section_structure\";a:1:{s:9:\"structure\";i:1;}s:20:\"section_custom_class\";a:2:{s:12:\"sticky_class\";i:1;s:24:\"sticky_shadow_box_shadow\";i:1;}}s:8:\"advanced\";a:1:{s:16:\"section_advanced\";a:1:{s:6:\"margin\";i:1;}}s:5:\"style\";a:1:{s:18:\"section_background\";a:1:{s:21:\"background_background\";i:1;}}}}}"
+  },
+  "categories": [],
+  "elementorData": [
+    {
+      "id": "fc5a0c2",
+      "elType": "section",
+      "settings": {
+        "gap": "extended",
+        "content_position": "middle",
+        "structure": "30",
+        "sticky_class": "is-fixed",
+        "sticky_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 0,
+          "blur": 25,
+          "spread": 0,
+          "color": "rgba(30, 34.00000000000001, 40, 0.06)"
+        },
+        "margin": {
+          "unit": "px",
+          "top": "",
+          "right": 0,
+          "bottom": "",
+          "left": 0,
+          "isLinked": true
+        },
+        "background_background": "classic"
+      },
+      "elements": [
+        {
+          "id": "b42a00f",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": 18
+          },
+          "elements": [
+            {
+              "id": "46e8921",
+              "elType": "widget",
+              "settings": {
+                "logo_image": {
+                  "url": "https://www.ilmigliorpreventivo.it/wp-content/uploads/2022/07/New-Project-1.png",
+                  "id": 15419,
+                  "alt": "",
+                  "source": "library",
+                  "size": ""
+                },
+                "logo_width": {
+                  "unit": "px",
+                  "size": 500,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "ilogo"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "f491100",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": 59.664
+          },
+          "elements": [
+            {
+              "id": "9423fc4",
+              "elType": "widget",
+              "settings": {
+                "nav_menu": "main-menu",
+                "align": "center",
+                "is_line": "",
+                "sticky_class": "is_arrow",
+                "text_s_hover_color": "#3F78E0",
+                "menu_padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "0",
+                  "bottom": "26",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "imenu"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "5744f06",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": 22,
+            "align": "flex-end",
+            "_ot_content_align": "horizontal"
+          },
+          "elements": [
+            {
+              "id": "92a569c",
+              "elType": "widget",
+              "settings": {
+                "text": "Scopri le agevolazioni",
+                "btn_padding": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "20",
+                  "bottom": "8",
+                  "left": "20",
+                  "isLinked": false
+                },
+                "_element_width": "auto"
+              },
+              "elements": [],
+              "widgetType": "ot-btn"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "title": "Projects 3",
+  "slug": "projects-3",
+  "content": "<style>/*! elementor - v3.7.4 - 31-08-2022 */\n.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h1>Check out some of our awesome projects with creative ideas.</h1>\t\t\n\t        \t\t<ul>\n\t        \t\t\t\t        \t\t\t \t<li><a href=\"#\" data-filter=\"*\">All</a></li>\n\t        \t\t\t\t\t                \t\t                \t<li>\n\t\t\t\t\t\t\t\t<a href='#' data-filter='.portfolio-category-id-24' class='filter-item'>Concept</a>\n\t\t\t\t\t\t\t</li>\t                   \n\t\t                \t\t                \t<li>\n\t\t\t\t\t\t\t\t<a href='#' data-filter='.portfolio-category-id-23' class='filter-item'>Product</a>\n\t\t\t\t\t\t\t</li>\t                   \n\t\t                \t\t                \t<li>\n\t\t\t\t\t\t\t\t<a href='#' data-filter='.portfolio-category-id-26' class='filter-item'>Still Life</a>\n\t\t\t\t\t\t\t</li>\t                   \n\t\t                \t\t                \t<li>\n\t\t\t\t\t\t\t\t<a href='#' data-filter='.portfolio-category-id-25' class='filter-item'>Workshop</a>\n\t\t\t\t\t\t\t</li>\t                   \n\t\t                \t\t\t\t\t</ul>\n\t            <article>\n\t\t<figure>\n\t\t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio/cras-fermentum-sem/\">\n\t\t\t\t<img width=\"1300\" height=\"1262\" src=\"https://ot-sandbox.s3.amazonaws.com/images/cs16.jpg\" alt=\"\" loading=\"lazy\" />\t\t\t</a>\n\t\t</figure>\n\t        \t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio-category/product/\">Product</a> \n              \t<h2>\n              \t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio/cras-fermentum-sem/\">Cras Fermentum Sem</a>\n              \t</h2>\n</article>\n<article>\n\t\t<figure>\n\t\t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio/mollis-ipsum-mattis/\">\n\t\t\t\t<img width=\"1300\" height=\"1435\" src=\"https://ot-sandbox.s3.amazonaws.com/images/cs17.jpg\" alt=\"\" loading=\"lazy\" />\t\t\t</a>\n\t\t</figure>\n\t        \t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio-category/workshop/\">Workshop</a> \n              \t<h2>\n              \t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio/mollis-ipsum-mattis/\">Mollis Ipsum Mattis</a>\n              \t</h2>\n</article>\n<article>\n\t\t<figure>\n\t\t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio/ipsum-ultricies-cursus/\">\n\t\t\t\t<img width=\"1200\" height=\"923\" src=\"https://ot-sandbox.s3.amazonaws.com/images/cs18.jpg\" alt=\"\" loading=\"lazy\" />\t\t\t</a>\n\t\t</figure>\n\t        \t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio-category/still-life/\">Still Life</a> \n              \t<h2>\n              \t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio/ipsum-ultricies-cursus/\">Ipsum Ultricies Cursus</a>\n              \t</h2>\n</article>\n<article>\n\t\t<figure>\n\t\t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio/inceptos-euismod-egestas/\">\n\t\t\t\t<img width=\"1300\" height=\"1365\" src=\"https://ot-sandbox.s3.amazonaws.com/images/cs20.jpg\" alt=\"\" loading=\"lazy\" />\t\t\t</a>\n\t\t</figure>\n\t        \t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio-category/product/\">Product</a> \n              \t<h2>\n              \t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio/inceptos-euismod-egestas/\">Inceptos Euismod Egestas</a>\n              \t</h2>\n</article>\n<article>\n\t\t<figure>\n\t\t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio/sollicitudin-ornare-porta/\">\n\t\t\t\t<img width=\"1200\" height=\"919\" src=\"https://ot-sandbox.s3.amazonaws.com/images/cs19.jpg\" alt=\"\" loading=\"lazy\" />\t\t\t</a>\n\t\t</figure>\n\t        \t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio-category/product/\">Product</a> \n              \t<h2>\n              \t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio/sollicitudin-ornare-porta/\">Sollicitudin Ornare Porta</a>\n              \t</h2>\n</article>\n<article>\n\t\t<figure>\n\t\t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio/ipsum-mollis-vulputate/\">\n\t\t\t\t<img width=\"1200\" height=\"960\" src=\"https://ot-sandbox.s3.amazonaws.com/images/cs21.jpg\" alt=\"\" loading=\"lazy\" />\t\t\t</a>\n\t\t</figure>\n\t        \t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio-category/workshop/\">Workshop</a> \n              \t<h2>\n              \t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio/ipsum-mollis-vulputate/\">Ipsum Mollis Vulputate</a>\n              \t</h2>\n</article>\n<article>\n\t\t<figure>\n\t\t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio/porta-ornare-cras/\">\n\t\t\t\t<img width=\"1200\" height=\"1200\" src=\"https://ot-sandbox.s3.amazonaws.com/images/cs22.jpg\" alt=\"\" loading=\"lazy\" />\t\t\t</a>\n\t\t</figure>\n\t        \t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio-category/concept/\">Concept</a> \n              \t<h2>\n              \t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio/porta-ornare-cras/\">Porta Ornare Cras</a>\n              \t</h2>\n</article>\n<article>\n\t\t<figure>\n\t\t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio/vulputate-sollicitudin/\">\n\t\t\t\t<img width=\"1200\" height=\"1294\" src=\"https://ot-sandbox.s3.amazonaws.com/images/cs23.jpg\" alt=\"\" loading=\"lazy\" />\t\t\t</a>\n\t\t</figure>\n\t        \t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio-category/concept/\">Concept</a> \n              \t<h2>\n              \t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio/vulputate-sollicitudin/\">Vulputate Sollicitudin</a>\n              \t</h2>\n</article>\n<article>\n\t\t<figure>\n\t\t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio/magna-tristique-inceptos/\">\n\t\t\t\t<img width=\"1200\" height=\"830\" src=\"https://ot-sandbox.s3.amazonaws.com/images/cs24.jpg\" alt=\"\" loading=\"lazy\" />\t\t\t</a>\n\t\t</figure>\n\t        \t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio-category/product/\">Product</a> \n              \t<h2>\n              \t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio/magna-tristique-inceptos/\">Magna Tristique Inceptos</a>\n              \t</h2>\n</article>\n<article>\n\t\t<figure>\n\t\t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio/ridiculus-elit/\">\n\t\t\t\t<img width=\"1200\" height=\"800\" src=\"https://ot-sandbox.s3.amazonaws.com/images/cs25.jpg\" alt=\"\" loading=\"lazy\" />\t\t\t</a>\n\t\t</figure>\n\t        \t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio-category/product/\">Product</a> \n              \t<h2>\n              \t\t<a href=\"https://demo.oceanthemes.site/sandbox/portfolio/ridiculus-elit/\">Ridiculus Elit</a>\n              \t</h2>\n</article>",
+  "excerpt": "",
+  "status": "publish",
+  "date": "2022-09-08 03:58:38",
+  "metadata": {
+    "page_layout": "full-content",
+    "is_trans": "no",
+    "_elementor_edit_mode": "builder",
+    "_elementor_template_type": "wp-page",
+    "_elementor_version": "3.7.4",
+    "_wp_page_template": "default",
+    "_elementor_data": "[{\"id\":\"05d89e1\",\"elType\":\"section\",\"settings\":{\"structure\":\"22\",\"padding\":{\"unit\":\"px\",\"top\":\"90\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"padding_mobile_extra\":{\"unit\":\"px\",\"top\":\"50\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"a157237\",\"elType\":\"column\",\"settings\":{\"_column_size\":66,\"_inline_size\":66.6700000000000017053025658242404460906982421875,\"_inline_size_tablet\":100,\"_inline_size_laptop\":83.3299999999999982946974341757595539093017578125},\"elements\":[{\"id\":\"be78ead\",\"elType\":\"widget\",\"settings\":{\"title\":\"Check out some of our awesome projects with creative ideas.\",\"header_size\":\"h1\",\"title_color\":\"#343F52\",\"_css_classes\":\"display-1\"},\"elements\":[],\"widgetType\":\"heading\"}],\"isInner\":false},{\"id\":\"29e1a32\",\"elType\":\"column\",\"settings\":{\"_column_size\":33,\"_inline_size\":32.63499999999999801048033987171947956085205078125,\"hide_tablet\":\"hidden-tablet\",\"hide_mobile_extra\":\"hidden-mobile_extra\",\"hide_mobile\":\"hidden-mobile\"},\"elements\":[],\"isInner\":false}],\"isInner\":false},{\"id\":\"ffde0bc\",\"elType\":\"section\",\"settings\":{\"padding\":{\"unit\":\"px\",\"top\":\"110\",\"right\":\"0\",\"bottom\":\"120\",\"left\":\"0\",\"isLinked\":false},\"padding_mobile_extra\":{\"unit\":\"px\",\"top\":\"80\",\"right\":\"0\",\"bottom\":\"90\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"09b4950\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null},\"elements\":[{\"id\":\"bb5f30a\",\"elType\":\"widget\",\"settings\":{\"project_cat\":[\"concept\",\"product\",\"still-life\",\"workshop\"],\"project_num\":10,\"all_text\":\"All\",\"column\":\"pf_2_cols\",\"w_gaps\":{\"unit\":\"px\",\"size\":50,\"sizes\":[]},\"project_item_spacing_mobile_extra\":{\"unit\":\"px\",\"size\":50,\"sizes\":[]},\"cat_spacing\":{\"unit\":\"px\",\"size\":15,\"sizes\":[]}},\"elements\":[],\"widgetType\":\"ot-portfolio-filter\"}],\"isInner\":false}],\"isInner\":false}]",
+    "_wxr_import_user_slug": "admin"
+  },
+  "categories": [],
+  "elementorData": [
+    {
+      "id": "05d89e1",
+      "elType": "section",
+      "settings": {
+        "structure": "22",
+        "padding": {
+          "unit": "px",
+          "top": "90",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_mobile_extra": {
+          "unit": "px",
+          "top": "50",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "a157237",
+          "elType": "column",
+          "settings": {
+            "_column_size": 66,
+            "_inline_size": 66.67,
+            "_inline_size_tablet": 100,
+            "_inline_size_laptop": 83.33
+          },
+          "elements": [
+            {
+              "id": "be78ead",
+              "elType": "widget",
+              "settings": {
+                "title": "Check out some of our awesome projects with creative ideas.",
+                "header_size": "h1",
+                "title_color": "#343F52",
+                "_css_classes": "display-1"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "29e1a32",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": 32.635,
+            "hide_tablet": "hidden-tablet",
+            "hide_mobile_extra": "hidden-mobile_extra",
+            "hide_mobile": "hidden-mobile"
+          },
+          "elements": [],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "ffde0bc",
+      "elType": "section",
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "110",
+          "right": "0",
+          "bottom": "120",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_mobile_extra": {
+          "unit": "px",
+          "top": "80",
+          "right": "0",
+          "bottom": "90",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "09b4950",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "bb5f30a",
+              "elType": "widget",
+              "settings": {
+                "project_cat": [
+                  "concept",
+                  "product",
+                  "still-life",
+                  "workshop"
+                ],
+                "project_num": 10,
+                "all_text": "All",
+                "column": "pf_2_cols",
+                "w_gaps": {
+                  "unit": "px",
+                  "size": 50,
+                  "sizes": []
+                },
+                "project_item_spacing_mobile_extra": {
+                  "unit": "px",
+                  "size": 50,
+                  "sizes": []
+                },
+                "cat_spacing": {
+                  "unit": "px",
+                  "size": 15,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "ot-portfolio-filter"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

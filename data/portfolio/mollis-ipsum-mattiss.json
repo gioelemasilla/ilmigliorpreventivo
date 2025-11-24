@@ -1,0 +1,495 @@
+{
+  "title": "Mollis Ipsum Mattiss",
+  "slug": "mollis-ipsum-mattiss",
+  "content": "<a href=\"#\" rel=\"category\">Identity\n</a>\n\n<style>/*! elementor - v3.7.4 - 31-08-2022 */<br />.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style>\n<h1>Commodo Dolor Bibendum Parturient Cursus Mollis</h1>\nInteger posuere erat a ante venenatis dapibus posuere. Maecenas faucibus mollis interdum.\n\n<style>\n    .elementor-4145 .ot-carousel .owl-dots button.owl-dot span{<br />        opacity : 1;<br />    }<br /></style>\n<figure><img src=\"https://ot-sandbox.s3.amazonaws.com/images/pp7.jpg\" alt=\"Image 1\" /></figure>\n<figure><img src=\"https://ot-sandbox.s3.amazonaws.com/images/pp8.jpg\" alt=\"Image 2\" /></figure>\n<figure><img src=\"https://ot-sandbox.s3.amazonaws.com/images/pp9.jpg\" alt=\"Image 3\" /></figure>\n<h6>About the Project</h6>\nCras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis. Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum.\n\nDonec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.\n<ul>\n \t<li>\n<h5>Date</h5>\n17 May 2018</li>\n \t<li>\n<h5>Client Name</h5>\nCool House</li>\n</ul>",
+  "excerpt": "",
+  "status": "publish",
+  "date": "2022-10-04 10:46:35",
+  "metadata": {
+    "_wp_page_template": "default",
+    "_elementor_edit_mode": "builder",
+    "_elementor_template_type": "wp-post",
+    "_elementor_version": "3.7.4",
+    "_elementor_data": "[{\"id\":\"16e9f544\",\"elType\":\"section\",\"settings\":{\"padding\":{\"unit\":\"px\",\"top\":\"90\",\"right\":\"0\",\"bottom\":\"60\",\"left\":\"0\",\"isLinked\":false},\"padding_mobile_extra\":{\"unit\":\"px\",\"top\":\"50\",\"right\":\"0\",\"bottom\":\"45\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"6d7a5c67\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null,\"margin\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"20.835\",\"bottom\":\"0\",\"left\":\"20.835\",\"isLinked\":false},\"margin_laptop\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"margin_tablet_extra\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"16.665\",\"bottom\":\"0\",\"left\":\"16.665\",\"isLinked\":false},\"margin_tablet\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"8.33\",\"bottom\":\"0\",\"left\":\"8.33\",\"isLinked\":false},\"margin_mobile_extra\":{\"unit\":\"%\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false},\"margin_mobile\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true}},\"elements\":[{\"id\":\"3d20c9a\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<div class=\\\"post-header\\\"><div class=\\\"post-cates text-line\\\"><a class=\\\"hover\\\" href=\\\"#\\\" rel=\\\"category\\\">Identity<br \\/><\\/a><\\/div><\\/div>\",\"align\":\"center\"},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"765f4a6b\",\"elType\":\"widget\",\"settings\":{\"title\":\"Commodo Dolor Bibendum Parturient Cursus Mollis\",\"header_size\":\"h1\",\"title_color\":\"#343F52\",\"_css_classes\":\"display-1\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"15\",\"left\":\"0\",\"isLinked\":false},\"align\":\"center\"},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"d6d4baa\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Integer posuere erat a ante venenatis dapibus posuere. Maecenas faucibus mollis interdum.<\\/p>\",\"align\":\"center\",\"typography_typography\":\"custom\",\"typography_font_family\":\"Manrope\",\"typography_font_size\":{\"unit\":\"px\",\"size\":18,\"sizes\":[]},\"typography_font_weight\":\"500\",\"typography_line_height\":{\"unit\":\"em\",\"size\":1.649999999999999911182158029987476766109466552734375,\"sizes\":[]},\"typography_line_height_laptop\":{\"unit\":\"em\",\"size\":\"\",\"sizes\":[]},\"typography_line_height_tablet_extra\":{\"unit\":\"em\",\"size\":\"\",\"sizes\":[]},\"typography_line_height_mobile_extra\":{\"unit\":\"em\",\"size\":\"\",\"sizes\":[]},\"_padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"160\",\"bottom\":\"0\",\"left\":\"160\",\"isLinked\":false},\"_padding_laptop\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"100\",\"bottom\":\"0\",\"left\":\"100\",\"isLinked\":false},\"_padding_tablet_extra\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"70\",\"bottom\":\"0\",\"left\":\"70\",\"isLinked\":false},\"_padding_mobile_extra\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"text-editor\"}],\"isInner\":false}],\"isInner\":false},{\"id\":\"6217cb5e\",\"elType\":\"section\",\"settings\":{\"margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":0,\"bottom\":\"70\",\"left\":0,\"isLinked\":false},\"margin_mobile_extra\":{\"unit\":\"px\",\"top\":\"0\",\"right\":0,\"bottom\":\"40\",\"left\":0,\"isLinked\":false}},\"elements\":[{\"id\":\"7aeaa412\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null},\"elements\":[{\"id\":\"4d254aca\",\"elType\":\"widget\",\"settings\":{\"html\":\"<style>\\n    .elementor-4145 .ot-carousel .owl-dots button.owl-dot span{\\n        opacity : 1;\\n    }\\n<\\/style>\",\"hide_desktop\":\"hidden-desktop\",\"hide_laptop\":\"hidden-laptop\",\"hide_tablet_extra\":\"hidden-tablet_extra\",\"hide_tablet\":\"hidden-tablet\",\"hide_mobile_extra\":\"hidden-mobile_extra\",\"hide_mobile\":\"hidden-mobile\"},\"elements\":[],\"widgetType\":\"html\"},{\"id\":\"44c3ab4a\",\"elType\":\"widget\",\"settings\":{\"images_slider\":[{\"title\":\"Image 1\",\"image_item\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/pp7.jpg\",\"id\":4771,\"alt\":\"\",\"source\":\"library\"},\"_id\":\"11c16a5\"},{\"title\":\"Image 2\",\"image_item\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/pp8.jpg\",\"id\":4772,\"alt\":\"\",\"source\":\"library\"},\"_id\":\"fe76286\"},{\"title\":\"Image 3\",\"image_item\":{\"url\":\"https:\\/\\/ot-sandbox.s3.amazonaws.com\\/images\\/pp9.jpg\",\"id\":4773,\"alt\":\"\",\"source\":\"library\"},\"_id\":\"1001a1f\"}],\"tshow\":\"1\",\"loop\":\"\",\"navigation\":\"both\",\"dots_spacing\":{\"unit\":\"px\",\"size\":37,\"sizes\":[]},\"dots_bgcolor\":\"#FFFFFF\",\"arrow_spacing\":{\"unit\":\"px\",\"size\":0,\"sizes\":[]},\"arrow_color\":\"#343F52\",\"arrow_bgcolor\":\"#FFFFFFB3\"},\"elements\":[],\"widgetType\":\"ot-images-slider\"}],\"isInner\":false}],\"isInner\":false},{\"id\":\"15008573\",\"elType\":\"section\",\"settings\":{\"gap\":\"no\",\"padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"120\",\"left\":\"0\",\"isLinked\":false},\"padding_mobile_extra\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"70\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"35492c48\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null},\"elements\":[{\"id\":\"3ffce7d8\",\"elType\":\"section\",\"settings\":{\"structure\":\"20\",\"padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"110\",\"bottom\":\"0\",\"left\":\"110\",\"isLinked\":false},\"content_position\":\"middle\",\"margin_mobile_extra\":{\"unit\":\"px\",\"top\":\"\",\"right\":0,\"bottom\":\"\",\"left\":0,\"isLinked\":true},\"padding_laptop\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"95\",\"bottom\":\"0\",\"left\":\"95\",\"isLinked\":false},\"padding_tablet_extra\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"80\",\"bottom\":\"0\",\"left\":\"74\",\"isLinked\":false},\"padding_tablet\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"6f913853\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":75.099999999999994315658113919198513031005859375,\"_inline_size_mobile_extra\":100},\"elements\":[{\"id\":\"57035b56\",\"elType\":\"widget\",\"settings\":{\"title\":\"About the Project\",\"header_size\":\"h6\",\"title_color\":\"#343F52\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"20\",\"left\":\"0\",\"isLinked\":false},\"_css_classes\":\"display-6\"},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"5420f16e\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<p>Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis. Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum.<\\/p><p>Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.<\\/p>\",\"typography_font_family\":\"Manrope\",\"typography_font_weight\":\"500\"},\"elements\":[],\"widgetType\":\"text-editor\"}],\"isInner\":true},{\"id\":\"215fabdc\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":24.89999999999999857891452847979962825775146484375,\"margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"64.172\",\"isLinked\":false},\"_inline_size_mobile_extra\":100,\"margin_laptop\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"56.172\",\"isLinked\":false},\"margin_tablet_extra\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"32\",\"isLinked\":false},\"margin_mobile_extra\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"6566d35f\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<ul class=\\\"unstyle mb-0\\\"><li><h5 class=\\\"mb-1\\\">Date<\\/h5><p>17 May 2018<\\/p><\\/li><li><h5 class=\\\"mb-1\\\">Client Name<\\/h5><p>Cool House<\\/p><\\/li><\\/ul>\"},\"elements\":[],\"widgetType\":\"text-editor\"}],\"isInner\":true}],\"isInner\":true}],\"isInner\":false}],\"isInner\":false}]",
+    "_wxr_import_user_slug": "admin"
+  },
+  "categories": [],
+  "elementorData": [
+    {
+      "id": "16e9f544",
+      "elType": "section",
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "90",
+          "right": "0",
+          "bottom": "60",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_mobile_extra": {
+          "unit": "px",
+          "top": "50",
+          "right": "0",
+          "bottom": "45",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "6d7a5c67",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "margin": {
+              "unit": "%",
+              "top": "0",
+              "right": "20.835",
+              "bottom": "0",
+              "left": "20.835",
+              "isLinked": false
+            },
+            "margin_laptop": {
+              "unit": "%",
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": "",
+              "isLinked": true
+            },
+            "margin_tablet_extra": {
+              "unit": "%",
+              "top": "0",
+              "right": "16.665",
+              "bottom": "0",
+              "left": "16.665",
+              "isLinked": false
+            },
+            "margin_tablet": {
+              "unit": "%",
+              "top": "0",
+              "right": "8.33",
+              "bottom": "0",
+              "left": "8.33",
+              "isLinked": false
+            },
+            "margin_mobile_extra": {
+              "unit": "%",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "margin_mobile": {
+              "unit": "%",
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": "",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "3d20c9a",
+              "elType": "widget",
+              "settings": {
+                "editor": "<div class=\"post-header\"><div class=\"post-cates text-line\"><a class=\"hover\" href=\"#\" rel=\"category\">Identity<br /></a></div></div>",
+                "align": "center"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "765f4a6b",
+              "elType": "widget",
+              "settings": {
+                "title": "Commodo Dolor Bibendum Parturient Cursus Mollis",
+                "header_size": "h1",
+                "title_color": "#343F52",
+                "_css_classes": "display-1",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "15",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "align": "center"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "d6d4baa",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Integer posuere erat a ante venenatis dapibus posuere. Maecenas faucibus mollis interdum.</p>",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Manrope",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_font_weight": "500",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.65,
+                  "sizes": []
+                },
+                "typography_line_height_laptop": {
+                  "unit": "em",
+                  "size": "",
+                  "sizes": []
+                },
+                "typography_line_height_tablet_extra": {
+                  "unit": "em",
+                  "size": "",
+                  "sizes": []
+                },
+                "typography_line_height_mobile_extra": {
+                  "unit": "em",
+                  "size": "",
+                  "sizes": []
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "160",
+                  "bottom": "0",
+                  "left": "160",
+                  "isLinked": false
+                },
+                "_padding_laptop": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "100",
+                  "bottom": "0",
+                  "left": "100",
+                  "isLinked": false
+                },
+                "_padding_tablet_extra": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "70",
+                  "bottom": "0",
+                  "left": "70",
+                  "isLinked": false
+                },
+                "_padding_mobile_extra": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "6217cb5e",
+      "elType": "section",
+      "settings": {
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": 0,
+          "bottom": "70",
+          "left": 0,
+          "isLinked": false
+        },
+        "margin_mobile_extra": {
+          "unit": "px",
+          "top": "0",
+          "right": 0,
+          "bottom": "40",
+          "left": 0,
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "7aeaa412",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "4d254aca",
+              "elType": "widget",
+              "settings": {
+                "html": "<style>\n    .elementor-4145 .ot-carousel .owl-dots button.owl-dot span{\n        opacity : 1;\n    }\n</style>",
+                "hide_desktop": "hidden-desktop",
+                "hide_laptop": "hidden-laptop",
+                "hide_tablet_extra": "hidden-tablet_extra",
+                "hide_tablet": "hidden-tablet",
+                "hide_mobile_extra": "hidden-mobile_extra",
+                "hide_mobile": "hidden-mobile"
+              },
+              "elements": [],
+              "widgetType": "html"
+            },
+            {
+              "id": "44c3ab4a",
+              "elType": "widget",
+              "settings": {
+                "images_slider": [
+                  {
+                    "title": "Image 1",
+                    "image_item": {
+                      "url": "https://ot-sandbox.s3.amazonaws.com/images/pp7.jpg",
+                      "id": 4771,
+                      "alt": "",
+                      "source": "library"
+                    },
+                    "_id": "11c16a5"
+                  },
+                  {
+                    "title": "Image 2",
+                    "image_item": {
+                      "url": "https://ot-sandbox.s3.amazonaws.com/images/pp8.jpg",
+                      "id": 4772,
+                      "alt": "",
+                      "source": "library"
+                    },
+                    "_id": "fe76286"
+                  },
+                  {
+                    "title": "Image 3",
+                    "image_item": {
+                      "url": "https://ot-sandbox.s3.amazonaws.com/images/pp9.jpg",
+                      "id": 4773,
+                      "alt": "",
+                      "source": "library"
+                    },
+                    "_id": "1001a1f"
+                  }
+                ],
+                "tshow": "1",
+                "loop": "",
+                "navigation": "both",
+                "dots_spacing": {
+                  "unit": "px",
+                  "size": 37,
+                  "sizes": []
+                },
+                "dots_bgcolor": "#FFFFFF",
+                "arrow_spacing": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                },
+                "arrow_color": "#343F52",
+                "arrow_bgcolor": "#FFFFFFB3"
+              },
+              "elements": [],
+              "widgetType": "ot-images-slider"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "15008573",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "120",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_mobile_extra": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "70",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "35492c48",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "3ffce7d8",
+              "elType": "section",
+              "settings": {
+                "structure": "20",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "110",
+                  "bottom": "0",
+                  "left": "110",
+                  "isLinked": false
+                },
+                "content_position": "middle",
+                "margin_mobile_extra": {
+                  "unit": "px",
+                  "top": "",
+                  "right": 0,
+                  "bottom": "",
+                  "left": 0,
+                  "isLinked": true
+                },
+                "padding_laptop": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "95",
+                  "bottom": "0",
+                  "left": "95",
+                  "isLinked": false
+                },
+                "padding_tablet_extra": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "80",
+                  "bottom": "0",
+                  "left": "74",
+                  "isLinked": false
+                },
+                "padding_tablet": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "6f913853",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": 75.1,
+                    "_inline_size_mobile_extra": 100
+                  },
+                  "elements": [
+                    {
+                      "id": "57035b56",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "About the Project",
+                        "header_size": "h6",
+                        "title_color": "#343F52",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "20",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "_css_classes": "display-6"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "5420f16e",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis. Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum.</p><p>Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>",
+                        "typography_font_family": "Manrope",
+                        "typography_font_weight": "500"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "215fabdc",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": 24.9,
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "64.172",
+                      "isLinked": false
+                    },
+                    "_inline_size_mobile_extra": 100,
+                    "margin_laptop": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "56.172",
+                      "isLinked": false
+                    },
+                    "margin_tablet_extra": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "32",
+                      "isLinked": false
+                    },
+                    "margin_mobile_extra": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "6566d35f",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<ul class=\"unstyle mb-0\"><li><h5 class=\"mb-1\">Date</h5><p>17 May 2018</p></li><li><h5 class=\"mb-1\">Client Name</h5><p>Cool House</p></li></ul>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

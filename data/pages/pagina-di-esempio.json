@@ -1,0 +1,12 @@
+{
+  "title": "Pagina di esempio",
+  "slug": "pagina-di-esempio",
+  "content": "<!-- wp:paragraph -->\n<p>Questa è una pagina di esempio. Differisce da un articolo di un blog perché rimane sempre allo stesso posto e (in molti temi) appare nel menu di navigazione. Molte persone iniziano con una pagina di Informazioni che li presentano ai visitatori del sito. Potrebbe apparire una presentazione del tipo:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>Ciao! Sono un fattorino ciclista di giorno, aspirante attore di notte e questo è il mio sito web. Vivo a Los Angeles, ho un grande cane di nome Jack e mi piace la piña colada. (E prendere la pioggia)</p></blockquote>\n<!-- /wp:quote -->\n\n<!-- wp:paragraph -->\n<p>...o qualcosa di simile:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>La Società XYZ Aggeggi è stata fondata nel 1971 e da allora fornisce al pubblico aggeggi di ottima qualità. Situata a Fantasilandia, XYZ impiega oltre 2.000 persone e realizza ogni sorta di aggeggio fantastico per la comunità di Fantasilandia.</p></blockquote>\n<!-- /wp:quote -->\n\n<!-- wp:paragraph -->\n<p>Come nuovo utente di WordPress, dovresti andare nella tua <a href=\"http://www.ilmigliorpreventivo.it/wp-admin/\">Bacheca</a> per eliminare questa pagina, e crearne delle nuove per i tuoi contenuti. Divertiti!</p>\n<!-- /wp:paragraph -->",
+  "excerpt": "",
+  "status": "publish",
+  "date": "2025-01-27 11:56:32",
+  "metadata": {
+    "_wp_page_template": "default"
+  },
+  "categories": []
+}
