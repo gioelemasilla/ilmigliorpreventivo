@@ -148,13 +148,13 @@ export default function ServiziPage() {
           <img
             src="/images/hero/hero servizi.webp"
             alt=""
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover brightness-110"
           />
         </div>
-        {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-50/90 via-orange-50/70 to-blue-50/80"></div>
+        {/* Gradient Overlay - Più leggero per vedere meglio l'immagine */}
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-50/60 via-orange-50/40 to-blue-50/50"></div>
         {/* Vignette Effect */}
-        <div className="absolute inset-0 bg-gradient-radial from-transparent via-transparent to-[#1C244B]/10"></div>
+        <div className="absolute inset-0 bg-gradient-radial from-transparent via-transparent to-[#1C244B]/5"></div>
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
@@ -169,7 +169,7 @@ export default function ServiziPage() {
       </section>
 
       {/* Services Grid */}
-      <section className="py-12 sm:py-16 md:py-20 bg-white">
+      <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-b from-white to-gray-50">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="max-w-5xl mx-auto">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
@@ -177,7 +177,7 @@ export default function ServiziPage() {
                 <Link
                   key={service.href}
                   href={service.href}
-                  className="group bg-white border-2 border-gray-100 rounded-2xl p-5 sm:p-6 md:p-8 hover:border-[#FAB758] hover:shadow-2xl hover:-translate-y-1 transition-all duration-300"
+                  className="group bg-white border-2 border-gray-100 rounded-2xl p-5 sm:p-6 md:p-8 shadow-md hover:border-[#FAB758]/30 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
                 >
                   <service.Icon className="text-4xl sm:text-5xl mb-4 sm:mb-6 group-hover:scale-110 transition-transform duration-300 text-[#FAB758]" />
                   <h3 className="text-xl sm:text-2xl font-bold text-[#1C244B] mb-3 sm:mb-4 group-hover:text-[#FAB758] transition-colors leading-tight">
@@ -210,7 +210,7 @@ export default function ServiziPage() {
       </div>
 
       {/* About Section */}
-      <section className="py-12 sm:py-16 md:py-20 bg-gray-50">
+      <section className="pt-0 pb-12 sm:pb-16 md:pb-20 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="bg-white rounded-2xl sm:rounded-3xl shadow-xl p-6 sm:p-8 md:p-10 lg:p-12 border border-gray-100">
@@ -233,7 +233,7 @@ export default function ServiziPage() {
                   <img
                     src="/images/2025/10/undraw_talking-on-the-phone_lc9v.png"
                     alt="Contattaci"
-                    className="w-full drop-shadow-lg"
+                    className="w-full"
                   />
                 </div>
               </div>
@@ -243,9 +243,9 @@ export default function ServiziPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-12 sm:py-16 md:py-20 bg-white relative overflow-hidden">
+      <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-b from-white to-blue-50/30 relative overflow-hidden">
         {/* Background Pattern */}
-        <div className="absolute inset-0 opacity-[0.03]" style={{backgroundImage: 'radial-gradient(circle, #1C244B 1px, transparent 1px)', backgroundSize: '24px 24px'}}></div>
+        <div className="absolute inset-0 opacity-[0.05]" style={{backgroundImage: 'radial-gradient(circle, #1C244B 1px, transparent 1px)', backgroundSize: '24px 24px'}}></div>
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
           <div className="max-w-6xl mx-auto">
@@ -261,7 +261,7 @@ export default function ServiziPage() {
             <div className="grid md:grid-cols-2 gap-4 sm:gap-6">
               {/* Column 1 */}
               <div className="space-y-4">
-                <details className="group bg-white border-l-4 border-[#FAB758] rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
+                <details className="group bg-white border-l-4 border-[#FAB758] rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
                   <summary className="flex justify-between items-start cursor-pointer p-4 sm:p-5 md:p-6 font-medium text-[#1C244B] text-sm sm:text-base">
                     <span className="pr-3 sm:pr-4">Come funziona il confronto preventivi?</span>
                     <span className="text-[#FAB758] text-xl sm:text-2xl group-open:rotate-45 transition-transform duration-300 flex-shrink-0">+</span>
@@ -271,7 +271,7 @@ export default function ServiziPage() {
                   </p>
                 </details>
 
-                <details className="group bg-white border-l-4 border-[#FAB758] rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
+                <details className="group bg-white border-l-4 border-[#FAB758] rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
                   <summary className="flex justify-between items-start cursor-pointer p-4 sm:p-5 md:p-6 font-medium text-[#1C244B] text-sm sm:text-base">
                     <span className="pr-3 sm:pr-4">Quali documenti servono per pratiche GSE o ENEA?</span>
                     <span className="text-[#FAB758] text-xl sm:text-2xl group-open:rotate-45 transition-transform duration-300 flex-shrink-0">+</span>
@@ -281,7 +281,7 @@ export default function ServiziPage() {
                   </p>
                 </details>
 
-                <details className="group bg-white border-l-4 border-[#FAB758] rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
+                <details className="group bg-white border-l-4 border-[#FAB758] rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
                   <summary className="flex justify-between items-start cursor-pointer p-4 sm:p-5 md:p-6 font-medium text-[#1C244B] text-sm sm:text-base">
                     <span className="pr-3 sm:pr-4">Coprite anche servizi per imprese o condomini?</span>
                     <span className="text-[#FAB758] text-xl sm:text-2xl group-open:rotate-45 transition-transform duration-300 flex-shrink-0">+</span>
@@ -291,7 +291,7 @@ export default function ServiziPage() {
                   </p>
                 </details>
 
-                <details className="group bg-white border-l-4 border-[#FAB758] rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
+                <details className="group bg-white border-l-4 border-[#FAB758] rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
                   <summary className="flex justify-between items-start cursor-pointer p-4 sm:p-5 md:p-6 font-medium text-[#1C244B] text-sm sm:text-base">
                     <span className="pr-3 sm:pr-4">Cosa succede se cambio idea dopo l'attivazione?</span>
                     <span className="text-[#FAB758] text-xl sm:text-2xl group-open:rotate-45 transition-transform duration-300 flex-shrink-0">+</span>
@@ -304,7 +304,7 @@ export default function ServiziPage() {
 
               {/* Column 2 */}
               <div className="space-y-4">
-                <details className="group bg-white border-l-4 border-[#FAB758] rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
+                <details className="group bg-white border-l-4 border-[#FAB758] rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
                   <summary className="flex justify-between items-start cursor-pointer p-4 sm:p-5 md:p-6 font-medium text-[#1C244B] text-sm sm:text-base">
                     <span className="pr-3 sm:pr-4">Quanto tempo ci vuole per attivare un servizio come luce e gas?</span>
                     <span className="text-[#FAB758] text-xl sm:text-2xl group-open:rotate-45 transition-transform duration-300 flex-shrink-0">+</span>
@@ -314,7 +314,7 @@ export default function ServiziPage() {
                   </p>
                 </details>
 
-                <details className="group bg-white border-l-4 border-[#FAB758] rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
+                <details className="group bg-white border-l-4 border-[#FAB758] rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
                   <summary className="flex justify-between items-start cursor-pointer p-4 sm:p-5 md:p-6 font-medium text-[#1C244B] text-sm sm:text-base">
                     <span className="pr-3 sm:pr-4">I vostri servizi sono gratuiti?</span>
                     <span className="text-[#FAB758] text-xl sm:text-2xl group-open:rotate-45 transition-transform duration-300 flex-shrink-0">+</span>
@@ -324,7 +324,7 @@ export default function ServiziPage() {
                   </p>
                 </details>
 
-                <details className="group bg-white border-l-4 border-[#FAB758] rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
+                <details className="group bg-white border-l-4 border-[#FAB758] rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
                   <summary className="flex justify-between items-start cursor-pointer p-4 sm:p-5 md:p-6 font-medium text-[#1C244B] text-sm sm:text-base">
                     <span className="pr-3 sm:pr-4">Quali incentivi posso ottenere per impianti rinnovabili?</span>
                     <span className="text-[#FAB758] text-xl sm:text-2xl group-open:rotate-45 transition-transform duration-300 flex-shrink-0">+</span>
@@ -334,7 +334,7 @@ export default function ServiziPage() {
                   </p>
                 </details>
 
-                <details className="group bg-white border-l-4 border-[#FAB758] rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
+                <details className="group bg-white border-l-4 border-[#FAB758] rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
                   <summary className="flex justify-between items-start cursor-pointer p-4 sm:p-5 md:p-6 font-medium text-[#1C244B] text-sm sm:text-base">
                     <span className="pr-3 sm:pr-4">Come scegliete i partner per i servizi?</span>
                     <span className="text-[#FAB758] text-xl sm:text-2xl group-open:rotate-45 transition-transform duration-300 flex-shrink-0">+</span>

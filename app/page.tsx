@@ -21,13 +21,13 @@ export default function HomePage() {
           <img
             src="/images/hero/hero home.webp"
             alt=""
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover brightness-110"
           />
         </div>
-        {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-50/90 via-orange-50/70 to-blue-50/80"></div>
+        {/* Gradient Overlay - Più leggero per vedere meglio l'immagine */}
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-50/60 via-orange-50/40 to-blue-50/50"></div>
         {/* Vignette Effect */}
-        <div className="absolute inset-0 bg-gradient-radial from-transparent via-transparent to-[#1C244B]/10"></div>
+        <div className="absolute inset-0 bg-gradient-radial from-transparent via-transparent to-[#1C244B]/5"></div>
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
@@ -50,7 +50,7 @@ export default function HomePage() {
       </section>
 
       {/* DI COSA CI OCCUPIAMO */}
-      <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-white">
+      <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-gradient-to-b from-gray-50 to-white">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-10 sm:mb-12 md:mb-16">
@@ -151,37 +151,37 @@ export default function HomePage() {
 
             {/* Services Grid */}
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4 md:gap-6">
-              <Link href="/pratiche-gse" className="group text-center p-4 sm:p-5 md:p-6 bg-white rounded-xl hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-gray-100">
+              <Link href="/pratiche-gse" className="group text-center p-4 sm:p-5 md:p-6 bg-white rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border-2 border-gray-100 hover:border-[#FAB758]/30">
                 <HiClipboardList className="text-3xl sm:text-4xl mb-2 sm:mb-3 group-hover:scale-110 transition-transform duration-300 text-[#FAB758] mx-auto" />
                 <h4 className="font-bold text-[#1C244B] group-hover:text-[#FAB758] transition-colors text-xs sm:text-sm leading-tight">
                   Pratiche GSE
                 </h4>
               </Link>
-              <Link href="/pratiche-enea" className="group text-center p-4 sm:p-5 md:p-6 bg-white rounded-xl hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-gray-100">
+              <Link href="/pratiche-enea" className="group text-center p-4 sm:p-5 md:p-6 bg-white rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border-2 border-gray-100 hover:border-[#FAB758]/30">
                 <HiDocumentText className="text-3xl sm:text-4xl mb-2 sm:mb-3 group-hover:scale-110 transition-transform duration-300 text-[#FAB758] mx-auto" />
                 <h4 className="font-bold text-[#1C244B] group-hover:text-[#FAB758] transition-colors text-xs sm:text-sm leading-tight">
                   Pratiche ENEA
                 </h4>
               </Link>
-              <Link href="/luce-gas" className="group text-center p-4 sm:p-5 md:p-6 bg-white rounded-xl hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-gray-100">
+              <Link href="/luce-gas" className="group text-center p-4 sm:p-5 md:p-6 bg-white rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border-2 border-gray-100 hover:border-[#FAB758]/30">
                 <HiLightningBolt className="text-3xl sm:text-4xl mb-2 sm:mb-3 group-hover:scale-110 transition-transform duration-300 text-[#FAB758] mx-auto" />
                 <h4 className="font-bold text-[#1C244B] group-hover:text-[#FAB758] transition-colors text-xs sm:text-sm leading-tight">
                   Luce & Gas
                 </h4>
               </Link>
-              <Link href="/fibra-telefonia" className="group text-center p-4 sm:p-5 md:p-6 bg-white rounded-xl hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-gray-100">
+              <Link href="/fibra-telefonia" className="group text-center p-4 sm:p-5 md:p-6 bg-white rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border-2 border-gray-100 hover:border-[#FAB758]/30">
                 <HiWifi className="text-3xl sm:text-4xl mb-2 sm:mb-3 group-hover:scale-110 transition-transform duration-300 text-[#FAB758] mx-auto" />
                 <h4 className="font-bold text-[#1C244B] group-hover:text-[#FAB758] transition-colors text-xs sm:text-sm leading-tight">
                   Telefonia & Fibra
                 </h4>
               </Link>
-              <Link href="/fotovoltaico" className="group text-center p-4 sm:p-5 md:p-6 bg-white rounded-xl hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-gray-100">
+              <Link href="/fotovoltaico" className="group text-center p-4 sm:p-5 md:p-6 bg-white rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border-2 border-gray-100 hover:border-[#FAB758]/30">
                 <HiSun className="text-3xl sm:text-4xl mb-2 sm:mb-3 group-hover:scale-110 transition-transform duration-300 text-[#FAB758] mx-auto" />
                 <h4 className="font-bold text-[#1C244B] group-hover:text-[#FAB758] transition-colors text-xs sm:text-sm leading-tight">
                   Impianto fotovoltaico
                 </h4>
               </Link>
-              <Link href="/marketing-aziendale" className="group text-center p-4 sm:p-5 md:p-6 bg-white rounded-xl hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-gray-100">
+              <Link href="/marketing-aziendale" className="group text-center p-4 sm:p-5 md:p-6 bg-white rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border-2 border-gray-100 hover:border-[#FAB758]/30">
                 <HiTrendingUp className="text-3xl sm:text-4xl mb-2 sm:mb-3 group-hover:scale-110 transition-transform duration-300 text-[#FAB758] mx-auto" />
                 <h4 className="font-bold text-[#1C244B] group-hover:text-[#FAB758] transition-colors text-xs sm:text-sm leading-tight">
                   Marketing Aziendale
@@ -193,9 +193,9 @@ export default function HomePage() {
       </section>
 
       {/* PERCHE' SCEGLIERCI */}
-      <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-white relative overflow-hidden">
+      <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-gradient-to-b from-white to-blue-50/30 relative overflow-hidden">
         {/* Background Pattern */}
-        <div className="absolute inset-0 opacity-[0.02]" style={{backgroundImage: 'radial-gradient(circle, #FAB758 1px, transparent 1px)', backgroundSize: '32px 32px'}}></div>
+        <div className="absolute inset-0 opacity-[0.04]" style={{backgroundImage: 'radial-gradient(circle, #FAB758 1px, transparent 1px)', backgroundSize: '32px 32px'}}></div>
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
           <div className="max-w-5xl mx-auto">
@@ -218,7 +218,7 @@ export default function HomePage() {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
-              <div className="text-center p-6 sm:p-7 md:p-8 bg-gray-50 rounded-2xl hover:shadow-lg transition-all duration-300 group">
+              <div className="text-center p-6 sm:p-7 md:p-8 bg-white rounded-2xl shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 group border-2 border-gray-100">
                 <div className="text-4xl sm:text-5xl font-bold bg-gradient-to-br from-[#FAB758] to-[#e5a647] bg-clip-text text-transparent mb-4 sm:mb-6 group-hover:scale-110 transition-transform duration-300">01</div>
                 <h4 className="text-lg sm:text-xl font-bold text-[#1C244B] mb-2 sm:mb-4">
                   Esperienza reale
@@ -227,7 +227,7 @@ export default function HomePage() {
                   Un team con anni di competenza nel settore, pronto a consigliarti in modo imparziale.
                 </p>
               </div>
-              <div className="text-center p-6 sm:p-7 md:p-8 bg-gray-50 rounded-2xl hover:shadow-lg transition-all duration-300 group">
+              <div className="text-center p-6 sm:p-7 md:p-8 bg-white rounded-2xl shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 group border-2 border-gray-100">
                 <div className="text-4xl sm:text-5xl font-bold bg-gradient-to-br from-[#FAB758] to-[#e5a647] bg-clip-text text-transparent mb-4 sm:mb-6 group-hover:scale-110 transition-transform duration-300">02</div>
                 <h4 className="text-lg sm:text-xl font-bold text-[#1C244B] mb-2 sm:mb-4">
                   Tempo risparmiato
@@ -236,7 +236,7 @@ export default function HomePage() {
                   Evita stress e lunghe attese: in pochi minuti hai tutto sotto controllo.
                 </p>
               </div>
-              <div className="text-center p-6 sm:p-7 md:p-8 bg-gray-50 rounded-2xl hover:shadow-lg transition-all duration-300 group">
+              <div className="text-center p-6 sm:p-7 md:p-8 bg-white rounded-2xl shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 group border-2 border-gray-100">
                 <div className="text-4xl sm:text-5xl font-bold bg-gradient-to-br from-[#FAB758] to-[#e5a647] bg-clip-text text-transparent mb-4 sm:mb-6 group-hover:scale-110 transition-transform duration-300">03</div>
                 <h4 className="text-lg sm:text-xl font-bold text-[#1C244B] mb-2 sm:mb-4">
                   Massima sicurezza
