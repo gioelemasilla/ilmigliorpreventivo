@@ -4,6 +4,15 @@ import { HiClock, HiArrowRight } from 'react-icons/hi';
 export default function BlogPage() {
   const articles = [
     {
+      title: 'Cambio Fornitore Luce Senza Interruzione nel 2025: Guida Completa',
+      excerpt: 'Scopri come cambiare fornitore di energia elettrica senza disagi. Guida aggiornata 2025 con tempistiche, documenti necessari e consigli per risparmiare sulla bolletta della luce.',
+      date: '25 Novembre 2025',
+      readTime: '10 min',
+      category: 'Guide Energia',
+      slug: 'cambio-fornitore-luce-senza-interruzione',
+      image: '/images/blog/cambio-fornitore-luce-senza-interruzione/hero.webp',
+    },
+    {
       title: 'Come Cambiare Gestore di Luce e Gas: La Guida Completa per Risparmiare',
       excerpt: 'Scopri come cambiare gestore di luce e gas senza interruzioni. Tempi, costi, documenti necessari e come risparmiare fino al 30% sulle bollette.',
       date: '24 Novembre 2025',
