@@ -34,7 +34,16 @@ export default function ContactPage() {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto bg-white rounded-2xl shadow-lg p-8">
-            <form className="space-y-6">
+            <form action="https://api.web3forms.com/submit" method="POST" className="space-y-6">
+              {/* Web3Forms Access Key */}
+              <input type="hidden" name="access_key" value="7f021da5-7461-48d1-a70b-b92a7dd390e9" />
+
+              {/* Optional: Redirect after form submission */}
+              <input type="hidden" name="redirect" value="https://ilmigliorpreventivo.vercel.app/grazie" />
+
+              {/* Optional: Custom subject for email */}
+              <input type="hidden" name="subject" value="Nuova richiesta da Il Miglior Preventivo" />
+
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="nome" className="block text-sm font-medium text-gray-700 mb-2">
@@ -102,13 +111,13 @@ export default function ContactPage() {
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FAB758] focus:border-transparent"
                 >
                   <option value="">Seleziona un servizio</option>
-                  <option value="luce-gas">Luce & Gas</option>
-                  <option value="fibra-telefonia">Fibra & Telefonia</option>
-                  <option value="fotovoltaico">Fotovoltaico</option>
-                  <option value="pratiche-gse">Pratiche GSE</option>
-                  <option value="pratiche-enea">Pratiche ENEA</option>
-                  <option value="comunita-energetiche">Comunità Energetiche</option>
-                  <option value="servizi-condominiali">Servizi Condominiali</option>
+                  <option value="Luce & Gas">Luce & Gas</option>
+                  <option value="Fibra & Telefonia">Fibra & Telefonia</option>
+                  <option value="Fotovoltaico">Fotovoltaico</option>
+                  <option value="Pratiche GSE">Pratiche GSE</option>
+                  <option value="Pratiche ENEA">Pratiche ENEA</option>
+                  <option value="Comunità Energetiche">Comunità Energetiche</option>
+                  <option value="Servizi Condominiali">Servizi Condominiali</option>
                 </select>
               </div>
 
