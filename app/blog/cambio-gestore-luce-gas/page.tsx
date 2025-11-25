@@ -11,15 +11,15 @@ export const metadata: Metadata = {
 export default function ArticlePage() {
   return (
     <main className="min-h-screen bg-gray-50">
-      {/* Back Button */}
-      <div className="bg-white border-b">
-        <div className="container mx-auto px-4 py-4">
+      {/* Back to Blog - Discrete */}
+      <div className="bg-white border-b border-gray-100">
+        <div className="container mx-auto px-4 sm:px-6 py-3">
           <Link
             href="/blog"
-            className="inline-flex items-center gap-2 text-[#1C244B] hover:text-[#FAB758] transition-colors"
+            className="inline-flex items-center gap-2 text-gray-600 hover:text-[#FAB758] transition-colors text-sm"
           >
-            <HiArrowLeft className="text-xl" />
-            <span className="font-medium">Torna al Blog</span>
+            <HiArrowLeft className="text-lg" />
+            <span>Blog</span>
           </Link>
         </div>
       </div>

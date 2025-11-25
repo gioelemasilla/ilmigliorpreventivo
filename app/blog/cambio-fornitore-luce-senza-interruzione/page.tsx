@@ -16,6 +16,19 @@ export const metadata: Metadata = {
 export default function ArticlePage() {
   return (
     <main className="min-h-screen bg-white">
+      {/* Back to Blog - Discrete */}
+      <div className="bg-white border-b border-gray-100">
+        <div className="container mx-auto px-4 sm:px-6 py-3">
+          <Link
+            href="/blog"
+            className="inline-flex items-center gap-2 text-gray-600 hover:text-[#FAB758] transition-colors text-sm"
+          >
+            <HiArrowLeft className="text-lg" />
+            <span>Blog</span>
+          </Link>
+        </div>
+      </div>
+
       {/* Hero Section */}
       <section className="relative py-12 sm:py-16 md:py-20 overflow-hidden">
         <div className="absolute inset-0">
@@ -29,13 +42,6 @@ export default function ArticlePage() {
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
           <div className="max-w-4xl mx-auto">
-            <Link
-              href="/blog"
-              className="inline-flex items-center gap-2 text-white/90 hover:text-white mb-6 transition-colors"
-            >
-              <HiArrowLeft className="text-xl" />
-              <span>Torna al Blog</span>
-            </Link>
 
             <div className="flex flex-wrap items-center gap-4 mb-6 text-white/80 text-sm">
               <span className="flex items-center gap-2">
