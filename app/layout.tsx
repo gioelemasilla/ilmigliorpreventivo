@@ -4,6 +4,7 @@ import "./globals.css";
 import { siteConfig } from "@/lib/metadata";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { Analytics } from '@vercel/analytics/react';
 
 const poppins = Poppins({
   weight: ['300', '400', '500', '600', '700'],
@@ -93,6 +94,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
