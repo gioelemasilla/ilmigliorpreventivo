@@ -67,7 +67,7 @@ export default function CollaboraPage() {
                     Agente con Mandato
                   </h3>
                   <p className="text-xl text-white/90 mb-6">
-                    Diventa agente de <strong>Il Miglior Preventivo</strong> e vendi i nostri servizi di consulenza energetica, luce, gas, fibra e fotovoltaico.
+                    Ti presentiamo <strong>le migliori aziende</strong> per vendere i servizi di consulenza che più desideri.
                   </p>
 
                   <div className="bg-white/10 rounded-xl p-6 mb-6 backdrop-blur-sm">
