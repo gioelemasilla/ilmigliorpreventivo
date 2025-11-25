@@ -41,6 +41,16 @@ export function Header() {
             ))}
           </nav>
 
+          {/* Desktop CTA Button - Right Side */}
+          <div className="hidden lg:flex items-center">
+            <Link
+              href="/collabora-con-noi"
+              className="px-4 py-2 bg-[#FAB758] text-white font-semibold rounded-lg hover:bg-[#e5a647] transition-colors text-sm whitespace-nowrap"
+            >
+              Collabora con Noi
+            </Link>
+          </div>
+
           {/* Mobile Menu Button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -94,6 +104,15 @@ export function Header() {
                 {item.title}
               </Link>
             ))}
+
+            {/* Mobile CTA */}
+            <Link
+              href="/collabora-con-noi"
+              onClick={() => setMobileMenuOpen(false)}
+              className="bg-[#FAB758] text-white hover:bg-[#e5a647] font-semibold transition-colors py-3 px-4 rounded-lg text-base mt-4"
+            >
+              Collabora con Noi
+            </Link>
           </nav>
         </div>
       </div>
