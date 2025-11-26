@@ -82,6 +82,15 @@ export default function ArticlePage() {
               </p>
             </div>
 
+            {/* Calculator CTA */}
+            <div className="mb-12 bg-gradient-to-br from-[#FAB758] to-[#e9a647] rounded-2xl p-8 md:p-10 text-center text-white shadow-xl">
+              <h3 className="text-2xl md:text-3xl font-bold mb-4">Calcola Subito il Tuo Impianto Fotovoltaico</h3>
+              <p className="text-lg mb-6 opacity-90">Scopri quanti kWp ti servono, il costo con incentivi e in quanti anni rientri dell'investimento</p>
+              <Link href="/calcolatori/fotovoltaico-azzeramento-bolletta" className="inline-block bg-white text-[#1C244B] px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all hover:scale-105 shadow-lg">
+                Usa il Calcolatore Gratuito
+              </Link>
+            </div>
+
             {/* Image 1 */}
             <div className="mb-12 rounded-2xl overflow-hidden shadow-lg">
               <img

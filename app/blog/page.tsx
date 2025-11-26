@@ -108,16 +108,14 @@ export default function BlogPage() {
           />
         </div>
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-50/60 via-orange-50/40 to-blue-50/50"></div>
-        {/* Vignette Effect */}
-        <div className="absolute inset-0 bg-gradient-radial from-transparent via-transparent to-[#1C244B]/5"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-[#1C244B]/70 via-[#1C244B]/50 to-[#1C244B]/60"></div>
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#1C244B] mb-4 sm:mb-6 leading-tight drop-shadow-sm">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight drop-shadow-lg">
               Blog
             </h1>
-            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-[#324A6D] drop-shadow-sm px-2">
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 drop-shadow-lg px-2">
               Notizie, guide e consigli su energia, telecomunicazioni e risparmio
             </p>
           </div>
