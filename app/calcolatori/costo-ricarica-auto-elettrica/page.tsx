@@ -28,7 +28,8 @@ export default function CalcolatoreRicaricaAutoElettrica() {
   const [modelloSelezionato, setModelloSelezionato] = useState<string>('fiat-500e');
   const [consumoPersonalizzato, setConsumoPersonalizzato] = useState<string>('16');
   const [kmGiornalieri, setKmGiornalieri] = useState<number>(40);
-  const [tariffaLuce, setTariffaLuce] = useState<string>('0.25');
+  const [tariffaLuceGiorno, setTariffaLuceGiorno] = useState<string>('0.22');
+  const [tariffaLuceNotte, setTariffaLuceNotte] = useState<string>('0.20');
   const [tipoRicarica, setTipoRicarica] = useState<string>('casa-notte');
   const [hasWallbox, setHasWallbox] = useState<boolean>(false);
   const [costoWallbox, setCostoWallbox] = useState<string>('1200');
@@ -58,11 +59,11 @@ export default function CalcolatoreRicaricaAutoElettrica() {
 
     switch(tipoRicarica) {
       case 'casa-notte':
-        costoPerKWh = 0.15; // Tariffa bioraria F2/F3
+        costoPerKWh = parseFloat(tariffaLuceNotte) || 0.20;
         descrizioneRicarica = 'Ricarica domestica notturna (tariffa bioraria)';
         break;
       case 'casa-giorno':
-        costoPerKWh = parseFloat(tariffaLuce) || 0.25;
+        costoPerKWh = parseFloat(tariffaLuceGiorno) || 0.22;
         descrizioneRicarica = 'Ricarica domestica diurna (tariffa standard)';
         break;
       case 'pubblica-normale':
@@ -78,7 +79,7 @@ export default function CalcolatoreRicaricaAutoElettrica() {
         descrizioneRicarica = 'Colonnine Ultra-Fast (>150kW)';
         break;
       default:
-        costoPerKWh = 0.25;
+        costoPerKWh = 0.22;
         descrizioneRicarica = 'Ricarica domestica';
     }
 
@@ -102,7 +103,8 @@ export default function CalcolatoreRicaricaAutoElettrica() {
       costoNettoWallbox = parseFloat(costoWallbox) - incentivo;
 
       // Risparmio wallbox vs pubblica (ipotizzando 70% ricariche a casa)
-      const costoConWallbox = energiaNecessaria * 0.70 * 0.15 + energiaNecessaria * 0.30 * 0.45;
+      const tariffaNotte = parseFloat(tariffaLuceNotte) || 0.20;
+      const costoConWallbox = energiaNecessaria * 0.70 * tariffaNotte + energiaNecessaria * 0.30 * 0.45;
       const costoSenzaWallbox = energiaNecessaria * 0.45;
       const risparmioAnnuoWallbox = costoSenzaWallbox - costoConWallbox;
       roiWallbox = risparmioAnnuoWallbox > 0 ? (costoNettoWallbox / risparmioAnnuoWallbox) : 0;
@@ -247,31 +249,60 @@ export default function CalcolatoreRicaricaAutoElettrica() {
                     onChange={(e) => setTipoRicarica(e.target.value)}
                     className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-[#FAB758] focus:outline-none transition-colors"
                   >
-                    <option value="casa-notte">🏠 Casa - Ricarica notturna (€0.15/kWh)</option>
-                    <option value="casa-giorno">🏠 Casa - Ricarica diurna (€0.25/kWh)</option>
+                    <option value="casa-notte">🏠 Casa - Ricarica notturna (€0.20/kWh)</option>
+                    <option value="casa-giorno">🏠 Casa - Ricarica diurna (€0.22/kWh)</option>
                     <option value="pubblica-normale">🔌 Colonnine pubbliche AC (€0.45/kWh)</option>
                     <option value="pubblica-fast">⚡ Fast Charging DC (€0.65/kWh)</option>
                     <option value="pubblica-ultra">⚡⚡ Ultra-Fast &gt;150kW (€0.79/kWh)</option>
                   </select>
                 </div>
 
-                {/* Tariffa luce personalizzata */}
-                {tipoRicarica === 'casa-giorno' && (
-                  <div className="md:col-span-2">
+                {/* Tariffa luce personalizzata - Notturna */}
+                {tipoRicarica === 'casa-notte' && (
+                  <div className="md:col-span-2 bg-blue-50 rounded-xl p-6 border border-blue-100">
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Tariffa luce attuale (€/kWh)
+                      Tariffa luce notturna (€/kWh)
                     </label>
                     <input
                       type="number"
                       step="0.01"
-                      value={tariffaLuce}
-                      onChange={(e) => setTariffaLuce(e.target.value)}
+                      value={tariffaLuceNotte}
+                      onChange={(e) => setTariffaLuceNotte(e.target.value)}
                       className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-[#FAB758] focus:outline-none transition-colors"
-                      placeholder="es. 0.25"
+                      placeholder="es. 0.20"
                       min="0.10"
                       max="0.50"
                     />
-                    <p className="text-xs text-gray-500 mt-1">Media nazionale 2025: €0.22-0.28/kWh</p>
+                    <div className="mt-3 text-xs text-gray-600 bg-white rounded-lg p-3">
+                      <p className="font-semibold mb-1">💡 Dove trovare il costo in bolletta:</p>
+                      <p>Controlla la <strong>seconda pagina della tua fattura luce</strong>, nella sezione "<strong>Scontrino Energia</strong>" o "Dettaglio servizi di vendita".</p>
+                      <p className="mt-1">Cerca la voce <strong>"Fascia F2/F3"</strong> o <strong>"Fuori Picco"</strong> per la tariffa notturna (19:00-8:00 e weekend).</p>
+                    </div>
+                  </div>
+                )}
+
+                {/* Tariffa luce personalizzata - Diurna */}
+                {tipoRicarica === 'casa-giorno' && (
+                  <div className="md:col-span-2 bg-orange-50 rounded-xl p-6 border border-orange-100">
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                      Tariffa luce diurna (€/kWh)
+                    </label>
+                    <input
+                      type="number"
+                      step="0.01"
+                      value={tariffaLuceGiorno}
+                      onChange={(e) => setTariffaLuceGiorno(e.target.value)}
+                      className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-[#FAB758] focus:outline-none transition-colors"
+                      placeholder="es. 0.22"
+                      min="0.10"
+                      max="0.50"
+                    />
+                    <div className="mt-3 text-xs text-gray-600 bg-white rounded-lg p-3">
+                      <p className="font-semibold mb-1">💡 Dove trovare il costo in bolletta:</p>
+                      <p>Controlla la <strong>seconda pagina della tua fattura luce</strong>, nella sezione "<strong>Scontrino Energia</strong>" o "Dettaglio servizi di vendita".</p>
+                      <p className="mt-1">Cerca la voce <strong>"Fascia F1"</strong> o <strong>"Picco"</strong> per la tariffa diurna (8:00-19:00 giorni feriali), oppure il <strong>prezzo unico</strong> se hai tariffa monoraria.</p>
+                      <p className="mt-2 text-[#FAB758] font-semibold">📉 Paghi troppo? Offriamo consulenza gratuita per ottimizzare la tua tariffa luce!</p>
+                    </div>
                   </div>
                 )}
 
@@ -478,6 +509,10 @@ export default function CalcolatoreRicaricaAutoElettrica() {
                     </li>
                     <li className="flex gap-2">
                       <span>•</span>
+                      <span>Confronta le tariffe luce: con la tariffa giusta puoi risparmiare €200-400/anno</span>
+                    </li>
+                    <li className="flex gap-2">
+                      <span>•</span>
                       <span>Evita ricariche al 100%: mantieni batteria tra 20-80% per efficienza</span>
                     </li>
                     <li className="flex gap-2">
@@ -486,20 +521,27 @@ export default function CalcolatoreRicaricaAutoElettrica() {
                     </li>
                     <li className="flex gap-2">
                       <span>•</span>
-                      <span>Considera wallbox domestica se percorri &gt;10.000 km/anno</span>
+                      <span>Considera wallbox domestica se percorri &gt;10.000 km/anno (incentivi fino a €1.500)</span>
                     </li>
                   </ul>
                 </div>
 
                 {/* CTA */}
-                <div className="mt-8 text-center">
-                  <p className="text-lg mb-4">Vuoi installare una wallbox o ottimizzare la tua tariffa luce?</p>
+                <div className="mt-8 text-center bg-gradient-to-br from-[#FAB758]/20 to-orange-300/20 rounded-xl p-6 border-2 border-[#FAB758]/30">
+                  <h3 className="text-xl font-bold mb-3">💡 Risparmia ancora di più sulla tua bolletta luce!</h3>
+                  <p className="text-lg mb-4">
+                    Offriamo <strong>consulenza gratuita</strong> per trovare la tariffa luce più conveniente per ricaricare la tua auto elettrica.<br/>
+                    Confrontiamo oltre 50 fornitori e ti aiutiamo a risparmiare fino al 30% sulla bolletta.
+                  </p>
                   <Link
-                    href="/contact-1"
-                    className="inline-block bg-white text-[#1C244B] px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all hover:scale-105 shadow-lg"
+                    href="/luce-gas"
+                    className="inline-block bg-white text-[#1C244B] px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all hover:scale-105 shadow-lg mb-3"
                   >
-                    Richiedi Consulenza Gratuita
+                    Scopri le Nostre Offerte Luce
                   </Link>
+                  <p className="text-sm text-white/80">
+                    Oppure <Link href="/contact-1" className="underline hover:text-white">contattaci</Link> per una consulenza personalizzata
+                  </p>
                 </div>
               </div>
             )}
