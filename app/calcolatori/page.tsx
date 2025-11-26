@@ -84,6 +84,20 @@ export default function CalcolatoriPage() {
       ],
       status: 'available',
     },
+    {
+      title: 'Incentivi Energia Condominio',
+      description: 'Calcola Ecobonus 50%, Conto Termico 3.0 e incentivi PNRR CER per efficientamento energetico condominiale. ROI e risparmio stimato.',
+      icon: HiSun,
+      href: '/calcolatori/incentivi-energia-condominio',
+      color: 'from-green-500 to-teal-500',
+      benefits: [
+        'Ecobonus, Conto Termico, CER',
+        'ROI e risparmio annuo',
+        'Normative aggiornate 2025',
+        'Multi-interventi combinati',
+      ],
+      status: 'available',
+    },
     // Future calculators can be added here
   ];
 
