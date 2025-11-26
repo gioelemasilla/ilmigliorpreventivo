@@ -42,6 +42,20 @@ export default function CalcolatoriPage() {
       ],
       status: 'available',
     },
+    {
+      title: 'Calcolatore Potenza Contatore',
+      description: 'Seleziona i tuoi elettrodomestici e scopri se ti servono 3, 4.5 o 6 kW per evitare distacchi di corrente.',
+      icon: HiCheckCircle,
+      href: '/calcolatori/potenza-contatore',
+      color: 'from-blue-500 to-cyan-500',
+      benefits: [
+        'Analisi elettrodomestici',
+        'Potenza consigliata (3/4.5/6 kW)',
+        'Rischio distacco',
+        'Costi fissi annui',
+      ],
+      status: 'available',
+    },
     // Future calculators can be added here
   ];
 
