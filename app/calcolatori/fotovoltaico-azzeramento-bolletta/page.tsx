@@ -281,7 +281,7 @@ export default function CalcolatoreFotovoltaico() {
                         <span className="font-bold">{risultati.superficieRichiesta} m²</span>
                       </div>
                       <div className="flex justify-between items-center">
-                        <span className="text-white/80">Costo impianto</span>
+                        <span className="text-white/80">Costo medio impianto</span>
                         <span className="font-bold">€ {risultati.costoFV.toLocaleString()}</span>
                       </div>
                     </div>
@@ -304,7 +304,7 @@ export default function CalcolatoreFotovoltaico() {
                           <span className="font-bold">{risultati.percentualeAutoconsumo}%</span>
                         </div>
                         <div className="flex justify-between items-center">
-                          <span className="text-white/80">Costo accumulo</span>
+                          <span className="text-white/80">Costo medio accumulo</span>
                           <span className="font-bold">€ {risultati.costoAccumulo.toLocaleString()}</span>
                         </div>
                       </div>
@@ -335,12 +335,12 @@ export default function CalcolatoreFotovoltaico() {
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div className="text-center">
                       <HiCurrencyEuro className="text-4xl mx-auto mb-2" />
-                      <p className="text-sm opacity-90 mb-1">Costo Totale</p>
+                      <p className="text-sm opacity-90 mb-1">Costo Medio Totale</p>
                       <p className="text-3xl font-bold">€ {risultati.costoTotale.toLocaleString()}</p>
                     </div>
                     <div className="text-center">
                       <HiCurrencyEuro className="text-4xl mx-auto mb-2" />
-                      <p className="text-sm opacity-90 mb-1">Con Detrazione 50%</p>
+                      <p className="text-sm opacity-90 mb-1">Costo Medio con Detrazione 50%</p>
                       <p className="text-3xl font-bold">€ {risultati.costoConIncentivi.toLocaleString()}</p>
                     </div>
                     <div className="text-center">
