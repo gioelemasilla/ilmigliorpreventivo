@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { HiSun, HiCalculator, HiArrowRight, HiCheckCircle } from 'react-icons/hi';
+import { HiSun, HiCalculator, HiArrowRight, HiCheckCircle, HiFire } from 'react-icons/hi';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -25,6 +25,20 @@ export default function CalcolatoriPage() {
         'Dimensionamento batteria',
         'ROI e risparmio annuo',
         'Costo con detrazioni 50%',
+      ],
+      status: 'available',
+    },
+    {
+      title: 'Calcolatore Conto Termico',
+      description: 'Calcola l\'incentivo GSE per pompe di calore, caldaie, solare termico e isolamento termico. Fino al 65% di rimborso.',
+      icon: HiFire,
+      href: '/calcolatori/conto-termico-incentivi',
+      color: 'from-red-500 to-orange-500',
+      benefits: [
+        'Incentivo GSE fino al 65%',
+        'Modalità erogazione',
+        'Risparmio energetico annuo',
+        'Tempi di rientro',
       ],
       status: 'available',
     },
