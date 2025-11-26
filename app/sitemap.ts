@@ -59,6 +59,40 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }));
 
+  // Calcolatori - very high priority for SEO
+  const calcolatoriEntries: MetadataRoute.Sitemap = [
+    {
+      url: `${siteConfig.url}/calcolatori`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${siteConfig.url}/calcolatori/fotovoltaico-azzeramento-bolletta`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.85,
+    },
+    {
+      url: `${siteConfig.url}/calcolatori/conto-termico-incentivi`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.85,
+    },
+    {
+      url: `${siteConfig.url}/calcolatori/potenza-contatore`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.85,
+    },
+    {
+      url: `${siteConfig.url}/calcolatori/costo-ricarica-auto-elettrica`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.85,
+    },
+  ];
+
   return [
     // Homepage - highest priority
     {
@@ -81,6 +115,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'daily',
       priority: 0.8,
     },
+    // Calcolatori - high priority
+    ...calcolatoriEntries,
     ...pageEntries,
     ...postEntries,
     ...portfolioEntries,
