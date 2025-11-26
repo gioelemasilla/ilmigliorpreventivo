@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { HiSun, HiCalculator, HiArrowRight, HiCheckCircle, HiFire, HiLightningBolt, HiHome, HiCurrencyEuro } from 'react-icons/hi';
+import { HiSun, HiCalculator, HiArrowRight, HiCheckCircle, HiFire, HiLightningBolt, HiHome, HiCurrencyEuro, HiOfficeBuilding } from 'react-icons/hi';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -109,6 +109,20 @@ export default function CalcolatoriPage() {
         'Detrazioni e bonus inclusi',
         'Netto mensile e annuo',
         'Breakdown trattenute completo',
+      ],
+      status: 'available',
+    },
+    {
+      title: 'Calcolatore Mutuo Casa',
+      description: 'Calcola rata mensile, TAEG, costi totali e sostenibilità del mutuo. Include piano di ammortamento, LTV e detrazioni fiscali prima casa.',
+      icon: HiOfficeBuilding,
+      href: '/calcolatori/mutuo-casa',
+      color: 'from-indigo-500 to-purple-500',
+      benefits: [
+        'Rata mensile e TAEG',
+        'Fisso vs Variabile',
+        'LTV e sostenibilità',
+        'Piano ammortamento dettagliato',
       ],
       status: 'available',
     },
