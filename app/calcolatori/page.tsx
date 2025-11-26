@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { HiSun, HiCalculator, HiArrowRight, HiCheckCircle, HiFire } from 'react-icons/hi';
+import { HiSun, HiCalculator, HiArrowRight, HiCheckCircle, HiFire, HiLightningBolt } from 'react-icons/hi';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -53,6 +53,20 @@ export default function CalcolatoriPage() {
         'Potenza consigliata (3/4.5/6 kW)',
         'Rischio distacco',
         'Costi fissi annui',
+      ],
+      status: 'available',
+    },
+    {
+      title: 'Calcolatore Costo Ricarica Auto Elettrica',
+      description: 'Calcola il costo di ricarica della tua auto elettrica e confronta il risparmio con benzina e diesel. Include ROI wallbox.',
+      icon: HiLightningBolt,
+      href: '/calcolatori/costo-ricarica-auto-elettrica',
+      color: 'from-green-500 to-emerald-500',
+      benefits: [
+        'Costo ricarica casa/pubblico',
+        'Confronto vs benzina/diesel',
+        'ROI wallbox domestica',
+        'Emissioni CO₂ risparmiate',
       ],
       status: 'available',
     },
@@ -137,10 +151,10 @@ export default function CalcolatoriPage() {
                   Stiamo sviluppando altri strumenti per aiutarti a ottimizzare i tuoi consumi
                 </p>
                 <div className="space-y-2 text-sm text-gray-500">
-                  <p>• Calcolatore Risparmio Bolletta</p>
-                  <p>• Calcolatore Potenza Contatore</p>
-                  <p>• Simulatore Tariffe Luce</p>
-                  <p>• Verifica Bonus Bollette</p>
+                  <p>• Calcolatore Risparmio Bolletta Luce/Gas</p>
+                  <p>• Simulatore Tariffe Monorarie vs Biorarie</p>
+                  <p>• Verifica Requisiti Bonus Bollette</p>
+                  <p>• Calcolatore Isolamento Termico</p>
                 </div>
               </div>
             </div>
