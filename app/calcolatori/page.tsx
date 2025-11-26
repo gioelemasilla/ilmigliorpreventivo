@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { HiSun, HiCalculator, HiArrowRight, HiCheckCircle, HiFire, HiLightningBolt, HiHome } from 'react-icons/hi';
+import { HiSun, HiCalculator, HiArrowRight, HiCheckCircle, HiFire, HiLightningBolt, HiHome, HiCurrencyEuro } from 'react-icons/hi';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -95,6 +95,20 @@ export default function CalcolatoriPage() {
         'ROI e risparmio annuo',
         'Normative aggiornate 2025',
         'Multi-interventi combinati',
+      ],
+      status: 'available',
+    },
+    {
+      title: 'Calcolo Stipendio Netto',
+      description: 'Scopri quanto ricevi in busta paga partendo dal lordo. Calcolo con tasse, contributi INPS, detrazioni e bonus aggiornati 2025.',
+      icon: HiCurrencyEuro,
+      href: '/calcolatori/stipendio-netto',
+      color: 'from-blue-500 to-indigo-500',
+      benefits: [
+        'Scaglioni IRPEF 2025',
+        'Detrazioni e bonus inclusi',
+        'Netto mensile e annuo',
+        'Breakdown trattenute completo',
       ],
       status: 'available',
     },
