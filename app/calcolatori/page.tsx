@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { HiSun, HiCalculator, HiArrowRight, HiCheckCircle, HiFire, HiLightningBolt } from 'react-icons/hi';
+import { HiSun, HiCalculator, HiArrowRight, HiCheckCircle, HiFire, HiLightningBolt, HiHome } from 'react-icons/hi';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -67,6 +67,20 @@ export default function CalcolatoriPage() {
         'Confronto vs benzina/diesel',
         'ROI wallbox domestica',
         'Emissioni CO₂ risparmiate',
+      ],
+      status: 'available',
+    },
+    {
+      title: 'Ripartizione Spese Condominiali',
+      description: 'Calcola la suddivisione delle spese tra condomini secondo il Codice Civile (artt. 1123-1126 c.c.). Supporta millesimi, superficie, scale e ascensori.',
+      icon: HiHome,
+      href: '/calcolatori/ripartizione-spese-condominiali',
+      color: 'from-purple-500 to-indigo-500',
+      benefits: [
+        'Ripartizione per millesimi',
+        'Criteri scale/ascensori (art. 1124)',
+        'Multi-spese e tabelle',
+        'Conforme Codice Civile 2025',
       ],
       status: 'available',
     },
