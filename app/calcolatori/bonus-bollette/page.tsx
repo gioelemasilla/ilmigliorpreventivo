@@ -430,29 +430,61 @@ export default function CalcolatoreBonusBollette() {
               </div>
             )}
 
+            {/* MODULO DSU SEMPRE VISIBILE */}
+            {showLeadForm && haBonus && (
+              <div className="mt-8 bg-blue-50 rounded-2xl p-6 border-2 border-blue-300 shadow-lg">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center flex-shrink-0">
+                    <HiDocumentText className="text-white text-2xl" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-[#1C244B] mb-2">Scarica il Modulo DSU (ISEE)</h3>
+                    <p className="text-gray-700 mb-4 text-sm">
+                      Per ottenere il bonus devi avere una <strong>DSU (ISEE) valida</strong>. Scarica il modulo, compilalo con i tuoi dati e presentalo al CAF gratuitamente.
+                    </p>
+                    <a
+                      href="https://www.inps.it/it/it/dettaglio-scheda.schede-servizio-strumento.schede-servizi.50627.isee---indicatore-della-situazione-economica-equivalente.html"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-all"
+                    >
+                      <HiDocumentText className="text-xl" />
+                      Scarica Modulo DSU da INPS
+                    </a>
+                    <Link
+                      href="/blog/guida-modulo-dsu-isee-2025"
+                      className="inline-flex items-center gap-2 px-6 py-3 ml-3 bg-white text-blue-600 font-bold rounded-lg hover:bg-gray-50 transition-all border-2 border-blue-600"
+                    >
+                      Leggi la Guida Completa
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            )}
+
             {/* FORM LEAD GENERATION */}
             {showLeadForm && haBonus && (
               <div className="mt-8 bg-gradient-to-br from-[#1C244B] to-[#324A6D] rounded-2xl p-8 text-white shadow-2xl">
                 <div className="bg-[#FAB758]/20 rounded-lg p-4 mb-6 border-l-4 border-[#FAB758]">
                   <p className="text-sm font-semibold">
-                    💡 <strong>Bonus automatico + Offerta giusta = Risparmio DOPPIO!</strong><br/>
-                    Il bonus ti arriverà in automatico se hai la DSU valida. Ma la cosa PIÙ IMPORTANTE è avere anche l'offerta più conveniente del mercato.
+                    💡 <strong>Bonus + Tariffa Ottimizzata = Risparmio MASSIMO!</strong><br/>
+                    Oltre al bonus, i nostri consulenti ti aiutano GRATIS a trovare la tariffa più conveniente per risparmiare altri 250-400€/anno.
                   </p>
                 </div>
 
-                <h3 className="text-2xl md:text-3xl font-bold mb-4">Ricevi GRATIS la lista delle migliori offerte nella tua zona:</h3>
+                <h3 className="text-2xl md:text-3xl font-bold mb-4">Richiedi Consulenza Gratuita Personalizzata</h3>
                 <ul className="space-y-2 mb-6">
                   <li className="flex items-start gap-2">
                     <HiCheckCircle className="text-[#FAB758] text-xl flex-shrink-0 mt-0.5" />
-                    <span><strong>Le offerte luce e gas più convenienti</strong> per la tua provincia (risparmi altri 250-400€/anno)</span>
+                    <span><strong>Analisi completa</strong> delle tue bollette attuali</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <HiCheckCircle className="text-[#FAB758] text-xl flex-shrink-0 mt-0.5" />
-                    <span>Confronto personalizzato e consulenza gratuita</span>
+                    <span><strong>Consulenza personalizzata</strong> per trovare l'offerta migliore nella tua zona</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <HiCheckCircle className="text-[#FAB758] text-xl flex-shrink-0 mt-0.5" />
-                    <span>Link al modulo DSU da compilare (facile e veloce)</span>
+                    <span><strong>Supporto completo</strong> per cambio fornitore senza interruzioni</span>
                   </li>
                 </ul>
 
@@ -479,7 +511,7 @@ export default function CalcolatoreBonusBollette() {
                     type="tel"
                     value={cellulare}
                     onChange={(e) => setCellulare(e.target.value)}
-                    placeholder="Cellulare (per mandarti subito il PDF)"
+                    placeholder="Cellulare (opzionale, per chiamarti)"
                     className="w-full px-4 py-3 rounded-lg bg-white text-gray-900 font-semibold placeholder:text-gray-400"
                   />
                   <input
@@ -493,7 +525,7 @@ export default function CalcolatoreBonusBollette() {
                     type="submit"
                     className="w-full px-8 py-5 bg-gradient-to-r from-green-500 to-green-600 text-white text-lg md:text-xl font-bold rounded-xl hover:from-green-600 hover:to-green-700 transition-all hover:scale-[1.02] shadow-xl"
                   >
-                    SÌ, VOGLIO LE MIGLIORI OFFERTE + LINK DSU
+                    RICHIEDI CONSULENZA GRATUITA
                   </button>
                 </form>
 
