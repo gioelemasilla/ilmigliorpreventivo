@@ -351,19 +351,26 @@ export default function CalcolatoreBonusBollette() {
             {/* FORM LEAD GENERATION */}
             {showLeadForm && haBonus && (
               <div className="mt-8 bg-gradient-to-br from-[#1C244B] to-[#324A6D] rounded-2xl p-8 text-white shadow-2xl">
-                <h3 className="text-2xl md:text-3xl font-bold mb-4">Ricevi GRATIS in 30 secondi:</h3>
+                <div className="bg-[#FAB758]/20 rounded-lg p-4 mb-6 border-l-4 border-[#FAB758]">
+                  <p className="text-sm font-semibold">
+                    💡 <strong>Bonus automatico + Offerta giusta = Risparmio DOPPIO!</strong><br/>
+                    Il bonus ti arriverà in automatico se hai la DSU valida. Ma la cosa PIÙ IMPORTANTE è avere anche l'offerta più conveniente del mercato.
+                  </p>
+                </div>
+
+                <h3 className="text-2xl md:text-3xl font-bold mb-4">Ricevi GRATIS la lista delle migliori offerte nella tua zona:</h3>
                 <ul className="space-y-2 mb-6">
                   <li className="flex items-start gap-2">
                     <HiCheckCircle className="text-[#FAB758] text-xl flex-shrink-0 mt-0.5" />
-                    <span>Il modulo DSU precompilato per te</span>
+                    <span><strong>Le offerte luce e gas più convenienti</strong> per la tua provincia (risparmi altri 250-400€/anno)</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <HiCheckCircle className="text-[#FAB758] text-xl flex-shrink-0 mt-0.5" />
-                    <span>La lista fornitori più convenienti nella tua provincia (risparmi extra 250-400€/anno)</span>
+                    <span>Confronto personalizzato e consulenza gratuita</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <HiCheckCircle className="text-[#FAB758] text-xl flex-shrink-0 mt-0.5" />
-                    <span>Assistenza gratuita per la domanda</span>
+                    <span>Link al modulo DSU da compilare (facile e veloce)</span>
                   </li>
                 </ul>
 
@@ -404,7 +411,7 @@ export default function CalcolatoreBonusBollette() {
                     type="submit"
                     className="w-full px-8 py-5 bg-gradient-to-r from-green-500 to-green-600 text-white text-lg md:text-xl font-bold rounded-xl hover:from-green-600 hover:to-green-700 transition-all hover:scale-[1.02] shadow-xl"
                   >
-                    SÌ, VOGLIO IL MIO BONUS + PREVENTIVO GRATIS
+                    SÌ, VOGLIO LE MIGLIORI OFFERTE + LINK DSU
                   </button>
                 </form>
 
@@ -450,15 +457,23 @@ export default function CalcolatoreBonusBollette() {
                 Sì, il bonus sociale spetta indipendentemente dal fornitore scelto. Vale sia per il mercato libero che per il servizio di tutela. Puoi anche cambiare fornitore senza perdere il bonus.
               </p>
             </details>
+
+            <details className="bg-white rounded-xl p-6 shadow-md">
+              <summary className="font-bold text-[#1C244B] cursor-pointer">Dove trovo il modulo DSU (ISEE) da compilare?</summary>
+              <p className="mt-4 text-gray-600">
+                Puoi scaricare il modulo DSU direttamente dal sito INPS: <a href="https://www.inps.it/it/it/dettaglio-scheda.schede-servizio-strumento.schede-servizi.50627.isee---indicatore-della-situazione-economica-equivalente.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-semibold">vai alla pagina INPS</a>.<br/>
+                <strong>È facile:</strong> compili il modulo con i tuoi dati reddituali e familiari, lo presenti a CAF o Patronato (è gratuito), e il bonus ti arriverà automaticamente in bolletta. <strong>Nessuna paura, è più semplice di quanto sembri!</strong>
+              </p>
+            </details>
           </div>
 
           {/* CTA finale */}
           <div className="mt-12 bg-gradient-to-br from-orange-50 to-blue-50 rounded-2xl p-8 text-center border-2 border-orange-200">
             <h3 className="text-2xl md:text-3xl font-bold text-[#1C244B] mb-4">
-              Hai bisogno di aiuto con luce e gas?
+              Vuoi risparmiare ancora di più sulle bollette?
             </h3>
             <p className="text-lg text-gray-600 mb-6">
-              I nostri consulenti ti aiutano GRATIS a ottenere il bonus e trovare la tariffa più conveniente
+              I nostri consulenti ti aiutano GRATIS a trovare la tariffa più conveniente nella tua zona (risparmi altri 250-400€/anno)
             </p>
             <Link
               href="/contact-1"
