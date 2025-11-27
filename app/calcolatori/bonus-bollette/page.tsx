@@ -320,7 +320,10 @@ export default function CalcolatoreBonusBollette() {
 
                 <div className="bg-white rounded-xl p-6 shadow-lg mb-6">
                   <p className="text-gray-700 mb-4">
-                    Con ISEE superiore a 20.000€ {figli !== '4+' && 'e meno di 4 figli'} non rientri nei requisiti 2025.
+                    {figli === '4+'
+                      ? `Con ISEE di ${isee}€ e 4 o più figli (soglia massima 20.000€) non rientri nei requisiti 2025.`
+                      : `Con ISEE di ${isee}€ e meno di 4 figli (soglia massima 9.530€) non rientri nei requisiti 2025.`
+                    }
                     <strong className="text-[#1C244B]"> Ma c'è una buona notizia:</strong>
                   </p>
                   <ul className="space-y-2 mb-4">
