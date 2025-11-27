@@ -13,120 +13,78 @@ export const metadata: Metadata = {
 };
 
 export default function CalcolatoriPage() {
-  const calculators = [
+  // Organizzazione per categorie
+  const energyCalculators = [
     {
-      title: 'Calcolatore Fotovoltaico',
-      description: 'Scopri quanti kWp ti servono per azzerare la bolletta, il costo con incentivi e in quanti anni rientri dell\'investimento.',
+      title: 'Fotovoltaico',
+      description: 'Calcola kWp necessari per azzerare la bolletta, costi con incentivi e ROI.',
       icon: HiSun,
       href: '/calcolatori/fotovoltaico-azzeramento-bolletta',
       color: 'from-orange-500 to-yellow-500',
-      benefits: [
-        'Calcolo kWp necessari',
-        'Dimensionamento batteria',
-        'ROI e risparmio annuo',
-        'Costo con detrazioni 50%',
-      ],
-      status: 'available',
+      benefits: ['kWp e batteria', 'ROI e risparmio', 'Detrazioni 50%'],
     },
     {
-      title: 'Calcolatore Conto Termico',
-      description: 'Calcola l\'incentivo GSE per pompe di calore, caldaie, solare termico e isolamento termico. Fino al 65% di rimborso.',
+      title: 'Conto Termico',
+      description: 'Incentivi GSE per pompe di calore, caldaie e isolamento. Fino al 65%.',
       icon: HiFire,
       href: '/calcolatori/conto-termico-incentivi',
       color: 'from-red-500 to-orange-500',
-      benefits: [
-        'Incentivo GSE fino al 65%',
-        'Modalità erogazione',
-        'Risparmio energetico annuo',
-        'Tempi di rientro',
-      ],
-      status: 'available',
+      benefits: ['Incentivo GSE 65%', 'Risparmio annuo', 'Tempi rientro'],
     },
     {
-      title: 'Calcolatore Potenza Contatore',
-      description: 'Seleziona i tuoi elettrodomestici e scopri se ti servono 3, 4.5 o 6 kW per evitare distacchi di corrente.',
+      title: 'Potenza Contatore',
+      description: 'Scopri se ti servono 3, 4.5 o 6 kW in base ai tuoi elettrodomestici.',
       icon: HiCheckCircle,
       href: '/calcolatori/potenza-contatore',
       color: 'from-blue-500 to-cyan-500',
-      benefits: [
-        'Analisi elettrodomestici',
-        'Potenza consigliata (3/4.5/6 kW)',
-        'Rischio distacco',
-        'Costi fissi annui',
-      ],
-      status: 'available',
+      benefits: ['Analisi consumi', 'Potenza ottimale', 'Costi fissi'],
     },
     {
-      title: 'Calcolatore Costo Ricarica Auto Elettrica',
-      description: 'Calcola il costo di ricarica della tua auto elettrica e confronta il risparmio con benzina e diesel. Include ROI wallbox.',
+      title: 'Auto Elettrica',
+      description: 'Costo ricarica e confronto con benzina/diesel. Include ROI wallbox.',
       icon: HiLightningBolt,
       href: '/calcolatori/costo-ricarica-auto-elettrica',
       color: 'from-green-500 to-emerald-500',
-      benefits: [
-        'Costo ricarica casa/pubblico',
-        'Confronto vs benzina/diesel',
-        'ROI wallbox domestica',
-        'Emissioni CO₂ risparmiate',
-      ],
-      status: 'available',
+      benefits: ['Costo ricarica', 'vs benzina/diesel', 'CO₂ risparmiata'],
     },
+  ];
+
+  const condominiumCalculators = [
     {
-      title: 'Ripartizione Spese Condominiali',
-      description: 'Calcola la suddivisione delle spese tra condomini secondo il Codice Civile (artt. 1123-1126 c.c.). Supporta millesimi, superficie, scale e ascensori.',
+      title: 'Ripartizione Spese',
+      description: 'Suddivisione spese condominiali secondo Codice Civile (artt. 1123-1126).',
       icon: HiHome,
       href: '/calcolatori/ripartizione-spese-condominiali',
       color: 'from-purple-500 to-indigo-500',
-      benefits: [
-        'Ripartizione per millesimi',
-        'Criteri scale/ascensori (art. 1124)',
-        'Multi-spese e tabelle',
-        'Conforme Codice Civile 2025',
-      ],
-      status: 'available',
+      benefits: ['Millesimi e criteri', 'Scale/ascensori', 'Conforme C.C.'],
     },
     {
-      title: 'Incentivi Energia Condominio',
-      description: 'Calcola Ecobonus 50%, Conto Termico 3.0 e incentivi PNRR CER per efficientamento energetico condominiale. ROI e risparmio stimato.',
+      title: 'Incentivi Energia',
+      description: 'Ecobonus, Conto Termico e CER per efficientamento energetico.',
       icon: HiSun,
       href: '/calcolatori/incentivi-energia-condominio',
       color: 'from-green-500 to-teal-500',
-      benefits: [
-        'Ecobonus, Conto Termico, CER',
-        'ROI e risparmio annuo',
-        'Normative aggiornate 2025',
-        'Multi-interventi combinati',
-      ],
-      status: 'available',
+      benefits: ['3 tipi incentivi', 'ROI e risparmio', 'Multi-interventi'],
     },
+  ];
+
+  const financeCalculators = [
     {
-      title: 'Calcolo Stipendio Netto',
-      description: 'Scopri quanto ricevi in busta paga partendo dal lordo. Calcolo con tasse, contributi INPS, detrazioni e bonus aggiornati 2025.',
+      title: 'Stipendio Netto',
+      description: 'Da lordo a netto: tasse, INPS, detrazioni e bonus aggiornati 2025.',
       icon: HiCurrencyEuro,
       href: '/calcolatori/stipendio-netto',
       color: 'from-blue-500 to-indigo-500',
-      benefits: [
-        'Scaglioni IRPEF 2025',
-        'Detrazioni e bonus inclusi',
-        'Netto mensile e annuo',
-        'Breakdown trattenute completo',
-      ],
-      status: 'available',
+      benefits: ['IRPEF 2025', 'Detrazioni e bonus', 'Breakdown completo'],
     },
     {
-      title: 'Calcolatore Mutuo Casa',
-      description: 'Calcola rata mensile, TAEG, costi totali e sostenibilità del mutuo. Include piano di ammortamento, LTV e detrazioni fiscali prima casa.',
+      title: 'Mutuo Casa',
+      description: 'Rata, TAEG, LTV e piano ammortamento. Include detrazioni prima casa.',
       icon: HiOfficeBuilding,
       href: '/calcolatori/mutuo-casa',
       color: 'from-indigo-500 to-purple-500',
-      benefits: [
-        'Rata mensile e TAEG',
-        'Fisso vs Variabile',
-        'LTV e sostenibilità',
-        'Piano ammortamento dettagliato',
-      ],
-      status: 'available',
+      benefits: ['Rata e TAEG', 'Fisso vs Variabile', 'Sostenibilità'],
     },
-    // Future calculators can be added here
   ];
 
   return (
@@ -152,71 +110,167 @@ export default function CalcolatoriPage() {
       {/* Calculators Grid */}
       <section className="py-12 md:py-20 bg-gradient-to-b from-white to-gray-50">
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-              {calculators.map((calc) => {
-                const Icon = calc.icon;
-                return (
-                  <Link
-                    key={calc.href}
-                    href={calc.href}
-                    className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 border-gray-100"
-                  >
-                    {/* Header with gradient */}
-                    <div className={`bg-gradient-to-br ${calc.color} p-8 relative overflow-hidden`}>
-                      <div className="absolute top-0 right-0 opacity-10">
-                        <Icon className="w-32 h-32" />
-                      </div>
-                      <div className="relative z-10">
-                        <Icon className="w-12 h-12 text-white mb-4" />
-                        <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
-                          {calc.title}
-                        </h2>
-                        <p className="text-white/90 text-sm">
-                          {calc.description}
-                        </p>
-                      </div>
-                    </div>
+          <div className="max-w-6xl mx-auto space-y-12">
 
-                    {/* Content */}
-                    <div className="p-8">
-                      <h3 className="text-lg font-bold text-[#1C244B] mb-4">Cosa calcola:</h3>
-                      <ul className="space-y-3 mb-6">
-                        {calc.benefits.map((benefit, idx) => (
-                          <li key={idx} className="flex items-start gap-3">
-                            <HiCheckCircle className="text-[#FAB758] text-xl flex-shrink-0 mt-0.5" />
-                            <span className="text-gray-700">{benefit}</span>
-                          </li>
-                        ))}
-                      </ul>
-
-                      <div className="flex items-center gap-2 text-[#FAB758] font-semibold group-hover:gap-3 transition-all">
-                        Usa il Calcolatore
-                        <HiArrowRight className="text-xl" />
-                      </div>
-                    </div>
-                  </Link>
-                );
-              })}
-
-              {/* Coming Soon Card */}
-              <div className="bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl overflow-hidden border-2 border-gray-300 p-8 flex flex-col items-center justify-center text-center min-h-[400px]">
-                <HiCalculator className="w-16 h-16 text-gray-400 mb-4" />
-                <h3 className="text-2xl font-bold text-gray-600 mb-3">Altri Calcolatori in Arrivo</h3>
-                <p className="text-gray-500 mb-6 max-w-sm">
-                  Stiamo sviluppando altri strumenti per aiutarti a ottimizzare i tuoi consumi
-                </p>
-                <div className="space-y-2 text-sm text-gray-500">
-                  <p>• Calcolatore Risparmio Bolletta Luce/Gas</p>
-                  <p>• Simulatore Tariffe Monorarie vs Biorarie</p>
-                  <p>• Verifica Requisiti Bonus Bollette</p>
-                  <p>• Calcolatore Isolamento Termico</p>
+            {/* Risparmio Energetico */}
+            <div>
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-yellow-500 rounded-xl flex items-center justify-center">
+                  <HiSun className="w-6 h-6 text-white" />
                 </div>
+                <div>
+                  <h2 className="text-2xl md:text-3xl font-bold text-[#1C244B]">Risparmio Energetico</h2>
+                  <p className="text-gray-600 text-sm">Fotovoltaico, incentivi e ottimizzazione consumi</p>
+                </div>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+                {energyCalculators.map((calc) => {
+                  const Icon = calc.icon;
+                  return (
+                    <Link
+                      key={calc.href}
+                      href={calc.href}
+                      className="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-200"
+                    >
+                      <div className={`bg-gradient-to-br ${calc.color} p-5 relative`}>
+                        <div className="flex items-start gap-3">
+                          <Icon className="w-10 h-10 text-white flex-shrink-0" />
+                          <div>
+                            <h3 className="text-xl font-bold text-white mb-1">{calc.title}</h3>
+                            <p className="text-white/90 text-sm leading-snug">{calc.description}</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="p-5">
+                        <div className="flex flex-wrap gap-2 mb-3">
+                          {calc.benefits.map((benefit, idx) => (
+                            <span key={idx} className="inline-flex items-center gap-1.5 text-xs bg-gray-100 text-gray-700 px-3 py-1.5 rounded-full">
+                              <HiCheckCircle className="text-[#FAB758] text-sm" />
+                              {benefit}
+                            </span>
+                          ))}
+                        </div>
+                        <div className="flex items-center gap-2 text-[#FAB758] font-semibold text-sm group-hover:gap-3 transition-all">
+                          Calcola ora <HiArrowRight />
+                        </div>
+                      </div>
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Servizi Condominiali */}
+            <div>
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-indigo-500 rounded-xl flex items-center justify-center">
+                  <HiHome className="w-6 h-6 text-white" />
+                </div>
+                <div>
+                  <h2 className="text-2xl md:text-3xl font-bold text-[#1C244B]">Servizi Condominiali</h2>
+                  <p className="text-gray-600 text-sm">Ripartizione spese e incentivi energia</p>
+                </div>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {condominiumCalculators.map((calc) => {
+                  const Icon = calc.icon;
+                  return (
+                    <Link
+                      key={calc.href}
+                      href={calc.href}
+                      className="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-200"
+                    >
+                      <div className={`bg-gradient-to-br ${calc.color} p-5 relative`}>
+                        <div className="flex items-start gap-3">
+                          <Icon className="w-10 h-10 text-white flex-shrink-0" />
+                          <div>
+                            <h3 className="text-xl font-bold text-white mb-1">{calc.title}</h3>
+                            <p className="text-white/90 text-sm leading-snug">{calc.description}</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="p-5">
+                        <div className="flex flex-wrap gap-2 mb-3">
+                          {calc.benefits.map((benefit, idx) => (
+                            <span key={idx} className="inline-flex items-center gap-1.5 text-xs bg-gray-100 text-gray-700 px-3 py-1.5 rounded-full">
+                              <HiCheckCircle className="text-[#FAB758] text-sm" />
+                              {benefit}
+                            </span>
+                          ))}
+                        </div>
+                        <div className="flex items-center gap-2 text-[#FAB758] font-semibold text-sm group-hover:gap-3 transition-all">
+                          Calcola ora <HiArrowRight />
+                        </div>
+                      </div>
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Economia e Finanza */}
+            <div>
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-indigo-500 rounded-xl flex items-center justify-center">
+                  <HiCurrencyEuro className="w-6 h-6 text-white" />
+                </div>
+                <div>
+                  <h2 className="text-2xl md:text-3xl font-bold text-[#1C244B]">Economia e Finanza</h2>
+                  <p className="text-gray-600 text-sm">Stipendio netto e mutui casa</p>
+                </div>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {financeCalculators.map((calc) => {
+                  const Icon = calc.icon;
+                  return (
+                    <Link
+                      key={calc.href}
+                      href={calc.href}
+                      className="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-200"
+                    >
+                      <div className={`bg-gradient-to-br ${calc.color} p-5 relative`}>
+                        <div className="flex items-start gap-3">
+                          <Icon className="w-10 h-10 text-white flex-shrink-0" />
+                          <div>
+                            <h3 className="text-xl font-bold text-white mb-1">{calc.title}</h3>
+                            <p className="text-white/90 text-sm leading-snug">{calc.description}</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="p-5">
+                        <div className="flex flex-wrap gap-2 mb-3">
+                          {calc.benefits.map((benefit, idx) => (
+                            <span key={idx} className="inline-flex items-center gap-1.5 text-xs bg-gray-100 text-gray-700 px-3 py-1.5 rounded-full">
+                              <HiCheckCircle className="text-[#FAB758] text-sm" />
+                              {benefit}
+                            </span>
+                          ))}
+                        </div>
+                        <div className="flex items-center gap-2 text-[#FAB758] font-semibold text-sm group-hover:gap-3 transition-all">
+                          Calcola ora <HiArrowRight />
+                        </div>
+                      </div>
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Coming Soon - più compatto */}
+            <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-6 border-2 border-dashed border-gray-300 text-center">
+              <HiCalculator className="w-12 h-12 text-gray-400 mx-auto mb-3" />
+              <h3 className="text-lg font-bold text-gray-600 mb-2">Altri Calcolatori in Arrivo</h3>
+              <p className="text-sm text-gray-500 mb-3">Stiamo sviluppando nuovi strumenti</p>
+              <div className="flex flex-wrap justify-center gap-2">
+                <span className="text-xs bg-white px-3 py-1.5 rounded-full text-gray-600 border border-gray-200">Risparmio Bolletta</span>
+                <span className="text-xs bg-white px-3 py-1.5 rounded-full text-gray-600 border border-gray-200">Tariffe Mono/Bi</span>
+                <span className="text-xs bg-white px-3 py-1.5 rounded-full text-gray-600 border border-gray-200">Bonus Bollette</span>
+                <span className="text-xs bg-white px-3 py-1.5 rounded-full text-gray-600 border border-gray-200">Isolamento Termico</span>
               </div>
             </div>
 
             {/* Why Use Our Calculators */}
-            <div className="mt-16 bg-gradient-to-br from-[#1C244B] to-[#324A6D] rounded-2xl p-8 md:p-12 text-white">
+            <div className="bg-gradient-to-br from-[#1C244B] to-[#324A6D] rounded-2xl p-8 md:p-12 text-white">
               <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">
                 Perché Usare i Nostri Calcolatori?
               </h2>
@@ -252,7 +306,7 @@ export default function CalcolatoriPage() {
             </div>
 
             {/* CTA */}
-            <div className="mt-16 text-center bg-gradient-to-br from-orange-50 to-blue-50 rounded-2xl p-8 md:p-12 border-2 border-orange-100">
+            <div className="text-center bg-gradient-to-br from-orange-50 to-blue-50 rounded-2xl p-8 md:p-12 border-2 border-orange-100">
               <h2 className="text-2xl md:text-3xl font-bold text-[#1C244B] mb-4">
                 Hai Bisogno di una Consulenza Personalizzata?
               </h2>
@@ -268,7 +322,7 @@ export default function CalcolatoriPage() {
             </div>
 
             {/* Related Articles */}
-            <div className="mt-16">
+            <div>
               <h2 className="text-2xl md:text-3xl font-bold text-[#1C244B] mb-8 text-center">
                 Approfondisci sul Blog
               </h2>
