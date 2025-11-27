@@ -15,7 +15,7 @@ export default function HomePage() {
 
       <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-12 sm:py-16 md:py-24 lg:py-32 overflow-hidden">
+      <section className="relative py-10 sm:py-12 md:py-16 lg:py-20 overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
@@ -60,8 +60,85 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* I NOSTRI SERVIZI */}
+      <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-gradient-to-br from-blue-50 via-orange-50/30 to-purple-50 relative overflow-hidden">
+        {/* Decorative elements */}
+        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-[#FAB758]/10 to-transparent rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-blue-200/20 to-transparent rounded-full blur-3xl"></div>
+        {/* Pattern overlay */}
+        <div className="absolute inset-0 opacity-[0.03]" style={{backgroundImage: 'radial-gradient(circle, #1C244B 1px, transparent 1px)', backgroundSize: '24px 24px'}}></div>
+
+        <div className="container mx-auto px-4 sm:px-6 relative z-10">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-10 sm:mb-12 md:mb-16">
+              <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-white/80 backdrop-blur-sm rounded-full mb-3 sm:mb-4 shadow-md">
+                <span className="text-xs sm:text-sm font-semibold text-[#FAB758] uppercase tracking-wide">I NOSTRI SERVIZI</span>
+              </div>
+              <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1C244B] mb-3 sm:mb-4 leading-tight px-4">
+                Un ventaglio di servizi, un unico partner affidabile
+              </h3>
+              <p className="text-sm sm:text-base md:text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed px-4">
+                Dall'efficienza energetica alle utenze quotidiane: ti accompagniamo nella transizione verso soluzioni più sostenibili e vantaggiose.
+              </p>
+            </div>
+
+            {/* Services Grid */}
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 sm:gap-5 md:gap-6">
+              <Link href="/pratiche-gse" className="group text-center p-5 sm:p-6 bg-white/90 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-3 transition-all duration-300 border-2 border-white/50 hover:border-[#FAB758]/40 hover:bg-white">
+                <div className="w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-[#FAB758]/20 to-[#FAB758]/10 rounded-xl flex items-center justify-center mx-auto mb-3 sm:mb-4 group-hover:scale-110 transition-transform">
+                  <HiClipboardList className="text-2xl sm:text-3xl text-[#FAB758]" />
+                </div>
+                <h4 className="font-bold text-[#1C244B] group-hover:text-[#FAB758] transition-colors text-xs sm:text-sm leading-tight">
+                  Pratiche GSE
+                </h4>
+              </Link>
+              <Link href="/pratiche-enea" className="group text-center p-5 sm:p-6 bg-white/90 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-3 transition-all duration-300 border-2 border-white/50 hover:border-[#FAB758]/40 hover:bg-white">
+                <div className="w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-blue-500/20 to-blue-500/10 rounded-xl flex items-center justify-center mx-auto mb-3 sm:mb-4 group-hover:scale-110 transition-transform">
+                  <HiDocumentText className="text-2xl sm:text-3xl text-blue-600" />
+                </div>
+                <h4 className="font-bold text-[#1C244B] group-hover:text-blue-600 transition-colors text-xs sm:text-sm leading-tight">
+                  Pratiche ENEA
+                </h4>
+              </Link>
+              <Link href="/luce-gas" className="group text-center p-5 sm:p-6 bg-white/90 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-3 transition-all duration-300 border-2 border-white/50 hover:border-[#FAB758]/40 hover:bg-white">
+                <div className="w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-yellow-500/20 to-yellow-500/10 rounded-xl flex items-center justify-center mx-auto mb-3 sm:mb-4 group-hover:scale-110 transition-transform">
+                  <HiLightningBolt className="text-2xl sm:text-3xl text-yellow-600" />
+                </div>
+                <h4 className="font-bold text-[#1C244B] group-hover:text-yellow-600 transition-colors text-xs sm:text-sm leading-tight">
+                  Luce & Gas
+                </h4>
+              </Link>
+              <Link href="/fibra-telefonia" className="group text-center p-5 sm:p-6 bg-white/90 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-3 transition-all duration-300 border-2 border-white/50 hover:border-[#FAB758]/40 hover:bg-white">
+                <div className="w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-cyan-500/20 to-cyan-500/10 rounded-xl flex items-center justify-center mx-auto mb-3 sm:mb-4 group-hover:scale-110 transition-transform">
+                  <HiWifi className="text-2xl sm:text-3xl text-cyan-600" />
+                </div>
+                <h4 className="font-bold text-[#1C244B] group-hover:text-cyan-600 transition-colors text-xs sm:text-sm leading-tight">
+                  Telefonia & Fibra
+                </h4>
+              </Link>
+              <Link href="/fotovoltaico" className="group text-center p-5 sm:p-6 bg-white/90 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-3 transition-all duration-300 border-2 border-white/50 hover:border-[#FAB758]/40 hover:bg-white">
+                <div className="w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-orange-500/20 to-orange-500/10 rounded-xl flex items-center justify-center mx-auto mb-3 sm:mb-4 group-hover:scale-110 transition-transform">
+                  <HiSun className="text-2xl sm:text-3xl text-orange-600" />
+                </div>
+                <h4 className="font-bold text-[#1C244B] group-hover:text-orange-600 transition-colors text-xs sm:text-sm leading-tight">
+                  Impianto fotovoltaico
+                </h4>
+              </Link>
+              <Link href="/marketing-aziendale" className="group text-center p-5 sm:p-6 bg-white/90 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-3 transition-all duration-300 border-2 border-white/50 hover:border-[#FAB758]/40 hover:bg-white">
+                <div className="w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-purple-500/20 to-purple-500/10 rounded-xl flex items-center justify-center mx-auto mb-3 sm:mb-4 group-hover:scale-110 transition-transform">
+                  <HiTrendingUp className="text-2xl sm:text-3xl text-purple-600" />
+                </div>
+                <h4 className="font-bold text-[#1C244B] group-hover:text-purple-600 transition-colors text-xs sm:text-sm leading-tight">
+                  Marketing Aziendale
+                </h4>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* DI COSA CI OCCUPIAMO */}
-      <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-gradient-to-b from-gray-50 to-white">
+      <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-gradient-to-b from-white to-gray-50">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-10 sm:mb-12 md:mb-16">
@@ -139,65 +216,6 @@ export default function HomePage() {
                   </p>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* I NOSTRI SERVIZI */}
-      <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-gray-50">
-        <div className="container mx-auto px-4 sm:px-6">
-          <div className="max-w-5xl mx-auto">
-            <div className="text-center mb-10 sm:mb-12 md:mb-16">
-              <div className="inline-block px-3 sm:px-4 py-1.5 sm:py-2 bg-[#FAB758]/10 rounded-full mb-3 sm:mb-4">
-                <span className="text-xs sm:text-sm font-semibold text-[#FAB758] uppercase tracking-wide">I NOSTRI SERVIZI</span>
-              </div>
-              <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1C244B] mb-3 sm:mb-4 leading-tight px-4">
-                Un ventaglio di servizi, un unico partner affidabile
-              </h3>
-              <p className="text-sm sm:text-base md:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
-                Dall'efficienza energetica alle utenze quotidiane: ti accompagniamo nella transizione verso soluzioni più sostenibili e vantaggiose.
-              </p>
-            </div>
-
-            {/* Services Grid */}
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4 md:gap-6">
-              <Link href="/pratiche-gse" className="group text-center p-4 sm:p-5 md:p-6 bg-white rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border-2 border-gray-100 hover:border-[#FAB758]/30">
-                <HiClipboardList className="text-3xl sm:text-4xl mb-2 sm:mb-3 group-hover:scale-110 transition-transform duration-300 text-[#FAB758] mx-auto" />
-                <h4 className="font-bold text-[#1C244B] group-hover:text-[#FAB758] transition-colors text-xs sm:text-sm leading-tight">
-                  Pratiche GSE
-                </h4>
-              </Link>
-              <Link href="/pratiche-enea" className="group text-center p-4 sm:p-5 md:p-6 bg-white rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border-2 border-gray-100 hover:border-[#FAB758]/30">
-                <HiDocumentText className="text-3xl sm:text-4xl mb-2 sm:mb-3 group-hover:scale-110 transition-transform duration-300 text-[#FAB758] mx-auto" />
-                <h4 className="font-bold text-[#1C244B] group-hover:text-[#FAB758] transition-colors text-xs sm:text-sm leading-tight">
-                  Pratiche ENEA
-                </h4>
-              </Link>
-              <Link href="/luce-gas" className="group text-center p-4 sm:p-5 md:p-6 bg-white rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border-2 border-gray-100 hover:border-[#FAB758]/30">
-                <HiLightningBolt className="text-3xl sm:text-4xl mb-2 sm:mb-3 group-hover:scale-110 transition-transform duration-300 text-[#FAB758] mx-auto" />
-                <h4 className="font-bold text-[#1C244B] group-hover:text-[#FAB758] transition-colors text-xs sm:text-sm leading-tight">
-                  Luce & Gas
-                </h4>
-              </Link>
-              <Link href="/fibra-telefonia" className="group text-center p-4 sm:p-5 md:p-6 bg-white rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border-2 border-gray-100 hover:border-[#FAB758]/30">
-                <HiWifi className="text-3xl sm:text-4xl mb-2 sm:mb-3 group-hover:scale-110 transition-transform duration-300 text-[#FAB758] mx-auto" />
-                <h4 className="font-bold text-[#1C244B] group-hover:text-[#FAB758] transition-colors text-xs sm:text-sm leading-tight">
-                  Telefonia & Fibra
-                </h4>
-              </Link>
-              <Link href="/fotovoltaico" className="group text-center p-4 sm:p-5 md:p-6 bg-white rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border-2 border-gray-100 hover:border-[#FAB758]/30">
-                <HiSun className="text-3xl sm:text-4xl mb-2 sm:mb-3 group-hover:scale-110 transition-transform duration-300 text-[#FAB758] mx-auto" />
-                <h4 className="font-bold text-[#1C244B] group-hover:text-[#FAB758] transition-colors text-xs sm:text-sm leading-tight">
-                  Impianto fotovoltaico
-                </h4>
-              </Link>
-              <Link href="/marketing-aziendale" className="group text-center p-4 sm:p-5 md:p-6 bg-white rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border-2 border-gray-100 hover:border-[#FAB758]/30">
-                <HiTrendingUp className="text-3xl sm:text-4xl mb-2 sm:mb-3 group-hover:scale-110 transition-transform duration-300 text-[#FAB758] mx-auto" />
-                <h4 className="font-bold text-[#1C244B] group-hover:text-[#FAB758] transition-colors text-xs sm:text-sm leading-tight">
-                  Marketing Aziendale
-                </h4>
-              </Link>
             </div>
           </div>
         </div>
