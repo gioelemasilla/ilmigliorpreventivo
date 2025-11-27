@@ -375,7 +375,7 @@ export default function CalcolatoreBonusBollette() {
                       onChange={(e) => setNome(e.target.value)}
                       placeholder="Nome *"
                       required
-                      className="px-4 py-3 rounded-lg text-gray-900 font-semibold"
+                      className="px-4 py-3 rounded-lg bg-white text-gray-900 font-semibold placeholder:text-gray-400"
                     />
                     <input
                       type="email"
@@ -383,7 +383,7 @@ export default function CalcolatoreBonusBollette() {
                       onChange={(e) => setEmail(e.target.value)}
                       placeholder="Email *"
                       required
-                      className="px-4 py-3 rounded-lg text-gray-900 font-semibold"
+                      className="px-4 py-3 rounded-lg bg-white text-gray-900 font-semibold placeholder:text-gray-400"
                     />
                   </div>
                   <input
@@ -391,13 +391,13 @@ export default function CalcolatoreBonusBollette() {
                     value={cellulare}
                     onChange={(e) => setCellulare(e.target.value)}
                     placeholder="Cellulare (per mandarti subito il PDF)"
-                    className="w-full px-4 py-3 rounded-lg text-gray-900 font-semibold"
+                    className="w-full px-4 py-3 rounded-lg bg-white text-gray-900 font-semibold placeholder:text-gray-400"
                   />
                   <input
                     type="text"
                     value={comune}
                     readOnly
-                    className="w-full px-4 py-3 rounded-lg text-gray-900 font-semibold bg-gray-100"
+                    className="w-full px-4 py-3 rounded-lg text-gray-900 font-semibold bg-gray-100 placeholder:text-gray-400"
                   />
 
                   <button
