@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { OrganizationSchema, LocalBusinessSchema, WebSiteSchema, BreadcrumbSchema } from '@/components/StructuredData';
-import { HiLightningBolt, HiSun, HiTrendingUp, HiDocumentText, HiWifi, HiClipboardList } from 'react-icons/hi';
+import { HiLightningBolt, HiSun, HiTrendingUp, HiDocumentText, HiWifi, HiClipboardList, HiCalculator, HiCurrencyEuro, HiOfficeBuilding, HiShieldCheck, HiSparkles, HiBookOpen } from 'react-icons/hi';
 
 export default function HomePage() {
   return (
@@ -30,6 +30,17 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-gradient-radial from-transparent via-transparent to-[#1C244B]/5"></div>
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
+          {/* No Ads Badge - Top Right */}
+          <div className="absolute top-0 right-4 sm:right-8 md:right-12 lg:right-16">
+            <div className="inline-flex items-center gap-2 px-4 py-2.5 bg-white/95 backdrop-blur-sm border-2 border-green-500 rounded-full shadow-lg animate-pulse hover:animate-none transition-all">
+              <HiShieldCheck className="text-green-500 text-xl" />
+              <div className="flex flex-col items-start">
+                <span className="text-xs font-bold text-green-600 leading-none">100% GRATUITO</span>
+                <span className="text-xs text-gray-600 leading-none">Senza pubblicità</span>
+              </div>
+            </div>
+          </div>
+
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-[#1C244B] mb-4 sm:mb-6 leading-tight drop-shadow-sm">
               Un solo sito,<br />
@@ -192,6 +203,156 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* CALCOLATORI GRATUITI */}
+      <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-white">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-10 sm:mb-12 md:mb-16">
+              <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-[#FAB758]/10 rounded-full mb-3 sm:mb-4">
+                <HiCalculator className="text-[#FAB758]" />
+                <span className="text-xs sm:text-sm font-semibold text-[#FAB758] uppercase tracking-wide">STRUMENTI GRATUITI</span>
+              </div>
+              <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1C244B] mb-3 sm:mb-4 leading-tight px-4">
+                Calcolatori per risparmiare subito
+              </h3>
+              <p className="text-sm sm:text-base md:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
+                Scopri quanto puoi risparmiare con i nostri calcolatori gratuiti. Risultati immediati, senza registrazione.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+              {/* Calcolatore Fotovoltaico */}
+              <Link href="/calcolatori/fotovoltaico-azzeramento-bolletta" className="group bg-gradient-to-br from-orange-50 to-yellow-50 rounded-2xl p-6 border-2 border-orange-200 hover:border-orange-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-yellow-500 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <HiSun className="text-white text-2xl" />
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-bold text-[#1C244B] mb-1">Fotovoltaico</h4>
+                    <p className="text-sm text-gray-600">Calcola kWp necessari e ROI</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2 text-orange-600 font-semibold text-sm group-hover:gap-3 transition-all">
+                  Calcola ora <span>→</span>
+                </div>
+              </Link>
+
+              {/* Calcolatore Stipendio */}
+              <Link href="/calcolatori/stipendio-netto" className="group bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 border-2 border-blue-200 hover:border-blue-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-indigo-500 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <HiCurrencyEuro className="text-white text-2xl" />
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-bold text-[#1C244B] mb-1">Stipendio Netto</h4>
+                    <p className="text-sm text-gray-600">Da lordo a netto aggiornato 2025</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2 text-blue-600 font-semibold text-sm group-hover:gap-3 transition-all">
+                  Calcola ora <span>→</span>
+                </div>
+              </Link>
+
+              {/* Calcolatore Mutuo */}
+              <Link href="/calcolatori/mutuo-casa" className="group bg-gradient-to-br from-purple-50 to-indigo-50 rounded-2xl p-6 border-2 border-purple-200 hover:border-purple-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-indigo-500 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <HiOfficeBuilding className="text-white text-2xl" />
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-bold text-[#1C244B] mb-1">Mutuo Casa</h4>
+                    <p className="text-sm text-gray-600">Rata, TAEG e piano ammortamento</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2 text-purple-600 font-semibold text-sm group-hover:gap-3 transition-all">
+                  Calcola ora <span>→</span>
+                </div>
+              </Link>
+            </div>
+
+            {/* Link tutti i calcolatori */}
+            <div className="text-center">
+              <Link href="/calcolatori" className="inline-flex items-center gap-2 text-[#FAB758] hover:text-[#e5a647] font-semibold transition-colors">
+                Vedi tutti gli 8 calcolatori disponibili <span>→</span>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* DAL BLOG */}
+      <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-gradient-to-b from-gray-50 to-white">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-10 sm:mb-12">
+              <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-[#FAB758]/10 rounded-full mb-3 sm:mb-4">
+                <HiBookOpen className="text-[#FAB758]" />
+                <span className="text-xs sm:text-sm font-semibold text-[#FAB758] uppercase tracking-wide">DAL BLOG</span>
+              </div>
+              <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1C244B] mb-3 sm:mb-4 leading-tight px-4">
+                Guide e consigli per risparmiare
+              </h3>
+              <p className="text-sm sm:text-base md:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
+                Scopri articoli e guide pratiche per ottimizzare i tuoi consumi energetici
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+              <Link href="/blog/quanto-costa-impianto-fotovoltaico" className="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-gray-200">
+                <div className="p-6">
+                  <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-yellow-500 rounded-lg flex items-center justify-center mb-4">
+                    <HiSun className="text-white text-xl" />
+                  </div>
+                  <h4 className="text-lg font-bold text-[#1C244B] mb-2 group-hover:text-[#FAB758] transition-colors">
+                    Quanto costa un impianto fotovoltaico?
+                  </h4>
+                  <p className="text-sm text-gray-600 mb-4 line-clamp-2">
+                    Guida completa ai prezzi 2025, incentivi disponibili e tempi di rientro dell'investimento
+                  </p>
+                  <span className="text-[#FAB758] text-sm font-semibold">Leggi l'articolo →</span>
+                </div>
+              </Link>
+
+              <Link href="/blog/bonus-bollette-2025-requisiti-domanda" className="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-gray-200">
+                <div className="p-6">
+                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center mb-4">
+                    <HiLightningBolt className="text-white text-xl" />
+                  </div>
+                  <h4 className="text-lg font-bold text-[#1C244B] mb-2 group-hover:text-[#FAB758] transition-colors">
+                    Bonus Bollette 2025
+                  </h4>
+                  <p className="text-sm text-gray-600 mb-4 line-clamp-2">
+                    Requisiti ISEE, importi e procedura completa per richiedere il bonus sociale luce e gas
+                  </p>
+                  <span className="text-[#FAB758] text-sm font-semibold">Leggi l'articolo →</span>
+                </div>
+              </Link>
+
+              <Link href="/blog/come-ridurre-bolletta-gas-30-percento-2025" className="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-gray-200">
+                <div className="p-6">
+                  <div className="w-12 h-12 bg-gradient-to-br from-red-500 to-orange-500 rounded-lg flex items-center justify-center mb-4">
+                    <HiTrendingUp className="text-white text-xl" />
+                  </div>
+                  <h4 className="text-lg font-bold text-[#1C244B] mb-2 group-hover:text-[#FAB758] transition-colors">
+                    Come ridurre la bolletta del gas del 30%
+                  </h4>
+                  <p className="text-sm text-gray-600 mb-4 line-clamp-2">
+                    Strategie pratiche e consigli efficaci per abbassare i costi del riscaldamento
+                  </p>
+                  <span className="text-[#FAB758] text-sm font-semibold">Leggi l'articolo →</span>
+                </div>
+              </Link>
+            </div>
+
+            <div className="text-center">
+              <Link href="/blog" className="inline-flex items-center gap-2 text-[#FAB758] hover:text-[#e5a647] font-semibold transition-colors">
+                Leggi tutti gli articoli del blog <span>→</span>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* PERCHE' SCEGLIERCI */}
       <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-gradient-to-b from-white to-blue-50/30 relative overflow-hidden">
         {/* Background Pattern */}
@@ -217,7 +378,7 @@ export default function HomePage() {
               </Link>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 md:gap-8 mb-12">
               <div className="text-center p-6 sm:p-7 md:p-8 bg-white rounded-2xl shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 group border-2 border-gray-100">
                 <div className="text-4xl sm:text-5xl font-bold bg-gradient-to-br from-[#FAB758] to-[#e5a647] bg-clip-text text-transparent mb-4 sm:mb-6 group-hover:scale-110 transition-transform duration-300">01</div>
                 <h4 className="text-lg sm:text-xl font-bold text-[#1C244B] mb-2 sm:mb-4">
@@ -244,6 +405,41 @@ export default function HomePage() {
                 <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                   Scegliamo con cura i nostri partner, la tua sicurezza e la tua fiducia vengono prima di tutto.
                 </p>
+              </div>
+            </div>
+
+            {/* Trust Badges */}
+            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border-2 border-green-200 shadow-lg">
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-12">
+                <div className="flex items-center gap-3">
+                  <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+                    <HiShieldCheck className="text-green-600 text-2xl" />
+                  </div>
+                  <div className="text-left">
+                    <div className="text-sm font-bold text-green-700">100% GRATUITO</div>
+                    <div className="text-xs text-gray-600">Nessun costo nascosto</div>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-3">
+                  <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                    <HiSparkles className="text-blue-600 text-2xl" />
+                  </div>
+                  <div className="text-left">
+                    <div className="text-sm font-bold text-blue-700">ZERO PUBBLICITÀ</div>
+                    <div className="text-xs text-gray-600">Nessun fastidioso banner</div>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-3">
+                  <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
+                    <HiLightningBolt className="text-orange-600 text-2xl" />
+                  </div>
+                  <div className="text-left">
+                    <div className="text-sm font-bold text-orange-700">TRASPARENTE</div>
+                    <div className="text-xs text-gray-600">Info chiare e complete</div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
