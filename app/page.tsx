@@ -346,16 +346,16 @@ export default function HomePage() {
                 </div>
               </Link>
 
-              <Link href="/blog/come-ridurre-bolletta-gas-30-percento-2025" className="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-gray-200">
+              <Link href="/blog/guida-modulo-dsu-isee-2025" className="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-gray-200">
                 <div className="p-6">
-                  <div className="w-12 h-12 bg-gradient-to-br from-red-500 to-orange-500 rounded-lg flex items-center justify-center mb-4">
-                    <HiTrendingUp className="text-white text-xl" />
+                  <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-500 rounded-lg flex items-center justify-center mb-4">
+                    <HiDocumentText className="text-white text-xl" />
                   </div>
                   <h4 className="text-lg font-bold text-[#1C244B] mb-2 group-hover:text-[#FAB758] transition-colors">
-                    Come ridurre la bolletta del gas del 30%
+                    Guida Modulo DSU 2025
                   </h4>
                   <p className="text-sm text-gray-600 mb-4 line-clamp-2">
-                    Strategie pratiche e consigli efficaci per abbassare i costi del riscaldamento
+                    5 passi semplici per compilare la DSU e ottenere il bonus sociale automatico in bolletta
                   </p>
                   <span className="text-[#FAB758] text-sm font-semibold">Leggi l'articolo →</span>
                 </div>

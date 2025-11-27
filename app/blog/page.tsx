@@ -13,6 +13,15 @@ export default function BlogPage() {
       image: '/images/blog/bonus-bollette-2025-requisiti-domanda/hero.webp',
     },
     {
+      title: 'Guida Completa al Modulo DSU 2025: Come Ottenere il Bonus Sociale in 5 Passi',
+      excerpt: 'Guida passo-passo per compilare il modulo DSU (ISEE) 2025 e ottenere il bonus sociale luce e gas automatico. Documenti necessari, dove presentarlo, tempi di erogazione. Include link INPS e calcolo bonus.',
+      date: '27 Novembre 2025',
+      readTime: '8 min',
+      category: 'Bonus Sociale 2025',
+      slug: 'guida-modulo-dsu-isee-2025',
+      image: '/images/blog/guida-modulo-dsu-isee-2025/hero.webp',
+    },
+    {
       title: 'Come Scegliere la Potenza del Contatore nel 2025: Guida Completa',
       excerpt: 'Come scegliere la potenza del contatore elettrico nel 2025? Scopri potenze standard (3-6 kW), calcolo consumi, costi ARERA da 20-50€/anno extra, e guida per famiglie/imprese. Confronta su ilmigliorpreventivo.it.',
       date: '26 Novembre 2025',
