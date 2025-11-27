@@ -52,6 +52,8 @@ export default function CalcolatoreBonusBollette() {
   const [nome, setNome] = useState<string>('');
   const [email, setEmail] = useState<string>('');
   const [cellulare, setCellulare] = useState<string>('');
+  const [zonaClimatica, setZonaClimatica] = useState<string>('');
+  const [comuneRiconosciuto, setComuneRiconosciuto] = useState<boolean>(true);
 
   const calcolaBonus = () => {
     // Determina numero persone
@@ -85,13 +87,19 @@ export default function CalcolatoreBonusBollette() {
     // Determina zona climatica
     const comuneLower = comune.toLowerCase().trim();
     let zona = 'D'; // Default medio
+    let trovato = false;
 
     for (const [com, z] of Object.entries(comuniZone)) {
       if (comuneLower.includes(com)) {
         zona = z;
+        trovato = true;
         break;
       }
     }
+
+    // Salva se il comune è stato riconosciuto
+    setZonaClimatica(zona);
+    setComuneRiconosciuto(trovato);
 
     // Valori per zona e nucleo
     const valori: { [key: string]: { [key: string]: number } } = {
@@ -299,9 +307,22 @@ export default function CalcolatoreBonusBollette() {
                   </table>
                 </div>
 
+                {!comuneRiconosciuto && (
+                  <div className="bg-yellow-50 rounded-lg p-4 border-l-4 border-yellow-500 mb-4">
+                    <p className="text-sm text-yellow-800">
+                      <strong>⚠️ Attenzione:</strong> Non ho riconosciuto il comune "<strong>{comune}</strong>" nella lista. Ho usato la <strong>zona climatica D (media)</strong> per stimare il bonus gas. Il valore potrebbe variare. Per un calcolo preciso, controlla di aver scritto correttamente il comune o contattaci.
+                    </p>
+                  </div>
+                )}
+
                 <div className="bg-blue-50 rounded-lg p-4 border-l-4 border-blue-500">
                   <p className="text-sm text-gray-700">
                     <strong>Questi importi ti verranno scalati automaticamente in bolletta ogni mese.</strong> Dal 2025 l'erogazione è automatica con la DSU (ISEE) valida. Non serve fare domanda!
+                    {comuneRiconosciuto && zonaClimatica && (
+                      <span className="block mt-2 text-xs text-blue-600">
+                        📍 Zona climatica rilevata: <strong>{zonaClimatica}</strong> (per il calcolo del bonus gas)
+                      </span>
+                    )}
                   </p>
                 </div>
               </div>
