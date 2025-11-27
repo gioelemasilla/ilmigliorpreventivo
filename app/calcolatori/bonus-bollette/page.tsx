@@ -367,6 +367,14 @@ export default function CalcolatoreBonusBollette() {
                   </ul>
                 </div>
 
+                {!comuneRiconosciuto && (
+                  <div className="bg-yellow-50 rounded-lg p-4 border-l-4 border-yellow-500 mb-6">
+                    <p className="text-sm text-yellow-800">
+                      <strong>⚠️ Attenzione:</strong> Non ho riconosciuto il comune "<strong>{comune}</strong>" nella lista. Se hai scritto male il nome della città, correggi e ricalcola.
+                    </p>
+                  </div>
+                )}
+
                 {/* Form diretto per chi non ha bonus */}
                 <div className="bg-gradient-to-br from-[#FAB758] to-orange-500 rounded-2xl p-6 sm:p-8 text-white">
                   <h3 className="text-xl md:text-2xl font-bold mb-4">Richiedi Confronto GRATUITO delle Migliori Offerte</h3>
