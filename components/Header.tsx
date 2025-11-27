@@ -26,6 +26,10 @@ export function Header() {
               src="/images/logo.png"
               alt="Il Miglior Preventivo"
               className="h-10 sm:h-12 w-auto"
+              loading="eager"
+              fetchPriority="high"
+              width={200}
+              height={48}
             />
           </Link>
 

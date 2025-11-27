@@ -18,6 +18,16 @@ const nextConfig: NextConfig = {
   // Production optimizations
   poweredByHeader: false,
   reactStrictMode: true,
+
+  // Compiler optimizations
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production',
+  },
+
+  // Experimental features for better performance
+  experimental: {
+    optimizePackageImports: ['react-icons'],
+  },
 };
 
 export default nextConfig;

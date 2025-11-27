@@ -4,13 +4,14 @@ import "./globals.css";
 import { siteConfig } from "@/lib/metadata";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { Analytics } from '@vercel/analytics/react';
+// Analytics removed for static export performance
 
 const poppins = Poppins({
-  weight: ['300', '400', '500', '600', '700'],
+  weight: ['400', '600', '700'],
   subsets: ["latin"],
   display: 'swap',
   variable: '--font-poppins',
+  preload: true,
 });
 
 export const metadata: Metadata = {
@@ -94,7 +95,6 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
-        <Analytics />
       </body>
     </html>
   );
