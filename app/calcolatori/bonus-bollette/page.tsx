@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
-import { HiArrowLeft, HiLightningBolt, HiCheckCircle, HiXCircle, HiCalculator, HiShieldCheck } from 'react-icons/hi';
+import { HiArrowLeft, HiLightningBolt, HiCheckCircle, HiXCircle, HiCalculator, HiShieldCheck, HiDocumentText } from 'react-icons/hi';
 
 // Mapping comuni principali a zone climatiche
 const comuniZone: { [key: string]: string } = {
