@@ -242,7 +242,7 @@ export default function CalcolatoreBonusBollette() {
             >
               <span className="flex items-center justify-center gap-3">
                 <HiCalculator className="text-2xl" />
-                SCOPRI QUANTO TI SPETTA ALLA TUA FAMIGLIA
+                SCOPRI QUANTO SPETTA ALLA TUA FAMIGLIA
               </span>
             </button>
           </div>
