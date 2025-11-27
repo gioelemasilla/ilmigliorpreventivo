@@ -123,6 +123,76 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
+  // Blog articles - high SEO value
+  const blogArticlesEntries: MetadataRoute.Sitemap = [
+    {
+      url: `${siteConfig.url}/blog/bonus-bollette-2025-requisiti-domanda`,
+      lastModified: new Date('2025-11-26'),
+      changeFrequency: 'monthly',
+      priority: 0.85,
+    },
+    {
+      url: `${siteConfig.url}/blog/guida-modulo-dsu-isee-2025`,
+      lastModified: new Date('2025-11-27'),
+      changeFrequency: 'monthly',
+      priority: 0.85,
+    },
+    {
+      url: `${siteConfig.url}/blog/cambio-fornitore-luce-senza-interruzione`,
+      lastModified: new Date('2025-11-26'),
+      changeFrequency: 'monthly',
+      priority: 0.75,
+    },
+    {
+      url: `${siteConfig.url}/blog/cambio-gestore-luce-gas`,
+      lastModified: new Date('2025-11-26'),
+      changeFrequency: 'monthly',
+      priority: 0.75,
+    },
+    {
+      url: `${siteConfig.url}/blog/come-ridurre-bolletta-gas-30-percento-2025`,
+      lastModified: new Date('2025-11-26'),
+      changeFrequency: 'monthly',
+      priority: 0.75,
+    },
+    {
+      url: `${siteConfig.url}/blog/come-scegliere-potenza-contatore-2025`,
+      lastModified: new Date('2025-11-26'),
+      changeFrequency: 'monthly',
+      priority: 0.75,
+    },
+    {
+      url: `${siteConfig.url}/blog/comunita-energetiche-come-funzionano-2025`,
+      lastModified: new Date('2025-11-26'),
+      changeFrequency: 'monthly',
+      priority: 0.75,
+    },
+    {
+      url: `${siteConfig.url}/blog/fibra-ftth-vs-fttc-differenze-velocita-2025`,
+      lastModified: new Date('2025-11-26'),
+      changeFrequency: 'monthly',
+      priority: 0.75,
+    },
+    {
+      url: `${siteConfig.url}/blog/pratiche-gse-guida-passo-passo-2025`,
+      lastModified: new Date('2025-11-26'),
+      changeFrequency: 'monthly',
+      priority: 0.75,
+    },
+    {
+      url: `${siteConfig.url}/blog/quanto-costa-impianto-fotovoltaico`,
+      lastModified: new Date('2025-11-26'),
+      changeFrequency: 'monthly',
+      priority: 0.75,
+    },
+    {
+      url: `${siteConfig.url}/blog/tariffe-luce-monorarie-o-biorarie-quale-conviene`,
+      lastModified: new Date('2025-11-26'),
+      changeFrequency: 'monthly',
+      priority: 0.75,
+    },
+  ];
+
   return [
     // Homepage - highest priority
     {
@@ -147,6 +217,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     // Calcolatori - high priority
     ...calcolatoriEntries,
+    // Blog articles - high SEO value
+    ...blogArticlesEntries,
     ...pageEntries,
     ...postEntries,
     ...portfolioEntries,

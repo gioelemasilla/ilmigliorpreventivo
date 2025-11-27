@@ -81,6 +81,14 @@ export default function ArticlePage() {
               </ul>
               <p>Il bonus è automatico: Presenta la DSU (Dichiarazione Sostitutiva Unica) per ottenere l'ISEE, e ARERA lo applica in bolletta. Importi variano: Fino a 500€ annui per luce/gas combinati, a seconda di zona e consumi.</p>
               <p>Per famiglie numerose, soglia a 20.000€ conferma accesso ampliato.</p>
+              <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-lg my-6">
+                <p className="text-sm font-semibold text-green-900 mb-2">
+                  📖 Non sai come compilare il modulo DSU?
+                </p>
+                <p className="text-green-800">
+                  Leggi la nostra <Link href="/blog/guida-modulo-dsu-isee-2025" className="text-green-700 hover:underline font-bold">Guida Completa al Modulo DSU 2025</Link> con tutti i documenti necessari, i 5 passi semplici e dove presentarla gratuitamente al CAF.
+                </p>
+              </div>
             </section>
 
             {/* Immagine 1 */}
@@ -128,12 +136,17 @@ export default function ArticlePage() {
             </section>
 
             {/* CTA Box 1 */}
-            <div className="my-12 bg-gradient-to-br from-[#1C244B] to-[#324A6D] rounded-2xl p-8 md:p-10 text-center text-white">
-              <h3 className="text-2xl md:text-3xl font-bold mb-4">Verifica il Tuo Diritto ai Bonus Bollette</h3>
-              <p className="text-lg mb-6 opacity-90">Ottieni assistenza per ISEE e confronti tariffe per massimizzare risparmi.</p>
-              <Link href="/contact-1" className="inline-block bg-[#FAB758] text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-[#e9a647] transition-all hover:scale-105 shadow-lg">
-                Richiedi Preventivo Gratuito
-              </Link>
+            <div className="my-12 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl p-8 md:p-10 text-center text-white shadow-2xl">
+              <h3 className="text-2xl md:text-3xl font-bold mb-4">Calcola Subito il Tuo Bonus Bollette 2025!</h3>
+              <p className="text-lg mb-6">Inserisci ISEE, numero figli e comune: scopri in 15 secondi quanto ti spetta fino a 1.650€/anno.</p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Link href="/calcolatori/bonus-bollette" className="inline-block bg-white text-green-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all hover:scale-105 shadow-lg">
+                  Calcola il Tuo Bonus Ora
+                </Link>
+                <Link href="/contact-1" className="inline-block bg-[#FAB758] text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-[#e9a647] transition-all hover:scale-105 shadow-lg">
+                  Richiedi Consulenza Gratuita
+                </Link>
+              </div>
             </div>
 
             {/* Sezione 5 */}

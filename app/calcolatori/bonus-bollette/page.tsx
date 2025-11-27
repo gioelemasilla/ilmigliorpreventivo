@@ -462,7 +462,8 @@ export default function CalcolatoreBonusBollette() {
               <summary className="font-bold text-[#1C244B] cursor-pointer">Dove trovo il modulo DSU (ISEE) da compilare?</summary>
               <p className="mt-4 text-gray-600">
                 Puoi scaricare il modulo DSU direttamente dal sito INPS: <a href="https://www.inps.it/it/it/dettaglio-scheda.schede-servizio-strumento.schede-servizi.50627.isee---indicatore-della-situazione-economica-equivalente.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-semibold">vai alla pagina INPS</a>.<br/>
-                <strong>È facile:</strong> compili il modulo con i tuoi dati reddituali e familiari, lo presenti a CAF o Patronato (è gratuito), e il bonus ti arriverà automaticamente in bolletta. <strong>Nessuna paura, è più semplice di quanto sembri!</strong>
+                <strong>È facile:</strong> compili il modulo con i tuoi dati reddituali e familiari, lo presenti a CAF o Patronato (è gratuito), e il bonus ti arriverà automaticamente in bolletta. <strong>Nessuna paura, è più semplice di quanto sembri!</strong><br/><br/>
+                📖 <strong>Vuoi una guida passo-passo?</strong> Leggi la nostra <Link href="/blog/guida-modulo-dsu-isee-2025" className="text-green-600 hover:underline font-bold">Guida Completa al Modulo DSU 2025</Link> con tutti i documenti necessari e i 5 passi semplici per ottenere il bonus sociale.
               </p>
             </details>
           </div>
