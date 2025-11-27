@@ -342,12 +342,58 @@ export default function CalcolatoreBonusBollette() {
                   </ul>
                 </div>
 
-                <Link
-                  href="/luce-gas"
-                  className="block w-full px-8 py-5 bg-gradient-to-r from-[#FAB758] to-orange-500 text-white text-lg md:text-xl font-bold rounded-xl hover:from-orange-500 hover:to-orange-600 transition-all hover:scale-[1.02] shadow-xl text-center"
-                >
-                  RICHIEDI PREVENTIVO GRATUITO LUCE E GAS
-                </Link>
+                {/* Form diretto per chi non ha bonus */}
+                <div className="bg-gradient-to-br from-[#FAB758] to-orange-500 rounded-2xl p-6 sm:p-8 text-white">
+                  <h3 className="text-xl md:text-2xl font-bold mb-4">Richiedi Confronto GRATUITO delle Migliori Offerte</h3>
+                  <p className="text-sm mb-6 opacity-90">
+                    Anche senza bonus, possiamo aiutarti a risparmiare 250-400€/anno con l'offerta giusta. Lascia i tuoi dati per un preventivo personalizzato:
+                  </p>
+
+                  <form onSubmit={handleLeadSubmit} className="space-y-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      <input
+                        type="text"
+                        value={nome}
+                        onChange={(e) => setNome(e.target.value)}
+                        placeholder="Nome *"
+                        required
+                        className="px-4 py-3 rounded-lg bg-white text-gray-900 font-semibold placeholder:text-gray-400"
+                      />
+                      <input
+                        type="email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        placeholder="Email *"
+                        required
+                        className="px-4 py-3 rounded-lg bg-white text-gray-900 font-semibold placeholder:text-gray-400"
+                      />
+                    </div>
+                    <input
+                      type="tel"
+                      value={cellulare}
+                      onChange={(e) => setCellulare(e.target.value)}
+                      placeholder="Cellulare (per chiamarti e spiegarti tutto)"
+                      className="w-full px-4 py-3 rounded-lg bg-white text-gray-900 font-semibold placeholder:text-gray-400"
+                    />
+                    <input
+                      type="text"
+                      value={comune}
+                      readOnly
+                      className="w-full px-4 py-3 rounded-lg text-gray-900 font-semibold bg-gray-100 placeholder:text-gray-400"
+                    />
+
+                    <button
+                      type="submit"
+                      className="w-full px-8 py-5 bg-white text-[#FAB758] text-lg md:text-xl font-bold rounded-xl hover:bg-gray-100 transition-all hover:scale-[1.02] shadow-xl"
+                    >
+                      SÌ, VOGLIO RISPARMIARE SULLE BOLLETTE
+                    </button>
+                  </form>
+
+                  <p className="text-xs text-white/80 mt-4 text-center">
+                    I tuoi dati sono protetti e non verranno mai condivisi con terzi. Zero spam.
+                  </p>
+                </div>
               </div>
             )}
 
