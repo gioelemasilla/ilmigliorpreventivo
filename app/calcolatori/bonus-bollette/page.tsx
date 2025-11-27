@@ -71,6 +71,11 @@ export default function CalcolatoreBonusBollette() {
     const diritto = (isee <= 9530) || (isee <= 20000 && numFigli >= 4);
     setHaBonus(diritto);
 
+    // Calcola bonus gas e salva zona/validazione
+    const gasResult = calcolaBonusGas(comune);
+    setZonaClimatica(gasResult.zona);
+    setComuneRiconosciuto(gasResult.trovato);
+
     setShowResults(true);
 
     // Mostra form lead dopo 2 secondi
@@ -83,9 +88,9 @@ export default function CalcolatoreBonusBollette() {
     return 240.90;
   };
 
-  const calcolaBonusGas = () => {
+  const calcolaBonusGas = (comuneInput: string): { zona: string; trovato: boolean; bonusImporto: number } => {
     // Determina zona climatica
-    const comuneLower = comune.toLowerCase().trim();
+    const comuneLower = comuneInput.toLowerCase().trim();
     let zona = 'D'; // Default medio
     let trovato = false;
 
@@ -96,10 +101,6 @@ export default function CalcolatoreBonusBollette() {
         break;
       }
     }
-
-    // Salva se il comune è stato riconosciuto
-    setZonaClimatica(zona);
-    setComuneRiconosciuto(trovato);
 
     // Valori per zona e nucleo
     const valori: { [key: string]: { [key: string]: number } } = {
@@ -112,13 +113,16 @@ export default function CalcolatoreBonusBollette() {
     };
 
     const key = nucleo === 'oltre' ? 'oltre' : nucleo;
-    return valori[zona][key] || valori['D'][key];
+    const bonusImporto = valori[zona][key] || valori['D'][key];
+
+    return { zona, trovato, bonusImporto };
   };
 
   const contributoStraordinario = isee <= 25000 ? 200 : 0;
   const bonusDisagio = patologia ? 620 : 0;
   const bonusLuce = calcolaBonusLuce();
-  const bonusGas = calcolaBonusGas();
+  const resultGas = calcolaBonusGas(comune);
+  const bonusGas = resultGas.bonusImporto;
   const totale = bonusLuce + bonusGas + contributoStraordinario + bonusDisagio;
 
   const handleLeadSubmit = (e: React.FormEvent) => {
