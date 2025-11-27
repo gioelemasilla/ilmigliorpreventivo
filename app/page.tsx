@@ -291,7 +291,7 @@ export default function HomePage() {
             {/* Link tutti i calcolatori */}
             <div className="text-center">
               <Link href="/calcolatori" className="inline-flex items-center gap-2 text-[#FAB758] hover:text-[#e5a647] font-semibold transition-colors">
-                Vedi tutti gli 8 calcolatori disponibili <span>→</span>
+                Vedi tutti i 9 calcolatori disponibili <span>→</span>
               </Link>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { HiSun, HiCalculator, HiArrowRight, HiCheckCircle, HiFire, HiLightningBolt, HiHome, HiCurrencyEuro, HiOfficeBuilding } from 'react-icons/hi';
+import { HiSun, HiCalculator, HiArrowRight, HiCheckCircle, HiFire, HiLightningBolt, HiHome, HiCurrencyEuro, HiOfficeBuilding, HiShieldCheck } from 'react-icons/hi';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -15,6 +15,14 @@ export const metadata: Metadata = {
 export default function CalcolatoriPage() {
   // Organizzazione per categorie
   const energyCalculators = [
+    {
+      title: 'Bonus Bollette 2025',
+      description: 'Verifica in 15 secondi se hai diritto fino a 1.650€ di sconto automatico in bolletta.',
+      icon: HiShieldCheck,
+      href: '/calcolatori/bonus-bollette',
+      color: 'from-green-500 to-emerald-500',
+      benefits: ['Bonus luce e gas', 'Contributo 200€', 'Erogazione automatica'],
+    },
     {
       title: 'Fotovoltaico',
       description: 'Calcola kWp necessari per azzerare la bolletta, costi con incentivi e ROI.',
