@@ -81,48 +81,56 @@ export default function ServiziPage() {
       description: 'Per famiglie e imprese: analisi consumi, scelta tariffa, attivazione veloce. Tutto in un unico posto.',
       href: '/luce-gas',
       Icon: HiLightningBolt,
+      color: 'text-yellow-500',
     },
     {
       title: 'Fibra & Telefonia',
       description: 'Per famiglie e imprese: analisi esigenze, scelta tariffa, attivazione veloce. Tutto in un unico posto.',
       href: '/fibra-telefonia',
       Icon: HiWifi,
+      color: 'text-cyan-500',
     },
     {
       title: 'Fotovoltaico',
       description: 'Per privati e business: valutazione del sito, dimensionamento ottimale, incentivi statali. Tutto gestito in un solo servizio.',
       href: '/fotovoltaico',
       Icon: HiSun,
+      color: 'text-orange-500',
     },
     {
       title: 'Pratiche GSE',
       description: 'Per famiglie e imprese: valutazione opportunità, scelta incentivi, gestione burocratica rapida. Tutto gestito da un team esperto.',
       href: '/pratiche-gse',
       Icon: HiClipboardList,
+      color: 'text-[#FAB758]',
     },
     {
       title: 'Pratiche ENEA',
       description: 'Naviga le pratiche ENEA con facilità: ottieni i tuoi bonus fiscali senza stress.',
       href: '/pratiche-enea',
       Icon: HiDocumentText,
+      color: 'text-blue-600',
     },
     {
       title: 'Comunità Energetiche',
       description: 'Forma e amministra il tuo gruppo per l\'energia condivisa in modo semplice.',
       href: '/comunita-energetiche',
       Icon: HiUserGroup,
+      color: 'text-emerald-500',
     },
     {
       title: 'Servizi Condominiali',
       description: 'Gestione efficiente e compliant per edifici collettivi.',
       href: '/servizi-condominiali',
       Icon: HiOfficeBuilding,
+      color: 'text-indigo-600',
     },
     {
       title: 'Marketing Aziendale',
       description: 'Espandi il tuo business online: dal branding alla visibilità digitale, per startup e imprese consolidate. Pacchetti flessibili con esperti in comunicazione, grafica, web design e ads.',
       href: '/marketing-aziendale',
       Icon: HiTrendingUp,
+      color: 'text-purple-600',
     },
   ];
 
@@ -169,7 +177,7 @@ export default function ServiziPage() {
       </section>
 
       {/* Services Grid */}
-      <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-b from-white to-gray-50">
+      <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-br from-blue-50 via-orange-50/40 to-purple-50/60">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="max-w-5xl mx-auto">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
@@ -177,17 +185,17 @@ export default function ServiziPage() {
                 <Link
                   key={service.href}
                   href={service.href}
-                  className="group bg-white border-2 border-gray-100 rounded-2xl p-5 sm:p-6 md:p-8 shadow-md hover:border-[#FAB758]/30 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
+                  className="group bg-white border-2 border-gray-100 rounded-2xl p-5 sm:p-6 md:p-8 shadow-md hover:border-[#FAB758]/30 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 aspect-square flex flex-col justify-center"
                 >
-                  <service.Icon className="text-4xl sm:text-5xl mb-4 sm:mb-6 group-hover:scale-110 transition-transform duration-300 text-[#FAB758]" />
-                  <h3 className="text-xl sm:text-2xl font-bold text-[#1C244B] mb-3 sm:mb-4 group-hover:text-[#FAB758] transition-colors leading-tight">
+                  <service.Icon className={`text-5xl sm:text-6xl mb-3 group-hover:scale-110 transition-transform duration-300 ${service.color || 'text-[#FAB758]'}`} />
+                  <h3 className="text-lg sm:text-xl font-bold text-[#1C244B] mb-2 group-hover:text-[#FAB758] transition-colors leading-tight">
                     {service.title}
                   </h3>
-                  <p className="text-sm sm:text-base text-gray-600 mb-3 sm:mb-4 leading-relaxed">
+                  <p className="text-xs sm:text-sm text-gray-600 mb-3 leading-snug line-clamp-3">
                     {service.description}
                   </p>
-                  <div className="text-sm sm:text-base text-[#FAB758] font-semibold group-hover:translate-x-2 transition-transform inline-flex items-center gap-1">
-                    Scopri di più <span className="text-base sm:text-lg">→</span>
+                  <div className="text-sm text-[#FAB758] font-semibold group-hover:translate-x-2 transition-transform inline-flex items-center gap-1 mt-auto">
+                    Scopri di più <span className="text-base">→</span>
                   </div>
                 </Link>
               ))}
@@ -196,46 +204,31 @@ export default function ServiziPage() {
         </div>
       </section>
 
-      {/* Decorative Separator */}
-      <div className="relative py-12 bg-gradient-to-b from-white via-gray-50 to-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-5xl mx-auto">
-            <div className="flex items-center justify-center">
-              <div className="h-px bg-gradient-to-r from-transparent via-[#FAB758]/30 to-transparent w-full"></div>
-              <HiSparkles className="mx-6 text-3xl text-[#FAB758]" />
-              <div className="h-px bg-gradient-to-r from-transparent via-[#FAB758]/30 to-transparent w-full"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* About Section */}
-      <section className="pt-0 pb-12 sm:pb-16 md:pb-20 bg-gray-50">
+      <section className="py-6 sm:py-8 bg-white">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="max-w-6xl mx-auto">
-            <div className="bg-white rounded-2xl sm:rounded-3xl shadow-xl p-6 sm:p-8 md:p-10 lg:p-12 border border-gray-100">
-              <div className="grid md:grid-cols-2 gap-8 sm:gap-10 md:gap-12 items-center">
-                <div>
-                  <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#1C244B] mb-4 sm:mb-6 leading-tight">
-                    Risparmi misurabili, zero complicazioni
-                  </h2>
-                  <p className="text-sm sm:text-base md:text-lg text-[#324A6D] mb-6 sm:mb-8 leading-relaxed">
-                    Raccontaci le tue esigenze, analizziamo il mercato e attiviamo per te la soluzione più conveniente. Tutto trasparente, senza vincoli né sorprese.
-                  </p>
-                  <Link
-                    href="/contact-1"
-                    className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-[#FAB758] text-white font-bold rounded-lg hover:bg-[#e5a647] hover:shadow-lg hover:scale-105 transition-all duration-300 text-sm sm:text-base"
-                  >
-                    Contattaci <span className="text-lg sm:text-xl">→</span>
-                  </Link>
-                </div>
-                <div className="order-first md:order-last">
-                  <img
-                    src="/images/2025/10/undraw_talking-on-the-phone_lc9v.png"
-                    alt="Contattaci"
-                    className="w-full"
-                  />
-                </div>
+            <div className="grid md:grid-cols-2 gap-6 items-center">
+              <div>
+                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1C244B] mb-3 leading-tight">
+                  Risparmi misurabili, zero complicazioni
+                </h2>
+                <p className="text-sm sm:text-base md:text-lg text-gray-600 mb-4 leading-relaxed">
+                  Raccontaci le tue esigenze, analizziamo il mercato e attiviamo per te la soluzione più conveniente. Tutto trasparente, senza vincoli né sorprese.
+                </p>
+                <Link
+                  href="/contact-1"
+                  className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-[#FAB758] text-white font-bold rounded-lg hover:bg-[#e5a647] hover:shadow-lg hover:scale-105 transition-all duration-300 text-sm sm:text-base"
+                >
+                  Contattaci <span className="text-lg sm:text-xl">→</span>
+                </Link>
+              </div>
+              <div className="order-first md:order-last">
+                <img
+                  src="/images/2025/10/undraw_talking-on-the-phone_lc9v.png"
+                  alt="Contattaci"
+                  className="w-full"
+                />
               </div>
             </div>
           </div>
@@ -243,7 +236,7 @@ export default function ServiziPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-b from-white to-blue-50/30 relative overflow-hidden">
+      <section className="py-12 sm:py-16 md:py-20 bg-gray-50 relative overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-[0.05]" style={{backgroundImage: 'radial-gradient(circle, #1C244B 1px, transparent 1px)', backgroundSize: '24px 24px'}}></div>
 
