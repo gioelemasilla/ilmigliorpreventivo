@@ -5,7 +5,8 @@ export const siteConfig = {
   name: 'Il Miglior Preventivo',
   description: 'Confronta e risparmia su luce, gas, fibra, fotovoltaico e servizi energetici. Consulenza personalizzata per famiglie e imprese.',
   url: 'https://www.ilmigliorpreventivo.it',
-  ogImage: '/images/og-image.jpg',
+  ogImage: '/logo-512x512.png',
+  logo: '/logo-512x512.png',
   locale: 'it_IT',
   type: 'website',
 };
@@ -131,6 +132,8 @@ export function generateStructuredData(page: PageData) {
     name: siteConfig.name,
     description: siteConfig.description,
     url: siteConfig.url,
+    logo: `${siteConfig.url}${siteConfig.logo}`,
+    image: `${siteConfig.url}${siteConfig.logo}`,
     telephone: '+39-XXX-XXXXXXX',
     address: {
       '@type': 'PostalAddress',

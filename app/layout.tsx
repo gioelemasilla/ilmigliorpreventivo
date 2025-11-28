@@ -25,6 +25,14 @@ export const metadata: Metadata = {
   creator: siteConfig.name,
   publisher: siteConfig.name,
   metadataBase: new URL(siteConfig.url),
+  icons: {
+    icon: [
+      { url: '/logo-512x512.png', sizes: '512x512', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/logo-512x512.png', sizes: '512x512', type: 'image/png' },
+    ],
+  },
   openGraph: {
     type: 'website',
     locale: siteConfig.locale,
@@ -32,11 +40,20 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: siteConfig.name,
     description: siteConfig.description,
+    images: [
+      {
+        url: '/logo-512x512.png',
+        width: 512,
+        height: 512,
+        alt: 'Il Miglior Preventivo - Luce, Gas, Fibra, Fotovoltaico',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: siteConfig.name,
     description: siteConfig.description,
+    images: ['/logo-512x512.png'],
   },
   robots: {
     index: true,
@@ -66,9 +83,36 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
 
         {/* Icons */}
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="icon" href="/logo-512x512.png" type="image/png" sizes="512x512" />
+        <link rel="apple-touch-icon" href="/logo-512x512.png" sizes="512x512" />
+
+        {/* Organization Schema - helps Google recognize the logo */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Organization',
+              name: siteConfig.name,
+              url: siteConfig.url,
+              logo: {
+                '@type': 'ImageObject',
+                url: `${siteConfig.url}/logo-512x512.png`,
+                width: 512,
+                height: 512
+              },
+              image: `${siteConfig.url}/logo-512x512.png`,
+              description: siteConfig.description,
+              sameAs: [],
+              contactPoint: {
+                '@type': 'ContactPoint',
+                contactType: 'customer service',
+                areaServed: 'IT',
+                availableLanguage: 'Italian'
+              }
+            })
+          }}
+        />
 
         {/* Theme color */}
         <meta name="theme-color" content="#FAB758" media="(prefers-color-scheme: light)" />

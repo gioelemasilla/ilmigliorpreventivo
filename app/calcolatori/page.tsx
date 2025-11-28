@@ -1,13 +1,13 @@
 import Link from 'next/link';
-import { HiSun, HiCalculator, HiArrowRight, HiCheckCircle, HiFire, HiLightningBolt, HiHome, HiCurrencyEuro, HiOfficeBuilding, HiShieldCheck } from 'react-icons/hi';
+import { HiSun, HiCalculator, HiArrowRight, HiCheckCircle, HiFire, HiLightningBolt, HiHome, HiCurrencyEuro, HiOfficeBuilding, HiShieldCheck, HiUserCircle, HiCreditCard, HiClipboardCheck } from 'react-icons/hi';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Calcolatori Gratuiti per Energia, Luce e Gas | Il Miglior Preventivo',
-  description: 'Calcolatori gratuiti per fotovoltaico, risparmio bolletta luce e gas, potenza contatore. Strumenti professionali per ottimizzare i tuoi consumi energetici.',
+  title: 'Calcolatori Gratuiti: Energia, Codice Fiscale, Stipendio | Il Miglior Preventivo',
+  description: 'Calcolatori gratuiti per fotovoltaico, codice fiscale, stipendio netto, mutuo casa, bonus bollette. Strumenti professionali aggiornati 2025.',
   openGraph: {
-    title: 'Calcolatori Gratuiti per Energia, Luce e Gas',
-    description: 'Calcola il tuo impianto fotovoltaico ideale, stima il risparmio in bolletta e trova la potenza contatore ottimale.',
+    title: 'Calcolatori Gratuiti: Energia, Codice Fiscale, Stipendio',
+    description: 'Calcola il tuo codice fiscale, estrai dati da CF, calcola impianto fotovoltaico, stipendio netto e molto altro.',
     type: 'website',
   },
 };
@@ -92,6 +92,57 @@ export default function CalcolatoriPage() {
       href: '/calcolatori/mutuo-casa',
       color: 'from-indigo-500 to-purple-500',
       benefits: ['Rata e TAEG', 'Fisso vs Variabile', 'Sostenibilità'],
+    },
+  ];
+
+  const utilityCalculators = [
+    {
+      title: 'Codice Fiscale',
+      description: 'Calcola CF da dati anagrafici, estrai dati da CF esistente, verifica validità.',
+      icon: HiUserCircle,
+      href: '/calcolatori/codice-fiscale',
+      color: 'from-teal-500 to-cyan-500',
+      benefits: ['Calcolo CF', 'Estrazione dati', 'Verifica validità'],
+    },
+    {
+      title: 'Verifica Partita IVA',
+      description: 'Verifica validità P.IVA italiana e UE (VIES). Controllo formale e database europeo.',
+      icon: HiOfficeBuilding,
+      href: '/calcolatori/verifica-partita-iva',
+      color: 'from-indigo-500 to-blue-500',
+      benefits: ['P.IVA italiana', 'VIES UE (27 paesi)', 'Verifica formale'],
+    },
+    {
+      title: 'Coordinate Bancarie',
+      description: 'Verifica IBAN italiano, calcola CIN, identifica ABI e CAB. Estrai tutte le coordinate bancarie.',
+      icon: HiCreditCard,
+      href: '/calcolatori/coordinate-bancarie',
+      color: 'from-blue-500 to-indigo-500',
+      benefits: ['Verifica IBAN', 'Calcolo CIN', 'Database banche'],
+    },
+    {
+      title: 'Revisione Auto',
+      description: 'Calcola scadenza revisione auto, verifica stato e scopri le sanzioni. Tutti i tipi di veicoli.',
+      icon: HiClipboardCheck,
+      href: '/calcolatori/revisione-auto',
+      color: 'from-purple-500 to-pink-500',
+      benefits: ['Calcolo scadenze', 'Verifica stato', 'Info sanzioni e costi'],
+    },
+    {
+      title: 'Bollo Auto',
+      description: 'Calcola importo bollo auto 2025 per regione, potenza kW e classe Euro. Include esenzioni.',
+      icon: HiCurrencyEuro,
+      href: '/calcolatori/bollo-auto',
+      color: 'from-blue-500 to-purple-500',
+      benefits: ['Tutte le regioni', 'Esenzioni storiche', 'Scadenze e modi pagamento'],
+    },
+    {
+      title: 'Codice Catastale',
+      description: 'Cerca il codice catastale di un comune italiano o trova il comune dal codice. Database 200+ città.',
+      icon: HiOfficeBuilding,
+      href: '/calcolatori/codice-catastale',
+      color: 'from-green-500 to-teal-500',
+      benefits: ['Ricerca bidirezionale', '200+ comuni', 'Tutti i capoluoghi'],
     },
   ];
 
@@ -229,6 +280,54 @@ export default function CalcolatoriPage() {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {financeCalculators.map((calc) => {
+                  const Icon = calc.icon;
+                  return (
+                    <Link
+                      key={calc.href}
+                      href={calc.href}
+                      className="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-200"
+                    >
+                      <div className={`bg-gradient-to-br ${calc.color} p-5 relative`}>
+                        <div className="flex items-start gap-3">
+                          <Icon className="w-10 h-10 text-white flex-shrink-0" />
+                          <div>
+                            <h3 className="text-xl font-bold text-white mb-1">{calc.title}</h3>
+                            <p className="text-white/90 text-sm leading-snug">{calc.description}</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="p-5">
+                        <div className="flex flex-wrap gap-2 mb-3">
+                          {calc.benefits.map((benefit, idx) => (
+                            <span key={idx} className="inline-flex items-center gap-1.5 text-xs bg-gray-100 text-gray-700 px-3 py-1.5 rounded-full">
+                              <HiCheckCircle className="text-[#FAB758] text-sm" />
+                              {benefit}
+                            </span>
+                          ))}
+                        </div>
+                        <div className="flex items-center gap-2 text-[#FAB758] font-semibold text-sm group-hover:gap-3 transition-all">
+                          Calcola ora <HiArrowRight />
+                        </div>
+                      </div>
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Utility e Strumenti */}
+            <div>
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-12 h-12 bg-gradient-to-br from-teal-500 to-cyan-500 rounded-xl flex items-center justify-center">
+                  <HiUserCircle className="w-6 h-6 text-white" />
+                </div>
+                <div>
+                  <h2 className="text-2xl md:text-3xl font-bold text-[#1C244B]">Utility e Strumenti</h2>
+                  <p className="text-gray-600 text-sm">Codice fiscale e altri strumenti utili</p>
+                </div>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {utilityCalculators.map((calc) => {
                   const Icon = calc.icon;
                   return (
                     <Link
