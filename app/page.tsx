@@ -32,7 +32,7 @@ export default function HomePage() {
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
           {/* No Ads Badge - Top Right */}
-          <div className="absolute top-0 right-4 sm:right-8 md:right-12 lg:right-16">
+          <div className="absolute top-0 right-4 sm:right-8 md:right-12 lg:right-16 hidden sm:block">
             <div className="inline-flex items-center gap-2 px-4 py-2.5 bg-white/95 backdrop-blur-sm border-2 border-green-500 rounded-full shadow-lg animate-pulse hover:animate-none transition-all">
               <HiShieldCheck className="text-green-500 text-xl" />
               <div className="flex flex-col items-start">
