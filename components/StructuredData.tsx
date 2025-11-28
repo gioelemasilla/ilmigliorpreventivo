@@ -21,7 +21,12 @@ export function OrganizationSchema() {
     '@type': 'Organization',
     name: 'Il Miglior Preventivo',
     url: 'https://www.ilmigliorpreventivo.it',
-    logo: 'https://www.ilmigliorpreventivo.it/images/logo.png',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://www.ilmigliorpreventivo.it/logo-512x512.png',
+      width: 512,
+      height: 512,
+    },
     description: 'Confronta e risparmia su luce, gas, fibra, fotovoltaico e servizi energetici. Consulenza personalizzata per famiglie e imprese.',
     address: {
       '@type': 'PostalAddress',
