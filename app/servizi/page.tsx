@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 import { FAQSchema, BreadcrumbSchema, ServiceSchema } from '@/components/StructuredData';
 import { siteConfig } from '@/lib/metadata';
-import { HiLightningBolt, HiWifi, HiSun, HiClipboardList, HiDocumentText, HiUserGroup, HiOfficeBuilding, HiTrendingUp, HiSparkles } from 'react-icons/hi';
+import { HiLightningBolt, HiWifi, HiSun, HiClipboardList, HiDocumentText, HiUserGroup, HiOfficeBuilding, HiTrendingUp, HiShieldCheck } from 'react-icons/hi';
 
 export const metadata: Metadata = {
   title: 'I Nostri Servizi | Confronto Preventivi Energia e Telecomunicazioni',
@@ -132,6 +132,13 @@ export default function ServiziPage() {
       Icon: HiTrendingUp,
       color: 'text-purple-600',
     },
+    {
+      title: 'Assicurazioni',
+      description: 'Per famiglie e imprese: confronto polizze auto, casa, vita e aziendali. Risparmia con le migliori compagnie assicurative del mercato.',
+      href: '/assicurazioni',
+      Icon: HiShieldCheck,
+      color: 'text-green-600',
+    },
   ];
 
   return (
@@ -185,13 +192,13 @@ export default function ServiziPage() {
                 <Link
                   key={service.href}
                   href={service.href}
-                  className="group bg-white border-2 border-gray-100 rounded-2xl p-5 sm:p-6 md:p-8 shadow-md hover:border-[#FAB758]/30 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 aspect-square flex flex-col justify-center"
+                  className="group bg-white border-2 border-gray-100 rounded-2xl p-6 sm:p-6 md:p-8 shadow-md hover:border-[#FAB758]/30 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 md:aspect-square flex flex-col md:justify-center"
                 >
-                  <service.Icon className={`text-5xl sm:text-6xl mb-3 group-hover:scale-110 transition-transform duration-300 ${service.color || 'text-[#FAB758]'}`} />
-                  <h3 className="text-lg sm:text-xl font-bold text-[#1C244B] mb-2 group-hover:text-[#FAB758] transition-colors leading-tight">
+                  <service.Icon className={`text-6xl mb-4 group-hover:scale-110 transition-transform duration-300 ${service.color || 'text-[#FAB758]'}`} />
+                  <h3 className="text-xl font-bold text-[#1C244B] mb-3 group-hover:text-[#FAB758] transition-colors leading-tight">
                     {service.title}
                   </h3>
-                  <p className="text-xs sm:text-sm text-gray-600 mb-3 leading-snug line-clamp-3">
+                  <p className="text-sm text-gray-600 mb-4 leading-relaxed line-clamp-3">
                     {service.description}
                   </p>
                   <div className="text-sm text-[#FAB758] font-semibold group-hover:translate-x-2 transition-transform inline-flex items-center gap-1 mt-auto">
@@ -207,7 +214,7 @@ export default function ServiziPage() {
       {/* About Section */}
       <section className="py-6 sm:py-8 bg-white">
         <div className="container mx-auto px-4 sm:px-6">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-5xl mx-auto">
             <div className="grid md:grid-cols-2 gap-6 items-center">
               <div>
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1C244B] mb-3 leading-tight">
@@ -223,7 +230,7 @@ export default function ServiziPage() {
                   Contattaci <span className="text-lg sm:text-xl">→</span>
                 </Link>
               </div>
-              <div className="order-first md:order-last">
+              <div className="order-first md:order-last md:pl-8">
                 <img
                   src="/images/2025/10/undraw_talking-on-the-phone_lc9v.png"
                   alt="Contattaci"

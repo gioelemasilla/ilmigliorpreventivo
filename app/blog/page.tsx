@@ -4,6 +4,15 @@ import { HiClock, HiArrowRight } from 'react-icons/hi';
 export default function BlogPage() {
   const articles = [
     {
+      title: 'Come Leggere la Bolletta della Luce: Guida Completa 2025',
+      excerpt: 'Guida pratica per capire tutte le voci della bolletta luce: consumi, fasce orarie, oneri di sistema, bonus sociale e come risparmiare centinaia di euro.',
+      date: '29 Novembre 2025',
+      readTime: '10 min',
+      category: 'Guide Bollette',
+      slug: 'come-leggere-bolletta-luce',
+      image: '/images/blog/come-leggere-bolletta-luce/hero.webp',
+    },
+    {
       title: 'Bonus Bollette 2025: Requisiti e Domanda',
       excerpt: 'Scopri i bonus bollette 2025 in Italia: requisiti ISEE fino a 9.530€ o 20.000€ per famiglie numerose, contributo straordinario 200€ per ISEE sotto 25.000€, bonus per disagio fisico. Guida su come richiederli automaticamente con DSU.',
       date: '26 Novembre 2025',

@@ -6,7 +6,7 @@ export function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300 mt-12 sm:mt-16">
       <div className="container mx-auto px-4 sm:px-6 py-8 sm:py-10 md:py-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
           {/* About */}
           <div>
             <h3 className="text-white font-bold text-base sm:text-lg mb-3 sm:mb-4">Il Miglior Preventivo</h3>
@@ -28,8 +28,22 @@ export function Footer() {
             </ul>
           </div>
 
+          {/* Partnership */}
+          <div>
+            <h3 className="text-white font-bold text-base sm:text-lg mb-3 sm:mb-4">Partnership</h3>
+            <p className="text-xs sm:text-sm leading-relaxed mb-3">
+              Sei un installatore o rivenditore? Diventa nostro partner.
+            </p>
+            <Link
+              href="/partner-installatori"
+              className="text-[#FAB758] hover:text-[#e5a647] transition-colors text-xs sm:text-sm font-semibold"
+            >
+              Scopri i vantaggi →
+            </Link>
+          </div>
+
           {/* Contact */}
-          <div className="sm:col-span-2 md:col-span-1">
+          <div>
             <h3 className="text-white font-bold text-base sm:text-lg mb-3 sm:mb-4">Contatti</h3>
             <p className="text-xs sm:text-sm leading-relaxed">
               Compila il form di contatto per ricevere una consulenza personalizzata gratuita.

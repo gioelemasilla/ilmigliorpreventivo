@@ -126,6 +126,59 @@ export default function HomePage() {
               </Link>
 
             </div>
+
+            {/* Sezione Lavora con Noi - Stile Orizzontale Diverso */}
+            <div className="mt-16 pt-12 border-t border-gray-200">
+              <div className="text-center mb-8">
+                <h2 className="text-xl sm:text-2xl font-bold text-[#1C244B] mb-2">
+                  Opportunità di Collaborazione
+                </h2>
+                <p className="text-gray-600 text-sm">
+                  Scopri come lavorare con noi
+                </p>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-4 max-w-4xl mx-auto">
+                {/* Partner Installatori - Stile Outline */}
+                <Link href="/partner-installatori" className="group flex items-center gap-4 p-5 bg-white border-2 border-blue-200 rounded-xl hover:border-blue-500 hover:shadow-md transition-all">
+                  <div className="w-14 h-14 bg-blue-50 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-blue-100 transition-colors">
+                    <HiOfficeBuilding className="text-2xl text-blue-600" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex items-center gap-2 mb-1">
+                      <h3 className="font-bold text-[#1C244B]">Partnership Installatori</h3>
+                      <span className="px-2 py-0.5 bg-blue-100 text-blue-700 text-xs font-semibold rounded">B2B</span>
+                    </div>
+                    <p className="text-sm text-gray-600">
+                      Gestione pratiche GSE, ENEA e progettazione
+                    </p>
+                  </div>
+                  <div className="text-blue-600 group-hover:translate-x-1 transition-transform">
+                    <span className="text-xl">→</span>
+                  </div>
+                </Link>
+
+                {/* Collabora con Noi - Stile Outline */}
+                <Link href="/collabora-con-noi" className="group flex items-center gap-4 p-5 bg-white border-2 border-purple-200 rounded-xl hover:border-purple-500 hover:shadow-md transition-all">
+                  <div className="w-14 h-14 bg-purple-50 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-purple-100 transition-colors">
+                    <HiSparkles className="text-2xl text-purple-600" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex items-center gap-2 mb-1">
+                      <h3 className="font-bold text-[#1C244B]">Collabora con Noi</h3>
+                      <span className="px-2 py-0.5 bg-purple-100 text-purple-700 text-xs font-semibold rounded">CARRIERE</span>
+                    </div>
+                    <p className="text-sm text-gray-600">
+                      Agenti commerciali e collaboratori
+                    </p>
+                  </div>
+                  <div className="text-purple-600 group-hover:translate-x-1 transition-transform">
+                    <span className="text-xl">→</span>
+                  </div>
+                </Link>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -446,7 +499,7 @@ export default function HomePage() {
             {/* Link tutti i calcolatori */}
             <div className="text-center">
               <Link href="/calcolatori" className="inline-flex items-center gap-2 text-[#FAB758] hover:text-[#e5a647] font-semibold transition-colors">
-                Vedi tutti i 15 calcolatori disponibili <span>→</span>
+                Vedi tutti i 18 calcolatori disponibili <span>→</span>
               </Link>
             </div>
           </div>

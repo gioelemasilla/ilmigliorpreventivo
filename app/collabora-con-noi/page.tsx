@@ -4,10 +4,10 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Diventa Partner - Guadagna con Noi',
-  description: 'Cerchiamo agenti per mandati luce e gas, e partner commerciali (CAF, patronati, agenzie immobiliari, uffici postali) per segnalazione clienti. Commissioni competitive e supporto costante.',
+  description: 'Cerchiamo partner diretti per erogare servizi in white label con le nostre aziende, e partner commerciali (CAF, patronati, agenzie immobiliari, uffici postali) per segnalazione clienti. Commissioni competitive e supporto costante.',
   openGraph: {
     title: 'Diventa Partner - Guadagna con Noi | Il Miglior Preventivo',
-    description: 'Cerchiamo agenti per mandati luce e gas, e partner commerciali per segnalazione clienti. Commissioni competitive e supporto costante.',
+    description: 'Cerchiamo partner diretti per erogare servizi in white label con le nostre aziende, e partner commerciali per segnalazione clienti. Commissioni competitive e supporto costante.',
   },
 };
 
@@ -30,7 +30,7 @@ export default function CollaboraPage() {
               Guadagna con Noi
             </h1>
             <p className="text-xl sm:text-2xl text-white/90 mb-8">
-              Cerchiamo <strong>agenti per mandati luce e gas</strong> e <strong>partner commerciali</strong> per segnalazione clienti. Commissioni competitive, supporto costante e zero costi di attivazione.
+              Cerchiamo <strong>partner diretti</strong> per erogare servizi con le nostre aziende e <strong>partner commerciali</strong> per segnalazione clienti. Commissioni competitive, supporto costante e zero costi di attivazione.
             </p>
             <a
               href="#form-contatto"
@@ -56,7 +56,7 @@ export default function CollaboraPage() {
             </div>
 
             <div className="grid lg:grid-cols-2 gap-8 mb-12">
-              {/* Modello 1: Agenti con Mandato */}
+              {/* Modello 1: Partner Diretto */}
               <div className="bg-gradient-to-br from-blue-900 to-[#1C244B] rounded-3xl p-8 sm:p-10 text-white shadow-2xl relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-[#FAB758]/20 rounded-full -translate-y-16 translate-x-16"></div>
                 <div className="relative z-10">
@@ -64,10 +64,10 @@ export default function CollaboraPage() {
                     <HiUserGroup className="text-6xl text-[#FAB758]" />
                   </div>
                   <h3 className="text-3xl font-bold mb-4">
-                    Agente con Mandato
+                    Partner Diretto
                   </h3>
                   <p className="text-xl text-white/90 mb-6">
-                    Ti presentiamo <strong>le migliori aziende</strong> per vendere i servizi di consulenza che più desideri.
+                    Offri i nostri servizi ai tuoi clienti <strong>in maniera diretta</strong>, utilizzando le nostre aziende partner per l'erogazione.
                   </p>
 
                   <div className="bg-white/10 rounded-xl p-6 mb-6 backdrop-blur-sm">
@@ -75,7 +75,7 @@ export default function CollaboraPage() {
                     <ul className="space-y-3">
                       <li className="flex items-start gap-3">
                         <HiCheckCircle className="text-[#FAB758] text-xl mt-0.5 flex-shrink-0" />
-                        <span><strong>Mandato ufficiale</strong> per rappresentare Il Miglior Preventivo</span>
+                        <span><strong>Accesso diretto</strong> alle nostre aziende partner per erogare servizi</span>
                       </li>
                       <li className="flex items-start gap-3">
                         <HiCheckCircle className="text-[#FAB758] text-xl mt-0.5 flex-shrink-0" />
@@ -87,7 +87,7 @@ export default function CollaboraPage() {
                       </li>
                       <li className="flex items-start gap-3">
                         <HiCheckCircle className="text-[#FAB758] text-xl mt-0.5 flex-shrink-0" />
-                        <span><strong>Formazione iniziale e continua</strong> sui prodotti e tecniche di vendita</span>
+                        <span><strong>Formazione completa</strong> sui prodotti e tecniche di vendita</span>
                       </li>
                       <li className="flex items-start gap-3">
                         <HiCheckCircle className="text-[#FAB758] text-xl mt-0.5 flex-shrink-0" />
@@ -95,11 +95,11 @@ export default function CollaboraPage() {
                       </li>
                       <li className="flex items-start gap-3">
                         <HiCheckCircle className="text-[#FAB758] text-xl mt-0.5 flex-shrink-0" />
-                        <span><strong>Supporto back office</strong> per gestione pratiche e contratti</span>
+                        <span><strong>Supporto operativo</strong> per gestione pratiche e contratti</span>
                       </li>
                       <li className="flex items-start gap-3">
                         <HiCheckCircle className="text-[#FAB758] text-xl mt-0.5 flex-shrink-0" />
-                        <span><strong>CRM dedicato</strong> per gestione clienti e opportunità</span>
+                        <span><strong>Possibilità di white label</strong> per brand personalizzato</span>
                       </li>
                     </ul>
                   </div>
@@ -107,7 +107,7 @@ export default function CollaboraPage() {
                   <div className="bg-[#FAB758] rounded-xl p-6">
                     <p className="text-lg font-bold text-white mb-2">Profilo Ideale:</p>
                     <p className="text-white">
-                      Agenti plurimandatari o monomandatari, consulenti energetici, ex venditori telecom/energia, professionisti che vogliono espandere il proprio portafoglio servizi.
+                      Agenti commerciali, consulenti energetici, professionisti con portafoglio clienti che vogliono offrire servizi diretti utilizzando le nostre aziende partner per l'erogazione.
                     </p>
                   </div>
                 </div>
@@ -559,7 +559,7 @@ export default function CollaboraPage() {
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FAB758] focus:border-transparent"
                   >
                     <option value="">Seleziona il tipo di collaborazione</option>
-                    <option value="Agente con Mandato">Agente con Mandato (voglio vendere attivamente)</option>
+                    <option value="Partner Diretto">Partner Diretto (voglio offrire servizi direttamente ai miei clienti)</option>
                     <option value="Partner Segnalatore">Partner Segnalatore (voglio solo segnalare clienti)</option>
                     <option value="Non so, vorrei informazioni">Non so ancora, vorrei più informazioni</option>
                   </select>

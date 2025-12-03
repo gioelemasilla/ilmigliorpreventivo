@@ -24,6 +24,22 @@ export default function CalcolatoriPage() {
       benefits: ['Bonus luce e gas', 'Contributo 200€', 'Erogazione automatica'],
     },
     {
+      title: 'Consumo Energetico Casa',
+      description: 'Calcola il consumo della tua casa e scopri come ridurre i costi in bolletta.',
+      icon: HiLightningBolt,
+      href: '/calcolatori/consumo-energetico-casa',
+      color: 'from-orange-500 to-red-500',
+      benefits: ['Consumo kWh', 'Costi mensili/annuali', 'Consigli risparmio'],
+    },
+    {
+      title: 'Fasce Orarie Luce',
+      description: 'Confronta tariffa monoraria e bioraria e calcola il risparmio.',
+      icon: HiCheckCircle,
+      href: '/calcolatori/fasce-orarie-luce',
+      color: 'from-amber-500 to-orange-500',
+      benefits: ['F1, F2, F3', 'Monoraria vs Bioraria', 'Risparmio annuale'],
+    },
+    {
       title: 'Fotovoltaico',
       description: 'Calcola kWp necessari per azzerare la bolletta, costi con incentivi e ROI.',
       icon: HiSun,
@@ -77,6 +93,22 @@ export default function CalcolatoriPage() {
   ];
 
   const financeCalculators = [
+    {
+      title: 'ISEE 2025',
+      description: 'Calcola l\'ISEE e scopri i bonus a cui hai diritto.',
+      icon: HiCurrencyEuro,
+      href: '/calcolatori/calcolo-isee',
+      color: 'from-blue-600 to-indigo-600',
+      benefits: ['Calcolo ISEE', 'Bonus disponibili', 'Scala equivalenza'],
+    },
+    {
+      title: 'IMU 2025',
+      description: 'Calcola l\'IMU per casa, terreni e immobili con rendita catastale.',
+      icon: HiHome,
+      href: '/calcolatori/calcolo-imu',
+      color: 'from-indigo-600 to-blue-600',
+      benefits: ['IMU abitazioni', 'IMU terreni', 'Esenzioni'],
+    },
     {
       title: 'Stipendio Netto',
       description: 'Da lordo a netto: tasse, INPS, detrazioni e bonus aggiornati 2025.',
@@ -148,20 +180,52 @@ export default function CalcolatoriPage() {
 
   return (
     <main className="min-h-screen bg-white">
-      {/* Hero Section */}
-      <section className="relative py-16 md:py-24 overflow-hidden bg-gradient-to-br from-blue-50 via-white to-orange-50">
+      {/* Hero Section - Vivace e Colorato */}
+      <section className="relative py-12 md:py-16 overflow-hidden bg-gradient-to-br from-[#1C244B] via-[#324A6D] to-[#1C244B]">
+        {/* Pattern animato */}
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute inset-0" style={{backgroundImage: 'url("data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23FAB758\' fill-opacity=\'1\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")'}}></div>
+        </div>
+
+        {/* Elementi decorativi fluttuanti */}
+        <div className="absolute top-10 left-10 w-20 h-20 bg-[#FAB758]/20 rounded-full blur-xl animate-pulse"></div>
+        <div className="absolute top-1/2 right-10 w-32 h-32 bg-blue-500/20 rounded-full blur-2xl animate-pulse" style={{animationDelay: '1s'}}></div>
+        <div className="absolute bottom-10 left-1/3 w-24 h-24 bg-orange-500/20 rounded-full blur-xl animate-pulse" style={{animationDelay: '2s'}}></div>
+
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#FAB758] text-white text-sm font-bold rounded-full mb-6">
-              <HiCalculator className="text-xl" />
-              Strumenti Gratuiti
+          <div className="max-w-5xl mx-auto text-center">
+            {/* Badge animato */}
+            <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-[#FAB758] to-orange-500 text-white text-sm font-bold rounded-full mb-8 shadow-lg hover:shadow-xl transition-all hover:scale-105">
+              <HiCalculator className="text-2xl animate-bounce" />
+              <span>Strumenti Gratuiti 2025</span>
             </div>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#1C244B] mb-6 leading-tight">
-              Calcolatori Gratuiti per Energia e Risparmio
+
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-lg">
+              Calcolatori per Energia
+              <span className="block mt-2 bg-gradient-to-r from-[#FAB758] via-orange-400 to-yellow-400 bg-clip-text text-transparent">
+                e Risparmio
+              </span>
             </h1>
-            <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-              Strumenti professionali per calcolare il tuo impianto fotovoltaico ideale, stimare il risparmio in bolletta e ottimizzare i tuoi consumi energetici
+
+            <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-10 leading-relaxed drop-shadow-md">
+              Strumenti professionali per calcolare fotovoltaico, bonus bollette, consumi e molto altro. Tutto gratis.
             </p>
+
+            {/* Features rapide */}
+            <div className="flex flex-wrap justify-center gap-4 md:gap-6 text-white/90">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-lg border border-white/20">
+                <HiCheckCircle className="text-[#FAB758] text-xl" />
+                <span className="text-sm font-semibold">15+ Calcolatori</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-lg border border-white/20">
+                <HiCheckCircle className="text-[#FAB758] text-xl" />
+                <span className="text-sm font-semibold">100% Gratuiti</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-lg border border-white/20">
+                <HiCheckCircle className="text-[#FAB758] text-xl" />
+                <span className="text-sm font-semibold">Aggiornati 2025</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
