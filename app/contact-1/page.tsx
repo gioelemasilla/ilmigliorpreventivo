@@ -5,7 +5,7 @@ export default function ContactPage() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       {/* Hero Section - Più accattivante */}
-      <section className="relative py-16 sm:py-20 md:py-24 overflow-hidden">
+      <section className="relative py-8 md:py-10 overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
