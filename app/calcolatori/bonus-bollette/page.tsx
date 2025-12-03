@@ -444,13 +444,13 @@ export default function CalcolatoreBonusBollette() {
                     </p>
                     <div className="flex flex-wrap gap-3">
                       <a
-                        href="https://www.inps.it/it/it/dettaglio-scheda.schede-servizio-strumento.schede-servizi.50627.isee---indicatore-della-situazione-economica-equivalente.html"
+                        href="https://www.lavoro.gov.it/strumenti-e-servizi/Modulistica/Documents/ISEE/ISEE-DSU-Integrale.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-all"
                       >
                         <HiDocumentText className="text-xl" />
-                        Scarica Modulo DSU da INPS
+                        Scarica Modulo DSU (PDF)
                       </a>
                       <Link
                         href="/blog/guida-modulo-dsu-isee-2025"
@@ -577,7 +577,7 @@ export default function CalcolatoreBonusBollette() {
             <details className="bg-white rounded-xl p-6 shadow-md">
               <summary className="font-bold text-[#1C244B] cursor-pointer">Dove trovo il modulo DSU (ISEE) da compilare?</summary>
               <p className="mt-4 text-gray-600">
-                Puoi scaricare il modulo DSU direttamente dal sito INPS: <a href="https://www.inps.it/it/it/dettaglio-scheda.schede-servizio-strumento.schede-servizi.50627.isee---indicatore-della-situazione-economica-equivalente.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-semibold">vai alla pagina INPS</a>.<br/>
+                Puoi scaricare il modulo DSU direttamente: <a href="https://www.lavoro.gov.it/strumenti-e-servizi/Modulistica/Documents/ISEE/ISEE-DSU-Integrale.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-semibold">scarica il PDF del modulo DSU</a>.<br/>
                 <strong>È facile:</strong> compili il modulo con i tuoi dati reddituali e familiari, lo presenti a CAF o Patronato (è gratuito), e il bonus ti arriverà automaticamente in bolletta. <strong>Nessuna paura, è più semplice di quanto sembri!</strong><br/><br/>
                 📖 <strong>Vuoi una guida passo-passo?</strong> Leggi la nostra <Link href="/blog/guida-modulo-dsu-isee-2025" className="text-green-600 hover:underline font-bold">Guida Completa al Modulo DSU 2025</Link> con tutti i documenti necessari e i 5 passi semplici per ottenere il bonus sociale.
               </p>
