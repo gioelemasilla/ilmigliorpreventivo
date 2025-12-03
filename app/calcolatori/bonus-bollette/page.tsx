@@ -442,21 +442,23 @@ export default function CalcolatoreBonusBollette() {
                     <p className="text-gray-700 mb-4 text-sm">
                       Per ottenere il bonus devi avere una <strong>DSU (ISEE) valida</strong>. Scarica il modulo, compilalo con i tuoi dati e presentalo al CAF gratuitamente.
                     </p>
-                    <a
-                      href="https://www.inps.it/it/it/dettaglio-scheda.schede-servizio-strumento.schede-servizi.50627.isee---indicatore-della-situazione-economica-equivalente.html"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-all"
-                    >
-                      <HiDocumentText className="text-xl" />
-                      Scarica Modulo DSU da INPS
-                    </a>
-                    <Link
-                      href="/blog/guida-modulo-dsu-isee-2025"
-                      className="inline-flex items-center gap-2 px-6 py-3 ml-3 bg-white text-blue-600 font-bold rounded-lg hover:bg-gray-50 transition-all border-2 border-blue-600"
-                    >
-                      Leggi la Guida Completa
-                    </Link>
+                    <div className="flex flex-wrap gap-3">
+                      <a
+                        href="https://www.inps.it/it/it/dettaglio-scheda.schede-servizio-strumento.schede-servizi.50627.isee---indicatore-della-situazione-economica-equivalente.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-all"
+                      >
+                        <HiDocumentText className="text-xl" />
+                        Scarica Modulo DSU da INPS
+                      </a>
+                      <Link
+                        href="/blog/guida-modulo-dsu-isee-2025"
+                        className="inline-flex items-center gap-2 px-6 py-3 bg-white text-blue-600 font-bold rounded-lg hover:bg-gray-50 transition-all border-2 border-blue-600"
+                      >
+                        Leggi la Guida Completa
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>
