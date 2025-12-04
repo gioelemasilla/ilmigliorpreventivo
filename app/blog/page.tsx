@@ -4,6 +4,15 @@ import { HiClock, HiArrowRight } from 'react-icons/hi';
 export default function BlogPage() {
   const articles = [
     {
+      title: 'Calo del 27% delle Rinnovabili in Italia nel 2025: Analisi e Cause',
+      excerpt: 'Il rapporto Legambiente-Forum QualEnergia svela dati preoccupanti: le nuove installazioni rinnovabili crollano del 27%. Ecco cosa significa per le aziende e il futuro energetico italiano.',
+      date: '3 Dicembre 2025',
+      readTime: '6 min',
+      category: 'News',
+      slug: 'calo-rinnovabili-2025-legambiente',
+      image: '/images/blog/calo-rinnovabili-2025-legambiente/hero.webp',
+    },
+    {
       title: 'Come Leggere la Bolletta della Luce: Guida Completa 2025',
       excerpt: 'Guida pratica per capire tutte le voci della bolletta luce: consumi, fasce orarie, oneri di sistema, bonus sociale e come risparmiare centinaia di euro.',
       date: '29 Novembre 2025',
