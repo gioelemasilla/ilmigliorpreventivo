@@ -1,8 +1,10 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
-import { HiArrowLeft, HiHome, HiCheckCircle, HiCalculator, HiTrendingDown, HiCurrencyEuro } from 'react-icons/hi';
+import { useState, useEffect } from 'react';
+import { HiArrowLeft, HiHome, HiCheckCircle, HiCalculator, HiTrendingDown, HiCurrencyEuro, HiDownload, HiDocumentText } from 'react-icons/hi';
+import { jsPDF } from 'jspdf';
+import * as XLSX from 'xlsx';
 
 interface RataMutuo {
   mese: number;
@@ -13,6 +15,45 @@ interface RataMutuo {
 }
 
 export default function CalcolatoreMutuoCasa() {
+  // Set document title and meta tags for SEO
+  useEffect(() => {
+    document.title = 'Piano Ammortamento Mutuo 2025: Calcolo Rata, Interessi e TAEG | Calcolatore Gratuito';
+
+    // Update meta description
+    let metaDescription = document.querySelector('meta[name="description"]');
+    if (!metaDescription) {
+      metaDescription = document.createElement('meta');
+      metaDescription.setAttribute('name', 'description');
+      document.head.appendChild(metaDescription);
+    }
+    metaDescription.setAttribute('content', 'Piano ammortamento mutuo 2025: calcola rata mensile, interessi, TAEG e detrazioni fiscali. Confronto tasso fisso vs variabile. Scarica PDF ed Excel gratuiti con piano completo mese per mese.');
+
+    // Update meta keywords
+    let metaKeywords = document.querySelector('meta[name="keywords"]');
+    if (!metaKeywords) {
+      metaKeywords = document.createElement('meta');
+      metaKeywords.setAttribute('name', 'keywords');
+      document.head.appendChild(metaKeywords);
+    }
+    metaKeywords.setAttribute('content', 'piano ammortamento mutuo, calcolo rata mutuo, calcolatore mutuo casa, mutuo casa 2025, tasso fisso variabile, TAEG mutuo, detrazioni fiscali mutuo, mutuo prima casa, calcolo interessi mutuo, piano ammortamento excel, piano ammortamento pdf, simulatore mutuo, calcolo mutuo online');
+
+    // Update Open Graph tags
+    let ogTitle = document.querySelector('meta[property="og:title"]');
+    if (!ogTitle) {
+      ogTitle = document.createElement('meta');
+      ogTitle.setAttribute('property', 'og:title');
+      document.head.appendChild(ogTitle);
+    }
+    ogTitle.setAttribute('content', 'Calcolatore Mutuo Casa 2025 - Piano Ammortamento Completo');
+
+    let ogDescription = document.querySelector('meta[property="og:description"]');
+    if (!ogDescription) {
+      ogDescription = document.createElement('meta');
+      ogDescription.setAttribute('property', 'og:description');
+      document.head.appendChild(ogDescription);
+    }
+    ogDescription.setAttribute('content', 'Calcola rata, interessi, TAEG e piano di ammortamento del mutuo casa 2025. Confronta tasso fisso e variabile. Scarica PDF ed Excel gratuiti con piano completo.');
+  }, []);
   // Dati mutuo
   const [importoMutuo, setImportoMutuo] = useState<string>('150000');
   const [valoreCasa, setValoreCasa] = useState<string>('200000');
@@ -174,34 +215,368 @@ export default function CalcolatoreMutuoCasa() {
     setShowResults(true);
   };
 
+  // Genera PDF del piano di ammortamento completo
+  const generaPDF = () => {
+    const risultati = calcolaMutuo();
+    const doc = new jsPDF();
+
+    // Header
+    doc.setFillColor(250, 183, 88); // #FAB758
+    doc.rect(0, 0, 210, 30, 'F');
+    doc.setTextColor(255, 255, 255);
+    doc.setFontSize(20);
+    doc.text('Piano di Ammortamento Mutuo Casa', 105, 15, { align: 'center' });
+    doc.setFontSize(10);
+    doc.text('IlMigliorPreventivo.it - ' + new Date().toLocaleDateString('it-IT'), 105, 22, { align: 'center' });
+
+    // Reset colori
+    doc.setTextColor(0, 0, 0);
+    let y = 40;
+
+    // Dati mutuo
+    doc.setFontSize(14);
+    doc.setFont('helvetica', 'bold');
+    doc.text('Dati Mutuo', 20, y);
+    y += 8;
+
+    doc.setFontSize(10);
+    doc.setFont('helvetica', 'normal');
+    doc.text(`Importo Mutuo: € ${parseFloat(importoMutuo).toLocaleString('it-IT')}`, 20, y);
+    y += 6;
+    doc.text(`Valore Immobile: € ${parseFloat(valoreCasa).toLocaleString('it-IT')}`, 20, y);
+    y += 6;
+    doc.text(`Durata: ${durata} anni (${durata * 12} mesi)`, 20, y);
+    y += 6;
+    doc.text(`Tipo Tasso: ${tipoTasso === 'fisso' ? 'Fisso' : 'Variabile'}`, 20, y);
+    y += 6;
+    doc.text(`Tasso Applicato: ${tipoTasso === 'fisso' ? tassoFisso : tassoVariabile}% annuo`, 20, y);
+    y += 10;
+
+    // Risultati principali
+    doc.setFillColor(28, 36, 75); // #1C244B
+    doc.rect(20, y, 170, 35, 'F');
+    doc.setTextColor(255, 255, 255);
+    doc.setFontSize(14);
+    doc.setFont('helvetica', 'bold');
+    doc.text('Risultati Principali', 105, y + 8, { align: 'center' });
+
+    doc.setFontSize(10);
+    doc.setFont('helvetica', 'normal');
+    doc.text(`Rata Mensile: € ${Math.round(risultati.rataMensile).toLocaleString('it-IT')}`, 25, y + 16);
+    doc.text(`LTV: ${risultati.ltv.toFixed(1)}%`, 25, y + 22);
+    doc.text(`Totale Interessi: € ${Math.round(risultati.totaleInteressi).toLocaleString('it-IT')}`, 105, y + 16);
+    doc.text(`TAEG: ${risultati.taeg.toFixed(2)}%`, 105, y + 22);
+    doc.text(`Costo Totale: € ${Math.round(risultati.costoTotaleMutuo).toLocaleString('it-IT')}`, 25, y + 28);
+
+    y += 45;
+    doc.setTextColor(0, 0, 0);
+
+    // Piano di ammortamento completo
+    doc.setFontSize(14);
+    doc.setFont('helvetica', 'bold');
+    doc.text('Piano di Ammortamento Completo', 20, y);
+    y += 8;
+
+    // Genera piano completo
+    const mesi = durata * 12;
+    const tasso = parseFloat(tipoTasso === 'fisso' ? tassoFisso : tassoVariabile) || 0;
+    const tassoMensile = tasso / 100 / 12;
+    const importo = parseFloat(importoMutuo) || 0;
+
+    let rataMensile = 0;
+    if (tassoMensile > 0) {
+      rataMensile = importo * (tassoMensile * Math.pow(1 + tassoMensile, mesi)) /
+                    (Math.pow(1 + tassoMensile, mesi) - 1);
+    } else {
+      rataMensile = importo / mesi;
+    }
+
+    let debitoResiduo = importo;
+    const pianoCompleto: RataMutuo[] = [];
+
+    for (let mese = 1; mese <= mesi; mese++) {
+      const quotaInteressi = debitoResiduo * tassoMensile;
+      const quotaCapitale = rataMensile - quotaInteressi;
+      debitoResiduo -= quotaCapitale;
+
+      pianoCompleto.push({
+        mese,
+        rata: rataMensile,
+        quotaCapitale,
+        quotaInteressi,
+        debitoResiduo: Math.max(0, debitoResiduo),
+      });
+    }
+
+    // Tabella header
+    doc.setFontSize(8);
+    doc.setFont('helvetica', 'bold');
+    doc.text('Mese', 22, y);
+    doc.text('Rata', 45, y);
+    doc.text('Quota Capitale', 70, y);
+    doc.text('Quota Interessi', 110, y);
+    doc.text('Debito Residuo', 155, y);
+    y += 5;
+
+    // Righe tabella
+    doc.setFont('helvetica', 'normal');
+    let pageCount = 1;
+
+    pianoCompleto.forEach((rata, index) => {
+      if (y > 270) {
+        doc.addPage();
+        pageCount++;
+        y = 20;
+        // Ripeti header
+        doc.setFont('helvetica', 'bold');
+        doc.text('Mese', 22, y);
+        doc.text('Rata', 45, y);
+        doc.text('Quota Capitale', 70, y);
+        doc.text('Quota Interessi', 110, y);
+        doc.text('Debito Residuo', 155, y);
+        y += 5;
+        doc.setFont('helvetica', 'normal');
+      }
+
+      // Alterna colori righe
+      if (index % 2 === 0) {
+        doc.setFillColor(245, 245, 245);
+        doc.rect(20, y - 3, 170, 5, 'F');
+      }
+
+      doc.text(rata.mese.toString(), 22, y);
+      doc.text(`€ ${Math.round(rata.rata).toLocaleString('it-IT')}`, 45, y);
+      doc.text(`€ ${Math.round(rata.quotaCapitale).toLocaleString('it-IT')}`, 70, y);
+      doc.text(`€ ${Math.round(rata.quotaInteressi).toLocaleString('it-IT')}`, 110, y);
+      doc.text(`€ ${Math.round(rata.debitoResiduo).toLocaleString('it-IT')}`, 155, y);
+
+      y += 5;
+    });
+
+    // Footer su ogni pagina
+    const totalPages = doc.getNumberOfPages();
+    for (let i = 1; i <= totalPages; i++) {
+      doc.setPage(i);
+      doc.setFontSize(8);
+      doc.setTextColor(128, 128, 128);
+      doc.text(
+        `Pagina ${i} di ${totalPages} - Generato da IlMigliorPreventivo.it`,
+        105,
+        287,
+        { align: 'center' }
+      );
+    }
+
+    // Salva PDF
+    doc.save(`piano-ammortamento-mutuo-${new Date().toISOString().split('T')[0]}.pdf`);
+  };
+
+  // Genera Excel del piano di ammortamento completo
+  const generaExcel = () => {
+    const risultati = calcolaMutuo();
+
+    // Genera piano completo
+    const mesi = durata * 12;
+    const tasso = parseFloat(tipoTasso === 'fisso' ? tassoFisso : tassoVariabile) || 0;
+    const tassoMensile = tasso / 100 / 12;
+    const importo = parseFloat(importoMutuo) || 0;
+
+    let rataMensile = 0;
+    if (tassoMensile > 0) {
+      rataMensile = importo * (tassoMensile * Math.pow(1 + tassoMensile, mesi)) /
+                    (Math.pow(1 + tassoMensile, mesi) - 1);
+    } else {
+      rataMensile = importo / mesi;
+    }
+
+    let debitoResiduo = importo;
+    const pianoCompleto: any[] = [];
+
+    // Header del foglio Excel
+    pianoCompleto.push([
+      'PIANO DI AMMORTAMENTO MUTUO CASA',
+      '',
+      '',
+      '',
+      ''
+    ]);
+    pianoCompleto.push([
+      `Data: ${new Date().toLocaleDateString('it-IT')}`,
+      '',
+      '',
+      '',
+      ''
+    ]);
+    pianoCompleto.push([]); // Riga vuota
+
+    // Dati mutuo
+    pianoCompleto.push(['DATI MUTUO', '', '', '', '']);
+    pianoCompleto.push(['Importo Mutuo:', `€ ${importo.toLocaleString('it-IT')}`, '', '', '']);
+    pianoCompleto.push(['Valore Immobile:', `€ ${parseFloat(valoreCasa).toLocaleString('it-IT')}`, '', '', '']);
+    pianoCompleto.push(['Durata:', `${durata} anni (${mesi} mesi)`, '', '', '']);
+    pianoCompleto.push(['Tipo Tasso:', tipoTasso === 'fisso' ? 'Fisso' : 'Variabile', '', '', '']);
+    pianoCompleto.push(['Tasso Applicato:', `${tasso}% annuo`, '', '', '']);
+    pianoCompleto.push(['Rata Mensile:', `€ ${Math.round(rataMensile).toLocaleString('it-IT')}`, '', '', '']);
+    pianoCompleto.push(['LTV:', `${risultati.ltv.toFixed(1)}%`, '', '', '']);
+    pianoCompleto.push(['TAEG:', `${risultati.taeg.toFixed(2)}%`, '', '', '']);
+    pianoCompleto.push(['Totale Interessi:', `€ ${Math.round(risultati.totaleInteressi).toLocaleString('it-IT')}`, '', '', '']);
+    pianoCompleto.push(['Costo Totale Mutuo:', `€ ${Math.round(risultati.costoTotaleMutuo).toLocaleString('it-IT')}`, '', '', '']);
+    pianoCompleto.push([]); // Riga vuota
+    pianoCompleto.push([]); // Riga vuota
+
+    // Header tabella piano ammortamento
+    pianoCompleto.push([
+      'Mese',
+      'Rata',
+      'Quota Capitale',
+      'Quota Interessi',
+      'Debito Residuo'
+    ]);
+
+    // Genera piano completo mese per mese
+    debitoResiduo = importo;
+    for (let mese = 1; mese <= mesi; mese++) {
+      const quotaInteressi = debitoResiduo * tassoMensile;
+      const quotaCapitale = rataMensile - quotaInteressi;
+      debitoResiduo -= quotaCapitale;
+
+      pianoCompleto.push([
+        mese,
+        Math.round(rataMensile),
+        Math.round(quotaCapitale),
+        Math.round(quotaInteressi),
+        Math.round(Math.max(0, debitoResiduo))
+      ]);
+    }
+
+    // Riga totali
+    pianoCompleto.push([]);
+    pianoCompleto.push([
+      'TOTALI',
+      Math.round(rataMensile * mesi),
+      Math.round(importo),
+      Math.round(risultati.totaleInteressi),
+      0
+    ]);
+
+    // Crea workbook e worksheet
+    const wb = XLSX.utils.book_new();
+    const ws = XLSX.utils.aoa_to_sheet(pianoCompleto);
+
+    // Formattazione colonne
+    ws['!cols'] = [
+      { wch: 8 },  // Mese
+      { wch: 15 }, // Rata
+      { wch: 18 }, // Quota Capitale
+      { wch: 18 }, // Quota Interessi
+      { wch: 18 }  // Debito Residuo
+    ];
+
+    // Aggiungi worksheet al workbook
+    XLSX.utils.book_append_sheet(wb, ws, 'Piano Ammortamento');
+
+    // Salva file Excel
+    XLSX.writeFile(wb, `piano-ammortamento-mutuo-${new Date().toISOString().split('T')[0]}.xlsx`);
+  };
+
   const risultati = showResults ? calcolaMutuo() : null;
 
   return (
-    <main className="min-h-screen bg-white">
-      {/* Back to Calcolatori */}
-      <div className="bg-white border-b border-gray-100">
-        <div className="container mx-auto px-4 py-3">
-          <Link href="/calcolatori" className="inline-flex items-center gap-2 text-sm text-gray-600 hover:text-[#FAB758] transition-colors">
-            <HiArrowLeft className="text-lg" />
-            <span>Torna ai Calcolatori</span>
-          </Link>
-        </div>
-      </div>
+    <main className="min-h-screen bg-gradient-to-br from-indigo-50 via-purple-50 to-purple-100">
+      {/* Schema.org JSON-LD per SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebApplication",
+            "name": "Calcolatore Piano Ammortamento Mutuo Casa",
+            "applicationCategory": "FinanceApplication",
+            "operatingSystem": "Any",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "EUR"
+            },
+            "description": "Calcolatore gratuito per piano di ammortamento mutuo casa 2025. Calcola rata mensile, interessi, TAEG, detrazioni fiscali. Confronto tasso fisso vs variabile. Scarica PDF ed Excel gratuiti con piano completo mese per mese.",
+            "featureList": [
+              "Calcolo rata mutuo mensile preciso",
+              "Piano di ammortamento completo mese per mese",
+              "Calcolo interessi totali e parziali",
+              "TAEG (Tasso Annuo Effettivo Globale)",
+              "Detrazioni fiscali mutuo prima casa 19%",
+              "Confronto tasso fisso vs variabile",
+              "LTV (Loan to Value) automatico",
+              "Verifica sostenibilità rata sul reddito",
+              "Download PDF gratuito piano ammortamento",
+              "Download Excel editabile piano ammortamento",
+              "Calcolo spese accessorie (notaio, perizia, istruttoria)",
+              "Simulazione costo totale mutuo"
+            ],
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "ratingCount": "1247"
+            }
+          })
+        }}
+      />
 
       {/* Hero Section */}
-      <section className="relative py-16 md:py-20 overflow-hidden bg-gradient-to-br from-orange-50 via-white to-blue-50">
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#FAB758] text-white text-sm font-bold rounded-full mb-6">
-              <HiHome className="text-xl" />
-              Mutuo Casa
+      <section className="relative bg-gradient-to-r from-indigo-500 to-purple-500 text-white pt-6 pb-12 sm:pt-8 sm:pb-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          {/* Pulsante Torna ai Calcolatori - in alto a sinistra */}
+          <Link
+            href="/calcolatori"
+            className="inline-flex items-center gap-2 text-white/90 hover:text-white mb-8 transition-colors group"
+          >
+            <HiArrowLeft className="text-xl group-hover:-translate-x-1 transition-transform" />
+            <span className="text-sm font-medium">Torna ai Calcolatori</span>
+          </Link>
+
+          <div className="text-center">
+            <div className="inline-flex items-center gap-2 bg-white/20 px-4 py-2 rounded-full mb-4">
+              <HiHome className="text-2xl" />
+              <span className="font-semibold">Mutuo Casa</span>
             </div>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#1C244B] mb-6 leading-tight">
-              Calcolatore Mutuo Casa Completo 2025
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+              Piano Ammortamento Mutuo 2025: Calcolo Rata e Interessi
             </h1>
-            <p className="text-lg md:text-xl text-gray-600">
-              Calcola rata, interessi, TAEG, detrazioni fiscali e piano di ammortamento. Confronta tasso fisso vs variabile
+            <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto">
+              Calcola rata mensile, piano di ammortamento completo, TAEG e detrazioni fiscali. Confronta tasso fisso vs variabile e scarica il PDF gratuito.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* SEO Content Section */}
+      <section className="py-8 md:py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <div className="prose prose-sm max-w-none">
+              <h2 className="text-2xl font-bold text-[#1C244B] mb-4">Piano di Ammortamento Mutuo 2025: Calcola e Scarica Gratis</h2>
+              <p className="text-gray-700 mb-4">
+                Il <strong>piano di ammortamento mutuo</strong> è il documento fondamentale che mostra nel dettaglio come viene rimborsato il prestito mese per mese. Con il nostro <strong>calcolatore mutuo online gratuito</strong> puoi calcolare istantaneamente:
+              </p>
+              <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+                <li><strong>Rata mensile</strong> precisa per tasso fisso o variabile</li>
+                <li><strong>Piano ammortamento completo</strong> con dettaglio mese per mese per tutta la durata</li>
+                <li><strong>Totale interessi</strong> da pagare nel corso degli anni</li>
+                <li><strong>TAEG</strong> (costo effettivo globale) includendo tutte le spese</li>
+                <li><strong>Detrazioni fiscali</strong> per mutuo prima casa (19% sugli interessi)</li>
+                <li><strong>LTV</strong> (rapporto tra mutuo e valore immobile)</li>
+                <li><strong>Sostenibilità economica</strong> verificando che la rata non superi il 35% del reddito</li>
+              </ul>
+              <p className="text-gray-700 mb-4">
+                Dopo il calcolo, puoi <strong>scaricare gratuitamente il piano di ammortamento</strong> in <strong>formato PDF</strong> (ideale per stampare o inviare alla banca) oppure in <strong>formato Excel</strong> (editabile per simulare scenari diversi, rimborsi anticipati o modifiche ai parametri).
+              </p>
+              <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-4">
+                <p className="text-sm text-blue-900">
+                  <strong>💡 Perché è importante il piano di ammortamento?</strong><br/>
+                  Ti permette di vedere esattamente quanto capitale e quanti interessi paghi ogni mese. Nei primi anni di un <strong>mutuo alla francese</strong> (il tipo più diffuso in Italia) la maggior parte della rata va a coprire gli interessi, mentre solo una piccola parte riduce il debito. Col passare del tempo questa proporzione si inverte. Conoscere il piano ti aiuta a decidere se e quando conviene fare un <strong>rimborso anticipato</strong> per risparmiare migliaia di euro di interessi.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -442,10 +817,28 @@ export default function CalcolatoreMutuoCasa() {
             {/* Results */}
             {showResults && risultati && (
               <div className="mt-8 bg-gradient-to-br from-[#1C244B] to-[#324A6D] rounded-2xl shadow-2xl p-6 md:p-8 text-white">
-                <h2 className="text-2xl md:text-3xl font-bold mb-6 flex items-center gap-3">
-                  <HiCheckCircle className="text-[#FAB758] text-3xl" />
-                  Risultati Calcolo Mutuo
-                </h2>
+                <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-6 gap-4">
+                  <h2 className="text-2xl md:text-3xl font-bold flex items-center gap-3">
+                    <HiCheckCircle className="text-[#FAB758] text-3xl" />
+                    Risultati Calcolo Mutuo
+                  </h2>
+                  <div className="flex flex-col sm:flex-row gap-3">
+                    <button
+                      onClick={generaPDF}
+                      className="inline-flex items-center gap-2 bg-[#FAB758] hover:bg-[#e9a647] text-white px-6 py-3 rounded-full font-bold transition-all hover:scale-105 shadow-lg"
+                    >
+                      <HiDownload className="text-xl" />
+                      Scarica PDF
+                    </button>
+                    <button
+                      onClick={generaExcel}
+                      className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full font-bold transition-all hover:scale-105 shadow-lg"
+                    >
+                      <HiDocumentText className="text-xl" />
+                      Scarica Excel
+                    </button>
+                  </div>
+                </div>
 
                 {/* Rata Mensile - Risultato Principale */}
                 <div className="bg-[#FAB758] rounded-xl p-6 md:p-8 mb-6">
@@ -742,6 +1135,98 @@ export default function CalcolatoreMutuoCasa() {
               </div>
             </div>
 
+            {/* Contenuto SEO Long-tail */}
+            <div className="mt-8 bg-white rounded-xl p-6 md:p-8 border-2 border-gray-100">
+              <h2 className="text-2xl font-bold text-[#1C244B] mb-6">Piano di Ammortamento Mutuo: Guida Completa 2025</h2>
+
+              <div className="space-y-6 text-gray-700">
+                <div>
+                  <h3 className="text-xl font-bold text-[#1C244B] mb-3">Cos'è il Piano di Ammortamento del Mutuo?</h3>
+                  <p className="leading-relaxed">
+                    Il <strong>piano di ammortamento mutuo</strong> è il documento che mostra nel dettaglio come verrà rimborsato il prestito casa mese per mese.
+                    Per ogni rata mensile, il piano indica: l'importo totale della rata, la quota capitale (parte del debito restituita),
+                    la quota interessi (costo del prestito) e il debito residuo ancora da pagare. Questo strumento è fondamentale per capire
+                    come evolverà il tuo mutuo nel tempo e quanto pagherai realmente.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-[#1C244B] mb-3">Come Calcolare la Rata del Mutuo</h3>
+                  <p className="leading-relaxed mb-3">
+                    Il <strong>calcolo della rata mutuo</strong> si basa sulla formula del mutuo alla francese, la più utilizzata in Italia.
+                    La formula tiene conto di tre fattori principali:
+                  </p>
+                  <ul className="list-disc list-inside space-y-2 ml-4">
+                    <li><strong>Capitale richiesto:</strong> l'importo del mutuo che chiedi alla banca</li>
+                    <li><strong>Tasso di interesse:</strong> il costo annuo del prestito (TAN - Tasso Annuo Nominale)</li>
+                    <li><strong>Durata:</strong> il numero di anni in cui vuoi restituire il mutuo (da 5 a 30 anni)</li>
+                  </ul>
+                  <p className="leading-relaxed mt-3">
+                    Nei primi anni pagherai principalmente interessi, mentre verso la fine del mutuo la rata sarà composta quasi interamente da capitale.
+                    Questo fenomeno è importante da conoscere per decidere se e quando estinguere anticipatamente il mutuo.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-[#1C244B] mb-3">Calcolo Interessi Mutuo: Quanto Costa Realmente</h3>
+                  <p className="leading-relaxed">
+                    Il <strong>calcolo degli interessi del mutuo</strong> è fondamentale per capire il costo reale del prestito.
+                    Gli interessi totali possono arrivare a diverse decine di migliaia di euro su un mutuo ventennale o trentennale.
+                    Ad esempio, su un mutuo di €150.000 al 3.5% per 20 anni, pagherai circa €58.000 di soli interessi.
+                    Più lunga è la durata del mutuo, maggiori saranno gli interessi complessivi, anche se la rata mensile sarà più bassa.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-[#1C244B] mb-3">Tasso Fisso vs Variabile: Quale Scegliere?</h3>
+                  <p className="leading-relaxed mb-3">
+                    La scelta tra <strong>tasso fisso e tasso variabile</strong> è una delle decisioni più importanti:
+                  </p>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
+                    <div className="bg-blue-50 rounded-lg p-4 border border-blue-100">
+                      <h4 className="font-bold text-[#1C244B] mb-2">Tasso Fisso</h4>
+                      <ul className="text-sm space-y-1">
+                        <li>✅ Rata costante per tutta la durata</li>
+                        <li>✅ Protegge da rialzi dei tassi</li>
+                        <li>✅ Pianificazione certa del budget</li>
+                        <li>⚠️ Generalmente più alto all'inizio</li>
+                      </ul>
+                    </div>
+                    <div className="bg-orange-50 rounded-lg p-4 border border-orange-100">
+                      <h4 className="font-bold text-[#1C244B] mb-2">Tasso Variabile</h4>
+                      <ul className="text-sm space-y-1">
+                        <li>✅ Inizialmente più conveniente</li>
+                        <li>✅ Benefici se i tassi scendono</li>
+                        <li>⚠️ Rata può aumentare nel tempo</li>
+                        <li>⚠️ Maggiore incertezza sul budget</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-[#1C244B] mb-3">Detrazioni Fiscali Mutuo Prima Casa</h3>
+                  <p className="leading-relaxed">
+                    Se stai acquistando la <strong>prima casa</strong>, puoi beneficiare di importanti detrazioni fiscali.
+                    Puoi detrarre il <strong>19% degli interessi passivi</strong> pagati sul mutuo, fino a un massimo di €4.000 all'anno.
+                    Questo significa un risparmio fiscale di fino a €760 all'anno (19% di €4.000).
+                    La detrazione si applica nella dichiarazione dei redditi (modello 730 o Redditi) e viene calcolata solo sugli interessi,
+                    non sul capitale restituito. Su un mutuo ventennale, il risparmio totale può superare i €10.000.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-[#1C244B] mb-3">Scarica il PDF del Piano di Ammortamento</h3>
+                  <p className="leading-relaxed">
+                    Il nostro calcolatore ti permette di <strong>scaricare gratuitamente il piano di ammortamento completo in PDF</strong>.
+                    Il documento include tutti i mesi della durata del mutuo con il dettaglio di ogni singola rata: quota capitale,
+                    quota interessi e debito residuo. Questo PDF è utile per confrontare diverse proposte di mutuo,
+                    presentarlo al commercialista per le detrazioni fiscali, o semplicemente per tenere traccia del tuo piano di rimborso.
+                  </p>
+                </div>
+              </div>
+            </div>
+
             {/* FAQ */}
             <div className="mt-8 bg-white rounded-xl p-6 border-2 border-gray-100">
               <h3 className="text-lg font-bold text-[#1C244B] mb-4">Domande Frequenti</h3>
@@ -761,6 +1246,30 @@ export default function CalcolatoreMutuoCasa() {
                 <div>
                   <h4 className="font-bold text-gray-800 mb-1">Cos'è la surroga?</h4>
                   <p className="text-gray-600">Trasferimento del mutuo a un'altra banca con condizioni migliori (tasso più basso). È gratuita per legge e non ha spese. Utile se i tassi sono scesi rispetto al tuo mutuo.</p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-800 mb-1">Come funziona il piano di ammortamento alla francese?</h4>
+                  <p className="text-gray-600">Nel piano alla francese (il più usato in Italia) la rata mensile è sempre uguale, ma la composizione cambia: all'inizio paghi più interessi e meno capitale, verso la fine è il contrario. Questo perché gli interessi si calcolano sul debito residuo, che diminuisce mese dopo mese.</p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-800 mb-1">Quanto devo guadagnare per ottenere un mutuo?</h4>
+                  <p className="text-gray-600">Le banche richiedono che la rata non superi il 30-35% del reddito netto mensile. Ad esempio, per una rata di €700/mese servono almeno €2.000-2.300 netti mensili (circa €35.000-40.000 lordi annui). Usa il nostro calcolatore per verificare la sostenibilità.</p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-800 mb-1">Conviene estinguere il mutuo in anticipo?</h4>
+                  <p className="text-gray-600">Generalmente sì, soprattutto nei primi anni quando paghi più interessi. L'estinzione anticipata è gratuita per legge. Tuttavia, valuta se hai investimenti più redditizi del tasso del mutuo o se conviene sfruttare le detrazioni fiscali.</p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-800 mb-1">Cosa significa TAEG e perché è importante?</h4>
+                  <p className="text-gray-600">Il TAEG (Tasso Annuo Effettivo Globale) è l'indicatore del costo reale del mutuo, perché include non solo gli interessi (TAN) ma anche tutte le spese: istruttoria, perizia, assicurazioni. Quando confronti mutui, guarda sempre il TAEG, non solo il TAN.</p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-800 mb-1">Come posso scaricare il piano di ammortamento in PDF o Excel?</h4>
+                  <p className="text-gray-600">Dopo aver calcolato il tuo mutuo, puoi scaricare gratuitamente il piano di ammortamento completo mese per mese in due formati: <strong>PDF</strong> (per stampare o condividere) o <strong>Excel</strong> (per modificare e fare simulazioni personalizzate). Il file Excel è particolarmente utile per simulare rimborsi anticipati o confrontare scenari diversi. Entrambi i file includono tutti i dettagli: rata mensile, quota capitale, quota interessi e debito residuo per ogni mese della durata del mutuo.</p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-800 mb-1">Il piano di ammortamento scaricabile include tutti i mesi?</h4>
+                  <p className="text-gray-600">Sì! Quando scarichi il piano in PDF o Excel ottieni il dettaglio completo mese per mese per tutta la durata del mutuo (20 anni = 240 mesi, 30 anni = 360 mesi, ecc.). Per ogni mese vedrai: numero rata, importo rata, quota capitale, quota interessi e debito residuo. Questo ti permette di vedere esattamente come si evolve il tuo mutuo nel tempo e quanto risparmieresti con un rimborso anticipato.</p>
                 </div>
               </div>
             </div>

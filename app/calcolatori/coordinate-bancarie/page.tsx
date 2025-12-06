@@ -1,7 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { HiCheckCircle, HiXCircle, HiInformationCircle, HiClipboardCopy } from 'react-icons/hi';
+import Link from 'next/link';
+import { HiCheckCircle, HiXCircle, HiInformationCircle, HiClipboardCopy, HiArrowLeft } from 'react-icons/hi';
 
 export default function CoordinateBancariePage() {
   const [modalita, setModalita] = useState<'verifica' | 'calcola'>('verifica');
@@ -236,32 +237,28 @@ export default function CoordinateBancariePage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50">
+    <main className="min-h-screen bg-gradient-to-br from-blue-50 via-green-50 to-blue-100">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-blue-600 to-green-600 text-white py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            Verifica e Calcolo Coordinate Bancarie
-          </h1>
-          <p className="text-xl text-blue-100 mb-8">
-            Verifica IBAN italiani, calcola CIN, identifica ABI e CAB, estrai tutte le coordinate bancarie
-          </p>
-          <div className="flex flex-wrap gap-4">
-            <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-lg backdrop-blur-sm">
-              <HiCheckCircle className="text-green-300" />
-              <span className="text-sm">Verifica IBAN Mod-97</span>
+      <section className="relative bg-gradient-to-r from-blue-500 to-green-500 text-white pt-6 pb-12 sm:pt-8 sm:pb-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <Link href="/calcolatori" className="inline-flex items-center gap-2 text-white/90 hover:text-white mb-8 transition-colors group">
+            <HiArrowLeft className="text-xl group-hover:-translate-x-1 transition-transform" />
+            <span className="text-sm font-medium">Torna ai Calcolatori</span>
+          </Link>
+          <div className="text-center">
+            <div className="inline-flex items-center gap-2 bg-white/20 px-4 py-2 rounded-full mb-4">
+              <HiCheckCircle className="text-2xl" />
+              <span className="font-semibold">Coordinate Bancarie</span>
             </div>
-            <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-lg backdrop-blur-sm">
-              <HiCheckCircle className="text-green-300" />
-              <span className="text-sm">Calcolo CIN automatico</span>
-            </div>
-            <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-lg backdrop-blur-sm">
-              <HiCheckCircle className="text-green-300" />
-              <span className="text-sm">Database banche italiane</span>
-            </div>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+              Verifica e Calcolo Coordinate Bancarie
+            </h1>
+            <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto">
+              Verifica IBAN italiani, calcola CIN, identifica ABI e CAB, estrai tutte le coordinate bancarie
+            </p>
           </div>
         </div>
-      </div>
+      </section>
 
       {/* Calculator Section */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -671,6 +668,6 @@ export default function CoordinateBancariePage() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }

@@ -180,17 +180,17 @@ export default function CalcolatoriPage() {
 
   return (
     <main className="min-h-screen bg-white">
-      {/* Hero Section - Vivace e Colorato */}
-      <section className="relative py-8 md:py-10 overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+      {/* Hero Section - Chiaro e Luminoso */}
+      <section className="relative py-8 md:py-10 overflow-hidden bg-gradient-to-br from-orange-50 via-blue-50 to-purple-50">
         {/* Pattern animato */}
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0" style={{backgroundImage: 'url("data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23FAB758\' fill-opacity=\'1\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")'}}></div>
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute inset-0" style={{backgroundImage: 'url("data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23FAB758\' fill-opacity=\'0.4\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")'}}></div>
         </div>
 
         {/* Elementi decorativi fluttuanti */}
-        <div className="absolute top-10 left-10 w-20 h-20 bg-[#FAB758]/20 rounded-full blur-xl animate-pulse"></div>
-        <div className="absolute top-1/2 right-10 w-32 h-32 bg-pink-500/20 rounded-full blur-2xl animate-pulse" style={{animationDelay: '1s'}}></div>
-        <div className="absolute bottom-10 left-1/3 w-24 h-24 bg-purple-500/20 rounded-full blur-xl animate-pulse" style={{animationDelay: '2s'}}></div>
+        <div className="absolute top-10 left-10 w-20 h-20 bg-[#FAB758]/10 rounded-full blur-xl animate-pulse"></div>
+        <div className="absolute top-1/2 right-10 w-32 h-32 bg-blue-400/10 rounded-full blur-2xl animate-pulse" style={{animationDelay: '1s'}}></div>
+        <div className="absolute bottom-10 left-1/3 w-24 h-24 bg-purple-400/10 rounded-full blur-xl animate-pulse" style={{animationDelay: '2s'}}></div>
 
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-5xl mx-auto text-center">
@@ -200,30 +200,30 @@ export default function CalcolatoriPage() {
               <span>Strumenti Gratuiti 2025</span>
             </div>
 
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-lg">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#1C244B] mb-6 leading-tight">
               Calcolatori per Energia
-              <span className="block mt-2 bg-gradient-to-r from-[#FAB758] via-orange-400 to-yellow-400 bg-clip-text text-transparent">
+              <span className="block mt-2 bg-gradient-to-r from-[#FAB758] via-orange-500 to-orange-600 bg-clip-text text-transparent">
                 e Risparmio
               </span>
             </h1>
 
-            <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-10 leading-relaxed drop-shadow-md">
+            <p className="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto mb-10 leading-relaxed">
               Strumenti professionali per calcolare fotovoltaico, bonus bollette, consumi e molto altro. Tutto gratis.
             </p>
 
             {/* Features rapide */}
-            <div className="flex flex-wrap justify-center gap-4 md:gap-6 text-white/90">
-              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-lg border border-white/20">
+            <div className="flex flex-wrap justify-center gap-4 md:gap-6">
+              <div className="flex items-center gap-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-lg border border-gray-200 shadow-sm">
                 <HiCheckCircle className="text-[#FAB758] text-xl" />
-                <span className="text-sm font-semibold">15+ Calcolatori</span>
+                <span className="text-sm font-semibold text-gray-800">15+ Calcolatori</span>
               </div>
-              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-lg border border-white/20">
+              <div className="flex items-center gap-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-lg border border-gray-200 shadow-sm">
                 <HiCheckCircle className="text-[#FAB758] text-xl" />
-                <span className="text-sm font-semibold">100% Gratuiti</span>
+                <span className="text-sm font-semibold text-gray-800">100% Gratuiti</span>
               </div>
-              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-lg border border-white/20">
+              <div className="flex items-center gap-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-lg border border-gray-200 shadow-sm">
                 <HiCheckCircle className="text-[#FAB758] text-xl" />
-                <span className="text-sm font-semibold">Aggiornati 2025</span>
+                <span className="text-sm font-semibold text-gray-800">Aggiornati 2025</span>
               </div>
             </div>
           </div>

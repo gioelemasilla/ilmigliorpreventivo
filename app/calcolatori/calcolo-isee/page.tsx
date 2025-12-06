@@ -1,7 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { HiDocumentText, HiUsers, HiCurrencyEuro, HiHome, HiCheckCircle } from 'react-icons/hi';
+import Link from 'next/link';
+import { HiDocumentText, HiUsers, HiCurrencyEuro, HiHome, HiCheckCircle, HiArrowLeft } from 'react-icons/hi';
 
 export default function CalcoloISEEPage() {
   const [numComponenti, setNumComponenti] = useState(1);
@@ -78,20 +79,26 @@ export default function CalcoloISEEPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
+    <main className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-blue-100">
       {/* Header */}
-      <section className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-12 sm:py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
-          <div className="inline-flex items-center gap-2 bg-white/20 px-4 py-2 rounded-full mb-4">
-            <HiDocumentText className="text-2xl" />
-            <span className="font-semibold">Calcolo ISEE 2025</span>
+      <section className="relative bg-gradient-to-r from-blue-500 to-indigo-500 text-white pt-6 pb-12 sm:pt-8 sm:pb-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <Link href="/calcolatori" className="inline-flex items-center gap-2 text-white/90 hover:text-white mb-8 transition-colors group">
+            <HiArrowLeft className="text-xl group-hover:-translate-x-1 transition-transform" />
+            <span className="text-sm font-medium">Torna ai Calcolatori</span>
+          </Link>
+          <div className="text-center">
+            <div className="inline-flex items-center gap-2 bg-white/20 px-4 py-2 rounded-full mb-4">
+              <HiDocumentText className="text-2xl" />
+              <span className="font-semibold">Calcolo ISEE</span>
+            </div>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+              Calcola il Tuo ISEE Online Gratis
+            </h1>
+            <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto">
+              Simula l'Indicatore della Situazione Economica Equivalente e scopri i bonus a cui hai diritto
+            </p>
           </div>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-            Calcola il Tuo ISEE Online Gratis
-          </h1>
-          <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto">
-            Simula l'Indicatore della Situazione Economica Equivalente e scopri i bonus a cui hai diritto
-          </p>
         </div>
       </section>
 
@@ -390,6 +397,6 @@ export default function CalcoloISEEPage() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }

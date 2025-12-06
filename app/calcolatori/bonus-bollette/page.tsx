@@ -132,32 +132,32 @@ export default function CalcolatoreBonusBollette() {
   };
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
-      {/* Back button */}
-      <div className="container mx-auto px-4 pt-6">
-        <Link href="/calcolatori" className="inline-flex items-center gap-2 text-[#1C244B] hover:text-[#FAB758] transition-colors">
-          <HiArrowLeft className="text-xl" />
-          <span className="font-medium">Tutti i calcolatori</span>
-        </Link>
-      </div>
-
-      {/* Above the fold - HERO + FORM */}
-      <section className="container mx-auto px-4 py-8 md:py-12">
-        <div className="max-w-4xl mx-auto">
-          {/* H1 ENORME */}
-          <div className="text-center mb-8">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-green-100 rounded-full mb-4">
-              <HiShieldCheck className="text-green-600 text-xl" />
-              <span className="text-sm font-bold text-green-700">AGGIORNATO ARERA NOVEMBRE 2025</span>
+    <main className="min-h-screen bg-gradient-to-br from-blue-50 via-green-50 to-blue-100">
+      {/* Hero Section */}
+      <section className="relative bg-gradient-to-r from-blue-500 to-green-500 text-white pt-6 pb-12 sm:pt-8 sm:pb-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <Link href="/calcolatori" className="inline-flex items-center gap-2 text-white/90 hover:text-white mb-8 transition-colors group">
+            <HiArrowLeft className="text-xl group-hover:-translate-x-1 transition-transform" />
+            <span className="text-sm font-medium">Torna ai Calcolatori</span>
+          </Link>
+          <div className="text-center">
+            <div className="inline-flex items-center gap-2 bg-white/20 px-4 py-2 rounded-full mb-4">
+              <HiLightningBolt className="text-2xl" />
+              <span className="font-semibold">Bonus Bollette</span>
             </div>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#1C244B] mb-4 leading-tight">
-              Bonus Luce e Gas 2025: calcola in 15 secondi se ti spettano fino a{' '}
-              <span className="text-green-600">1.650€</span> di sconto in bolletta
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+              Bonus Luce e Gas 2025: calcola in 15 secondi se ti spettano fino a 1.650€
             </h1>
-            <p className="text-lg md:text-xl text-gray-600">
+            <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto">
               Contributo straordinario 200€ incluso • Erogazione automatica in bolletta
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* Above the fold - FORM */}
+      <section className="container mx-auto px-4 py-8 md:py-12">
+        <div className="max-w-4xl mx-auto">
 
           {/* FORM CALCOLATORE */}
           <div className="bg-white rounded-2xl shadow-2xl p-6 md:p-8 border-2 border-blue-200">

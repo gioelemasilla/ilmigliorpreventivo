@@ -1,7 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { HiLightningBolt, HiPlus, HiTrash, HiChartBar, HiLightBulb } from 'react-icons/hi';
+import Link from 'next/link';
+import { HiLightningBolt, HiPlus, HiTrash, HiChartBar, HiLightBulb, HiArrowLeft } from 'react-icons/hi';
 
 interface Appliance {
   id: string;
@@ -88,18 +89,29 @@ export default function ConsumoEnergeticoCasaPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-yellow-50 via-orange-50 to-red-50">
       {/* Header */}
-      <section className="bg-gradient-to-r from-orange-500 to-red-500 text-white py-12 sm:py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
-          <div className="inline-flex items-center gap-2 bg-white/20 px-4 py-2 rounded-full mb-4">
-            <HiLightningBolt className="text-2xl" />
-            <span className="font-semibold">Calcolatore Energetico</span>
+      <section className="relative bg-gradient-to-r from-orange-500 to-red-500 text-white pt-6 pb-12 sm:pt-8 sm:pb-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          {/* Pulsante Torna ai Calcolatori - in alto a sinistra */}
+          <Link
+            href="/calcolatori"
+            className="inline-flex items-center gap-2 text-white/90 hover:text-white mb-8 transition-colors group"
+          >
+            <HiArrowLeft className="text-xl group-hover:-translate-x-1 transition-transform" />
+            <span className="text-sm font-medium">Torna ai Calcolatori</span>
+          </Link>
+
+          <div className="text-center">
+            <div className="inline-flex items-center gap-2 bg-white/20 px-4 py-2 rounded-full mb-4">
+              <HiLightningBolt className="text-2xl" />
+              <span className="font-semibold">Calcolatore Energetico</span>
+            </div>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+              Calcola il Consumo Energetico della Tua Casa
+            </h1>
+            <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto">
+              Scopri quanto consuma la tua casa, calcola i costi in bolletta e trova modi per risparmiare energia
+            </p>
           </div>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-            Calcola il Consumo Energetico della Tua Casa
-          </h1>
-          <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto">
-            Scopri quanto consuma la tua casa, calcola i costi in bolletta e trova modi per risparmiare energia
-          </p>
         </div>
       </section>
 

@@ -1,7 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { HiLightningBolt, HiClock, HiCurrencyEuro, HiSun, HiMoon } from 'react-icons/hi';
+import Link from 'next/link';
+import { HiLightningBolt, HiClock, HiCurrencyEuro, HiSun, HiMoon, HiArrowLeft } from 'react-icons/hi';
 
 export default function FasceOrarieLucePage() {
   const [consumoF1, setConsumoF1] = useState('');
@@ -54,9 +55,19 @@ export default function FasceOrarieLucePage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-amber-50 via-yellow-50 to-orange-50">
       {/* Header */}
-      <section className="bg-gradient-to-r from-amber-500 to-orange-500 text-white py-12 sm:py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
-          <div className="inline-flex items-center gap-2 bg-white/20 px-4 py-2 rounded-full mb-4">
+      <section className="bg-gradient-to-r from-amber-500 to-orange-500 text-white pt-6 pb-12 sm:pt-8 sm:pb-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          {/* Pulsante Torna ai Calcolatori - in alto a sinistra */}
+          <Link
+            href="/calcolatori"
+            className="inline-flex items-center gap-2 text-white/90 hover:text-white mb-8 transition-colors group"
+          >
+            <HiArrowLeft className="text-xl group-hover:-translate-x-1 transition-transform" />
+            <span className="text-sm font-medium">Torna ai Calcolatori</span>
+          </Link>
+
+          <div className="text-center">
+            <div className="inline-flex items-center gap-2 bg-white/20 px-4 py-2 rounded-full mb-4">
             <HiClock className="text-2xl" />
             <span className="font-semibold">Fasce Orarie Luce</span>
           </div>
@@ -66,6 +77,7 @@ export default function FasceOrarieLucePage() {
           <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto">
             Scopri se conviene la tariffa monoraria o bioraria e quanto puoi risparmiare in bolletta
           </p>
+          </div>
         </div>
       </section>
 

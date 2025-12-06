@@ -166,35 +166,29 @@ export default function CalcolatoreBollo() {
   };
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
+    <main className="min-h-screen bg-gradient-to-br from-orange-50 via-red-50 to-orange-100">
       {/* Hero Section */}
-      <section className="relative py-12 sm:py-16 md:py-20 overflow-hidden bg-gradient-to-br from-[#1C244B] via-[#2D3561] to-[#1C244B]">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0" style={{
-            backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
-            backgroundSize: '40px 40px'
-          }}></div>
-        </div>
-
-        <div className="container mx-auto px-4 sm:px-6 relative z-10">
+      <section className="relative bg-gradient-to-r from-orange-500 to-red-500 text-white pt-6 pb-12 sm:pt-8 sm:pb-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <Link
             href="/calcolatori"
-            className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors group"
+            className="inline-flex items-center gap-2 text-white/90 hover:text-white mb-8 transition-colors group"
           >
             <HiArrowLeft className="text-xl group-hover:-translate-x-1 transition-transform" />
             <span className="text-sm font-medium">Torna ai Calcolatori</span>
           </Link>
 
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-[#FAB758] rounded-2xl mb-6">
-              <HiCash className="text-white text-3xl" />
+          <div className="text-center">
+            <div className="inline-flex items-center gap-2 bg-white/20 px-4 py-2 rounded-full mb-4">
+              <HiCash className="text-2xl" />
+              <span className="font-semibold">Calcolo Bollo Auto</span>
             </div>
 
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
               Calcolo Bollo Auto 2025
             </h1>
 
-            <p className="text-base sm:text-lg md:text-xl text-white/90 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto">
               Calcola l'importo del bollo auto in base a potenza, classe Euro e regione. Include esenzioni per auto storiche e scadenze pagamento.
             </p>
           </div>

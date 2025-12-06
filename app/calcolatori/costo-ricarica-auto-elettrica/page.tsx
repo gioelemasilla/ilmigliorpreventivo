@@ -145,29 +145,23 @@ export default function CalcolatoreRicaricaAutoElettrica() {
   const risultati = showResults ? calcolaCosti() : null;
 
   return (
-    <main className="min-h-screen bg-white">
-      {/* Back to Calcolatori */}
-      <div className="bg-white border-b border-gray-100">
-        <div className="container mx-auto px-4 py-3">
-          <Link href="/calcolatori" className="inline-flex items-center gap-2 text-sm text-gray-600 hover:text-[#FAB758] transition-colors">
-            <HiArrowLeft className="text-lg" />
-            <span>Torna ai Calcolatori</span>
-          </Link>
-        </div>
-      </div>
-
+    <main className="min-h-screen bg-gradient-to-br from-green-50 via-teal-50 to-emerald-100">
       {/* Hero Section */}
-      <section className="relative py-16 md:py-20 overflow-hidden bg-gradient-to-br from-green-50 via-white to-blue-50">
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#FAB758] text-white text-sm font-bold rounded-full mb-6">
-              <HiLightningBolt className="text-xl" />
-              Auto Elettrica
+      <section className="relative bg-gradient-to-r from-green-500 to-teal-500 text-white pt-6 pb-12 sm:pt-8 sm:pb-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <Link href="/calcolatori" className="inline-flex items-center gap-2 text-white/90 hover:text-white mb-8 transition-colors group">
+            <HiArrowLeft className="text-xl group-hover:-translate-x-1 transition-transform" />
+            <span className="text-sm font-medium">Torna ai Calcolatori</span>
+          </Link>
+          <div className="text-center">
+            <div className="inline-flex items-center gap-2 bg-white/20 px-4 py-2 rounded-full mb-4">
+              <HiLightningBolt className="text-2xl" />
+              <span className="font-semibold">Ricarica Auto Elettrica</span>
             </div>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#1C244B] mb-6 leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
               Calcola il Costo di Ricarica della Tua Auto Elettrica
             </h1>
-            <p className="text-lg md:text-xl text-gray-600">
+            <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto">
               Scopri quanto spendi per ricaricare la tua auto elettrica e confronta il risparmio con benzina e diesel
             </p>
           </div>

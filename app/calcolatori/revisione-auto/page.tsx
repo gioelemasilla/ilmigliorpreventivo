@@ -1,7 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { HiCheckCircle, HiXCircle, HiExclamationCircle, HiCalendar, HiClock } from 'react-icons/hi';
+import Link from 'next/link';
+import { HiCheckCircle, HiXCircle, HiExclamationCircle, HiCalendar, HiClock, HiArrowLeft } from 'react-icons/hi';
 
 export default function RevisioneAutoPage() {
   const [modalita, setModalita] = useState<'calcola' | 'verifica'>('calcola');
@@ -199,32 +200,28 @@ export default function RevisioneAutoPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
+    <main className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-blue-100">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            Calcolo Scadenza Revisione Auto
-          </h1>
-          <p className="text-xl text-blue-100 mb-8">
-            Calcola quando scade la revisione del tuo veicolo, verifica lo stato e scopri le sanzioni per revisione scaduta
-          </p>
-          <div className="flex flex-wrap gap-4">
-            <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-lg backdrop-blur-sm">
-              <HiCheckCircle className="text-green-300" />
-              <span className="text-sm">Calcolo automatico scadenze</span>
+      <section className="relative bg-gradient-to-r from-blue-500 to-purple-500 text-white pt-6 pb-12 sm:pt-8 sm:pb-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <Link href="/calcolatori" className="inline-flex items-center gap-2 text-white/90 hover:text-white mb-8 transition-colors group">
+            <HiArrowLeft className="text-xl group-hover:-translate-x-1 transition-transform" />
+            <span className="text-sm font-medium">Torna ai Calcolatori</span>
+          </Link>
+          <div className="text-center">
+            <div className="inline-flex items-center gap-2 bg-white/20 px-4 py-2 rounded-full mb-4">
+              <HiCalendar className="text-2xl" />
+              <span className="font-semibold">Revisione Auto</span>
             </div>
-            <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-lg backdrop-blur-sm">
-              <HiCheckCircle className="text-green-300" />
-              <span className="text-sm">Tutti i tipi di veicoli</span>
-            </div>
-            <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-lg backdrop-blur-sm">
-              <HiCheckCircle className="text-green-300" />
-              <span className="text-sm">Info su sanzioni e costi</span>
-            </div>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+              Calcolo Scadenza Revisione Auto
+            </h1>
+            <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto">
+              Calcola quando scade la revisione del tuo veicolo, verifica lo stato e scopri le sanzioni per revisione scaduta
+            </p>
           </div>
         </div>
-      </div>
+      </section>
 
       {/* Calculator Section */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -679,6 +676,6 @@ export default function RevisioneAutoPage() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
